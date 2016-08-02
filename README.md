@@ -9,3 +9,4 @@ The maintenance and development cycle of the INDIGO-DataCloud Core Services and 
           ![](indigodc_lifecycle.png)
 
 
+

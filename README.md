@@ -1,7 +1,7 @@
 # INDIGO - DataCloud Software Releases
 
 
-          INDIGO-DC releases are available from the [INDIGO-DC Repositories](http://repo.indigo-datacloud.eu)
+INDIGO-DC releases are available from the [INDIGO-DC Repositories](http://repo.indigo-datacloud.eu)
         
 INDIGO-DataCloud delivers open source software components tailored to scientific communities and to e-infrastructures, aimed to increase ease of use and effectiveness in the exploitation of Cloud resources.
 

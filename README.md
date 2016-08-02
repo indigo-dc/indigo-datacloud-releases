@@ -1,3 +1,3 @@
-# My Awesome Book
+# INDIGO - DataCloud Software Releases
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+INDIGO-DC releases are available from the [INDIGO-DC Repositories](http://repo.indigo-datacloud.eu)

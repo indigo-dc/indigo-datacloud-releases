@@ -6,6 +6,6 @@ INDIGO-DataCloud delivers open source software components tailored to scientific
 
 
 The maintenance and development cycle of the INDIGO-DataCloud Core Services and Applications  is outlined in the figure bellow. 
-![](indigodc_lifecycle.png)
+          ![](indigodc_lifecycle.png)
 
 

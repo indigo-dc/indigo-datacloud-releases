@@ -22,3 +22,14 @@ Taking into account the rapidly changing environment, especially some of the ups
 * **End-of-life period**: in this period no updates or support are provided. The end-of-life period starts after the end of the security updates period
 
 
+
+## Package Repositories
+
+INDIGO DataCloud releases are available from the official [INDIGO - DataCloud Repositories](http://repo.indigo.-datacloud.eu).
+
+Older releases of the middleware services can be downloaded from the repositories managed by the partner middleware distributions.
+
+
+## Release Announcements
+
+Stay updated subscribing the [INDIGO - DataCloud RSS release feed](http://TO-BE-ADDED)  or by subscribing the [INDIGO - DataCloud Announces Mailing List](https://lists.indigo-datacloud.eu/sympa/info/indigo-announce). 

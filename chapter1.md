@@ -22,12 +22,12 @@ For more information on the project, see https://www.indigo-datacloud.eu.
 # Release Notes
 
 The INDIGO-1 release consists in 32 Products divided in, mainly, Core Services, and Applications, that met the [INDIGO - DataCloud Acceptance Criteria:](http://ADD_LINK)
-* X OS packages
+* 158 OS packages
   * 41 RPMS & SRPMS
   * 96 binary & source DEBS 
   * 21 binary & source tarballs
-  * 40 containers
-* Y external/third-party dependencies:
+* 40 containers
+* 41 external/third-party dependencies
 
 INDIGO-1 is fully supported
 * on the following **Operating Systems** platforms:
@@ -63,7 +63,7 @@ All packages are signed with the INDIGO - DataCloud gpg key. The public key can 
 
 It is strongly recommended the use of the lastest version of the **indigodc-release** package containing the public key and the YUM and APT repository files.
 
-On the [DockerHub Registry](https://hub.docker.com/), INDIGO - DataCloud has organized the repositories under
+On the [DockerHub Registry](https://hub.docker.com/), INDIGO - DataCloud has organized the repositories under 
 
 To understand how to install and configure INDIGO-1 products either refer to the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md) chapter or to each individual product documentation.
 

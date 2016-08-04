@@ -10,7 +10,7 @@ The first INDIGO-DataCloud release provides **open source components** targeting
 * **Automated solutions**, allowing users to easily specify and deploy complex data and compute resource requirements.
 * **User-level solutions**, integrating scientific applications in programmable front-ends and in mobile applications.
 
-***Key technical highlights** → Giacinto/Cristina/Jorge - include a short description of high-level components as well as some numbers related e.g. to how many components in total, github repos, docker containers, etc.*
+*Key technical highlights → Giacinto/Cristina/Jorge - include a short description of high-level components as well as some numbers related e.g. to how many components in total, github repos, docker containers, etc.*
 
 The INDIGO - DataCloud software is released under the Apache 2.0 software license and can be deployed on both public and private Cloud infrastructures. It can be downloaded from http://repo.indigo-datacloud.eu.
 
@@ -29,11 +29,11 @@ The INDIGO-1 release consists in 32 Products divided in, mainly, Core Services, 
 * Y external/third-party dependencies:
 
 INDIGO-1 is fully supported
-* on the following Operating Systems platforms:
+* on the following **Operating Systems** platforms:
   * **CentOS 7**
   * **Ubuntu 14.04**
   * Optionally PTs support also other OS platforms. You can find information about this in the individual products documentation
-* on the following CMFs (Cloud Management Framework) versions:
+* on the following **CMFs (Cloud Management Framework)** versions:
   * **OpenStack v. Liberty,** with the exception of the "TOSCA in HEAT (heat-translator) for which it one must used the Mitaka HEAT, and the rest of services on Liberty
   * **OpenNebula v. 4.14**
 

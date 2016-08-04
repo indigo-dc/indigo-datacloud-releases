@@ -63,7 +63,10 @@ All packages are signed with the INDIGO - DataCloud gpg key. The public key can 
 
 It is strongly recommended the use of the lastest version of the **indigodc-release** package containing the public key and the YUM and APT repository files.
 
-On the [DockerHub Registry](https://hub.docker.com/), INDIGO - DataCloud has organized the repositories under  
+On the [DockerHub Registry](https://hub.docker.com/), INDIGO - DataCloud has organized the repositories under two Organizations:
+* [indigodatacloud](https://hub.docker.com/u/indigodatacloud/), for Core Services
+* [indigodatacloudapps](https://hub.docker.com/u/indigodatacloudapps/), for Applications
+Containers present in those repositories and released in INDIGO-1 are tagged with "*indigo-1*" tag and signed, leveraging the [Docker’s trust features](https://docs.docker.com/engine/security/) so that users can pull trusted images.
 
 To understand how to install and configure INDIGO-1 products either refer to the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md) chapter or to each individual product documentation.
 

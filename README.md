@@ -22,14 +22,9 @@ Taking into account the rapidly changing environment, especially some of the ups
 * **Security updates** period: during this period only updates targeting security vulnerabilities are provided for each supported INDIGO-DataCloud major release (**2 months**)
 * **End-of-life period**: in this period no updates or support are provided. The end-of-life period starts after the end of the security updates period
 
-
-
 ## Package Repositories
 
 INDIGO DataCloud releases are available from the official [INDIGO - DataCloud Repositories](http://repo.indigo.-datacloud.eu).
-
-Older releases of the middleware services can be downloaded from the repositories managed by the partner middleware distributions.
-
 
 ## Release Announcements
 

@@ -26,7 +26,7 @@ The INDIGO-1 release consists in 32 Products divided in, mainly, Core Services, 
   * 41 RPMS & SRPMS
   * 96 binary & source DEBS 
   * 21 binary & source tarballs
-* 40 containers
+* 40 Docker containers
 * 41 external/third-party dependencies
 
 INDIGO-1 is fully supported

@@ -43,9 +43,9 @@ You can find in the later chapters the full list of products, with detailed rele
 ## Installation Notes 
 
 All INDIGO - DataCloud products are distributed from a single repository having the following structure:
-* INDIGO-DC production (stable): indigo/1/centos7/<basearch>/{base|updates}
-        stable and signed, well tested software components, recommended to be installed on production-sites
-    INDIGO-DC testing: INDIGO/testing/{1|2|3}/<platform>/<basearch>
+* INDIGO-DC production (stable): indigo/1/<platform>/<basearch>/{base|updates}
+  * stable and signed, well tested software components, recommended to be installed on production-sites
+* INDIGO-DC testing: indigo-testing/{1,2}/<platform>/<basearch>
         packages that will become part of the next stable distribution; in the certification and validation phase and available for technical-previews
     Third-party: INDIGO/1/<platform>/<basearch>/third-party
         packages that are not part of INDIGO, but are currently not part of the base OS or EPEL

@@ -42,17 +42,20 @@ You can find in the later chapters the full list of products, with detailed rele
 
 ## Installation Notes 
 
-All INDIGO - DataCloud products are distributed from a single repository having the following structure:
+All INDIGO - DataCloud products are distributed from repositoriesry having the following structure:
 * INDIGO-DC production (stable): indigo/1/<platform>/<basearch>/{base|updates}
   * stable and signed, well tested software components, recommended to be installed on production-sites
+* Third-party: indigo/1/<platform>/<basearch>/third-party
+  * packages that are not part of INDIGO, or not part of the base OS or EPEL, but used as dependencies by other INDIGO components
 * INDIGO-DC testing: indigo-testing/{1,2}/<platform>/<basearch>
-        packages that will become part of the next stable distribution; in the certification and validation phase and available for technical-previews
-    Third-party: INDIGO/1/<platform>/<basearch>/third-party
-        packages that are not part of INDIGO, but are currently not part of the base OS or EPEL
+  * packages that will become part of the next stable distribution; in the certification and validation phase.
+* INDIGO-DC preview: indigo-preview/{1,2}/<platform>/<basearch>
+  * signed packages that will become part of the next stable update, available for technical-previews
 
 <basearch> is currently: x86_64, SRPMS, tgz 
+<platform> is currently: centos7, ubuntu
 
-All EMI packages are signed with the INDIGO - DataCloud gpg key. The public key can be downloaded from [here](http://repo.indigo-datacloud.eu/repository/RPM-GPG-KEY-indigodc), and the fingerprint from [here](http://ADD_LINK).
+All packages are signed with the INDIGO - DataCloud gpg key. The public key can be downloaded from [here](http://repo.indigo-datacloud.eu/repository/RPM-GPG-KEY-indigodc), and the fingerprint from [here](http://ADD_LINK).
 
 It is strongly recommended the use of the lastest version of the indigodc-release package containing the public key and the yum and apt repository files.
 

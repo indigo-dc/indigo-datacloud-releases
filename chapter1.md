@@ -23,9 +23,10 @@ For more information on the project, see https://www.indigo-datacloud.eu.
 
 The INDIGO-1 release consists in 32 Products divided in, mainly, Core Services, and Applications, that met the [INDIGO - DataCloud Acceptance Criteria:](http://ADD_LINK)
 * X OS packages
-  * XXX RPMS
-  * YYY DEBS
-  * ZZZ containers
+  * 41 RPMS & SRPMS
+  * 96 binary & source DEBS 
+  * 21 binary & source tarballs
+  * 40 containers
 * Y external/third-party dependencies:
 
 INDIGO-1 is fully supported

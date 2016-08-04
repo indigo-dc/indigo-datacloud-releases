@@ -32,7 +32,7 @@ INDIGO-1 is fully supported
 * on the following **Operating Systems** platforms:
   * **CentOS 7**
   * **Ubuntu 14.04**
-  * Optionally PTs support also other OS platforms. You can find information about this in the individual products documentation
+  * Optionally PTs support also other OS platforms. You can find more information in the individual products documentation.
 * on the following **CMFs (Cloud Management Framework)** versions:
   * **OpenStack v. Liberty,** with the exception of the "TOSCA in HEAT (heat-translator) for which it one must used the Mitaka HEAT, and the rest of services on Liberty
   * **OpenNebula v. 4.14**

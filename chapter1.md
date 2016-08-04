@@ -62,10 +62,6 @@ To understand how to install and configure INDIGO-1 products either refer to the
 
 ## Software
 
-
-
-
-
 INDIGO-1 software can be downloaded from [INDIGO DataCloud repositories](http://repo.indigo-datacloud.eu/).
 
 

@@ -25,7 +25,7 @@ Taking into account the rapidly changing environment, especially some of the ups
 
 ## Package Repositories
 
-INDIGO DataCloud releases are available from the official [INDIGO - DataCloud Repositories](http://repo.indigo.-datacloud.eu) 
+INDIGO DataCloud releases are available from the official [INDIGO - DataCloud Repositories.](http://repo.indigo.-datacloud.eu) 
 
 ## Release Announcements
 

@@ -18,4 +18,24 @@ The INDIGO - DataCloud software is released under the Apache 2.0 software licens
 
 For more information on the project, see https://www.indigo-datacloud.eu. 
 
- 
+
+# Release Notes
+
+The INDIGO-1 release consists in 32 Products divided in, mainly, Core Services, and Applications, that met the [INDIGO - DataCloud Acceptance Criteria:](http://ADD_LINK)
+* X OS packages
+  * XXX RPMS
+  * YYY DEBS
+  * ZZZ containers
+* Y external/third-party dependencies:
+
+INDIGO-1 is fully supported
+* on the following Operating Systems platforms:
+  * CentOS 7
+  * Ubuntu 14.04
+  * Optionally PTs support also other OS platforms. You can find information about this in the individual products documentation
+* on the following CMFs (Cloud Management Framework) versions:
+  * OpenStack v. Liberty, with the exception of the "TOSCA in HEAT (heat-translator) for which it one must used the Mitaka HEAT, and the rest of services on Liberty
+  * OpenNebula v. 4.14
+
+You can find in the later chapters the full list of products, with detailed release notes and instructions for their installation/configuration. 
+

@@ -39,3 +39,45 @@ INDIGO-1 is fully supported
 
 You can find in the later chapters the full list of products, with detailed release notes and instructions for their installation/configuration. 
 
+
+## Installation Notes 
+
+All INDIGO - DataCloud products are distributed from a single repository having the following structure:
+
+    INDIGO-DC production (stable): dist/EMI/1/sl5/<basearch>/{base|updates}
+        stable and signed, well tested software components, recommended to be installed on production-sites
+    INDIGO-DC testing: INDIGO/testing/{1|2|3}/<platform>/<basearch>
+        packages that will become part of the next stable distribution; in the certification and validation phase and available for technical-previews
+    Third-party: INDIGO/1/<platform>/<basearch>/third-party
+        packages that are not part of INDIGO, but are currently not part of the base OS or EPEL
+
+<basearch> is currently: x86_64, SRPMS, tgz 
+
+All EMI packages are signed with the INDIGO - DataCloud gpg key. The public key can be downloaded from [here](http://repo.indigo-datacloud.eu/repository/RPM-GPG-KEY-indigodc), and the fingerprint from [here](http://ADD_LINK).
+
+It is strongly recommended the use of the lastest version of the indigodc-release package containing the public key and the yum and apt repository files.
+
+To understand how to install and configure INDIGO-1 products either refer to the "Generic Installation & Configuration Guide" chapter or to each individual product documentation.
+
+
+## Software
+
+
+
+
+
+INDIGO-1 software can be downloaded from [INDIGO DataCloud repositories](http://repo.indigo-datacloud.eu/).
+
+
+## Documentation
+
+Please find INDIGO-1 documentation [here](https://www.gitbook.com/@indigo-dc/dashboard)
+
+
+## Support
+
+Most complex software contains bugs, we are not an exception. One of the features of free and open source software is the ability to report bugs, helping to fix or improve the software you use.
+
+INDIGO - DataCloud project uses the [GGUS (Global Grid User Support)](https://ggus.eu/) tool as its user support system. It provides sophisticated search functionality, report generation, interfaces to bug tracking systems used by different middleware components, and automatic ticket reminder including escalation indication.
+
+Developers, researchers and IT enthusiasts: feel free to write to [info@indigo-datacloud.eu](info@indigo-datacloud.eu) to ask for more information on how to deploy your PaaS based solution for your work. For automatic notifications you can register to the [INDIGO-DataCloud RSS release feed](http://ADD_LINK) or subscribe to the [INDIGO-DataCloud Announce Mailing list](https://lists.indigo-datacloud.eu/sympa/info/indigo-announce). You can also socialize with us via [Twitter](https://twitter.com/indigodatacloud), [Facebook](https://www.facebook.com/indigodatacloud/?ref=bookmarks) and join our [LinkedIn group](https://www.linkedin.com/groups/8416266). 

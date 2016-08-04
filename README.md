@@ -17,7 +17,7 @@ Taking into consideration the length of the project, the rapidly evolving cloud-
 
 ![](indigo_releases_timeline.png)
 
-Taking into account the rapidly changing environment, especially some of the upstream release cycles (e.g. OpenStack), the INDIGO-DataCloud maintenance schedule is organised in the following periods:
+Taking into account the rapidly changing environment, and especially some of the upstream release cycles (e.g. OpenStack), the INDIGO-DataCloud maintenance schedule is organised in the following periods:
 * **Full maintenance** period: during this period updates are released to address issues in the code and provide new features for each supported INDIGO-DataCloud major release (**6 months**)
 * **Standard maintenance** period: during this period updates are released to address issues in the code, but no new feature is introduced, for each supported INDIGO-DataCloud major release (**2 months**)
 * **Security updates** period: during this period only updates targeting security vulnerabilities are provided for each supported INDIGO-DataCloud major release (**2 months**)

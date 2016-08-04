@@ -43,13 +43,13 @@ You can find in the later chapters the full list of products, with detailed rele
 ## Installation Notes 
 
 All INDIGO - DataCloud products are distributed from repositoriesry having the following structure:
-* INDIGO-DC production (stable): indigo/1/<platform>/<basearch>/{base|updates}
+* INDIGO-DC **production** (stable): ```indigo/{1,2}/<platform>/<basearch>/{base|updates}```
   * stable and signed, well tested software components, recommended to be installed on production-sites
-* Third-party: indigo/1/<platform>/<basearch>/third-party
+* Third-party: ```indigo/{1,2}/<platform>/<basearch>/third-party```
   * packages that are not part of INDIGO, or not part of the base OS or EPEL, but used as dependencies by other INDIGO components
-* INDIGO-DC testing: indigo-testing/{1,2}/<platform>/<basearch>
+* INDIGO-DC **testing**: ```indigo-testing/{1,2}/<platform>/<basearch>```
   * packages that will become part of the next stable distribution; in the certification and validation phase.
-* INDIGO-DC preview: indigo-preview/{1,2}/<platform>/<basearch>
+* INDIGO-DC preview: ```indigo-preview/{1,2}/<platform>/<basearch>```
   * signed packages that will become part of the next stable update, available for technical-previews
 
 <basearch> is currently: x86_64, SRPMS, tgz 

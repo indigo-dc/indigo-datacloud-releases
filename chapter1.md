@@ -57,7 +57,7 @@ All INDIGO - DataCloud products are distributed from repositoriesry having the f
 
 All packages are signed with the INDIGO - DataCloud gpg key. The public key can be downloaded from [here](http://repo.indigo-datacloud.eu/repository/RPM-GPG-KEY-indigodc), and the fingerprint from [here](http://ADD_LINK).
 
-It is strongly recommended the use of the lastest version of the indigodc-release package containing the public key and the yum and apt repository files.
+It is strongly recommended the use of the lastest version of the **indigodc-release** package containing the public key and the YUM and APT repository files.
 
 To understand how to install and configure INDIGO-1 products either refer to the "Generic Installation & Configuration Guide" chapter or to each individual product documentation.
 

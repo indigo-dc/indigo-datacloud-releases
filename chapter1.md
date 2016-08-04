@@ -59,7 +59,7 @@ All packages are signed with the INDIGO - DataCloud gpg key. The public key can 
 
 It is strongly recommended the use of the lastest version of the **indigodc-release** package containing the public key and the YUM and APT repository files.
 
-To understand how to install and configure INDIGO-1 products either refer to the "Generic Installation & Configuration Guide" chapter or to each individual product documentation.
+To understand how to install and configure INDIGO-1 products either refer to the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md) chapter or to each individual product documentation.
 
 
 ## Software

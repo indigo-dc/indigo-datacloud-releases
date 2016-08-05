@@ -1,22 +1,50 @@
 # INDIGO-1 MidnightBlue
 
-The INDIGO - DataCloud project is pleased to announce the general availability of its first public software release, codenamed **MidnightBlue**.
+**The [INDIGO-DataCloud](https://www.indigo-datacloud.eu/) project is pleased to announce the general availability of its first public software release, codenamed MidnightBlue.**
 
-The release comes after an initial phase of requirement gatherings which involved several European scientific collaborations in areas as diverse as structural biology, Earth sciences, physics, bioinformatics, cultural heritage, astrophysics, life sciences, climatology. This resulted in the development of many software components addressing existing technical gaps linked to easy and optimal usage of distributed data and compute resources. These components are now released into a consistent and modular suite, offered as a contribution toward the definition and implementation of an efficient European Open Science Cloud.
+This release comes after an initial phase of requirement gatherings which involved several European scientific collaborations in areas as diverse as structural biology, earth sciences, physics, bioinformatics, cultural heritage, astrophysics, life sciences, climatology, etc. This resulted in the development of many software components addressing existing technical gaps linked to easy and optimal usage of distributed data and compute resources. These components are now released into a consistent and modular suite, offered as a contribution toward the definition and implementation of an efficient European Open Science Cloud.
 
-The first INDIGO-DataCloud release provides **open source components** targeting:
-* **Site-level solutions**, allowing data centers to increase efficiency and services for customers.
+The first INDIGO-DataCloud release provides **open source components** for:
+* **Datacenter solution**s, allowing data and compute resource centers to increase efficiency and services for customers.
 * **Data solutions**, offering advanced access to distributed data.
 * **Automated solutions**, allowing users to easily specify and deploy complex data and compute resource requirements.
 * **User-level solutions**, integrating scientific applications in programmable front-ends and in mobile applications.
 
-*Key technical highlights → Giacinto/Cristina/Jorge - include a short description of high-level components as well as some numbers related e.g. to how many components in total, github repos, docker containers, etc.*
+**Key technical highlights:**
 
-The INDIGO - DataCloud software is released under the Apache 2.0 software license and can be deployed on both public and private Cloud infrastructures. It can be downloaded from http://repo.indigo-datacloud.eu.
+**The DataCenter**. INDIGO is providing many new features/services for resource centers: 
+* *Improved scheduling* for allocation of resources by the popular open source Cloud platforms. OpenStack and OpenNebula. This provides both better scheduling algorithms and support for spot-instances.
+* Support for improved IaaS resource orchestration capabilities using standards  orchestration engines through the use of the TOSCA standard, for both OpenStack and OpenNebula.
+* Improved QoS capabilities of storage resources for better support of high-level storage requirements, such as flexible allocation of disk or tape storage space and support for data life cycle.
+* Improved and transparent support for Docker containers. This includes for example the introduction of native container support in OpenNebula. 
 
-**INDIGO - DataCloud** is an Horizon 2020 project funded by the European Commission from April 2015 to September 2017. It involves 26 European partners, including research institutes, scientific collaborations, software developers, universities, e-infrastructures, private companies. Its main goal is to provide software solutions for science addressing several of the technology gaps in Cloud and Data technologies currently experienced by resource providers and scientists working in either small or big collaborations.
+**The Data Services**. INDIGO provides a complete set of data-related features that includes: 
+* Distributed Data Federation through several protocols, in order to support both legacy application and advanced standard interfaces such as CDMI or just simple web interfaces.
+* The possibility to federate diverse storage technologies (such as Posix, Object Storage, CEPH, etc) in a seamless way, letting users exploit data and storage resources wherever they are available.
 
-For more information on the project, see https://www.indigo-datacloud.eu. 
+Automated Solutions. INDIGO provides a rich set of high-level automated functionalities. Some of the most innovative are: 
+Improved capabilities in the geographical exploitation of Cloud resources. End users need not know where resources are located, because the INDIGO PaaS layer hides the complexity of both scheduling and brokering.
+Standard interface to access PaaS services. INDIGO uses the TOSCA standard to hide the difference on the different way of implementing services at the PaaS level.
+Support for data requirements in Cloud resource allocations: computational resources can be requested and allocated where data is stored.
+Integrated use of resources coming from both public and private Cloud infrastructures.
+Deployment, monitoring and automatic scalability of existing applications.
+Integrated support for high-performance Big Data analytics.
+Support for dynamic and elastic clusters of resources. HTCondor, Torque and Mesos cluster are supported. 
+
+High-level user oriented services. Researchers and data managers are able to access resources through: 
+Toolkits (libraries) allowing usage of the INDIGO platform from Scientific Gateways and desktop applications.
+An open source Mobile Application Toolkit for the iOS and Android platforms, serving as the base for the development of Mobile Apps.
+User-friendly front ends for building programmable, general-purpose multi-domain Science Gateways.
+
+All the INDIGO components are integrated into a comprehensive Authentication and Authorization Architecture, with support for user authentication through multiple methods (SAML, OpenID Connect and X.509), support for distributed authorization policies and a Token Translation Service, creating credentials for services that do not natively support OpenID Connect.
+
+The INDIGO-DataCloud software is released under the Apache 2.0 software license and can be deployed on both public and private Cloud infrastructures. It can be downloaded from http://repo.indigo-datacloud.eu.
+
+Stay tuned. Updates and new releases of the INDIGO services are expected to come in the forthcoming months. If you want to be notified when a new release is out, register here. The first scientific applications and use cases adopting this first INDIGO release are expected starting from September 2016.
+
+INDIGO-DataCloud is an Horizon 2020 project funded by the European Commission from April 2015 to September 2017. It involves 26 European partners, including research institutes, scientific collaborations, software developers, universities, e-infrastructures, private companies. Its main goal is to provide software solutions for science addressing several of the technology gaps in Cloud and Data technologies currently experienced by resource providers and scientists working in either small or big collaborations.
+
+For more information, see https://www.indigo-datacloud.eu.  
 
 
 # Release Notes

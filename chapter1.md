@@ -49,7 +49,7 @@ For more information, see [https://www.indigo-datacloud.eu](https://www.indigo-d
 
 # Release Notes
 
-The INDIGO-1 release consists in 32 Products divided in, mainly, Core Services, and Applications, that met the [INDIGO - DataCloud Acceptance Criteria:](http://ADD_LINK)
+The INDIGO-1 release consists in 32 Products divided in, mainly, Core Services, and Applications:
 * 158 OS packages
   * 41 RPMS & SRPMS
   * 96 binary & source DEBS 
@@ -114,6 +114,9 @@ Please find INDIGO-1 documentation [here](https://www.gitbook.com/@indigo-dc/das
 Most complex software contains bugs, we are not an exception. One of the features of free and open source software is the ability to report bugs, helping to fix or improve the software you use.
 
 INDIGO - DataCloud project uses the [GGUS (Global Grid User Support)](https://ggus.eu/) tool as its user support system. It provides sophisticated search functionality, report generation, interfaces to bug tracking systems used by different middleware components, and automatic ticket reminder including escalation indication.
+Please use the **INDIGO - DataCloud Catch-All** GGUS Support Unit or directly  contact us through the [indigo-su@lists.indigo-datacloud.eu](https://lists.indigo-datacloud.eu/sympa/info/indigo-su) mailing-list.
+
 More details regarding  each product support channels are provided in the respective products release pages.
+
 
 Developers, researchers and IT enthusiasts: feel free to write to [info@indigo-datacloud.eu](info@indigo-datacloud.eu) to ask for more information on how to deploy your PaaS based solution for your work. For automatic notifications you can register to the [INDIGO-DataCloud RSS release feed](http://ADD_LINK) or subscribe to the [INDIGO-DataCloud Announce Mailing list](https://lists.indigo-datacloud.eu/sympa/info/indigo-announce). You can also socialize with us via [Twitter](https://twitter.com/indigodatacloud), [Facebook](https://www.facebook.com/indigodatacloud/?ref=bookmarks) and join our [LinkedIn group](https://www.linkedin.com/groups/8416266). 

@@ -7,7 +7,7 @@ This chapter provides information on how to enable the and use the INDIGO DataCl
 
 
 
-## Enable the INDIGO - Datacloud repositories
+## Enable the INDIGO - DataCloud repositories
 
 
 ## Important note on automatic updates 

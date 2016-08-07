@@ -8,6 +8,7 @@
        * Accounting
        * CDMI Server
        * CloudInfoProvider
+       * CloudProviderRanker
    * [Applications](applications_indigo1.md)
    * [Updates](updates_indigo1.md)
 * [INDIGO-2 ElectricIndigo](chapter2.md)

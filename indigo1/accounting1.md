@@ -8,34 +8,41 @@ Summary:
   * [Known Issues](#id5)
   * [Documentation](#id6)
   * [List of Artifacts](#id7)
+  * [Support](#id8)
 
-
+<a id="id1"></a>
 ## Release Notes
 
+<a id="id2"></a>
 ### What's new
 
 * Firt release of the APEL REST interface
 
+<a id="id3"></a>
 #### List of RfCs 
 
 * https://project.indigo-datacloud.eu/work_packages/3230
 * https://project.indigo-datacloud.eu/work_packages/3269
 * https://github.com/apel/rest/issues
 
+<a id="id4"></a>
 ### Deployment Notes
 
 * Please see detailed [Instalation & Configuration Guide](https://indigo-dc.gitbooks.io/accounting/content/)
 
+<a id="id5"></a>
 ### Known Issues
 
 * N/A
 
+<a id="id6"></a>
 ### Documentation
 
 * [Developer guide](https://indigo-dc.gitbooks.io/accounting/content/doc/developer.html)
 * [Deployment and Administration guide](https://indigo-dc.gitbooks.io/accounting/content/doc/admin.html)
 * [User guide](https://indigo-dc.gitbooks.io/accounting/content/doc/user.html)
- 
+
+<a id="id7"></a>
 ### List of Artifacts
 
 Docker Container:
@@ -49,6 +56,7 @@ Third-Party dependencies:
   * [tarball](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/caso_0.3.2.orig.tar.gz)
   * [deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/third-party/binary-amd64/caso_0.3.2-1ubuntu2_all.deb)
 
+<a id="id8"></a>
 ### Support
 
 * Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](

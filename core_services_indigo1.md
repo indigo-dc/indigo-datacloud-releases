@@ -8,7 +8,7 @@ Full list of INDIGO-1 MidnightBlue Core Services, with detailed release notes an
 * [CloudProviderRanker](cpr1.md)
 * [CLUES (CLUster Energy Saving)](clues1.md)
 * [dCache](dcache1.md)
-* [Partition Director (dynpart)]()
+* [Partition Director (dynpart)](indigo1/dynpart1.md)
 * [FutureGateway API Server](fgapiserver1.md)
 * [FutureGateway API Server Daemon](fgapiserverdaemon1.md)
 * [TOSCA-in-HEAT (Heat-Translator)](heattranslator1.md) 

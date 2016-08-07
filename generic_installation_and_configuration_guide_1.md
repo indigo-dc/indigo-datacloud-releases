@@ -2,9 +2,17 @@
 
 This chapter provides information on how to enable and use the INDIGO DataCloud software repositories.
 
+Summary
+* [Part1](#id1)
+* [Part2](#id2)
+* [Part3](#id3)
+* [Part4](#id4)
+* [Part5](#id5)
 
+<a id="id1"></a>
 ## Installing the Operating Systems and Cloud  Management Frameworks 
 
+<a id="id2"></a>
 ### Operating Systems
 
 #### CentOS 7 
@@ -29,7 +37,12 @@ For more information on Ubuntu please check: [http://www.ubuntu.com/](http://www
 
 Information to install this operating system can be found at [http://releases.ubuntu.com/trusty/](http://releases.ubuntu.com/trusty/) and or at [Ubuntu Community Installation Guide ](https://help.ubuntu.com/community/Installation) and regarding Docker Containers at [Ubuntu Official Docker repository](https://hub.docker.com/_/ubuntu/).
 
-## Enable the INDIGO - DataCloud repositories
+### CloudManagement Frameworks
+
+#### OpenStack Liberty
+#### OpenNebula 14.
+
+## Enable the INDIGO - DataCloud packages repositories
 
 INDIGO - DataCloud products are distributed from standard OS repositories and DockerHub registry. 
 
@@ -91,6 +104,9 @@ dpkg -i indigodc-release_1.0.0-1_amd64.deb
 These packages will install required dependencies, the INDIGO - DataCloud public key and ensures the precedence of INDIGO - DataCloud repositories over EPEL and Ubuntu. 
 
 It is strongly recommended the use of the latest version of the **indigodc-release** package containing the public key and the YUM and APT repository files.
+
+
+## Enable the INDIGO - DataCloud Containers repositories
 
 On the [DockerHub Registry](https://hub.docker.com/), INDIGO - DataCloud has organized the repositories under two Organizations:
 * [indigodatacloud](https://hub.docker.com/u/indigodatacloud/), for Core Services

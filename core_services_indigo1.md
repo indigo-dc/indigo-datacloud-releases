@@ -23,11 +23,12 @@ Full list of INDIGO-1 MidnightBlue Core Services, with detailed release notes an
 * [ONEDATA](indigo1/onedata1.md)
 * [ONEDock](indigo1/onedock1.md)
 * [OpenStack OCCI Interface (OOI)](indigo1/ooi1.md)
+* * [OpenStack NOVA Client](indigo1/python-nova1.md)
 * [OpenStack Preemptible Instances Extension (OPIE)](indigo1/opie1.md)
 * [Ophidia](indigo1/ophidia1.md)
 * [Orchestrator](indigo1/orchestrator1.md)
 * [pOCCI](indigo1/pocci1.md)
-* [python-novaclient](python-nova1.md)
+
 * [python-openstackclient](python-osclient1.md)
 * [RepoSync](reposync1.md)
 * [rOCCI](rocci1.md)

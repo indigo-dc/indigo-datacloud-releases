@@ -3,7 +3,7 @@
 This chapter provides information on how to enable and use the INDIGO DataCloud software repositories.
 
 
-## Installing the Operating Systems and Cloud Cloud Management Frameworks 
+## Installing the Operating Systems and Cloud  Management Frameworks 
 
 
 

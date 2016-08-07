@@ -40,6 +40,7 @@
        * [udocker](indigo1/udocker1.md)
        * [Zabbix Probes](indigo1/zabbix-probes1.md)
        * [FutureGateway jSAGA Adaptors](indigo1/fg_jsaga_adaptors1.md)
+       * fgTools
    * [Applications](applications_indigo1.md)
    * [Updates](updates_indigo1.md)
    * [DataCenter Solutions](indigo1/datacenter_solutions.md)

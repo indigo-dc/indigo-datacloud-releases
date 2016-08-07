@@ -9,7 +9,7 @@
        * [CDMI Server](indigo1/cdmi1.md)
        * [CloudInfoProvider](indigo1/cip1.md)
        * [CloudProviderRanker](indigo1/cpr1.md)
-       * CLUES
+       * [CLUES](indigo1/clues1.md)
        * dCache
        * Partition Director
        * TOSCA-in-HEAT

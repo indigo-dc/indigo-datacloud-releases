@@ -26,7 +26,7 @@ Full list of INDIGO-1 MidnightBlue Core Services, with detailed release notes an
 * [OpenStack Preemptible Instances Extension (OPIE)](indigo1/opie1.md)
 * [Ophidia](indigo1/ophidia1.md)
 * [Orchestrator](indigo1/orchestrator1.md)
-* [pOCCI](pocci1.md)
+* [pOCCI](indigo1/pocci1.md)
 * [python-novaclient](python-nova1.md)
 * [python-openstackclient](python-osclient1.md)
 * [RepoSync](reposync1.md)

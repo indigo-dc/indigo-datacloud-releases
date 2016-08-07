@@ -8,23 +8,49 @@ Summary:
   * [Known Issues](#id5)
   * [Documentation](#id6)
   * [List of Artifacts](#id7)
+  * [Support](#id8)
 
 
 ## Release Notes
 
 ### What's new
 
+INDIGO-DataCloud CDMI Server with QoS:
+* This project provides the official reference implementation of the **SNIA Cloud Data Management Interface (CDMI)**, an ISO standard, and also a Spring Boot application port of the SNIA CDMI-Server.
+* The **CDMI server** has been extended to support Quality-of-Service (QoS) and Data Life-cycle (DLC) operations for multiple storage back-ends like dCache, Ceph, GPFS, Gemss+TSM, StoRM and HPSS.
 
 #### List of RfCs 
 
+* [https://github.com/indigo-dc/CDMI/issues](https://github.com/indigo-dc/CDMI/issues)
 
 ### Deployment Notes
 
+Supported platforms:
+* all with Java >= 1.8, tested on Ubuntu 14.04, Ubuntu 16.04, CentOS 7
+
+Build from source with maven
+* [https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/building_from_sources.html](https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/building_from_sources.html)
+
+Install via packages: cdmi-server-0.1.deb, cdmi-server-0.1-1.x86_64.rpm
+* [https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/installing_cdmi-qos.html](https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/installing_cdmi-qos.html)
+
+Run with Docker
+* [https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/running_cdmi-qos_as_a_docker_container.html](https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/running_cdmi-qos_as_a_docker_container.html)
 
 ### Known Issues
 
-
+* N/A
+* 
 ### Documentation
 
+* [INDIGO-DataCloud CDMI Server with QoS - Overview](https://indigo-dc.gitbooks.io/cdmi-qos/content/)
+* [Develoeprs Guide](https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/developer.html)
+* [Deployment Guide](https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/administrator.html)
+* [User Guide](https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/user.html)
 
 ### List of Artifacts
+
+Packages
+* [cdmi-server-1.0-2.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/base/cdmi-server-1.0-2.noarch.rpm)
+* [cdmi-server-0.1.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/main/binary-amd64/cdmi-server-0.1.deb)
+

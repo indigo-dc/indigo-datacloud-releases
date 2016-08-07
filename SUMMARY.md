@@ -8,7 +8,7 @@
        * [Accounting](indigo1/accounting1.md)
        * [CDMI Server](indigo1/cdmi1.md)
        * [CloudInfoProvider](indigo1/cip1.md)
-       * CloudProviderRanker
+       * [CloudProviderRanker](indigo1/cpr1.md)
        * CLUES
        * dCache
        * Partition Director

@@ -23,7 +23,7 @@
        * [Liferay IAM](indigo1/liferayiam1.md)
        * [ONEDATA](indigo1/onedata1.md)
        * [ONEdock](indigo1/onedock1.md)
-       * OpenStack OCCI Interface
+       * [OpenStack OCCI Interface](indigo1/ooi1.md)
        * OpenStack Preemptible Instances Extension
        * Ophidia
        * Orchestrator

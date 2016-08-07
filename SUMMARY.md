@@ -44,6 +44,6 @@
    * [DataCenter Solutions](indigo1/datacenter_solutions.md)
    * [Data Solutions](indigo1/data_solutions.md)
    * [Automated Solutions](indigo1/automated_solutions.md)
-   * High-level user oriented service
+   * [High-level user oriented service](indigo1/high-level_user_oriented_service.md)
 * [INDIGO-2 ElectricIndigo](chapter2.md)
 

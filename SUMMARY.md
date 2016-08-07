@@ -20,7 +20,7 @@
        * [Infrastructure manager](indigo1/im1.md)
        * [Infrastructure Manager Java API](indigo1/imjavaapi1.md)
        * [jSAGA ResourceManager API](indigo1/jsagarmapi1.md)
-       * Liferay IAM
+       * [Liferay IAM](indigo1/liferayiam1.md)
        * ONEDATA
        * ONEdock
        * OpenStack OCCI Interface

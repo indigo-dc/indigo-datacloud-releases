@@ -14,7 +14,7 @@ Full list of INDIGO-1 MidnightBlue Core Services, with detailed release notes an
 * [TOSCA-in-HEAT (indigo1/heat-translator1.md)](heattranslator1.md) 
 * [Identity Harmonization Service](indigo1/idh1.md)
 * [INDIGO IAM](indigo1/iam1.md)
-* [INDIGO OMT](omt1.md)
+* [INDIGO OMT](indigo1/omt1.md)
 * [INDIGO Kepler](kepler1.md)
 * [Infrastructure Manager (IM)](im1.md)
 * [Infrastructure Manager Java API (IM-Java-API)](imjavaapi1.md)

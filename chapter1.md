@@ -5,7 +5,7 @@
 This release comes after an initial phase of requirement gatherings which involved several European scientific collaborations in areas as diverse as structural biology, earth sciences, physics, bioinformatics, cultural heritage, astrophysics, life sciences, climatology, etc. This resulted in the development of many software components addressing existing technical gaps linked to easy and optimal usage of distributed data and compute resources. These components are now released into a consistent and modular suite, offered as a contribution toward the definition and implementation of an efficient European Open Science Cloud.
 
 The first INDIGO-DataCloud release provides **open source components** for:
-* **DataCenter solution**s, allowing data and compute resource centers to increase efficiency and services for customers.
+* **DataCenter solutions**, allowing data and compute resource centers to increase efficiency and services for customers.
 * **Data solutions**, offering advanced access to distributed data.
 * **Automated solutions**, allowing users to easily specify and deploy complex data and compute resource requirements.
 * **User-level solutions**, integrating scientific applications in programmable front-ends and in mobile applications.

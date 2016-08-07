@@ -24,7 +24,7 @@
        * [ONEDATA](indigo1/onedata1.md)
        * [ONEdock](indigo1/onedock1.md)
        * [OpenStack OCCI Interface](indigo1/ooi1.md)
-       * OpenStack Preemptible Instances Extension
+       * [OpenStack Preemptible Instances Extension](indigo1/opie1.md)
        * Ophidia
        * Orchestrator
        * pOCCI

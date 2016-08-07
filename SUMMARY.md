@@ -14,7 +14,7 @@
        * [Partition Director](indigo1/dynpart1.md)
        * [TOSCA-in-HEAT](indigo1/heat-translator1.md)
        * [Identity Harmonization Service](indigo1/idh1.md)
-       * INDIGO IAM
+       * [INDIGO IAM](indigo1/iam1.md)
        * INDIGO OMT
        * INDIGO Kepler
        * Infrastructure manager

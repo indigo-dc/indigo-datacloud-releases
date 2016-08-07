@@ -3,11 +3,13 @@
 This chapter provides information on how to enable and use the INDIGO DataCloud software repositories.
 
 Summary
-* [Part1](#id1)
-* [Part2](#id2)
-* [Part3](#id3)
-* [Part4](#id4)
-* [Part5](#id5)
+* [Installing the Operating Systems and Cloud  Management Frameworks](#id1)
+  * [Operating Systems](id2)
+  * [Cloud Management Frameworks](#id3)
+* [Enable the INDIGO - DataCloud packages repositories](#id4)
+  * [Giving INDIGO - DataCloud  repositories precedence over EPEL](#id5)
+* [Enable the INDIGO - DataCloud Containers repositories](#id6)
+* [Important note on automatic updates](#id7)
 
 <a id="id1"></a>
 ## Installing the Operating Systems and Cloud  Management Frameworks 
@@ -37,14 +39,14 @@ For more information on Ubuntu please check: [http://www.ubuntu.com/](http://www
 
 Information to install this operating system can be found at [http://releases.ubuntu.com/trusty/](http://releases.ubuntu.com/trusty/) and or at [Ubuntu Community Installation Guide ](https://help.ubuntu.com/community/Installation) and regarding Docker Containers at [Ubuntu Official Docker repository](https://hub.docker.com/_/ubuntu/).
 
-<a id="id4"></a>
-### CloudManagement Frameworks
+<a id="id3"></a>
+### Cloud Management Frameworks
 
 #### OpenStack Liberty
 
 #### OpenNebula 4.14
 
-<a id="id5"></a>
+<a id="id4"></a>
 ## Enable the INDIGO - DataCloud packages repositories
 
 INDIGO - DataCloud products are distributed from standard OS repositories and DockerHub registry. 
@@ -71,6 +73,7 @@ All packages are signed with the INDIGO - DataCloud gpg key. The public key can 
 * for Ubuntu: 
 ```# wget -q   -O - http://repo.indigo-datacloud.eu/repository/RPM-GPG-KEY-indigodc | sudo apt-key add -```
 
+<a id="id5"></a>
 ### Giving INDIGO - DataCloud  repositories precedence over EPEL
 
 It is strongly recommended that INDIGO repositories take precedence over EPEL when installing and upgrading packages.
@@ -108,7 +111,7 @@ These packages will install required dependencies, the INDIGO - DataCloud public
 
 It is strongly recommended the use of the latest version of the **indigodc-release** package containing the public key and the YUM and APT repository files.
 
-
+<a id="id6"></a>
 ## Enable the INDIGO - DataCloud Containers repositories
 
 On the [DockerHub Registry](https://hub.docker.com/), INDIGO - DataCloud has organized the repositories under two Organizations:
@@ -116,6 +119,53 @@ On the [DockerHub Registry](https://hub.docker.com/), INDIGO - DataCloud has org
 * [indigodatacloudapps](https://hub.docker.com/u/indigodatacloudapps/), for Applications
 Containers present in those repositories and released in INDIGO-1 are tagged with "*indigo-1*" tag and signed, leveraging the [Docker’s trust features](https://docs.docker.com/engine/security/) so that users can pull trusted images.
 
+Currently, content trust is disabled by default. You must enable it by setting the **DOCKER_CONTENT_TRUST** environment variable, like bellow:
+
+```export DOCKER_CONTENT_TRUST=1```
+
+For more details regarding the "Content Trust in Docker" please read [Docker's Documentation](https://docs.docker.com/engine/security/trust/content_trust/)
+
+Content trust is associated with the TAG portion of an image.
+For INDIGO-1 (Midnight) release the signed tag is ***indigo_1***. See example bellow if you want to ensure the correct use of INDIGO - DataCloud images:
+* for Core Services
+
+```
+$ export DOCKER_CONTENT_TRUST=1
+$ docker pull indigodatacloud/orchestrator:1.0.0-RC3
+No trust data for 1.0.0-RC3
+$ docker pull indigodatacloud/orchestrator:indigo_1
+Pull (1 of 1): indigodatacloud/orchestrator:indigo_1@sha256:f1b692cdfe45096e7c778157a35a38a94a71b9daf5e7ba7c213a0107fd51f4a7
+sha256:f1b692cdfe45096e7c778157a35a38a94a71b9daf5e7ba7c213a0107fd51f4a7: Pulling from indigodatacloud/orchestrator
+3d8673bd162a: Pull complete
+[...]
+88c118280e3d: Pull complete
+Digest: sha256:f1b692cdfe45096e7c778157a35a38a94a71b9daf5e7ba7c213a0107fd51f4a7
+Status: Downloaded newer image for indigodatacloud/orchestrator@sha256:f1b692cdfe45096e7c778157a35a38a94a71b9daf5e7ba7c213a0107fd51f4a7
+Tagging indigodatacloud/orchestrator@sha256:f1b692cdfe45096e7c778157a35a38a94a71b9daf5e7ba7c213a0107fd51f4a7 as indigodatacloud/orchestrator:indigo_1
+$ docker images |grep orchestrator
+indigodatacloud/orchestrator               indigo_1            2153bb4c33d1        4 days ago          837.1 MB
+```
+
+* for Applications:
+
+```
+$ export DOCKER_CONTENT_TRUST=1
+$ docker pull indigodatacloudapps/ambertools:latest
+No trust data for latest
+$ docker pull indigodatacloudapps/ambertools:indigo_1
+Pull (1 of 1): indigodatacloudapps/ambertools:indigo_1@sha256:82c202e06e94b9fec85ec4672a0c8b0b4efcc10652275d15ff32eadf2e1cbefd
+sha256:82c202e06e94b9fec85ec4672a0c8b0b4efcc10652275d15ff32eadf2e1cbefd: Pulling from indigodatacloudapps/ambertools
+6c953ac5d795: Pull complete
+[...]
+fb42bfb32649: Pull complete
+Digest: sha256:82c202e06e94b9fec85ec4672a0c8b0b4efcc10652275d15ff32eadf2e1cbefd
+Status: Downloaded newer image for indigodatacloudapps/ambertools@sha256:82c202e06e94b9fec85ec4672a0c8b0b4efcc10652275d15ff32eadf2e1cbefd
+Tagging indigodatacloudapps/ambertools@sha256:82c202e06e94b9fec85ec4672a0c8b0b4efcc10652275d15ff32eadf2e1cbefd as indigodatacloudapps/ambertools:indigo_1
+$ docker images |grep amber
+indigodatacloudapps/ambertools             indigo_1            6c47a81b761d        11 days ago         1.826 GB
+```
+
+<a id="id7"></a>
 ## Important note on automatic updates 
 
 The CentOS and Ubuntu Operating Systems both offer auto-updates mechanisms. Sometimes middleware updates require non-trivial configuration changes or a reconfiguration of the service. This could involve service restarts, new configuration files, etc, which makes it difficult to ensure that automatic updates will not break a service. Thus

@@ -44,7 +44,15 @@ Information to install this operating system can be found at [http://releases.ub
 
 #### OpenStack Liberty
 
+Please follow the official OpenStack Liberty Installation Guides:
+* for [RedHat & CentOS](http://docs.openstack.org/liberty/install-guide-rdo/)
+* for [Ubuntu 14.04](http://docs.openstack.org/liberty/install-guide-ubuntu/)
+
 #### OpenNebula 4.14
+
+Please follow the official [OpenNebula 14.4 Installation Guide for CentOS & Ubuntu](http://docs.opennebula.org/4.14/design_and_installation/building_your_cloud/ignc.html)
+
+
 
 <a id="id4"></a>
 ## Enable the INDIGO - DataCloud packages repositories

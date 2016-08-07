@@ -32,7 +32,7 @@ Full list of INDIGO-1 MidnightBlue Core Services, with detailed release notes an
 * [RepoSync](indigo1/reposync1.md)
 * [rOCCI](indigo1/rocci1.md)
 * [SLA Manager](indigo1/slam1.md)
-* [Synergy](synergy1.md) 
+* [Synergy](indigo1/synergy1.md) 
 * [TOSCA-Parser & Types](tosca-pt1.md)
 * [Token Translation Service (TTS)](tts1.md)
 * [udocker](udocker1.md)

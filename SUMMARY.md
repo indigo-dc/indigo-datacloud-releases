@@ -40,6 +40,6 @@
        * [Zabbix Probes](indigo1/zabbix-probes1.md)
    * [Applications](applications_indigo1.md)
    * [Updates](updates_indigo1.md)
-   * DataCenter Solutions
+   * [DataCenter Solutions](indigo1/datacenter_solutions.md)
 * [INDIGO-2 ElectricIndigo](chapter2.md)
 

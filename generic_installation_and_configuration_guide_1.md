@@ -1,6 +1,6 @@
 # Generic Installation and Configuration Guide
 
-This chapter provides information on how to enable the and use the INDIGO DataCloud software repositories.
+This chapter provides information on how to enable and use the INDIGO DataCloud software repositories.
 
 
 ## Installing the Operating Systems and Cloud Cloud Management Frameworks 

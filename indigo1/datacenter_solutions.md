@@ -6,6 +6,7 @@ The INDIGO - DataCloud project is providing many new features/services for resou
 * Improved QoS capabilities of storage resources for better support of high-level storage requirements, such as flexible allocation of disk or tape storage space and support for data life cycle.
 * Improved and transparent support for Docker containers. This includes for example the introduction of native container support in OpenNebula. 
 
+* [Accounting](accounting1.md)
 * [CloudInfoProvider](cip1.md)
 * [CloudProviderRanker](cpr1.md)
 * [CDMI Server](cdmi1.md)

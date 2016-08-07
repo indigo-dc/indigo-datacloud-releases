@@ -22,7 +22,7 @@
        * [jSAGA ResourceManager API](indigo1/jsagarmapi1.md)
        * [Liferay IAM](indigo1/liferayiam1.md)
        * [ONEDATA](indigo1/onedata1.md)
-       * ONEdock
+       * [ONEdock](indigo1/onedock1.md)
        * OpenStack OCCI Interface
        * OpenStack Preemptible Instances Extension
        * Ophidia

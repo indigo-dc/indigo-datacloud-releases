@@ -14,6 +14,7 @@
        * Partition Director
        * TOSCA-in-HEAT
        * Identity Harmonization Service
+       * INDIGO IAM
    * [Applications](applications_indigo1.md)
    * [Updates](updates_indigo1.md)
 * [INDIGO-2 ElectricIndigo](chapter2.md)

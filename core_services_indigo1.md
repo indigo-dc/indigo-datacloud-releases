@@ -11,6 +11,7 @@ Full list of INDIGO-1 MidnightBlue Core Services, with detailed release notes an
 * [Partition Director (dynpart)](indigo1/dynpart1.md)
 * [FutureGateway API Server](fgapiserver1.md)
 * [FutureGateway API Server Daemon](fgapiserverdaemon1.md)
+* [FutureGateway jSaga Adaptors](indigo1/fg_jsaga_adaptors1.md)
 * [fgTools](indigo1/fgtools1.md)
 * [TOSCA-in-HEAT (indigo1/heat-translator1.md)](heattranslator1.md) 
 * [Identity Harmonization Service](indigo1/idh1.md)

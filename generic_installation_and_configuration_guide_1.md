@@ -82,6 +82,7 @@ For automatic configuration:
 
   * Ubuntu 14.04:
 
+
 ```# wget http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/main/binary-amd64/indigodc-release_1.0.0-1_amd64.deb
 # dpkg -i indigodc-release_1.0.0-1_amd64.deb``` 
 

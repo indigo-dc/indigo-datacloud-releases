@@ -6,6 +6,16 @@ This chapter provides information on how to enable and use the INDIGO DataCloud 
 ## Installing the Operating Systems and Cloud  Management Frameworks 
 
 
+### Operating Systems
+
+For more information on CentOS please check: [https://www.centos.org/](https://www.centos.org/)
+
+All the information to install this operating system can be found at https://wwwhttps://www.centos.org/download/[](https://www.centos.org/download/)
+
+Example of sl5.repo file:
+
+
+
 
 ## Enable the INDIGO - DataCloud repositories
 

@@ -31,7 +31,7 @@
        * [OpenStack NOVA Client](indigo1/python-nova1.md)
        * [OpenStack Client](indigo1/python-osclient1.md)
        * [RepoSync](indigo1/reposync1.md)
-       * rOCCI
+       * [rOCCI](indigo1/rocci1.md)
        * SLA Manager
        * Synergy
        * TOSCA Parser & Types

@@ -42,5 +42,6 @@
    * [Applications](applications_indigo1.md)
    * [Updates](updates_indigo1.md)
    * [DataCenter Solutions](indigo1/datacenter_solutions.md)
+   * Data Solutions
 * [INDIGO-2 ElectricIndigo](chapter2.md)
 

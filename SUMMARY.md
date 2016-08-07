@@ -16,7 +16,7 @@
        * [Identity Harmonization Service](indigo1/idh1.md)
        * [INDIGO IAM](indigo1/iam1.md)
        * [INDIGO OMT](indigo1/omt1.md)
-       * INDIGO Kepler
+       * [INDIGO Kepler](indigo1/kepler1.md)
        * Infrastructure manager
        * Infrastructure Manager Java API
        * Liferay IAM

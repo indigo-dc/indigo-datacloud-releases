@@ -11,7 +11,7 @@
        * [CloudProviderRanker](indigo1/cpr1.md)
        * [CLUES](indigo1/clues1.md)
        * [dCache](indigo1/dcache1.md)
-       * Partition Director
+       * [Partition Director](indigo1/dynpart1.md)
        * TOSCA-in-HEAT
        * Identity Harmonization Service
        * INDIGO IAM

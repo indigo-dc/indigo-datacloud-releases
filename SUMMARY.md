@@ -17,6 +17,7 @@
        * INDIGO IAM
        * INDIGO OMT
        * INDIGO Kepler
+       * Infrastructure manager
    * [Applications](applications_indigo1.md)
    * [Updates](updates_indigo1.md)
 * [INDIGO-2 ElectricIndigo](chapter2.md)

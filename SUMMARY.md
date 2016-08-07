@@ -25,7 +25,7 @@
        * [ONEdock](indigo1/onedock1.md)
        * [OpenStack OCCI Interface](indigo1/ooi1.md)
        * [OpenStack Preemptible Instances Extension](indigo1/opie1.md)
-       * Ophidia
+       * [Ophidia](indigo1/ophidia1.md)
        * Orchestrator
        * pOCCI
        * OpenStack NOVA Client

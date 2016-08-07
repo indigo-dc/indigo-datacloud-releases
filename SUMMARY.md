@@ -28,6 +28,7 @@
        * Orchestrator
        * pOCCI
        * OpenStack NOVA Client
+       * OpenStack Client
    * [Applications](applications_indigo1.md)
    * [Updates](updates_indigo1.md)
 * [INDIGO-2 ElectricIndigo](chapter2.md)

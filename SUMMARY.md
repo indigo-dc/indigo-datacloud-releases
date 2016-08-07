@@ -6,7 +6,7 @@
    * [Core Services](core_services_indigo1.md)
        * [Core Service 1 template](core_service_1_template.md)
        * [Accounting](indigo1/accounting1.md)
-       * [CDMI Server](indigo1/cdmi_server1.md)
+       * [CDMI Server](indigo1/cdmi1.md)
        * CloudInfoProvider
        * CloudProviderRanker
        * CLUES

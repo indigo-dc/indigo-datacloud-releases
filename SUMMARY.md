@@ -30,7 +30,7 @@
        * [pOCCI](indigo1/pocci1.md)
        * [OpenStack NOVA Client](indigo1/python-nova1.md)
        * [OpenStack Client](indigo1/python-osclient1.md)
-       * RepoSync
+       * [RepoSync](indigo1/reposync1.md)
        * rOCCI
        * SLA Manager
        * Synergy

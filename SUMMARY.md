@@ -33,7 +33,7 @@
        * [RepoSync](indigo1/reposync1.md)
        * [rOCCI](indigo1/rocci1.md)
        * [SLA Manager](indigo1/slam1.md)
-       * Synergy
+       * [Synergy](indigo1/synergy1.md)
        * TOSCA Parser & Types
        * Yoken Translation Service
        * udocker

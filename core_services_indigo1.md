@@ -15,7 +15,7 @@ Full list of INDIGO-1 MidnightBlue Core Services, with detailed release notes an
 * [Identity Harmonization Service](indigo1/idh1.md)
 * [INDIGO IAM](indigo1/iam1.md)
 * [INDIGO OMT](indigo1/omt1.md)
-* [INDIGO Kepler](kepler1.md)
+* [INDIGO Kepler](indigo1/kepler1.md)
 * [Infrastructure Manager (IM)](im1.md)
 * [Infrastructure Manager Java API (IM-Java-API)](imjavaapi1.md)
 * [JSAGA Resource Management API](jsagarmapi1.md)

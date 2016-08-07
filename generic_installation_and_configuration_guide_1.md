@@ -24,7 +24,7 @@ If not present by default on your nodes, you should enable the EPEL repository (
 EPEL has an 'epel-release' package that includes gpg keys for package signing and repository information. Installing the latest version of epel-release package available on EPEL7 repositories like:
 * [http://download.fedoraproject.org/pub/epel/7/x86_64/e/](http://download.fedoraproject.org/pub/epel/7/x86_64/e/) 
 
-allows you to use normal tools, such as **yum**, to install packages and their dependencies. By default the stable EPEL repo is enabled.
+allows you to use normal tools, such as **yum**, to install packages and their dependencies. By default the stable EPEL repo should be enabled.
 
 
 #### Ubuntu 14.04

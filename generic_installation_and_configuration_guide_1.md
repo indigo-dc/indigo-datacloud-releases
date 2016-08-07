@@ -37,11 +37,14 @@ For more information on Ubuntu please check: [http://www.ubuntu.com/](http://www
 
 Information to install this operating system can be found at [http://releases.ubuntu.com/trusty/](http://releases.ubuntu.com/trusty/) and or at [Ubuntu Community Installation Guide ](https://help.ubuntu.com/community/Installation) and regarding Docker Containers at [Ubuntu Official Docker repository](https://hub.docker.com/_/ubuntu/).
 
+<a id="id4"></a>
 ### CloudManagement Frameworks
 
 #### OpenStack Liberty
-#### OpenNebula 14.
 
+#### OpenNebula 4.14
+
+<a id="id5"></a>
 ## Enable the INDIGO - DataCloud packages repositories
 
 INDIGO - DataCloud products are distributed from standard OS repositories and DockerHub registry. 

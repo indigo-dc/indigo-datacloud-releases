@@ -18,7 +18,7 @@
        * [INDIGO OMT](indigo1/omt1.md)
        * [INDIGO Kepler](indigo1/kepler1.md)
        * [Infrastructure manager](indigo1/im1.md)
-       * Infrastructure Manager Java API
+       * [Infrastructure Manager Java API](indigo1/imjavaapi1.md)
        * Liferay IAM
        * ONEDATA
        * ONEdock

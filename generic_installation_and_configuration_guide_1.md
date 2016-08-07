@@ -69,18 +69,19 @@ For automatic configuration:
 
 #### Configuring the use of INDIGO - DataCloud repositories
 
-* INDIGO-1 production repositories are available at:
-  * http://repo.indigo-datacloud.eu/repository/indigo/1/ 
-* YUM & APT configuration files are available at:
-  * CentOS7 - [http://repo.indigo-datacloud.eu/repos/1/indigo1.repo](http://repo.indigo-datacloud.eu/repos/1/indigo1.repo)
-  * Ubuntu 14.04 - [http://repo.indigo-datacloud.eu/repos/1/indigo1-ubuntu14_04.list](http://repo.indigo-datacloud.eu/repos/1/indigo1-ubuntu14_04.list) 
+INDIGO-1 production repositories are available at:
+* http://repo.indigo-datacloud.eu/repository/indigo/1/ 
 
-* install INDIGO - DataCloud repositories :
-  * CentOS7/x86_64:
-  ```# yum install http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/base/indigodc-release-1.0.0-1.el7.centos.noarch.rpm``` 
-  * Ubuntu 14.04:
-  ```# wget http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/main/binary-amd64/indigodc-release_1.0.0-1_amd64.deb
-# dpkg -i indigodc-release_1.0.0-1_amd64.deb``` 
+YUM & APT configuration files are available at:
+* CentOS7 - [http://repo.indigo-datacloud.eu/repos/1/indigo1.repo](http://repo.indigo-datacloud.eu/repos/1/indigo1.repo)
+* Ubuntu 14.04 - [http://repo.indigo-datacloud.eu/repos/1/indigo1-ubuntu14_04.list](http://repo.indigo-datacloud.eu/repos/1/indigo1-ubuntu14_04.list) 
+
+Install INDIGO - DataCloud repositories :
+* CentOS7/x86_64:
+  ```$ yum install http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/base/indigodc-release-1.0.0-1.el7.centos.noarch.rpm``` 
+* Ubuntu 14.04:
+  ```$ wget http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/main/binary-amd64/indigodc-release_1.0.0-1_amd64.deb
+$ dpkg -i indigodc-release_1.0.0-1_amd64.deb``` 
 
 These packages will install required dependencies, the INDIGO - DataCloud public key and ensures the precedence of INDIGO - DataCloud repositories over EPEL and Ubuntu. 
 

@@ -15,6 +15,7 @@
        * TOSCA-in-HEAT
        * Identity Harmonization Service
        * INDIGO IAM
+       * INDIGO OMT
    * [Applications](applications_indigo1.md)
    * [Updates](updates_indigo1.md)
 * [INDIGO-2 ElectricIndigo](chapter2.md)

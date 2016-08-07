@@ -18,7 +18,18 @@ All the information to install this operating system can be found at https://www
 
 You will find there information on CentOS [packages](http://mirror.centos.org/centos/7/) and [Docker Containers](https://hub.docker.com/_/centos/).
 
-Example of centos.repo file:
+##### The EPEL repository
+If not present by default on your nodes, you should enable the EPEL repository (https://fedoraproject.org/wiki/EPEL)
+
+EPEL has an 'epel-release' package that includes gpg keys for package signing and repository information. Installing the latest version of epel-release package available on EPEL7 repositories like:
+* [http://download.fedoraproject.org/pub/epel/7/x86_64/e/](http://download.fedoraproject.org/pub/epel/7/x86_64/e/) 
+
+allows you to use normal tools, such as **yum**, to install packages and their dependencies. By default the stable EPEL repo is enabled.
+
+
+#### Ubuntu 14.04
+
+
 
 
 

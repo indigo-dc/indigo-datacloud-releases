@@ -37,7 +37,7 @@
        * [TOSCA Parser & Types](indigo1/tosca-pt1.md)
        * [Token Translation Service](indigo1/tts1.md)
        * [udocker](indigo1/udocker1.md)
-       * Zabbix Probes
+       * [Zabbix Probes](indigo1/zabbix-probes1.md)
    * [Applications](applications_indigo1.md)
    * [Updates](updates_indigo1.md)
 * [INDIGO-2 ElectricIndigo](chapter2.md)

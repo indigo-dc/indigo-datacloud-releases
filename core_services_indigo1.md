@@ -19,7 +19,7 @@ Full list of INDIGO-1 MidnightBlue Core Services, with detailed release notes an
 * [Infrastructure Manager (IM)](indigo1/im1.md)
 * [Infrastructure Manager Java API (IM-Java-API)](indigo1/imjavaapi1.md)
 * [JSAGA Resource Management API](indigo1/jsagarmapi1.md)
-* [Liferay IAM](liferayiam1.md)
+* [Liferay IAM](indigo1/liferayiam1.md)
 * [ONEDATA](onedata1.md)
 * [ONEDock](onedock1.md)
 * [OpenStack OCCI Interface (OOI)](ooi1.md)

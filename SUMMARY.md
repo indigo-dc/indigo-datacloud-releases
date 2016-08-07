@@ -37,6 +37,7 @@
        * Yoken Translation Service
        * udocker
        * Zabbix Probes
+       * jSAGA ResourceManager API
    * [Applications](applications_indigo1.md)
    * [Updates](updates_indigo1.md)
 * [INDIGO-2 ElectricIndigo](chapter2.md)

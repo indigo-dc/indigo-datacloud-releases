@@ -13,7 +13,7 @@
        * [dCache](indigo1/dcache1.md)
        * [Partition Director](indigo1/dynpart1.md)
        * [TOSCA-in-HEAT](indigo1/heat-translator1.md)
-       * Identity Harmonization Service
+       * [Identity Harmonization Service](indigo1/idh1.md)
        * INDIGO IAM
        * INDIGO OMT
        * INDIGO Kepler

@@ -77,7 +77,7 @@ YUM & APT configuration files are available at:
 * Ubuntu 14.04 - [http://repo.indigo-datacloud.eu/repos/1/indigo1-ubuntu14_04.list](http://repo.indigo-datacloud.eu/repos/1/indigo1-ubuntu14_04.list) 
 
 Install INDIGO - DataCloud repositories :
-* CentOS7:
+* CentOS7: 
 
 ```$ yum install http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/base/indigodc-release-1.0.0-1.el7.centos.noarch.rpm``` 
 

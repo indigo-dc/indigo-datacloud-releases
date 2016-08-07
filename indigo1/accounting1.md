@@ -14,37 +14,42 @@ Summary:
 
 ### What's new
 
+* Firt release of the APEL REST interface
 
 #### List of RfCs 
 
+* https://project.indigo-datacloud.eu/work_packages/3230
+* https://project.indigo-datacloud.eu/work_packages/3269
+* https://github.com/apel/rest/issues
 
 ### Deployment Notes
 
-* Installation methods: 
-  * Installation not required as everything is in the Docker container
-* Set up from source: 
-  * See [https://github.com/indigo-dc/Accounting/blob/master/README.md](https://github.com/indigo-dc/Accounting/blob/master/README.md)
-* Running from Docker:
-  * Get the script 
-
-    ```wget https://github.com/indigo-dc/Accounting/blob/master/docker/run_container.sh```
-
-  * Configure **MYSQL_ROOT_PASSWROD** (and APEL user password) in *run_container.sh*
-  * Configure **ALLOWED FOR GET**, **SERVER_IAM_ID**, **SERVER_IAM_SECRET**, **DJANGO_SECRET_KEY** in *run_container.sh*, and afterwards run:
-
-    ```chmod a+x run_container.sh
-    ./run_container.sh```
-
-
+* Please see detailed [Instalation & Configuration Guide](https://indigo-dc.gitbooks.io/accounting/content/)
 
 ### Known Issues
 
+* N/A
 
 ### Documentation
 
-
+* [Developer guide](https://indigo-dc.gitbooks.io/accounting/content/doc/developer.html)
+* [Deployment and Administration guide](https://indigo-dc.gitbooks.io/accounting/content/doc/admin.html)
+* [User guide](https://indigo-dc.gitbooks.io/accounting/content/doc/user.html)
+ 
 ### List of Artifacts
 
 Docker Container:
 * [indigodatacloud/accounting:indigo_1](https://hub.docker.com/r/indigodatacloud/accounting/)
 
+Third-Party dependencies:
+* Accounting Collectors - OpenNebula
+  * [rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/third-party/oneacct-export-0.2.6-1.x86_64.rpm)
+  * [deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/third-party/binary-amd64/oneacct-export_0.2.6-1_amd64.deb)
+* Accounting Collectors - OpenStack
+  * [tarball](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/caso_0.3.2.orig.tar.gz)
+  * [deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/third-party/binary-amd64/caso_0.3.2-1ubuntu2_all.deb)
+
+### Support
+
+* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
+https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

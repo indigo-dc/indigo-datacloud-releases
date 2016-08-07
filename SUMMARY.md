@@ -32,7 +32,7 @@
        * [OpenStack Client](indigo1/python-osclient1.md)
        * [RepoSync](indigo1/reposync1.md)
        * [rOCCI](indigo1/rocci1.md)
-       * SLA Manager
+       * [SLA Manager](indigo1/slam1.md)
        * Synergy
        * TOSCA Parser & Types
        * Yoken Translation Service

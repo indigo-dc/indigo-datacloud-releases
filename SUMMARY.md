@@ -38,6 +38,7 @@
        * [Token Translation Service](indigo1/tts1.md)
        * [udocker](indigo1/udocker1.md)
        * [Zabbix Probes](indigo1/zabbix-probes1.md)
+       * Nova-Docker
    * [Applications](applications_indigo1.md)
    * [Updates](updates_indigo1.md)
    * [DataCenter Solutions](indigo1/datacenter_solutions.md)

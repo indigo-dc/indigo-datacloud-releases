@@ -6,6 +6,7 @@
    * [Core Services](core_services_indigo1.md)
        * [Core Service 1 template](core_service_1_template.md)
        * Accounting
+       * CDMI Server
    * [Applications](applications_indigo1.md)
    * [Updates](updates_indigo1.md)
 * [INDIGO-2 ElectricIndigo](chapter2.md)

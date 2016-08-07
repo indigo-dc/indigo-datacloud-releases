@@ -22,6 +22,7 @@
        * Liferay IAM
        * ONEDATA
        * ONEdock
+       * OpenStack OCCI Interface
    * [Applications](applications_indigo1.md)
    * [Updates](updates_indigo1.md)
 * [INDIGO-2 ElectricIndigo](chapter2.md)

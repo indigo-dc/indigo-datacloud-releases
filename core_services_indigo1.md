@@ -11,7 +11,7 @@ Full list of INDIGO-1 MidnightBlue Core Services, with detailed release notes an
 * [Partition Director (dynpart)](indigo1/dynpart1.md)
 * [FutureGateway API Server](fgapiserver1.md)
 * [FutureGateway API Server Daemon](fgapiserverdaemon1.md)
-* [TOSCA-in-HEAT (Heat-Translator)](heattranslator1.md) 
+* [TOSCA-in-HEAT (indigo1/heat-translator1.md)](heattranslator1.md) 
 * [Identity Harmonization Service](idh1.md)
 * [INDIGO IAM](iam1.md)
 * [INDIGO OMT](omt1.md)

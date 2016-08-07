@@ -30,7 +30,7 @@ Full list of INDIGO-1 MidnightBlue Core Services, with detailed release notes an
 * [Orchestrator](indigo1/orchestrator1.md)
 * [pOCCI](indigo1/pocci1.md)
 * [RepoSync](indigo1/reposync1.md)
-* [rOCCI](rocci1.md)
+* [rOCCI](indigo1/rocci1.md)
 * [SLA Manager](slam1.md)
 * [Synergy](synergy1.md) 
 * [TOSCA-Parser & Types](tosca-pt1.md)

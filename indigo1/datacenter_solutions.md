@@ -7,6 +7,7 @@ The INDIGO - DataCloud project is providing many new features/services for resou
 * Improved and transparent support for Docker containers. This includes for example the introduction of native container support in OpenNebula. 
 
 * [CloudInfoProvider](cip1.md)
+* [CloudProviderRanker](cpr1.md)
 * [CDMI Server](cdmi1.md)
 * [OpenStack Preemptible Instances Extension (OPIE)](indigo1/opie1.md)
 * [Partition Director (dynpart)](indigo1/dynpart1.md)

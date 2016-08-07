@@ -27,7 +27,7 @@
        * [OpenStack Preemptible Instances Extension](indigo1/opie1.md)
        * [Ophidia](indigo1/ophidia1.md)
        * [Orchestrator](indigo1/orchestrator1.md)
-       * pOCCI
+       * [pOCCI](indigo1/pocci1.md)
        * OpenStack NOVA Client
        * OpenStack Client
        * RepoSync

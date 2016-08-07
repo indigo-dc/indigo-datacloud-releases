@@ -36,5 +36,5 @@ Full list of INDIGO-1 MidnightBlue Core Services, with detailed release notes an
 * [TOSCA-Parser & Types](indigo1/tosca-pt1.md)
 * [Token Translation Service (TTS)](indigo1/tts1.md)
 * [udocker](indigo1/udocker1.md)
-* [Zabbix Probes](zabbix-probes1.md)
+* [Zabbix Probes](indigo1/zabbix-probes1.md)
 

@@ -39,7 +39,7 @@
        * [Token Translation Service](indigo1/tts1.md)
        * [udocker](indigo1/udocker1.md)
        * [Zabbix Probes](indigo1/zabbix-probes1.md)
-       * FutureGateway jSAGA Adaptors
+       * [FutureGateway jSAGA Adaptors](indigo1/fg_jsaga_adaptors1.md)
    * [Applications](applications_indigo1.md)
    * [Updates](updates_indigo1.md)
    * [DataCenter Solutions](indigo1/datacenter_solutions.md)

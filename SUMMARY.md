@@ -7,6 +7,7 @@
        * [Core Service 1 template](core_service_1_template.md)
        * Accounting
        * CDMI Server
+       * CloudInfoProvider
    * [Applications](applications_indigo1.md)
    * [Updates](updates_indigo1.md)
 * [INDIGO-2 ElectricIndigo](chapter2.md)

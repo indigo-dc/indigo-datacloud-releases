@@ -22,7 +22,7 @@ Full list of INDIGO-1 MidnightBlue Core Services, with detailed release notes an
 * [Liferay IAM](indigo1/liferayiam1.md)
 * [ONEDATA](indigo1/onedata1.md)
 * [ONEDock](indigo1/onedock1.md)
-* [OpenStack OCCI Interface (OOI)](ooi1.md)
+* [OpenStack OCCI Interface (OOI)](indigo1/ooi1.md)
 * [OpenStack Preemptible Instances Extension (OPIE)](opie1.md)
 * [Ophidia](ophidia1.md)
 * [Orchestrator](orchestrator1.md)

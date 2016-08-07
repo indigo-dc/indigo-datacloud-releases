@@ -10,19 +10,22 @@ Summary:
   * [List of Artifacts](#id7)
   * [Support](#id8)
 
-
+<a id="id1"></a>
 ## Release Notes
 
+<a id="id2"></a>
 ### What's new
 
 INDIGO-DataCloud CDMI Server with QoS:
 * This project provides the official reference implementation of the **SNIA Cloud Data Management Interface (CDMI)**, an ISO standard, and also a Spring Boot application port of the SNIA CDMI-Server.
 * The **CDMI server** has been extended to support Quality-of-Service (QoS) and Data Life-cycle (DLC) operations for multiple storage back-ends like dCache, Ceph, GPFS, Gemss+TSM, StoRM and HPSS.
 
+<a id="id3"></a>
 #### List of RfCs 
 
 * [https://github.com/indigo-dc/CDMI/issues](https://github.com/indigo-dc/CDMI/issues)
 
+<a id="id4"></a>
 ### Deployment Notes
 
 Supported platforms:
@@ -37,10 +40,12 @@ Install via packages: cdmi-server-0.1.deb, cdmi-server-0.1-1.x86_64.rpm
 Run with Docker
 * [https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/running_cdmi-qos_as_a_docker_container.html](https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/running_cdmi-qos_as_a_docker_container.html)
 
+<a id="id5"></a>
 ### Known Issues
 
 * N/A
-* 
+
+<a id="id6"></a>
 ### Documentation
 
 * [INDIGO-DataCloud CDMI Server with QoS - Overview](https://indigo-dc.gitbooks.io/cdmi-qos/content/)
@@ -48,9 +53,15 @@ Run with Docker
 * [Deployment Guide](https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/administrator.html)
 * [User Guide](https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/user.html)
 
+<a id="id7"></a>
 ### List of Artifacts
 
 Packages
 * [cdmi-server-1.0-2.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/base/cdmi-server-1.0-2.noarch.rpm)
 * [cdmi-server-0.1.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/main/binary-amd64/cdmi-server-0.1.deb)
 
+<a id="id8"></a>
+### Support
+
+* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
+https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

@@ -28,7 +28,7 @@
        * [Ophidia](indigo1/ophidia1.md)
        * [Orchestrator](indigo1/orchestrator1.md)
        * [pOCCI](indigo1/pocci1.md)
-       * OpenStack NOVA Client
+       * [OpenStack NOVA Client](indigo1/python-nova1.md)
        * OpenStack Client
        * RepoSync
        * rOCCI

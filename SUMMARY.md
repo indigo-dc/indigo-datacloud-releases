@@ -41,6 +41,7 @@
        * [Zabbix Probes](indigo1/zabbix-probes1.md)
        * [FutureGateway jSAGA Adaptors](indigo1/fg_jsaga_adaptors1.md)
        * [fgTools](indigo1/fgtools1.md)
+       * FutureGateway API Server
    * [Applications](applications_indigo1.md)
    * [Updates](updates_indigo1.md)
    * [DataCenter Solutions](indigo1/datacenter_solutions.md)

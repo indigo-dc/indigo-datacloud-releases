@@ -35,7 +35,7 @@
        * [SLA Manager](indigo1/slam1.md)
        * [Synergy](indigo1/synergy1.md)
        * [TOSCA Parser & Types](indigo1/tosca-pt1.md)
-       * Yoken Translation Service
+       * [Yoken Translation Service](indigo1/tts1.md)
        * udocker
        * Zabbix Probes
    * [Applications](applications_indigo1.md)

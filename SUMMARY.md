@@ -19,6 +19,7 @@
        * [INDIGO Kepler](indigo1/kepler1.md)
        * [Infrastructure manager](indigo1/im1.md)
        * [Infrastructure Manager Java API](indigo1/imjavaapi1.md)
+       * [jSAGA ResourceManager API](indigo1/jsagarmapi1.md)
        * Liferay IAM
        * ONEDATA
        * ONEdock
@@ -37,7 +38,6 @@
        * Yoken Translation Service
        * udocker
        * Zabbix Probes
-       * [jSAGA ResourceManager API](indigo1/jsagarmapi1.md)
    * [Applications](applications_indigo1.md)
    * [Updates](updates_indigo1.md)
 * [INDIGO-2 ElectricIndigo](chapter2.md)

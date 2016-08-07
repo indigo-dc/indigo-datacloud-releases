@@ -9,7 +9,7 @@ Full list of INDIGO-1 MidnightBlue Core Services, with detailed release notes an
 * [CLUES (CLUster Energy Saving)](clues1.md)
 * [dCache](dcache1.md)
 * [Partition Director (dynpart)](indigo1/dynpart1.md)
-* [FutureGateway API Server](fgapiserver1.md)
+* [FutureGateway API Server](indigo1/fgapiserver1.md)
 * [FutureGateway API Server Daemon](fgapiserverdaemon1.md)
 * [FutureGateway jSAGA Adaptors](indigo1/fg_jsaga_adaptors1.md)
 * [fgTools](indigo1/fgtools1.md)

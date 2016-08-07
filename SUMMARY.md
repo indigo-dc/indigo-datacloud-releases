@@ -29,7 +29,7 @@
        * [Orchestrator](indigo1/orchestrator1.md)
        * [pOCCI](indigo1/pocci1.md)
        * [OpenStack NOVA Client](indigo1/python-nova1.md)
-       * OpenStack Client
+       * [OpenStack Client](indigo1/python-osclient1.md)
        * RepoSync
        * rOCCI
        * SLA Manager

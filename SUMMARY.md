@@ -5,7 +5,7 @@
    * [Generic Installation and Configuration Guide](generic_installation_and_configuration_guide_1.md)
    * [Core Services](core_services_indigo1.md)
        * [Core Service 1 template](core_service_1_template.md)
-       * Accounting
+       * [Accounting](indigo1/accounting1.md)
        * CDMI Server
        * CloudInfoProvider
        * CloudProviderRanker

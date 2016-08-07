@@ -77,8 +77,11 @@ For automatic configuration:
 
 * install INDIGO - DataCloud repositories :
   * CentOS7/x86_64:
+
 ```# yum install http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/base/indigodc-release-1.0.0-1.el7.centos.noarch.rpm``` 
+
   * Ubuntu 14.04:
+
 ```# wget http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/main/binary-amd64/indigodc-release_1.0.0-1_amd64.deb
 # dpkg -i indigodc-release_1.0.0-1_amd64.deb``` 
 

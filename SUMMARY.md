@@ -12,7 +12,7 @@
        * [CLUES](indigo1/clues1.md)
        * [dCache](indigo1/dcache1.md)
        * [Partition Director](indigo1/dynpart1.md)
-       * TOSCA-in-HEAT
+       * [TOSCA-in-HEAT](indigo1/heat-translator1.md)
        * Identity Harmonization Service
        * INDIGO IAM
        * INDIGO OMT

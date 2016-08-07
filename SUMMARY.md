@@ -15,7 +15,7 @@
        * [TOSCA-in-HEAT](indigo1/heat-translator1.md)
        * [Identity Harmonization Service](indigo1/idh1.md)
        * [INDIGO IAM](indigo1/iam1.md)
-       * INDIGO OMT
+       * [INDIGO OMT](indigo1/omt1.md)
        * INDIGO Kepler
        * Infrastructure manager
        * Infrastructure Manager Java API

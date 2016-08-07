@@ -23,6 +23,7 @@
        * ONEDATA
        * ONEdock
        * OpenStack OCCI Interface
+       * OpenStack Preemptible Instances Extension
    * [Applications](applications_indigo1.md)
    * [Updates](updates_indigo1.md)
 * [INDIGO-2 ElectricIndigo](chapter2.md)

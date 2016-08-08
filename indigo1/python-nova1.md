@@ -14,9 +14,12 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
+This is a client for the OpenStack Nova API. There's a Python API (the novaclient module), and a command-line script (nova). Each implements 100% of the OpenStack Nova API.
 
 <a id="id2"></a>
 ### What's new
+
+This version add in OpenStack Nova support for INDIGO developments (preemptible instances, etc.)
 
 Supported Platforms:
 * CentOS7, Ubuntu14.04, OpenStack
@@ -24,9 +27,15 @@ Supported Platforms:
 <a id="id3"></a>
 #### List of RfCs 
 
+* N/A
+
+
 <a id="id4"></a>
 ### Deployment Notes
 
+* through packages.rpm for CentOS7 and edb for Ubuntu 14.04
+* See the [OpenStack CLI guide](http://docs.openstack.org/cli-reference/nova.html) for information on how to use the nova command-line tool. You may also want to look at the [OpenStack API documentation](http://developer.openstack.org/api-ref-compute-v2.1.html).
+* 
 <a id="id5"></a>
 ### Known Issues
 
@@ -35,7 +44,7 @@ Supported Platforms:
 <a id="id6"></a>
 ### Documentation
 
-* The product extends the current set of operations of python-novaclient by adding the preemptible option, needed by OPIE product. The documentation included in OPIE cover this new functionality added to the API.
+* The product extends the current set of operations of python-novaclient by adding the preemptible option, needed by OPIE product. The documentation included in [OpenStack Preemptible Instances Extension (OPIE)](indigo1/opie1.md) cover this new functionality added to the API.
 
 <a id="id7"></a>
 ### List of Artifacts
@@ -45,6 +54,8 @@ Packages:
 * python3-novaclient_5.0.1.dev3-indigo2_all.deb
 * python-novaclient_5.0.1.dev3-indigo2_all.deb
 * python-novaclient-doc_5.0.1.dev3-indigo2_all.deb
+
+
 <a id="id8"></a>
 ### Support
 

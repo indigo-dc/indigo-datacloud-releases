@@ -1,4 +1,4 @@
-# Partition Director v. 16.04-4
+# Partition Director v. 0.8
 
 Summary:
 * [Release Notes](#id1)
@@ -18,13 +18,17 @@ Summary:
 ### What's new
 
 Supported Platforms:
-* CentOS7 & Ubuntu 14.04, OpenStack
+* Operating System = CentOS 7
+* Cloud Management Frameworks = Openstack v. >= KILO
 
 <a id="id3"></a>
 #### List of RfCs 
 
 <a id="id4"></a>
 ### Deployment Notes
+
+* Installation is done through the RPMs provided and configuration files
+* See also [Deployment Details](https://indigo-dc.gitbooks.io/dynpart/content/chapter1.html)
 
 <a id="id5"></a>
 ### Known Issues

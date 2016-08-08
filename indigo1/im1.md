@@ -54,7 +54,7 @@ Supported Platforms:
 
 Packages:
 * IM-1.4.6-1.el7.noarch.rpm
-* * python-im_1.4.6-1_all.deb
+* python-im_1.4.6-1_all.deb
 
 Docker Container:
 * [indigodatacloud/im:indigo_1](indigodatacloud/im)

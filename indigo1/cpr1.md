@@ -8,6 +8,8 @@ Summary:
   * [Known Issues](#id5)
   * [Documentation](#id6)
   * [List of Artifacts](#id7)
+  * [Support](#id8)
+
 
 
 ## Release Notes

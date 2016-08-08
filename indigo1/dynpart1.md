@@ -1,4 +1,4 @@
-# Partition Director
+# Partition Director v. 16.04-4
 
 Summary:
 * [Release Notes](#id1)
@@ -16,6 +16,9 @@ Summary:
 
 <a id="id2"></a>
 ### What's new
+
+Supported Platforms:
+* CentOS7 & Ubuntu 14.04, OpenStack
 
 <a id="id3"></a>
 #### List of RfCs 

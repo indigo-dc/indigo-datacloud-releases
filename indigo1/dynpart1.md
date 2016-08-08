@@ -31,7 +31,7 @@ Supported Platforms:
 <a id="id3"></a>
 #### List of RfCs 
 
-* * High-level development tasks coordinated via [INDIGO-DC OpenProject tasks](https://project.indigo-datacloud.eu/work_packages/697?layout=false) (internal link)
+* High-level development tasks coordinated via [INDIGO-DC OpenProject tasks](https://project.indigo-datacloud.eu/work_packages/697?layout=false) (internal link)
  
 <a id="id4"></a>
 ### Deployment Notes

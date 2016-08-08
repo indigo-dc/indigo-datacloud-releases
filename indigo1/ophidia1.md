@@ -46,6 +46,8 @@ Supported Platforms
 <a id="id4"></a>
 ### Deployment Notes
 
+Admin Guide: http://ophidia.cmcc.it/documentation/admin/index.html
+
 <a id="id5"></a>
 ### Known Issues
 

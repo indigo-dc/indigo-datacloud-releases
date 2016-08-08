@@ -22,6 +22,9 @@ Summary:
 
 <a id="id4"></a>
 ### Deployment Notes
+* Provided RPM and DEB packages.
+* Both provide */etc/init.d/cloudproviderranker start/stop* script. 
+* Installation of RPM also starts the service; de-installation stops the service
 
 <a id="id5"></a>
 ### Known Issues

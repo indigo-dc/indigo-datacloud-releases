@@ -14,8 +14,13 @@ Summary:
 <a id="id1"></a>
 ## Release Notes
 
+The **INDIGO-DataCloud Identity Harmonization Service** provides a RESTful web service to link and unlink multiple local user accounts.
+* Linking user accounts modifies the local user accounts so that all linked accounts represent the specified primary account with group memberships of all groups from all accounts.
+
 <a id="id2"></a>
 ### What's new
+* This is the first release of the service
+* 
 
 Supported Platforms
 * all with Java >= 1.8, tested on Ubuntu 14.04, Ubuntu 16.04, CentOS 7

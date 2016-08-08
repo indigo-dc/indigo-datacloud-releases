@@ -1,4 +1,4 @@
-# TOSCA-in-HEAT
+# TOSCA-in-HEAT v. 0.5.1
 
 Summary:
 * [Release Notes](#id1)
@@ -20,6 +20,9 @@ Summary:
 <a id="id3"></a>
 #### List of RfCs 
 
+* Bugs: https://bugs.launchpad.net/heat-translator
+
+
 <a id="id4"></a>
 ### Deployment Notes
 
@@ -31,11 +34,22 @@ Summary:
 <a id="id6"></a>
 ### Documentation
 
+* Documentation: http://docs.openstack.org/developer/heat-translator/
+* Launchpad: https://launchpad.net/heat-translator
+* Blueprints: https://blueprints.launchpad.net/heat-translator
+* 
+
 <a id="id7"></a>
 ### List of Artifacts
+
+Packages:
+* heat-translator-0.5.1.dev37-1.noarch.rpm
+* python-heat-translator_0.5.1.dev37-1_all.deb
+
 
 <a id="id8"></a>
 ### Support
 
 * Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
 https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* IRC Channel: #openstack-heat-translator

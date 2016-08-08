@@ -33,14 +33,19 @@ Supported Platforms:
 <a id="id4"></a>
 ### Deployment Notes
 
-
+After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
 * On CentOS 7 
-* On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the Generic Installation and Configuration Guide:
 
-```apt-get update
-apt-get install opie```
+```$ yum clean all
+$ yum install opie```
+
+* On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
+
+```$ apt-get update
+$ apt-get install opie```
 
 * More details regarding installation and configuration can be found [here](https://opie.readthedocs.io/en/latest/installation.html)
+
 <a id="id5"></a>
 ### Known Issues
 
@@ -64,3 +69,5 @@ Packages:
 
 * Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
 https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+or
+* [https://github.com/indigo-dc/opie/issues](https://github.com/indigo-dc/opie/issues)

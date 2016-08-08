@@ -34,7 +34,7 @@ Supported on:
 #### List of RfCs 
 
 * High-level tasks coordinated via [INDIGO-DC OpenProject tasks](http://bit.ly/clues_rfc_indigo1) (internal link)
-* 
+ 
 <a id="id4"></a>
 ### Deployment Notes
 

@@ -14,6 +14,7 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
+**Ophidia** is a research project on big data analytics for eScience. It provides a framework for parallel I/O and data analysis, an array-based storage model and a hierarchical storage organization to partition and distribute multidimensional scientific datasets. Since the storage model does not rely on any scientific dataset file format, it can be exploited in different scientific domains and with very heterogeneous sets of data
 
 <a id="id2"></a>
 ### What's new
@@ -49,6 +50,8 @@ Please see the commits for each of the components:
 * [https://github.com/indigo-dc/ophidia-server/commits/v0.10.3](https://github.com/indigo-dc/ophidia-server/commits/v0.10.3)
 * [https://github.com/indigo-dc/ophidia-terminal](https://github.com/indigo-dc/ophidia-terminal)
 
+
+* instalaltion and configuration can be done also using[ ansible-role-ophidia-all](https://github.com/indigo-dc/ansible-role-ophidia-all)
 <a id="id4"></a>
 ### Deployment Notes
 

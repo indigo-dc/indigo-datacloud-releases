@@ -17,6 +17,11 @@ Summary:
 <a id="id2"></a>
 ### What's new
 
+Highlights:
+* Support for the INDIGO-DataCloud PaaS Orchestrator
+* Support for HTCondor
+* Support for Apache Mesos
+
 Supported on:
 * Ubuntu 14.04 / CentOS 7
 
@@ -25,7 +30,8 @@ Supported on:
 
 <a id="id4"></a>
 ### Deployment Notes
-
+* Ansible Role: https://github.com/indigo-dc/ansible-role-clues
+*
 <a id="id5"></a>
 ### Known Issues
 

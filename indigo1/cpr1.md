@@ -49,9 +49,17 @@ Supported platforms
 <a id="id6"></a>
 ### Documentation
 
+* [CloudProviderRanker GitBook](https://www.gitbook.com/book/indigo-dc/cloud-provider-ranker/details) 
 
 <a id="id7"></a>
 ### List of Artifacts
+Packages
+* CloudProviderRanker-0.4.2-1.deb
+* CloudProviderRanker-0.4.2-1_1.noarch.rpm
+
+Docker Container
+* [indigodatacloud/cloudproviderranker:indigo_1](https://hub.docker.com/r/indigodatacloud/cloudproviderranker/)
+
 
 <a id="id8"></a>
 ### Support

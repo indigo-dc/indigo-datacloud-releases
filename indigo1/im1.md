@@ -39,6 +39,13 @@ Supported Platforms:
 <a id="id3"></a>
 #### List of RfCs 
 
+* Development followed via GitHub:  https://github.com/indigo-dc/im
+  * High-level tasks coordinated via [WP5 OpenProject tasks](https://project.indigo-datacloud.eu/projects/wp5/work_packages?query_id=11) (internal link)
+
+* Project WP5, tasks with subject including [TOSCA Templates] or [Orchestrator/IM]
+
+* List og bugfixes addressed as a list of commits to the master branch: [https://github.com/indigo-dc/im/commits/master](https://github.com/indigo-dc/im/commits/master)
+
 <a id="id4"></a>
 ### Deployment Notes
 

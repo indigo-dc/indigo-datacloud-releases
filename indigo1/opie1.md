@@ -1,4 +1,4 @@
-# OpenStack Preemptible Instances Extension
+# OpenStack Preemptible Instances Extension (OPIE) v. 12.0.0
 
 
 Summary:
@@ -15,15 +15,27 @@ Summary:
 <a id="id1"></a>
 ## Release Notes
 
+**OPIE** is the materialization of the [preemptible instances extension](https://blueprints.launchpad.net/openstack/?searchtext=preemptible-instances) serving as a reference implementation. This package provides a set of pluggable extensions for [OpenStack Compute (nova)](http://openstack.org/) making possible to execute premptible instances using a modified filter scheduler.
+
 <a id="id2"></a>
 ### What's new
+
+Supported Platforms:
+* CentOS7 & Ubuntu 14.04
+* OpenStack v. Liberty
+
 
 <a id="id3"></a>
 #### List of RfCs 
 
+* [https://github.com/indigo-dc/opie/issues](https://github.com/indigo-dc/opie/issues)
+
 <a id="id4"></a>
 ### Deployment Notes
 
+On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the Generic 
+
+* More details regarding installation and configuration can be found [here](https://opie.readthedocs.io/en/latest/installation.html)
 <a id="id5"></a>
 ### Known Issues
 
@@ -32,8 +44,15 @@ Summary:
 <a id="id6"></a>
 ### Documentation
 
+* [OPIE GitBook](https://indigo-dc.gitbooks.io/opie/content/)
+
 <a id="id7"></a>
 ### List of Artifacts
+
+Packages:
+* opie-12.0.0-1.el7.centos.noarch.rpm
+* opie-doc_12.0.0-1ubuntu0_all.deb
+* opie_12.0.0-1ubuntu0_all.deb
 
 <a id="id8"></a>
 ### Support

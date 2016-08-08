@@ -63,7 +63,7 @@ From [INDIGO-1 repositories](http://repo.indigo-datacloud.eu) **OneZone** and **
 <a id="id3"></a>
 #### List of RfCs 
 
-* N/A - the same as the one mentioned in the release notes
+* N/A 
 
 <a id="id4"></a>
 ### Deployment Notes

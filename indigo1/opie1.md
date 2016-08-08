@@ -20,6 +20,14 @@ Summary:
 <a id="id2"></a>
 ### What's new
 
+New features and fixes as from [commits/12.0.0](https://github.com/indigo-dc/opie/commits/12.0.0):
+* Create a HostStatePartial and a new HostManager classes
+* Introduce a preemptible instances filter scheduler
+* Update tox.ini with upstream changes
+* api: raise HTTP NotImplemented instead of returning empty 
+* api: add unit testing
+
+
 Supported Platforms:
 * CentOS7 & Ubuntu 14.04
 * OpenStack v. Liberty
@@ -44,7 +52,8 @@ $ yum install opie```
 ```$ apt-get update
 $ apt-get install opie```
 
-* More details regarding installation and configuration can be found [here](https://opie.readthedocs.io/en/latest/installation.html)
+* More details regarding installation can be found [here](https://opie.readthedocs.io/en/latest/installation.html)
+* After the installation the service needs to be configured as described [here](https://opie.readthedocs.io/en/latest/configuration.html)
 
 <a id="id5"></a>
 ### Known Issues

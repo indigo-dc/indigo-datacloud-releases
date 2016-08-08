@@ -19,16 +19,13 @@ The **Identity and Access Management Service** provides a layer where identities
 <a id="id2"></a>
 ### What's new
 
-Highlights of the first release in INDIGO-1:
-* **Authentication**: The IAM supports the authentication mechanisms defined by the INDIGO AAI architecture (SAML, X.509, OpenID connect)
-* **Session management**: the IAM provides session management functionality. Sessions are used to provide single sign-on and logout functionality to client applications and services.
-* **Enrollment**: The IAM provides enrollment and registration functionalities, so that users can join groups/collaborations according to user-defined flows.
-* **Attribute and identity management**: The IAM provides services to manage group membership, attributes assignment, to group/collaboration administrators and the ability, for users, to consolidate multiple identities in a single INDIGO identity.
-* **User provisioning**: the IAM provides endpoints to provision information about users identities to other services, so that consistent local account provisioning, for example, can be implemented
-* **Policy definition, distribution and evaluation**: the IAM provides tools and APIs to
-  * define authorization policies on distributed resources
-  * define policy distribution flows so that policies can be imported from other IAM instances
-  * evaluate policies against a request context and issue an authorization decision
+This is the first public release of the INDIGO Identity and Access Management
+Service.
+
+The IAM is an OpenID-connect identity provider which provides:
+* OpenID-connect and OAuth client registration and management (leveraging and extending the MitreID connect server functionality
+* SCIM user and group provisioning and management
+* A partial implementation of the OAuth Token Exchange draft standard for OAuth token delegation and impersonation
 
 Supported Platforms:
 * The **IAM** service is currently distributed as a docker image from Dockerhub, so in order to run the service, you will need Docker v. 1.11.1 or greater. If you want to use docker-compose to deploy the service, you will also need docker-compose v.1.7.0 or greater.
@@ -42,6 +39,7 @@ Supported Platforms:
 ### Deployment Notes
 
 * Please read the [Deployment and Administration guide](https://indigo-dc.gitbooks.io/iam/content/doc/admin.html)
+* Documentation on how to build and run the service can be found in the [IAM GitBook manual](https://www.gitbook.com/book/andreaceccanti/iam/details) or on [Github](https://github.com/indigo-iam/iam/blob/master/SUMMARY.md).
 
 <a id="id5"></a>
 ### Known Issues

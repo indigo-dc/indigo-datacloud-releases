@@ -19,8 +19,15 @@ The **INDIGO-DataCloud Identity Harmonization Service** provides a RESTful web s
 
 <a id="id2"></a>
 ### What's new
-* This is the first release of the service
-* 
+Highlights of the [INDIGO-1 Release](https://github.com/indigo-dc/identity-harmonization/releases/tag/v1.0):
+* [commits/indigo-1](https://github.com/indigo-dc/identity-harmonization/commits/v1.0)
+  * This is the first release of the service
+  * change oauth2 tokens to oidc tokens
+  * saml delegation
+  * oidc + scim user info update
+  * work on harmonization algorithm
+  * owrk on LDAP support
+  * include local user mapping
 
 Supported Platforms
 * all with Java >= 1.8, tested on Ubuntu 14.04, Ubuntu 16.04, CentOS 7

@@ -1,4 +1,4 @@
-# Partition Director v. 0.8
+# Partition Director v. 0.08-1
 
 Summary:
 * [Release Notes](#id1)

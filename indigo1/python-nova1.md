@@ -1,4 +1,4 @@
-# OpenStack NOVA Client
+# OpenStack NOVA Client v. 5.0.1.dev3
 
 
 Summary:
@@ -18,6 +18,9 @@ Summary:
 <a id="id2"></a>
 ### What's new
 
+Supported Platforms:
+* CentOS7, Ubuntu14.04, OpenStack
+ 
 <a id="id3"></a>
 #### List of RfCs 
 
@@ -35,6 +38,11 @@ Summary:
 <a id="id7"></a>
 ### List of Artifacts
 
+Packages:
+* python2-novaclient-5.0.1.dev3-0indigo.el7.centos.noarch.rpm
+* python3-novaclient_5.0.1.dev3-indigo2_all.deb
+* python-novaclient_5.0.1.dev3-indigo2_all.deb
+* python-novaclient-doc_5.0.1.dev3-indigo2_all.deb
 <a id="id8"></a>
 ### Support
 

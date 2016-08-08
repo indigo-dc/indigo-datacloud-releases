@@ -17,11 +17,18 @@ Summary:
 <a id="id2"></a>
 ### What's new
 
+Supported Platforms:
+* Distributed as a Docker container
+* Also distributed as DEB/RPMs packages supporting Ubuntu 14.04 / CentOS 7
+
 <a id="id3"></a>
 #### List of RfCs 
 
 <a id="id4"></a>
 ### Deployment Notes
+
+```docker run -d -p 8899:8899 -p 8800:8800 --name im indigodatacloud/im:indigo_1```
+* Other installation procedures are described in: https://www.gitbook.com/book/indigo-dc/im/details
 
 <a id="id5"></a>
 ### Known Issues

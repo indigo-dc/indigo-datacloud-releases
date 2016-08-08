@@ -1,4 +1,4 @@
-# Infrastructure Manager Java API
+# Infrastructure Manager Java API  v0.4.7
 
 Summary:
 * [Release Notes](#id1)
@@ -16,6 +16,10 @@ Summary:
 
 <a id="id2"></a>
 ### What's new
+
+SUpported Platforms:
+* Any platform with a Java Runtime Environment
+
 
 <a id="id3"></a>
 #### List of RfCs 

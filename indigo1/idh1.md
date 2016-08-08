@@ -1,4 +1,4 @@
-# Identity Harmonization Service
+# Identity Harmonization Service (IDH) v. 1.0-2
 
 Summary:
 * [Release Notes](#id1)
@@ -17,11 +17,24 @@ Summary:
 <a id="id2"></a>
 ### What's new
 
+Supported Platforms
+* all with Java >= 1.8, tested on Ubuntu 14.04, Ubuntu 16.04, CentOS 7
+
 <a id="id3"></a>
 #### List of RfCs 
 
+* [https://github.com/indigo-dc/identity-harmonization/issues](https://github.com/indigo-dc/identity-harmonization/issues)
+
 <a id="id4"></a>
 ### Deployment Notes
+
+* Build from source with maven
+  * [https://indigo-dc.gitbooks.io/identity-harmonization/content/doc/building_from_sources.html](https://indigo-dc.gitbooks.io/identity-harmonization/content/doc/building_from_sources.html)
+* Install via packages: identity-harmonization-0.0.1.deb, identity-harmonization-0.0.1-1.x86_64.rpm
+  * [https://indigo-dc.gitbooks.io/identity-harmonization/content/doc/installing_idh.html](https://indigo-dc.gitbooks.io/identity-harmonization/content/doc/installing_idh.html)
+* Run with Docker
+  * [https://indigo-dc.gitbooks.io/identity-harmonization/content/doc/running_idh_as_a_docker_container.html](https://indigo-dc.gitbooks.io/identity-harmonization/content/doc/running_idh_as_a_docker_container.html)
+
 
 <a id="id5"></a>
 ### Known Issues
@@ -31,8 +44,16 @@ Summary:
 <a id="id6"></a>
 ### Documentation
 
+* [Identity Harmonisation Service GitBook](https://www.gitbook.com/book/indigo-dc/identity-harmonization/details)
+
 <a id="id7"></a>
 ### List of Artifacts
+Packages:
+* identity-harmonization-0.0.1.deb
+* identity-harmonization-0.0.1-1.x86_64.rpm
+
+Docker Container:
+* 
 
 <a id="id8"></a>
 ### Support

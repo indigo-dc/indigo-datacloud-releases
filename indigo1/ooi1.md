@@ -19,7 +19,16 @@ OOI is an implementation the [Open Cloud Computing Interface (OCCI)](http://www.
 
 <a id="id2"></a>
 ### What's new
-Highlights of changes as present in the [commits description](https://github.com/indigo-dc/ooi/commits/0.3.1)
+Highlights of changes as present in the [commits description](https://github.com/indigo-dc/ooi/commits/0.3.1):
+* fix nova <-> OCCI state mapping 
+* fix state transitions for OCCI actions 
+* Add support for SSH key injection
+* Handle multiple content-types into one header field
+* Catch exception if image is not found when showing a server
+* Support linking storage on compute creation 
+* do not access token info to obtain tenant
+* Solved OCCI validation using osnetwork mixin
+* 
 
 
 Ssupported Platforms:

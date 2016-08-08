@@ -14,6 +14,10 @@ Summary:
 <a id="id1"></a>
 ## Release Notes
 
+This project offers an API that allows to connect to the Infrastructure Manager REST API. For more information about the IM capabilities check: [IM Web](http://www.grycap.upv.es/im).
+
+The javadoc for this project can be found here: [Javadoc](http://indigo-dc.github.io/im-java-api/apidocs/)
+
 <a id="id2"></a>
 ### What's new
 Highlights on the improvements, new features and/or important fixes:
@@ -26,10 +30,14 @@ SUpported Platforms:
 <a id="id3"></a>
 #### List of RfCs 
 
+* * N/A
+
+
 <a id="id4"></a>
 ### Deployment Notes
 
-* It’s a Java library (JAR file). No installation required.
+* * It’s a Java library (JAR file). No installation required.
+* Please find detailed information regarding the installation and configuration on the [IM-Java_API GitBook Documentation](https://indigo-dc.gitbooks.io/im-java-api/content/)
 
 <a id="id5"></a>
 ### Known Issues

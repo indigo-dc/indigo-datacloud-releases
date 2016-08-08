@@ -20,7 +20,7 @@
        * [INDIGO IAM](indigo1/iam1.md)
        * [INDIGO OMT](indigo1/omt1.md)
        * [INDIGO Kepler](indigo1/kepler1.md)
-       * [Infrastructure manager](indigo1/im1.md)
+       * [Infrastructure Manager](indigo1/im1.md)
        * [Infrastructure Manager Java API](indigo1/imjavaapi1.md)
        * [jSAGA ResourceManager API](indigo1/jsagarmapi1.md)
        * [Liferay IAM](indigo1/liferayiam1.md)

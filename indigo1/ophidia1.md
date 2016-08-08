@@ -1,4 +1,4 @@
-# Ophidia
+# Ophidia v. 0.10.3
 
 
 Summary:
@@ -18,6 +18,28 @@ Summary:
 <a id="id2"></a>
 ### What's new
 
+Highlights of the new features, improvements, bug fixes provided with this release:
+* [ophidia-primitives](https://github.com/indigo-dc/ophidia-primitives/blob/master/HISTORY.md):
+  * Fixed: bug in core function of oph_dump
+  * Added: several warnings when building
+* [ophidia-analytics-framework](https://github.com/indigo-dc/ophidia-analytics-framework/blob/master/HISTORY.md):
+  * Fixed: several warnings when building
+  * Added: support for selection statement
+* [ophidia-server](https://github.com/indigo-dc/ophidia-server/blob/master/HISTORY.md):
+  * Fixed: some bug in massive operation handler
+  * Fixed: several warnings when building
+  * Added: code coverage check
+  * Added: unit tests
+  * Added: support for selection statement
+  * Changed: code indentation style
+  * Changed: library 'known operators' to improve modularity
+* [ophidia-terminal](https://github.com/indigo-dc/ophidia-terminal/blob/master/HISTORY.md):
+  * Fixed: several warnings when building
+  * Added: OPH_IF: graphical support for OPH_IF
+
+Supported Platforms
+* CentOS7, Ubuntu14.04
+
 <a id="id3"></a>
 #### List of RfCs 
 
@@ -32,11 +54,26 @@ Summary:
 <a id="id6"></a>
 ### Documentation
 
+* [Ophidia GitBook](https://www.gitbook.com/book/indigo-dc/ophidia/details)
+
 <a id="id7"></a>
 ### List of Artifacts
 
+Packages:
+* Ubuntu 14.04
+  * ophidia-analytics-framework_0.10.3-0_amd64.deb
+  * ophidia-primitives_0.10.3-0_amd64.deb
+  * ophidia-server_0.10.3-0_amd64.deb
+  * ophidia-terminal_0.10.3-0_amd64.deb
+* CentOS 7 
+  * ophidia-analytics-framework-0.10.3-0.el7.centos.x86_64.rpm
+  * ophidia-primitives-0.10.3-0.el7.centos.x86_64.rpm
+  * ophidia-server-0.10.3-0.el7.centos.x86_64.rpm
+  * ophidia-terminal-0.10.3-0.el7.centos.x86_64.rpm
+
 <a id="id8"></a>
 ### Support
-
-* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
+* [ophidia-info@lists.cmcc.it](ophidia-info@lists.cmcc.it)
+or
+* [INDIGO - DataCloud CatchAll GGUS Support Unit](
 https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

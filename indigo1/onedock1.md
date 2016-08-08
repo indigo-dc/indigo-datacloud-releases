@@ -1,4 +1,4 @@
-# ONEdock v. 1.0
+# ONEDock v. 1.0
 
 Summary:
 * [Release Notes](#id1)
@@ -13,6 +13,7 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
+ONEDock project intends to provide support for OpenNebula to create Docker containers and deliver them to the end user as if they were Virtual Machines.
 
 <a id="id2"></a>
 ### What's new
@@ -34,6 +35,8 @@ Supported Platforms:
 * Ansible Playbook (https://github.com/indigo-dc/onedock/tree/master/ansible)
 * Packages for Ubuntu 14.04 and CentOS 7
 
+* For more details see [ONEDock Installation Wiki](https://github.com/indigo-dc/onedock/wiki/Installation)
+
 <a id="id5"></a>
 ### Known Issues
 
@@ -42,17 +45,18 @@ Supported Platforms:
 <a id="id6"></a>
 ### Documentation
 
-* [ONEdock GitBook](https://www.gitbook.com/book/indigo-dc/onedock)
+* [ONEDock GitBook](https://www.gitbook.com/book/indigo-dc/onedock)
 
 <a id="id7"></a>
 ### List of Artifacts
 
-packages:
+Packages:
 * For CentOS 7: onedock-master-1.0-1.noarch.rpm, onedock-node-1.0-1.noarch.rpm
 * For Ubuntu 14.04:  onedock_1.0-1_master.deb, onedock_1.0-1_node.deb
 
 <a id="id8"></a>
 ### Support
 
+* Support via GitHub issues: [https://github.com/indigo-dc/onedock/issues](https://github.com/indigo-dc/onedock/issues)
 * Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
 https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

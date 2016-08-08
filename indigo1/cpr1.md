@@ -14,11 +14,27 @@ Summary:
 <a id="id1"></a>
 ## Release Notes
 
+**CloudProviderRanker** is a standalone REST WEB Service which ranks cloud providers basing on rules implemented with the [Drools framework]( http://drools.org/)
+
 <a id="id2"></a>
 ### What's new
 
+This is the first release of the service offering
+* Experimental basic ranking algorithm
+  * ranking based, first of all, on user's priorities then based on monitoring data if missing priorities
+* support for plain and SSL http connection
+* zero configuration stand alone http server (no tomcat/JBoss container required)
+* embedded jar file provided (all dependencies, but JDK, are included in the provided jar)
+* required JDK >= 1.8.0 (resolved as dependency by package installation)
+* Dockerfile for container build
+* yaml file for deployment in Kubernetes cluster
+
+Supported platforms
+* Any Linux operating system supporting JRE >= 1.8 (CentOS, Ubuntu, etc.)
+
 <a id="id3"></a>
 #### List of RfCs 
+* N/A
 
 <a id="id4"></a>
 ### Deployment Notes
@@ -28,9 +44,11 @@ Summary:
 
 <a id="id5"></a>
 ### Known Issues
-
+* N/A
+* 
 <a id="id6"></a>
 ### Documentation
+
 
 <a id="id7"></a>
 ### List of Artifacts

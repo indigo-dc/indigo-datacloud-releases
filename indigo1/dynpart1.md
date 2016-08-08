@@ -47,6 +47,8 @@ Supported Platforms:
 <a id="id6"></a>
 ### Documentation
 
+* [Partition Director GitBook](https://www.gitbook.com/book/indigo-dc/dynpart/details)
+
 <a id="id7"></a>
 ### List of Artifacts
 

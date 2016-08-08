@@ -32,11 +32,16 @@ Supported Platforms:
 <a id="id3"></a>
 #### List of RfCs 
 
+* [commits/v0.7.3](https://github.com/indigo-dc/omt-android/commits/v0.7.3):
+  * 
+
 <a id="id4"></a>
 ### Deployment Notes
 
-* the AAR file (the library) can't be run/install without sample-app
-* the APK file with sample app can't be installed on the device via Android Debug Bridge command: ```$ANDROID_HOME/platform-tools/adb install PATH_TO_APK_FILE```
+* the AAR file (the library) can be run/install without sample-app
+* the APK file with sample app can be installed on the device via Android Debug Bridge command: ```$ANDROID_HOME/platform-tools/adb install PATH_TO_APK_FILE```
+
+* Ansible playbook available on [GitHub](https://github.com/indigo-dc/omt-android/blob/master/indigo-omt.android.yml)
 
 <a id="id5"></a>
 ### Known Issues

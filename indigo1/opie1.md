@@ -33,7 +33,12 @@ Supported Platforms:
 <a id="id4"></a>
 ### Deployment Notes
 
-On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the Generic 
+
+* On CentOS 7 
+* On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the Generic Installation and Configuration Guide:
+
+```apt-get update
+apt-get install opie```
 
 * More details regarding installation and configuration can be found [here](https://opie.readthedocs.io/en/latest/installation.html)
 <a id="id5"></a>

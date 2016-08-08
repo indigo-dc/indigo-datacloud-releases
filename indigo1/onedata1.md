@@ -63,6 +63,8 @@ From [INDIGO-1 repositories](http://repo.indigo-datacloud.eu) **OneZone** and **
 <a id="id3"></a>
 #### List of RfCs 
 
+* N/A - the same as the one mentioned in the release notes
+
 <a id="id4"></a>
 ### Deployment Notes
 
@@ -79,8 +81,15 @@ From [INDIGO-1 repositories](http://repo.indigo-datacloud.eu) **OneZone** and **
 <a id="id7"></a>
 ### List of Artifacts
 
-* N/A - the same as the one mentioned in the release notes
-* 
+Packages
+* Ubuntu 12.04 - oneclient_3.0.0.07-1_amd64.deb
+* CentOS7 - oneclient-3.0.0.07-1.el7.centos.x86_64.rpm
+
+Docker images:
+* [indigodatacloud/onezone:indigo_1](https://hub.docker.com/r/indigodatacloud/onezone/)
+* [indigodatacloud/oneprovider:indigo_1](https://hub.docker.com/r/indigodatacloud/oneprovider/)
+* [indigodatacloud/oneclient:indigo_1](https://hub.docker.com/r/indigodatacloud/oneclient/)
+
 <a id="id8"></a>
 ### Support
 

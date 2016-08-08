@@ -60,7 +60,6 @@ Packages
 Docker Container
 * [indigodatacloud/cloudproviderranker:indigo_1](https://hub.docker.com/r/indigodatacloud/cloudproviderranker/)
 
-
 <a id="id8"></a>
 ### Support
 

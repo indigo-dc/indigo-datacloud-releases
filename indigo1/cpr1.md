@@ -1,4 +1,4 @@
-# CloudProviderRanker v. 0.3.0-3
+# CloudProviderRanker v. 0.4.2-1
 
 Summary:
 * [Release Notes](#id1)

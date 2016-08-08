@@ -74,11 +74,16 @@ From [INDIGO-1 repositories](http://repo.indigo-datacloud.eu) **OneZone** and **
 <a id="id6"></a>
 ### Documentation
 
+* [OneData on GitBook](https://www.gitbook.com/book/indigo-dc/onedata-documentation-indigo-dc/welcome)
+
 <a id="id7"></a>
 ### List of Artifacts
 
+* N/A - the same as the one mentioned in the release notes
+* 
 <a id="id8"></a>
 ### Support
 
+* Onedata provides live support chat: https://www.hipchat.com/g3ST0Aaci
 * Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
 https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

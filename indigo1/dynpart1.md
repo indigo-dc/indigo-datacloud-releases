@@ -14,8 +14,15 @@ Summary:
 <a id="id1"></a>
 ## Release Notes
 
+**Partition Director** ease management of a hybrid data center, where both Batch System based and cloud based services are provided. Physical computing resources can play both roles in a mutual exclusive fashion.
+
+The **Partition Director** takes care of commuting the role of one or more physical machines from "Worker Node" (member of the batch system cluster) to "Compute Node" (member of a cloud instance) and vice versa.
+
 <a id="id2"></a>
 ### What's new
+
+Highlights of first release:
+* Current release only works with the IBM/Platform LSF Batch system (version 7.0x or higher) and Openstack Cloud manager instances (Kilo or newer).
 
 Supported Platforms:
 * Operating System = CentOS 7
@@ -24,6 +31,8 @@ Supported Platforms:
 <a id="id3"></a>
 #### List of RfCs 
 
+* * High-level development tasks coordinated via [INDIGO-DC OpenProject tasks](https://project.indigo-datacloud.eu/work_packages/697?layout=false) (internal link)
+ 
 <a id="id4"></a>
 ### Deployment Notes
 
@@ -40,6 +49,10 @@ Supported Platforms:
 
 <a id="id7"></a>
 ### List of Artifacts
+
+Packages:
+* python-dynpart-partition-director-0.08-1.el7.centos.noarch.rpm
+* python-lsf-dynpart-partition-director-0.08-1.el7.centos.noarch.rpm
 
 <a id="id8"></a>
 ### Support

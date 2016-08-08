@@ -25,6 +25,26 @@ This release provides te following versions of the OneData framework:
 * Onezone 3.0.0.07
 * Oneclient 3.0.0.07
 
+Specific product release notes for the version included in INDIGO-1 release 
+* **OneZone**:
+  * Use wrappers for macaroon serialization
+  * Update GUI
+  * Add basic authorization (login and password)
+  * Support for nested groups
+  * Change levels for several datastore models
+* **OneProvider** and **OneClient**:
+  *  Update session management
+  *  Improve oneclient stability
+  *  New oneclient with faster proxy and SMB
+  *  Improve automatic storage discovery
+  *  Improved GUI
+  *  Support for prefetching
+  *  Support for S3
+  *  Metadata synchronization between providers improved
+  *  Support for nested groups
+  *  Several op_worker stability improvements
+  *  Extend op_worker system monitoring
+
 Supported Platforms:
 * **Oneclient**:
   * any platform that supports Docker Engine (>11.2)

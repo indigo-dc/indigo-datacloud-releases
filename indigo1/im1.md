@@ -1,4 +1,4 @@
-# Infrastructure Manager
+# Infrastructure Manager v1.4.6
 
 Summary:
 * [Release Notes](#id1)

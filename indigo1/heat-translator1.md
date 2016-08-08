@@ -30,6 +30,8 @@ Highlights of the [INDIGO-1 Release](https://github.com/MatMaul/heat-translator/
   * Implements get_operation_output function
   * Handle artifacts defining a Ansible Galaxy role 
 
+Supported Platforms:
+* Tested with centos7+rdo and ubuntu14.04+ppa:mitaka-testing.
 
 <a id="id3"></a>
 #### List of RfCs 

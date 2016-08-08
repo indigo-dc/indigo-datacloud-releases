@@ -19,11 +19,11 @@ OOI is an implementation the [Open Cloud Computing Interface (OCCI)](http://www.
 
 <a id="id2"></a>
 ### What's new
-
+Highlights of changes as present in the [commits description](https://github.com/indigo-dc/ooi/commits/0.3.1)
 
 
 Ssupported Platforms:
-* CentOS7, Ubuntu 14.04
+* CentOS 7, Ubuntu 14.04
 * OpenStack (Kilo onwards)
 
 <a id="id3"></a>

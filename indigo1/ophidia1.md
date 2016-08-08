@@ -43,10 +43,16 @@ Supported Platforms
 <a id="id3"></a>
 #### List of RfCs 
 
+Please see the commits for each of the components:
+* [https://github.com/indigo-dc/ophidia-primitives/commits/v0.10.3](https://github.com/indigo-dc/ophidia-primitives/commits/v0.10.3)
+* [https://github.com/indigo-dc/ophidia-analytics-framework/commits/v0.10.3](https://github.com/indigo-dc/ophidia-analytics-framework/commits/v0.10.3)
+* [https://github.com/indigo-dc/ophidia-server/commits/v0.10.3](https://github.com/indigo-dc/ophidia-server/commits/v0.10.3)
+* [https://github.com/indigo-dc/ophidia-terminal](https://github.com/indigo-dc/ophidia-terminal)
+
 <a id="id4"></a>
 ### Deployment Notes
 
-Admin Guide: http://ophidia.cmcc.it/documentation/admin/index.html
+After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md) please follow the instructions present in the [Ophidia Admin Guide]( http://ophidia.cmcc.it/documentation/admin/index.html)
 
 <a id="id5"></a>
 ### Known Issues

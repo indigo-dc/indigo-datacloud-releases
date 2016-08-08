@@ -35,6 +35,8 @@ Supported Platforms:
 <a id="id6"></a>
 ### Documentation
 
+* The product extends the current set of operations of python-novaclient by adding the preemptible option, needed by OPIE product. The documentation included in OPIE cover this new functionality added to the API.
+
 <a id="id7"></a>
 ### List of Artifacts
 

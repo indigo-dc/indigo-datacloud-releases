@@ -1,5 +1,5 @@
 
-# jSAGA ResourceManager API
+# jSAGA ResourceManager API v. 1.2.0
 
 
 Summary:
@@ -19,11 +19,19 @@ Summary:
 <a id="id2"></a>
 ### What's new
 
+Supported Platforms : 
+* any OS supporting Java 1.7 or later
+
+
 <a id="id3"></a>
 #### List of RfCs 
 
 <a id="id4"></a>
 ### Deployment Notes
+
+Installation methods :
+
+    ```mvn clean ; mvn install (on developer's host)```
 
 <a id="id5"></a>
 ### Known Issues
@@ -33,11 +41,19 @@ Summary:
 <a id="id6"></a>
 ### Documentation
 
+* j[SAGA RM API GitBook](https://indigo-dc.gitbooks.io/jsaga-resource-management/content/)
+* 
 <a id="id7"></a>
 ### List of Artifacts
+
+Tarballs:
+* jsaga-installer-1.2.0-20160802.161115-8-bin.tar.gz
+
 
 <a id="id8"></a>
 ### Support
 
-* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
+* [https://forge.in2p3.fr/projects/jsaga/boards/11](https://forge.in2p3.fr/projects/jsaga/boards/11)
+or
+* the [INDIGO - DataCloud CatchAll GGUS Support Unit](
 https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

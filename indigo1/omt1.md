@@ -32,8 +32,7 @@ Supported Platforms:
 <a id="id3"></a>
 #### List of RfCs 
 
-* [commits/v0.7.3](https://github.com/indigo-dc/omt-android/commits/v0.7.3):
-  * 
+* [commits/v0.7.3](https://github.com/indigo-dc/omt-android/commits/v0.7.3)
 
 <a id="id4"></a>
 ### Deployment Notes
@@ -63,3 +62,5 @@ Supported Platforms:
 
 * Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
 https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+or
+* [https://github.com/indigo-dc/omt-android/issues](https://github.com/indigo-dc/omt-android/issues)

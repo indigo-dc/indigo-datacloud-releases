@@ -16,7 +16,7 @@ Summary:
 
 **Onedata** is a global data management system, providing easy access to distributed storage resources, supporting wide range of use cases from personal data management to data-intensive scientific computations.
 
-For quick overview of basic concepts and functionality check out our [Getting started](https://www.gitbook.com/content/book/indigo-dc/onedata-documentation/doc/getting_started/what_is_onedata.html) section.
+For quick overview of basic concepts and functionality check out our [Getting started](https://indigo-dc.gitbooks.io/onedata-documentation/content/doc/getting_started/what_is_onedata.html) section.
 <a id="id2"></a>
 
 ### What's new
@@ -37,7 +37,8 @@ Supported Platforms:
 * **OneZone**:
   * Ubuntu 15.10
   * Fedora 23
-From [INDIGO-1 repositories](http://repo.indigo-datacloud.eu) **OneZone** and **OneProvider** are releasde as Docker containers, while **OneClient** as packages (rpm, deb) for CentOS7 and Ubuntu 14.04 and Docker container.
+
+From [INDIGO-1 repositories](http://repo.indigo-datacloud.eu) **OneZone** and **OneProvider** are released as Docker containers, while **OneClient** as packages (rpm, deb) for CentOS7 and Ubuntu 14.04 and Docker container.
 
 <a id="id3"></a>
 #### List of RfCs 

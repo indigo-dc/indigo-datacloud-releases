@@ -29,6 +29,7 @@ Supproted Platforms:
 ### Deployment Notes
 
 * see [documentation](https://indigo-dc.gitbooks.io/nova-docker-documentation/content/) 
+ 
 
 <a id="id6"></a>
 ### Documentation

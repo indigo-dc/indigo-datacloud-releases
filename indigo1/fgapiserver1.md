@@ -16,20 +16,17 @@ Summary:
 ## Release Notes
 The **FutureGateway** aids the creation of Science Gateways or enable existing community oriented interfaces to become a Science Gateway, thus accessing any distributed computing resource using a simple set of REST APIs.
 
-The **FutureGateway API Server** project implements the interface of a RESTful API Server, compliant with [CSGF APIs](http://docs.csgfapis.apiary.io/#reference/v1.0/application/create-a-task) specifications. Any activity processed by this interface will be then processed and orchestrated by the [API Server Daemon][APIServerDaemon] component.
+The **FutureGateway API Server** project implements the interface of a RESTful API Server, compliant with [CSGF APIs](http://docs.csgfapis.apiary.io/#reference/v1.0/application/create-a-task) specifications. Any activity processed by this interface will be then processed and orchestrated by the [FutureGateway API Server Daemon](indigo1/fgapiserverdaemon1.md) component.
 
-This service offers the same capabilities of the API Server project with the following differences:
-
-    It exploits the CSGF' GridEngine system to target its supported distributed ifnrastructures
-    It may support other executors services just developing the right interface classes into the [API Server Daemon][APIServerDaemon]
+This service offers the same capabilities of the [API Server](https://github.com/FutureGateway/APIServer) project with the following differences:
+* It exploits the [CSGF](https://www.catania-science-gateways.it/)' GridEngine system to target its supported distributed ifnrastructures
+* It may support other executors services just developing the right interface classes into the [API Server Daemon][APIServerDaemon]
 
 The Principal advantages of this solutions are:
-
-    Backward compatibility with existing systems based on the CSGF
-    Fast provisioning of ready to go solutions
-    Fast prototyping when designing new features and components (including APIServer itself)
-    Ideal solution for existing development environments already using CSGF
-
+* Backward compatibility with existing systems based on the CSGF
+* Fast provisioning of ready to go solutions
+* Fast prototyping when designing new features and components (including APIServer itself)
+* Ideal solution for existing development environments already using CSGF
 
 <a id="id2"></a>
 ### What's new

@@ -6,6 +6,7 @@
    * [Data Center Solutions](indigo1/datacenter_solutions.md)
    * [Data Solutions](indigo1/data_solutions.md)
    * [Automated Solutions](indigo1/automated_solutions.md)
+   * [High-level user oriented service](indigo1/high-level_user_oriented_service.md)
    * [INDIGO-1  Services & Applications](core_services_indigo1.md)
        * [Accounting](indigo1/accounting1.md)
        * [CDMI Server](indigo1/cdmi1.md)
@@ -47,6 +48,5 @@
        * [Zabbix Probes](indigo1/zabbix-probes1.md)
    * [Core Service 1 template](core_service_1_template.md)
    * [Updates](updates_indigo1.md)
-   * [High-level user oriented service](indigo1/high-level_user_oriented_service.md)
 * [INDIGO-2 ElectricIndigo](chapter2.md)
 

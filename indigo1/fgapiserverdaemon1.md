@@ -14,7 +14,7 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
-The **FutureGateway API Server** project implements the interface of a RESTful API Server, compliant with [CSGF APIs](http://docs.csgfapis.apiary.io/#reference/v1.0/application/create-a-task) specifications. Any activity processed by this interface will be then processed and orchestrated by the **FutureGateway API Server Daemon**  component.
+The **[FutureGateway API Server]([FutureGateway API Server](indigo1/fgapiserver1.md))** project implements the interface of a RESTful API Server, compliant with [CSGF APIs](http://docs.csgfapis.apiary.io/#reference/v1.0/application/create-a-task) specifications. Any activity processed by this interface will be then processed and orchestrated by the **FutureGateway API Server Daemon**  component.
 
 The **APIServerDaemon** is a polling daemon working as a java servlet operating under Tomcat8. This daemon polls on top of the REST queue table and process the requests accordingly
 

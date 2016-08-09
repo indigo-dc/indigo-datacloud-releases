@@ -43,7 +43,7 @@ Supported Platforms:
 <a id="id3"></a>
 #### List of RfCs 
 
-* See [CHANGELOG](New product. The changelog can be found at https://github.com/indigo-dc/orchestrator/blob/v1.0.0-FINAL/CHANGELOG.md) for a complete list
+* See [CHANGELOG](New product. The changelog can be found at https://github.com/indigo-dc/orchestrator/blob/v1.0.0-FINAL/CHANGELOG.md) for a complete list of solved issues
 
 <a id="id4"></a>
 ### Deployment Notes
@@ -53,10 +53,16 @@ Supported Platforms:
 <a id="id5"></a>
 ### Known Issues
 
-* N/A
+* The issues are tracked at [https://github.com/indigo-dc/orchestrator/issues](https://github.com/indigo-dc/orchestrator/issues)
 
 <a id="id6"></a>
 ### Documentation
+
+* [Orchestrator on GitBook](ttps://www.gitbook.com/book/indigo-dc/orchestrator/details)
+
+* Other documentation:
+  * [REST API doc](http://indigo-dc.github.io/orchestrator/restdocs/)
+  * [JAVA API doc](http://indigo-dc.github.io/orchestrator/apidocs/)
 
 <a id="id7"></a>
 ### List of Artifacts

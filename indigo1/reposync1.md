@@ -45,13 +45,14 @@ $ yum install indigo-dc-reposync```
 
 * On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md) add also the JRE 1.8 PPA following the documentation present [here](https://launchpad.net/~openjdk-r/+archive/ubuntu/ppa):
 
-```$ apt-get update
-$ apt-get install reposync```
+  ```$ apt-get update```
+
+  ```$ apt-get install reposync```
 
 Other methods:
 * an Ansible playbook is available from the [INDIGO-DC github](https://github.com/indigo-dc/java-syncrepos/tree/master/ansible/tasks)
 * a Docker container is available in the [INDIGO-DC Organization on DockerHub](https://hub.docker.com/r/indigodatacloud/reposync/):
-```docker pull indigodatacloud/reposync:indigo_1```
+  ```docker pull indigodatacloud/reposync:indigo_1```
 
 <a id="id5"></a>
 ### Known Issues

@@ -8,7 +8,7 @@ Full list of INDIGO-1 MidnightBlue Services & Applications, with detailed releas
 * [CloudProviderRanker](cpr1.md)
 * [CLUES (CLUster Energy Saving)](clues1.md)
 * [dCache](dcache1.md)
-* [Partition Director (dynpart)](indigo1/dynpart1.md)
+* [Partition Director (dynpart)](dynpart1.md)
 * [FutureGateway API Server](indigo1/fgapiserver1.md)
 * [FutureGateway API Server Daemon](indigo1/fgapiserverdaemon1.md)
 * [FutureGateway jSAGA Adaptors](indigo1/fg_jsaga_adaptors1.md)

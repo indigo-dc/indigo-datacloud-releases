@@ -18,12 +18,20 @@ Summary:
 <a id="id2"></a>
 ### What's new
 
+TTS is a complete new product, so all features are new.
+Created in the course of the TTS was OIDCC, a new officially listed Erlang library for OpenId Connect:
+* [https://github.com/indigo-dc/oidcc](https://github.com/indigo-dc/oidcc)
+* [https://openid.net/developers/libraries/](https://openid.net/developers/libraries/)
+OIDCC follows also the RFC 6749, 7519
+
 Supported Platforms:
 * Centos 7
 * Ubuntu14.04
 
 <a id="id3"></a>
 #### List of RfCs 
+
+* N/A
 
 <a id="id4"></a>
 ### Deployment Notes
@@ -41,6 +49,7 @@ After setting the INDIGO-DC repositories as explained in the [Generic Installati
   
   ```$ apt-get install tts```
 
+* More details regarding the installation and **configuration** can be found in the [TTS Deployment And Administration Guide](https://indigo-dc.gitbooks.io/token-translation-service/content/admin.html)
 
 <a id="id5"></a>
 ### Known Issues

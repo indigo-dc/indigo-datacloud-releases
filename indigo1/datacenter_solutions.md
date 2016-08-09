@@ -17,8 +17,9 @@ The INDIGO - DataCloud project is providing many new features/services for resou
 * [OpenStack Preemptible Instances Extension (OPIE)](indigo1/opie1.md)
 * [OpenStack support for INDIGO AAI](indigo1/keyston_aai1.md)
 * [ONEDock](indigo1/onedock1.md)
-* [Partition Director (dynpart)](indigo1/dynpart1.md)
 * [Orchestrator](indigo1/orchestrator1.md)
 * [Nova-Docker](indigo1/nova-docker1.md)
+* [Partition Director (dynpart)](indigo1/dynpart1.md)
+* [RepoSync](indigo1/reposync1.md)
 * [Synergy](indigo1/synergy1.md) 
 

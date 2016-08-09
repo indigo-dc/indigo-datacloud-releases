@@ -6,4 +6,9 @@ The INDIGO - DataCloud project  provides a complete set of data-related features
 
 * [CDMI Server](cdmi1.md)
 * [dCache](dcache1.md)
+* Dynamic Storage Views
 * [ONEDATA](indigo1/onedata1.md)
+
+External Solutions used:
+* FTS
+* Webdav

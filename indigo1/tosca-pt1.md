@@ -41,7 +41,7 @@ Supported Platforms:
 * TOSCA types: - list of solved issues can be found in [GitHub Issues List](https://github.com/indigo-dc/tosca-types/issues?q=is%3Aissue+is%3Aclosed)
 * TOSCA-parser: - list of solved issues can be found in [GitHub Issues List](https://github.com/indigo-dc/tosca-types/issues?q=is%3Aissue+is%3Aclosed)
 
-* 
+* Comprehensive list of bug fixes is available [here](http://stackalytics.com/?release=mitaka&module=tosca-parser&metric=commits&company=upv)
 
 <a id="id4"></a>
 ### Deployment Notes

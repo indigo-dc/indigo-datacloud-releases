@@ -9,7 +9,6 @@ The INDIGO - DataCloud project is providing many new features/services for resou
 * [Accounting](accounting1.md)
 * [CloudInfoProvider](cip1.md)
 * [CloudProviderRanker](cpr1.md)
-* [CDMI Server](cdmi1.md)
 * [Infrastructure Manager (IM)](indigo1/im1.md)
 * [Infrastructure Manager Java API (IM-Java-API)](indigo1/imjavaapi1.md)
 * [TOSCA-in-HEAT](indigo1/heat-translator1.md) 

@@ -14,9 +14,21 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
+pOCCI is OCCI standard compliance testing tool. Tests are described [here](http://www.etsi.org/deliver/etsi_ts/103100_103199/103142/01.01.01_60/ts_103142v010101p.pdf).
 
 <a id="id2"></a>
 ### What's new
+
+First release of the pOCCI tool.
+Highlights of features and fixes:
+* Basic features:
+  * OCCI testing
+  * OCCI messages parsing
+  * partial OCCI client library for python
+* Authentization:
+  * basic auth
+  * X509
+  * keystone
 
 Supported Platforms:
 * OS Systems
@@ -46,6 +58,10 @@ $ apt-get install python-pocci
 or
 $ apt-get install python3-pocci```
 
+Other instalaltion methods:
+* installation from egg: [http://scientific.zcu.cz/cesnet/pOCCI/html/usage.html#installation](http://scientific.zcu.cz/cesnet/pOCCI/html/usage.html#installation)
+
+
 <a id="id5"></a>
 ### Known Issues
 
@@ -53,6 +69,8 @@ $ apt-get install python3-pocci```
 
 <a id="id6"></a>
 ### Documentation
+
+* [pOCCI on GitBook](https://www.gitbook.com/download/pdf/book/indigo-dc/pocci)
 
 <a id="id7"></a>
 ### List of Artifacts

@@ -7,6 +7,7 @@
    * [Data Solutions](indigo1/data_solutions.md)
    * [Automated Solutions](indigo1/automated_solutions.md)
    * [High-level user oriented service](indigo1/high-level_user_oriented_service.md)
+   * [Common Solutions](indigo1/common_solutions.md)
    * [INDIGO-1  Services & Applications](indigo1/all.md)
        * [Accounting](indigo1/accounting1.md)
        * [CDMI Server](indigo1/cdmi1.md)
@@ -51,6 +52,5 @@
        * [jSAGA Adaptors](indigo1/jsaga_adaptors1.md)
    * [Service template](service_template.md)
    * [Updates](indigo1/updates_indigo1.md)
-   * [Common Solutions](indigo1/common_solutions.md)
 * [INDIGO-2 ElectricIndigo](chapter2.md)
 

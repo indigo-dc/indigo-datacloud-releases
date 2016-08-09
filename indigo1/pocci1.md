@@ -40,6 +40,20 @@ Supported Platforms:
 <a id="id3"></a>
 #### List of RfCs 
 
+List of bugfixes and extensions:
+* https://github.com/CESNET/pOCCI/pull/1
+* https://github.com/CESNET/pOCCI/pull/9
+* https://github.com/CESNET/pOCCI/pull/10
+* https://github.com/CESNET/pOCCI/pull/11
+* https://github.com/CESNET/pOCCI/pull/12
+* https://github.com/CESNET/pOCCI/pull/16
+* https://github.com/CESNET/pOCCI/issues/2
+* https://github.com/CESNET/pOCCI/issues/3
+* https://github.com/CESNET/pOCCI/issues/4
+* https://github.com/CESNET/pOCCI/issues/6
+* https://github.com/CESNET/pOCCI/issues/8
+* https://github.com/CESNET/pOCCI/issues/17
+
 <a id="id4"></a>
 ### Deployment Notes
 
@@ -60,7 +74,6 @@ $ apt-get install python3-pocci```
 
 Other instalaltion methods:
 * installation from egg: [http://scientific.zcu.cz/cesnet/pOCCI/html/usage.html#installation](http://scientific.zcu.cz/cesnet/pOCCI/html/usage.html#installation)
-
 
 <a id="id5"></a>
 ### Known Issues
@@ -95,3 +108,4 @@ Packages:
 
 * Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
 https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* For Technical stuff: using github: [https://github.com/CESNET/pOCCI/issues](https://github.com/CESNET/pOCCI/issues)

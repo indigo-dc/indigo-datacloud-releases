@@ -31,6 +31,21 @@ Supported Platforms:
 <a id="id4"></a>
 ### Deployment Notes
 
+After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
+* On CentOS 7 
+
+```$ yum clean all
+$ yum install python-nova-docker
+or
+$ yum install python3-pOCCI```
+
+* On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
+
+```$ apt-get update
+$ apt-get install python-pocci
+or
+$ apt-get install python3-pocci```
+
 <a id="id5"></a>
 ### Known Issues
 
@@ -41,6 +56,20 @@ Supported Platforms:
 
 <a id="id7"></a>
 ### List of Artifacts
+
+Packages:
+* CentOS7:
+  * python2-pOCCI-1.0.2-1.el7.centos.noarch.rpm
+  * python-pOCCI-1.0.2-1.el7.centos.src.rpm
+  * python-pOCCI-doc-1.0.2-1.el7.centos.noarch.rpm
+* Ubuntu 14.04:
+  * python3-pocci_1.0.2-1_all.deb
+  * python-pocci_1.0.2-1_all.deb
+  * python-pocci_1.0.2-1_amd64.changes
+  * python-pocci_1.0.2-1.debian.tar.gz
+  * python-pocci_1.0.2-1.dsc
+  * python-pocci_1.0.2.orig.tar.gz
+  * python-pocci-doc_1.0.2-1_all.deb
 
 <a id="id8"></a>
 ### Support

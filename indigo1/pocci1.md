@@ -71,6 +71,7 @@ Other instalaltion methods:
 ### Documentation
 
 * [pOCCI on GitBook](https://www.gitbook.com/download/pdf/book/indigo-dc/pocci)
+* User documentation is in the form of manpages (links are in the gitbook).
 
 <a id="id7"></a>
 ### List of Artifacts

@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [INDIGO-1 MidnightBlue](chapter1.md)
    * [Generic Installation and Configuration Guide](generic_installation_and_configuration_guide_1.md)
-   * [Core Services](core_services_indigo1.md)
+   * [INDIGO-1  Services & Applications](core_services_indigo1.md)
        * [Accounting](indigo1/accounting1.md)
        * [CDMI Server](indigo1/cdmi1.md)
        * [CloudInfoProvider](indigo1/cip1.md)

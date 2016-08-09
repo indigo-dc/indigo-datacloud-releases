@@ -15,8 +15,22 @@ Summary:
 <a id="id1"></a>
 ## Release Notes
 
+**jSAGA-adaptor-tosca**:
+* Adaptor to instantiate resources woth TOSCA
+
+**jSAGA-adaptor-rocci**:
+* Using the JSAGA adaptor for OCCI-compliant cloud middleware stacks supporting the OCCI standard, user can:
+  * switching on the VM pre-installed with the required application,
+  * establishing a secure connection to it signed using a digital “robot” certificate,
+  * staging the input file(s) in the VM,
+  * executing the application,
+  * retrieving the output file(s) at the end of the computation and
+  * killing the VM.
+
 <a id="id2"></a>
 ### What's new
+
+First official release of the TOSCA and rOCCI adaptors
 
 Supported Platforms:
 * Linux(ELx/Deb), MacOSx
@@ -29,6 +43,11 @@ Supported Platforms:
 
 <a id="id4"></a>
 ### Deployment Notes
+
+Installation methods
+* Clone from [jsaga-adaptor-tosca](https://github.com/indigo-dc/jsaga-adaptor-tosca) and [jsaga-adaptor-rocci](https://github.com/indigo-dc/jsaga-adaptor-rocci)or install it through [PortalSetup scripts](https://github.com/indigo-dc/PortalSetup)
+* Download tarballs, [jsaga-adaptor-tosca-0.0.1.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/jsaga-adaptor-tosca-0.0.1.tar.gz) and [jsaga-adaptor-rocci-0.0.1.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/jsaga-adaptor-rocci-0.0.1.tar.gz) from the INDIGO-DC repositories.
+
 
 <a id="id5"></a>
 ### Known Issues

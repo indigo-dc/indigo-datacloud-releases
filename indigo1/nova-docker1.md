@@ -13,26 +13,34 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
+Nova-docker is the Docker driver for OpenStack Nova
 
 <a id="id2"></a>
 ### What's new
 
-<a id="id3"></a>
-#### List of RfCs 
+We provide [detailed documentation](https://indigo-dc.gitbooks.io/nova-docker-documentation/content/) on how to enable the use of **nova-docker** component in OpenStack based infrastructures:
+
+With this release we provide also packaging ([rpm and debs]((#id7)) that facilitate the installation of the service.
+
+Supproted Platforms:
+* CentOS7 & Ubuntu 14.04, OpenStack
 
 <a id="id4"></a>
 ### Deployment Notes
 
-<a id="id5"></a>
-### Known Issues
-
-* N/A
+* see [documentation](https://indigo-dc.gitbooks.io/nova-docker-documentation/content/) 
 
 <a id="id6"></a>
 ### Documentation
 
+* Deployment, configuration and usage of nova-docker on [GitBook](https://indigo-dc.gitbooks.io/openstack-nova-docker/content/) 
+
 <a id="id7"></a>
 ### List of Artifacts
+
+Packages:
+* python-nova-docker_16.04-1_all.deb
+* python-nova-docker-16.04-4.el7.local.noarch.rpm
 
 <a id="id8"></a>
 ### Support

@@ -1,4 +1,4 @@
-# CloudInfoProvider v. 0.8.4
+# CloudInfoProvider v. 0.8.5
 
 Summary:
 * [Release Notes](#id1)
@@ -31,7 +31,7 @@ The Cloud Information provider generates a representation of cloud resources, to
 ### Deployment Notes
 
 Supported platforms
-* CentOS7 and Ubuntu 10.04 (trusty)
+* CentOS7 and Ubuntu 14.04 (trusty)
 
 installation & Configuration:
 * Please read the detailed information in the [Deployment and Administration Guide](https://indigo-dc.gitbooks.io/cloud-info-provider/content/doc/admin.html)
@@ -48,9 +48,10 @@ installation & Configuration:
 
 <a id="id7"></a>
 ### List of Artifacts
+
 Packages:
-* [RPM](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/base/cloud-info-provider-indigo-0.8.4-1.el7.centos.noarch.rpm)
-* [DEB](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/main/binary-amd64/python-cloud-info-provider-indigo_0.8.4_all.deb)
+* [cloud-info-provider-indigo-0.8.5-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/base/cloud-info-provider-indigo-0.8.5-1.el7.centos.noarch.rpm)
+* [python-cloud-info-provider-indigo_0.8.5_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/main/binary-amd64/python-cloud-info-provider-indigo_0.8.5_all.deb)
 
 <a id="id8"></a>
 ### Support

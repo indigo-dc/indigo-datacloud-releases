@@ -14,6 +14,7 @@ The INDIGO - DataCloud project is providing many new features/services for resou
 * [Infrastructure Manager Java API (IM-Java-API)](indigo1/imjavaapi1.md)
 * [TOSCA-in-HEAT](indigo1/heat-translator1.md) 
 * [OpenStack Client](indigo1/python-osclient1.md)
+* OpenStack Identity Authentication Library
 * [OpenStack OCCI Interface (OOI)](indigo1/ooi1.md)
 * [OpenStack NOVA Client](indigo1/python-nova1.md)* 
 * [OpenStack Preemptible Instances Extension (OPIE)](indigo1/opie1.md)

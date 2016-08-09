@@ -13,6 +13,7 @@ The INDIGO - DataCloud project is providing many new features/services for resou
 * [TOSCA-in-HEAT](indigo1/heat-translator1.md) 
 * [OpenStack OCCI Interface (OOI)](indigo1/ooi1.md)
 * [OpenStack Preemptible Instances Extension (OPIE)](indigo1/opie1.md)
+* [OpenStack support for INDIGO AAI](indigo1/keyston_aai1.md)
 * [Partition Director (dynpart)](indigo1/dynpart1.md)
 * [Orchestrator](indigo1/orchestrator1.md)
 * [Nova-Docker](indigo1/nova-docker1.md)

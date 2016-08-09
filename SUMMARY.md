@@ -48,6 +48,6 @@
        * [Zabbix Probes](indigo1/zabbix-probes1.md)
    * [Core Service 1 template](core_service_1_template.md)
    * [Updates](indigo1/updates_indigo1.md)
-   * Common Solutions
+   * [Common Solutions](indigo1/common_solutions.md)
 * [INDIGO-2 ElectricIndigo](chapter2.md)
 

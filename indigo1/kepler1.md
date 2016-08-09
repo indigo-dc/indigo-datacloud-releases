@@ -61,7 +61,7 @@ Supported Platforms:
 ### List of Artifacts
 
 Docker Container:
-* [indigodatacloud/docker-kepler:indigo_1](indigodatacloud/docker-kepler)
+* i[ndigodatacloudapps/kepler:indigo_1](https://hub.docker.com/r/indigodatacloudapps/kepler/tags/)
 
 <a id="id8"></a>
 ### Support

@@ -22,6 +22,7 @@ TTS is a complete new product, so all features are new.
 Created in the course of the TTS was OIDCC, a new officially listed Erlang library for OpenId Connect:
 * [https://github.com/indigo-dc/oidcc](https://github.com/indigo-dc/oidcc)
 * [https://openid.net/developers/libraries/](https://openid.net/developers/libraries/)
+
 OIDCC follows also the RFC 6749, 7519
 
 Supported Platforms:

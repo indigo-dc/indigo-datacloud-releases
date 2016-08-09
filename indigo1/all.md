@@ -25,10 +25,11 @@ Full list of INDIGO-1 MidnightBlue Services & Applications, with detailed releas
 * [ONEDATA](indigo1/onedata1.md)
 * [ONEDock](indigo1/onedock1.md)
 * [OpenStack Client](indigo1/python-osclient1.md)
+* OpenStack Identity Authentication Library
 * [OpenStack OCCI Interface (OOI)](indigo1/ooi1.md)
 * [OpenStack NOVA Client](indigo1/python-nova1.md)
-* [OpenStack support for INDIGO AAI](indigo1/keyston_aai1.md)
 * [OpenStack Preemptible Instances Extension (OPIE)](indigo1/opie1.md)
+* [OpenStack Support for INDIGO AAI](indigo1/keyston_aai1.md)
 * [Ophidia](indigo1/ophidia1.md)
 * [Orchestrator](indigo1/orchestrator1.md)
 * [Nova-Docker](indigo1/nova-docker1.md)

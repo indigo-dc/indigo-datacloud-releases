@@ -12,6 +12,7 @@ The INDIGO - DataCloud project provides a rich set of high-level automated funct
 
 * [Kubernetes](indigo1/kubernetes1.md)
 * [Orchestrator](indigo1/orchestrator1.md)
+* [ONEDATA](indigo1/onedata1.md)
 * [TOSCA-Parser & Types](indigo1/tosca-pt1.md)
 * [Token Translation Service (TTS)](indigo1/tts1.md)
 * [Zabbix Probes](indigo1/zabbix-probes1.md)

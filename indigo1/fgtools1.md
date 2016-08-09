@@ -1,4 +1,4 @@
-# fgTools
+# fgTools v. 1.0.0
 
 
 Summary:
@@ -15,14 +15,29 @@ Summary:
 <a id="id1"></a>
 ## Release Notes
 
+**fgTools** are A collection of tools and utilities for general purpose usage such as: code and service maintenance, installation facilities, etc.:
+* *pushProxy* - Timely provides robot proxies to a given set of target hosts
+* *updateCode* - Utility to manage **fgAPIServer** (front-end) and **APIServer daemon** FutureGateway components.
+
 <a id="id2"></a>
 ### What's new
+
+First release of the fgTools
+
+Supported Platforms:
+* Linux (deb/ELx), MacOSx
+* Ubuntu 14.04, CentOSx, MacOSx
+
 
 <a id="id3"></a>
 #### List of RfCs 
 
+* N/A
+
 <a id="id4"></a>
 ### Deployment Notes
+
+* use the [tarballs](id7) from the INDIGO-DC repositories 
 
 <a id="id5"></a>
 ### Known Issues
@@ -31,6 +46,8 @@ Summary:
 
 <a id="id6"></a>
 ### Documentation
+
+* [README on GitHub](https://github.com/indigo-dc/fgTools/blob/master/README.md)
 
 <a id="id7"></a>
 ### List of Artifacts

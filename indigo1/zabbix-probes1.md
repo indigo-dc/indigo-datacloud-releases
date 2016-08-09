@@ -1,4 +1,4 @@
-# Zabbix Probes
+# Zabbix Probes v. 0.95-1
 
 
 Summary:

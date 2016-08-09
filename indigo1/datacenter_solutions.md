@@ -10,6 +10,7 @@ The INDIGO - DataCloud project is providing many new features/services for resou
 * [CloudInfoProvider](cip1.md)
 * [CloudProviderRanker](cpr1.md)
 * [CDMI Server](cdmi1.md)
+* [OpenStack OCCI Interface (OOI)](indigo1/ooi1.md)
 * [OpenStack Preemptible Instances Extension (OPIE)](indigo1/opie1.md)
 * [Partition Director (dynpart)](indigo1/dynpart1.md)
 * [Orchestrator](indigo1/orchestrator1.md)

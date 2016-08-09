@@ -47,6 +47,7 @@
        * [udocker](indigo1/udocker1.md)
        * [Zabbix Probes](indigo1/zabbix-probes1.md)
        * [OpenStack Identity Authentication Library](indigo1/indigo1/keystone_library1.md)
+       * Kubernetes
    * [Service template](service_template.md)
    * [Updates](indigo1/updates_indigo1.md)
    * [Common Solutions](indigo1/common_solutions.md)

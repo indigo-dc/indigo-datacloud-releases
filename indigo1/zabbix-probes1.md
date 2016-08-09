@@ -35,6 +35,17 @@ Summary:
 <a id="id7"></a>
 ### List of Artifacts
 
+The packages released are the following:
+* Ubuntu:
+  * occi-zabbix-probe-0.95.deb
+  * [heapster-zabbix-probe-0.95.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/main/binary-amd64/heapster-zabbix-probe-0.95.deb)
+* CentOS:
+  * [OCCIZabbixProbe-0.95-1.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/base/OCCIZabbixProbe-0.95-1.noarch.rpm)
+  * [HeapsterZabbixProbe-0.95-R1.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/base/HeapsterZabbixProbe-0.95-1.noarch.rpm)
+*Other OSs:
+  * occi-zabbix-probe-0.95-jar-with-dependencies.jar
+  * heapster-zabbix-probe-0.95-jar-with-dependencies.jar
+
 <a id="id8"></a>
 ### Support
 

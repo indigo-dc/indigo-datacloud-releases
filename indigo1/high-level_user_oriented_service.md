@@ -11,4 +11,5 @@ Researchers and data managers are able to access resources through:
 * [fgTools](indigo1/fgtools1.md)
 * [INDIGO OMT](indigo1/omt1.md)
 * [INDIGO Kepler](indigo1/kepler1.md)
+* [jSAGA Adaptors](indigo1/jsaga_adaptors1.md)
 * [Liferay IAM](indigo1/liferayiam1.md)

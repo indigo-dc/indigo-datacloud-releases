@@ -35,7 +35,7 @@ Supported Platforms:
 ### Deployment Notes
 
 Installation methods
-* Clone from [GitHub](https://github.com/indigo-dc/fgAPIServer) or install it through PortalSetup scripts
+* Clone from [GitHub](https://github.com/indigo-dc/fgAPIServer) or install it through [PortalSetup scripts](https://github.com/indigo-dc/PortalSetup)
 * Download [tarball](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/fgAPIServer_v0.0.3.tar.gz) from the INDIGO-DC repositories.
 
 

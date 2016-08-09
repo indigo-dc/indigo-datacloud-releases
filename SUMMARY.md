@@ -45,7 +45,7 @@
    * [Core Service 1 template](core_service_1_template.md)
    * [Applications](applications_indigo1.md)
    * [Updates](updates_indigo1.md)
-   * [DataCenter Solutions](indigo1/datacenter_solutions.md)
+   * [Data Center Solutions](indigo1/datacenter_solutions.md)
    * [Data Solutions](indigo1/data_solutions.md)
    * [Automated Solutions](indigo1/automated_solutions.md)
    * [High-level user oriented service](indigo1/high-level_user_oriented_service.md)

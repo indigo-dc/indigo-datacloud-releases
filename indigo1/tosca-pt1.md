@@ -20,6 +20,7 @@ The **TOSCA Parser** is an OpenStack project and licensed under Apache 2. It is 
 
 The **[INDIGO TOSCA Types](https://github.com/indigo-dc/tosca-types/tree/v1.0.1)** repository  shows a YAML description of new types added in the INDIGO project to extend TOSCA Simple Profile in YAML Version 1.0 to add high level entities. In the examples directory there are a set of TOSCA documents using these types that will be supported by the INDIGO components.
 
+* The **TOSCA Parser** now supports profile definition extensions that can be accessed via a custom tosca_definitions_version. Extensions can be added by creating a module in the "toscaparser/extensions" directory. See the ["nfv"](https://github.com/indigo-dc/tosca-parser/tree/0.5.1/toscaparser/extensions/nfv) module for an example.
 
 <a id="id2"></a>
 ### What's new
@@ -27,7 +28,9 @@ The **[INDIGO TOSCA Types](https://github.com/indigo-dc/tosca-types/tree/v1.0.1)
 This is the first release of **TOSCA Parser and Types** - entirely developed through the INDIGO-DC project
 
 Highlight of the first release in INDIGO:
-* The **TOSCA Parser** now supports profile definition extensions that can be accessed via a custom tosca_definitions_version. Extensions can be added by creating a module in the "toscaparser/extensions" directory. See the ["nfv"](https://github.com/indigo-dc/tosca-parser/tree/0.5.1/toscaparser/extensions/nfv) module for an example.
+* Contributed several bug fixes to the OpenStack's tosca-parser project.
+* INDIGO-DataCloud partners (UPV) rank #2 in the top commiters for the tosca-parser in OpenStack Liberty
+* Included new non-normative types for the TOSCA Simple Profile in YAML Version 1.0 specification, supporting both INDIGO-DataCloud applications (e.g. Kepler, Galaxy, Disvis, Powerfit, etc.) and capabilities (e.g. virtual elastic clusters).
 
 Supported Platforms:
 * CentOS7 & Ubuntu 14:04, OpenStack
@@ -37,6 +40,8 @@ Supported Platforms:
 
 * TOSCA types: - list of solved issues can be found in [GitHub Issues List](https://github.com/indigo-dc/tosca-types/issues?q=is%3Aissue+is%3Aclosed)
 * TOSCA-parser: - list of solved issues can be found in [GitHub Issues List](https://github.com/indigo-dc/tosca-types/issues?q=is%3Aissue+is%3Aclosed)
+
+* 
 
 <a id="id4"></a>
 ### Deployment Notes

@@ -1,4 +1,4 @@
-# Token Translation Service
+# Token Translation Service & Client v. v0.2.2
 
 
 Summary:
@@ -18,6 +18,10 @@ Summary:
 <a id="id2"></a>
 ### What's new
 
+Supported Platforms:
+* Centos 7
+* Ubuntu14.04
+
 <a id="id3"></a>
 #### List of RfCs 
 
@@ -34,6 +38,10 @@ Summary:
 
 <a id="id7"></a>
 ### List of Artifacts
+
+Packages:
+* Centos 7: tts-0.2.2-1.el7.centos.x86_64.rpm
+* Ubuntu14.04: tts_0.2.2-1_amd64.deb
 
 <a id="id8"></a>
 ### Support

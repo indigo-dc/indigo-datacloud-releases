@@ -48,6 +48,8 @@ $ apt-get install tts```
 <a id="id6"></a>
 ### Documentation
 
+* [TTS on GitBook](https://indigo-dc.gitbooks.io/token-translation-service/content/)
+
 <a id="id7"></a>
 ### List of Artifacts
 

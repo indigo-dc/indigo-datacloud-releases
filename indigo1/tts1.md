@@ -31,9 +31,9 @@ Supported Platforms:
 After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
 * On CentOS 7 
 
-```$ yum clean all
+```$ yum clean all```
 
-$ yum install tts```
+```$ yum install tts```
 
 * On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
 

@@ -14,9 +14,23 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
+**Synergy** is as a new extensible general purpose management OpenStack service. Its capabilities are implemented by a collection of managers which are specific and independent pluggable tasks, executed periodically or interactively. The managers can interact with each other in a loosely coupled way.
+* The **Scheduler Manager** provides advanced scheduling (fairshare) capability for OpenStack. In particular it aims to address the resource utilization issues coming from the static allocation model inherent in the Cloud paradigm, by adopting the dynamic partitioning strategy implemented by the advanced batch schedulers.
+
+Synergy is made of two packages:
+* *synergy-service*: the main package
+* *synergy-scheduler-manager*: plugin for synergy-service that adds the scheduler functionality. This package depends on synergy-service..
+
 
 <a id="id2"></a>
 ### What's new
+
+This is the first release of the **Synergy** service.
+
+Highlights of the features provided in this version:
+* With Synergy the OpenStack administrator can allocate a subset of resources, called dynamic resources, to be shared among different projects. Such dynamic resources are not statically allocated with fixed quotas, but are instead shared among multiple projects according to a fair share policy defined by the Cloud administrator.
+* Synergy provides also a queuing mechanism for the requests that can't be immediately fullfilled: these requests will be served when the relevant resources are available.
+* Synergy can manage the instantation of both Virtual Machines and containers managed via the nova-docker service.
 
 Supported Platforms:
 * the supported platforms: Ubuntu 14.04, CentOS 7
@@ -30,6 +44,7 @@ Supported Platforms:
 
 <a id="id4"></a>
 ### Deployment Notes
+* APT or YUM or [Puppet](https://github.com/indigo-dc/puppet-synergy), and some tweaks to follow in [Installation Docs](https://indigo-dc.gitbooks.io/synergy/content/doc/admin.html)
 * 
 <a id="id5"></a>
 ### Known Issues
@@ -57,3 +72,6 @@ Packages:
 
 * Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
 https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* or 
+  * [http://bugs.launchpad.net/synergy-scheduler-manager](http://bugs.launchpad.net/synergy-scheduler-manager)
+  * [http://bugs.launchpad.net/synergy-service](http://bugs.launchpad.net/synergy-service)

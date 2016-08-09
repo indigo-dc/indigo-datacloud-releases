@@ -1,4 +1,4 @@
-# FutureGateway API Server Daemon
+# FutureGateway API Server Daemon  v0.0.3
 
 
 Summary:

@@ -38,6 +38,9 @@ Supported Platforms:
 <a id="id7"></a>
 ### List of Artifacts
 
+Tarballs:
+* udocker-v1.0.0-linux-x86_64.tgz
+
 <a id="id8"></a>
 ### Support
 

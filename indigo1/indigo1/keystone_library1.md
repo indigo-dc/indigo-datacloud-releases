@@ -43,18 +43,19 @@ access_token (so three different auth plugins)
 After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
 * On CentOS 7 
 
-```$ yum clean all```
+  ```$ yum clean all```
 
-```$ yum install python2-keystoneauth1```
+  ```$ yum install python2-keystoneauth1```
 
 * On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
 
-```$ apt-get update```
+  ```$ apt-get update```
 
-```$ apt-get install python3-keystoneauth1```
+  ```$ apt-get install python3-keystoneauth1```
 
 or
-```$ apt-get install python-keystoneauth1```
+
+  ```$ apt-get install python-keystoneauth1```
 
 
 <a id="id5"></a>
@@ -64,6 +65,9 @@ or
 
 <a id="id6"></a>
 ### Documentation
+
+* [GitHub README](https://github.com/indigo-dc/keystoneauth/blob/master/README.rst)
+* [Official OpenStack Identity Authentication Library Documentation](http://docs.openstack.org/developer/keystoneauth/)
 
 <a id="id7"></a>
 ### List of Artifacts

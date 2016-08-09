@@ -10,6 +10,7 @@ The INDIGO - DataCloud project provides a rich set of high-level automated funct
 * Support for *dynamic and elastic clusters of resources*. HTCondor, Torque and Mesos cluster are supported. 
 
 
+* [Kubernetes](indigo1/kubernetes1.md)
 * [Orchestrator](indigo1/orchestrator1.md)
 * [TOSCA-Parser & Types](indigo1/tosca-pt1.md)
 * [Token Translation Service (TTS)](indigo1/tts1.md)

@@ -26,6 +26,9 @@ The **[INDIGO TOSCA Types](https://github.com/indigo-dc/tosca-types/tree/v1.0.1)
 
 This is the first release of **TOSCA Parser and Types** - entirely developed through the INDIGO-DC project
 
+Highlight of the first release in INDIGO:
+* The **TOSCA Parser** now supports profile definition extensions that can be accessed via a custom tosca_definitions_version. Extensions can be added by creating a module in the "toscaparser/extensions" directory. See the ["nfv"](https://github.com/indigo-dc/tosca-parser/tree/0.5.1/toscaparser/extensions/nfv) module for an example.
+
 Supported Platforms:
 * CentOS7 & Ubuntu 14:04, OpenStack
 
@@ -38,6 +41,16 @@ Supported Platforms:
 <a id="id4"></a>
 ### Deployment Notes
 
+After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
+* On CentOS 7 
+
+```$ yum clean all
+$ yum install tosca-parser```
+
+* On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
+
+```$ apt-get update
+$ apt-get install python-tosca-parser```
 
  
 * Other installation methods are described [here](https://github.com/indigo-dc/tosca-parser/blob/master/doc/source/installation.rst)
@@ -52,6 +65,10 @@ Supported Platforms:
 <a id="id6"></a>
 ### Documentation
 
+* [TOSCA-parser Documentation](https://github.com/indigo-dc/tosca-parser/blob/master/README.rst)
+  * [Installation](https://github.com/indigo-dc/tosca-parser/blob/0.5.1/doc/source/installation.rst)
+  * [Usage](https://github.com/indigo-dc/tosca-parser/blob/0.5.1/doc/source/usage.rst)
+* [TOSCA types Documentation](https://github.com/indigo-dc/tosca-types/blob/master/README.md)
 
 
 <a id="id7"></a>

@@ -14,6 +14,14 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
+The **Monitoring Framework** is a set of tools which allow performing several monitoring operations in the platform resulting from the INDIGO-Datacloud project (https://www.indigo-datacloud.eu/). The Monitoring Framework is based on Zabbix, as the collector of the monitoring information coming from different sources, due to its maturity, its community support and its flexibility for different environments.
+
+The Monitoring Framework is divided in several main parts:
+* The **Zabbix server** (with the corresponding configuration and some support scripts);
+* The **Zabbix wrapper**, created for enabling a REST API for Zabbix;
+* Several **probes**, with different monitoring purposes (**OCCI, Heapster**, etc.).
+
+The version of the **OCCI** and **Heapster** probes provided for the INDIGO-1 release is **v0.95**.
 
 <a id="id2"></a>
 ### What's new
@@ -29,7 +37,7 @@ The features released with the **Zabbix OCCI probe** are:
 * Metrics supported for each operation: availability, status code (HTTP response code) and response time.
 * Metrics aggregation, providing a global value for availability, status code and response time.
 
-The features released in this version of the Heapster probe are:
+The features released in this version of the **Heapster probe** are:
 * Interaction with Heapster in order to obtain metrics from pods and from the containers included in a pod.
 * Automatic registration of metrics in the Zabbix Server through the Zabbix Agent.
 * Metrics supported for pods: RX Errors, RX Errors Rate, TX Errors, TX Errors Rate, Major Memory Page Faults, Memory Page Faults, Uptime.

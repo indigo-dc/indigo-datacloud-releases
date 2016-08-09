@@ -31,15 +31,15 @@ This library implements all the Keystone authentication libraries.
 and authorization code) as well as the reusal of an existing
 access_token (so three different auth plugins) 
 
-
+* Please see also the details included in [UPSTREAM CHANGELOG](http://docs.openstack.org/developer/keystoneauth/history.html#id1)
 <a id="id3"></a>
+
 #### List of RfCs 
 
-* * N/A
+* [https://bugs.launchpad.net/keystoneauth](https://bugs.launchpad.net/keystoneauth)
 
 <a id="id4"></a>
 ### Deployment Notes
-
 
 
 <a id="id5"></a>

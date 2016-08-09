@@ -1,4 +1,4 @@
-# INDIGO Kepler v. 1.0.0
+# INDIGO Kepler v. 1.0.1
 
 Summary:
 * [Release Notes](#id1)
@@ -39,9 +39,9 @@ Supported Platforms:
   * indigokepler: ```mvn initialize install dependency:copy-dependencies -DoutputDirectory=target/indigo/lib/jar -DexcludeArtifactIds=ptolemy```
 
 * Ready to compile version are available here:
-  * indigoclient-1.0.0.tar.gz
-  * indigokepler-1.0.0.tar.gz
-* After Maven compilation, two artifacts are created: *indigo-fg-api-1.0.0.jar* and *indigo-fg-actors-1.0.0.jar*
+  * indigoclient-1.0.1.tar.gz
+  * indigokepler-1.0.1.tar.gz
+* After Maven compilation, two artifacts are created: *indigo-fg-api-1.0.1.jar* and *indigo-fg-actors-1.0.1.jar*
 * Additionally, in *indigokepler/target/* a directory named indigo is created which fulfills Kepler's requirements for a module. It is sufficient to add it to an existing Kepler installation to use INDIGO-Kepler actors.
 
 * Ansible playbook is available in [GitHub](https://github.com/indigo-dc/ansible-role-kepler) and [Ansible Galaxy](https://galaxy.ansible.com/indigo-dc/kepler/)

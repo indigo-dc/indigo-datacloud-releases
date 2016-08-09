@@ -13,12 +13,24 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
+The **Portal Setup**project is a script collection for automatic installation of the FutureGateway portal and its development environment. 
 
 <a id="id2"></a>
 ### What's new
 
+First release of the PortalSetup scripts-collection
+
+The OS platform should be automatically identified while the script runs. Each setup file has the form setup_*, where * refers to a specific component and some of them require to be executed as root or by sudo. Please notice that OS specific intallation scripts are collected inside dedicated directories.
+
+Supported platforms:
+* MacOSX 10.11; it requires brew
+* EL6/7 Tested with CentOS6
+* Debian Tested with Ubuntu
+
 <a id="id3"></a>
 #### List of RfCs 
+
+* N/A
 
 <a id="id4"></a>
 ### Deployment Notes

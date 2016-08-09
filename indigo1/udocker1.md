@@ -1,4 +1,4 @@
-# udocker
+# udocker v. 1.0.0
 
 
 Summary:
@@ -17,6 +17,9 @@ Summary:
 
 <a id="id2"></a>
 ### What's new
+
+Supported Platforms: 
+* CentOS 6 and 7, Fedora 23, Ubuntu 14.04
 
 <a id="id3"></a>
 #### List of RfCs 

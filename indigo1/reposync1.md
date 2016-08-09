@@ -1,4 +1,4 @@
-# RepoSync
+# RepoSync v. 1.0-1
 
 
 Summary:
@@ -18,11 +18,21 @@ Summary:
 <a id="id2"></a>
 ### What's new
 
+Supported Platforms:
+* Ubuntu 14.04 is supported by adding the [JRE 1.8 PPA](http://tecadmin.net/install-oracle-java-8-jdk-8-ubuntu-via-ppa/#), required by java-syncrepos dependencysince 
+* CentOS 7 is supported by default
+* Any other distribution that support Docker is supported through the Docker image
+
+- Operating System and Cloud Management Frameworks
+
+It supports both OpenNebula and OpenStack backends
 <a id="id3"></a>
 #### List of RfCs 
 
 <a id="id4"></a>
 ### Deployment Notes
+
+
 
 <a id="id5"></a>
 ### Known Issues

@@ -1,4 +1,4 @@
-# FutureGateway API Server
+# FutureGateway API Server v. v0.0.3
 
 
 Summary:
@@ -14,15 +14,30 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
+The FutureGateway aids the creation of Science Gateways or enable existing community oriented interfaces to become a Science Gateway, thus accessing any distributed computing resource using a simple set of REST APIs.
 
 <a id="id2"></a>
 ### What's new
 
+First official implementation fo the FutureGateway APIServer front-end
+
+Supported Platforms:
+* Linux(ELx/Deb), MacOSx
+* Ubuntu 14.04 Server, CentOSX, MacOSx
+
+
 <a id="id3"></a>
 #### List of RfCs 
 
+* N/A
+
 <a id="id4"></a>
 ### Deployment Notes
+
+Installation methods
+* Clone from [GitHub](https://github.com/indigo-dc/fgAPIServer) or install it through PortalSetup scripts
+* Download [tarball](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/fgAPIServer_v0.0.3.tar.gz) from the INDIGO-DC repositories.
+
 
 <a id="id5"></a>
 ### Known Issues
@@ -32,8 +47,14 @@ Summary:
 <a id="id6"></a>
 ### Documentation
 
+* Please refer to [FutureGateway documentation](https://www.gitbook.com/book/ricsxn/futuregateway/details)
+
 <a id="id7"></a>
 ### List of Artifacts
+
+Tarballs:
+* CentOS 7 - [fgAPIServer_v0.0.3.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/fgAPIServer_v0.0.3.tar.gz)
+* Ubuntu 14.04 - [fgAPIServer_v0.0.3.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/main/source/fgAPIServer_v0.0.3.tar.gz)
 
 <a id="id8"></a>
 ### Support

@@ -32,8 +32,17 @@ Supported Platforms:
 <a id="id3"></a>
 #### List of RfCs 
 
+* TOSCA types: - list of solved issues can be found in [GitHub Issues List](https://github.com/indigo-dc/tosca-types/issues?q=is%3Aissue+is%3Aclosed)
+* TOSCA-parser: - list of solved issues can be found in [GitHub Issues List](https://github.com/indigo-dc/tosca-types/issues?q=is%3Aissue+is%3Aclosed)
+
 <a id="id4"></a>
 ### Deployment Notes
+
+
+ 
+* Other installation methods are described [here](https://github.com/indigo-dc/tosca-parser/blob/master/doc/source/installation.rst)
+* How To Use
+  * Please refer to [doc/source/usage.rst](https://github.com/openstack/tosca-parser/blob/master/doc/source/usage.rst)
 
 <a id="id5"></a>
 ### Known Issues
@@ -42,6 +51,8 @@ Supported Platforms:
 
 <a id="id6"></a>
 ### Documentation
+
+
 
 <a id="id7"></a>
 ### List of Artifacts

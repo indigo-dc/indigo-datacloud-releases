@@ -18,6 +18,8 @@ Summary:
 <a id="id2"></a>
 ### What's new
 
+First official FutureGateway release
+
 Supported Platforms:
 * Linux(ELx/Deb), MacOSx
 * Ubuntu 14.04 Server, CentOSX, MacOSx
@@ -45,7 +47,9 @@ Installation methods
 * Please refer to [FutureGateway documentation](https://www.gitbook.com/book/ricsxn/futuregateway/details)
 
 <a id="id7"></a>
-### List of Artifacts
+### List of ArtifactsTarballs:
+* CentOS 7 - [APIServerDaemon_v0.0.3.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/APIServerDaemon_v0.0.3.tar.gz)
+* Ubuntu 14.04 - [APIServerDaemon_v0.0.3.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/main/source/APIServerDaemon_v0.0.3.tar.gz)
 
 <a id="id8"></a>
 ### Support

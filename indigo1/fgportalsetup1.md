@@ -46,6 +46,9 @@ Supported platforms:
 <a id="id7"></a>
 ### List of Artifacts
 
+Tarballs:
+* CentOS 7 - [PortalSetup-v0.0.2.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/PortalSetup-v0.0.2.tar.gz)
+* Ubuntu 14.04 - [PortalSetup-v0.0.2.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/main/source/PortalSetup-v0.0.2.tar.gz)
 
 
 <a id="id8"></a>

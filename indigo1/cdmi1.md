@@ -12,13 +12,22 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
+**INDIGO-DataCloud CDMI Server with QoS:**
+* This project provides the official reference implementation of the **SNIA Cloud Data Management Interface (CDMI)**, an ISO standard, and also a Spring Boot application port of the SNIA CDMI-Server.
+* The **CDMI server** has been extended to support Quality-of-Service (QoS) and Data Life-cycle (DLC) operations for multiple storage back-ends like dCache, Ceph, GPFS, Gemss+TSM, StoRM and HPSS.
 
 <a id="id2"></a>
 ### What's new
 
-INDIGO-DataCloud CDMI Server with QoS:
-* This project provides the official reference implementation of the **SNIA Cloud Data Management Interface (CDMI)**, an ISO standard, and also a Spring Boot application port of the SNIA CDMI-Server.
-* The **CDMI server** has been extended to support Quality-of-Service (QoS) and Data Life-cycle (DLC) operations for multiple storage back-ends like dCache, Ceph, GPFS, Gemss+TSM, StoRM and HPSS.
+Highlights of the features provided in the INDIGO-1 release:
+* Manage objects/files via CDMI that were uploaded via OneData (or any
+  other transfer mechanism)
+* Request storage quality of objects/files
+* Simulate backend tape system storage (Data and QoS)
+* Support backend object storage system (QoS)
+
+Supported platforms:
+* all with Java >= 1.8, tested on Ubuntu 14.04, Ubuntu 16.04, CentOS 7
 
 <a id="id3"></a>
 #### List of RfCs 
@@ -27,9 +36,6 @@ INDIGO-DataCloud CDMI Server with QoS:
 
 <a id="id4"></a>
 ### Deployment Notes
-
-Supported platforms:
-* all with Java >= 1.8, tested on Ubuntu 14.04, Ubuntu 16.04, CentOS 7
 
 Build from source with maven
 * [https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/building_from_sources.html](https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/building_from_sources.html)

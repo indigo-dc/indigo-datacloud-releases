@@ -18,16 +18,21 @@ Summary:
 <a id="id2"></a>
 ### What's new
 
+This is the first release of the Java-RepoSync service
+
 Supported Platforms:
-* Ubuntu 14.04 is supported by adding the [JRE 1.8 PPA](https://launchpad.net/~openjdk-r/+archive/ubuntu/ppa), required by java-syncrepos dependencysince 
-* CentOS 7 is supported by default
-* Any other distribution that support Docker is supported through the Docker image
+* OSs:
+  *  Ubuntu 14.04 is supported by adding the [JRE 1.8 PPA](https://launchpad.net/~openjdk-r/+archive/ubuntu/ppa), required by java-syncrepos dependencysince 
+  * CentOS 7 is supported by default
+  * Any other distribution that support Docker is supported through the Docker image
 
-- Operating System and Cloud Management Frameworks
+* Operating System and Cloud Management Frameworks
+  * It supports both OpenNebula and OpenStack backends
 
-It supports both OpenNebula and OpenStack backends
 <a id="id3"></a>
 #### List of RfCs 
+
+* N/A
 
 <a id="id4"></a>
 ### Deployment Notes

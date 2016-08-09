@@ -50,6 +50,7 @@
        * [OpenStack Identity Authentication Library](indigo1/indigo1/keystone_library1.md)
        * [Kubernetes](indigo1/kubernetes1.md)
        * [jSAGA Adaptors](indigo1/jsaga_adaptors1.md)
+       * fgPortalSetup
    * [Service template](service_template.md)
    * [Updates](indigo1/updates.md)
 * [INDIGO-2 ElectricIndigo](chapter2.md)

@@ -57,8 +57,18 @@ Installation methods
 <a id="id6"></a>
 ### Documentation
 
+* Please refer to [FutureGateway documentation](https://www.gitbook.com/book/ricsxn/futuregateway/details)
+
 <a id="id7"></a>
 ### List of Artifacts
+
+Tarballs:
+* Centos 7
+  * [jsaga-adaptor-rocci-0.0.1.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/jsaga-adaptor-rocci-0.0.1.tar.gz)
+  * [jsaga-adaptor-tosca-0.0.1.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/jsaga-adaptor-tosca-0.0.1.tar.gz)
+* Ubuntu14.04:
+  * [jsaga-adaptor-rocci-0.0.1.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/main/source/jsaga-adaptor-rocci-0.0.1.tar.gz)
+  * [jsaga-adaptor-tosca-0.0.1.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/main/source/jsaga-adaptor-tosca-0.0.1.tar.gz)
 
 <a id="id8"></a>
 ### Support

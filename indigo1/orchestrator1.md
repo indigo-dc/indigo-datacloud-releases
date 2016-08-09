@@ -1,4 +1,4 @@
-# Orchestrator
+# Orchestrator v. 1.0.0
 
 
 Summary:
@@ -18,12 +18,38 @@ Summary:
 <a id="id2"></a>
 ### What's new
 
+This is the first release o the Orchestrator. 
+* features:
+  * Support for the Data Location Scheduling (OneData)
+  * Support for Configuration Database for the IaaS Resources
+  * Cloud Provider choice (SLAM, CMDB, Monitoring, CPR integration)
+  * Ranking of the resources via Cloud Provider Ranker
+  * Implement AAI support and IM authentication relay 
+  * Use selected Cloud Provider for deploy/update/undeploy
+  * Image ID substitution in TOSCA template (to support multiple CP
+* changes:
+  * Removed OneDock-specific authentication
+* fixes:
+  * TOSCA: required inputs with default value not handled correctly
+  * Provider choice override for Chronos single provider 
+
+
+* More details can be found in the [CHANGELOG](New product. The changelog can be found at https://github.com/indigo-dc/orchestrator/blob/v1.0.0-FINAL/CHANGELOG.md)
+
+Supported Platforms:
+* The orchestrator can run on all the platforms that support the execution of Docker containers or Wildfly 9
+
+
 <a id="id3"></a>
 #### List of RfCs 
+
+* See [CHANGELOG](New product. The changelog can be found at https://github.com/indigo-dc/orchestrator/blob/v1.0.0-FINAL/CHANGELOG.md) for a complete list
 
 <a id="id4"></a>
 ### Deployment Notes
 
+* The reference on how to build the code, the docker container and how to run it is available at [https://github.com/indigo-dc/orchestrator/blob/releases/1-0-stable/README.md](https://github.com/indigo-dc/orchestrator/blob/releases/1-0-stable/README.md)
+* 
 <a id="id5"></a>
 ### Known Issues
 
@@ -34,6 +60,9 @@ Summary:
 
 <a id="id7"></a>
 ### List of Artifacts
+
+Docker Container:
+* [indigodatacloud/orchestrator:indigo_1](https://hub.docker.com/r/indigodatacloud/orchestrator/)
 
 <a id="id8"></a>
 ### Support

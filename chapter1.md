@@ -50,7 +50,7 @@ For more information, see [https://www.indigo-datacloud.eu](https://www.indigo-d
 # Release Notes
 
 The INDIGO-1 release consists in 32 Products divided in, mainly, Core Services, and Applications:
-* 158 OS packages
+* 167 OS packages
   * 41 RPMS & SRPMS
   * 96 binary & source DEBS 
   * 21 binary & source tarballs

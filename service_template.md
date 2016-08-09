@@ -1,4 +1,4 @@
-# Core Service 1 template
+# Service template
 
 Summary:
 * [Release Notes](#id1)

@@ -35,6 +35,8 @@ Supported platforms:
 <a id="id4"></a>
 ### Deployment Notes
 
+* use the [tarballs](id7) from the INDIGO-DC repositories 
+
 <a id="id5"></a>
 ### Known Issues
 
@@ -43,6 +45,8 @@ Supported platforms:
 
 <a id="id7"></a>
 ### List of Artifacts
+
+
 
 <a id="id8"></a>
 ### Support

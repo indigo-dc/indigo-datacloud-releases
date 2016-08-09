@@ -40,10 +40,27 @@ access_token (so three different auth plugins)
 
 <a id="id4"></a>
 ### Deployment Notes
+After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
+* On CentOS 7 
+
+```$ yum clean all```
+
+```$ yum install python2-keystoneauth1```
+
+* On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
+
+```$ apt-get update```
+
+```$ apt-get install python3-keystoneauth1```
+
+or
+```$ apt-get install python-keystoneauth1```
 
 
 <a id="id5"></a>
 ### Known Issues
+
+* see list of unsolved bugs at [https://bugs.launchpad.net/keystoneauth](https://bugs.launchpad.net/keystoneauth)
 
 <a id="id6"></a>
 ### Documentation
@@ -60,8 +77,6 @@ Packages:
   * python-keystoneauth1_2.10.0-indigo1.debian.tar.xz
   * python-keystoneauth1_2.10.0-indigo1.dsc
   * python-keystoneauth1_2.10.0.orig.tar.gz
-
-Third-Party repositories contain their dependencies on:
 
 
 <a id="id8"></a>

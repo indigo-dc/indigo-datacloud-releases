@@ -5,6 +5,7 @@ Researchers and data managers are able to access resources through:
 * An open source Mobile Application Toolkit for the iOS and Android platforms, serving as the base for the development of Mobile Apps.
 * User-friendly front ends for building programmable, general-purpose multi-domain Science Gateways.
 
+* [CLUES (CLUster Energy Saving)](indigo1/clues1.md)
 * [FutureGateway API Server](fgapiserver1.md)
 * [FutureGateway API Server Daemon](fgapiserverdaemon1.md)
 * [FutureGateway jSAGA Adaptors](indigo1/fg_jsaga_adaptors1.md)

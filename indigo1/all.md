@@ -20,6 +20,7 @@ Full list of INDIGO-1 MidnightBlue Services & Applications, with detailed releas
 * [INDIGO Kepler](indigo1/kepler1.md)
 * [Infrastructure Manager (IM)](indigo1/im1.md)
 * [Infrastructure Manager Java API (IM-Java-API)](indigo1/imjavaapi1.md)
+* [jSAGA Adaptors](indigo1/jsaga-adaptors1.md)
 * [JSAGA Resource Management API](indigo1/jsagarmapi1.md)
 * [Kubernetes](indigo1/kubernetes1.md)
 * [Liferay IAM](indigo1/liferayiam1.md)

@@ -50,7 +50,9 @@ Installation methods
 * Please refer to [FutureGateway documentation](https://www.gitbook.com/book/ricsxn/futuregateway/details)
 
 <a id="id7"></a>
-### List of ArtifactsTarballs:
+### List of Artifacts
+
+Tarballs:
 * CentOS 7 - [APIServerDaemon_v0.0.3.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/APIServerDaemon_v0.0.3.tar.gz)
 * Ubuntu 14.04 - [APIServerDaemon_v0.0.3.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/main/source/APIServerDaemon_v0.0.3.tar.gz)
 

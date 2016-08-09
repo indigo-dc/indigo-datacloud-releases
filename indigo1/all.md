@@ -2,13 +2,13 @@
 
 Full list of INDIGO-1 MidnightBlue Services & Applications, with detailed release notes and instructions for their installation/configuration.
 
-* [Accounting](accounting1.md)
-* [CDMI Server](cdmi1.md)
-* [CloudInfoProvider](cip1.md)
-* [CloudProviderRanker](cpr1.md)
-* [CLUES (CLUster Energy Saving)](clues1.md)
-* [dCache](dcache1.md)
-* [Partition Director (dynpart)](dynpart1.md)
+* [Accounting](indigo1/accounting1.md)
+* [CDMI Server](indigo1/cdmi1.md)
+* [CloudInfoProvider](indigo1/cip1.md)
+* [CloudProviderRanker](indigo1/cpr1.md)
+* [CLUES (CLUster Energy Saving)](indigo1/clues1.md)
+* [dCache](indigo1/dcache1.md)
+* [Partition Director (dynpart)](indigo1/dynpart1.md)
 * [FutureGateway API Server](indigo1/fgapiserver1.md)
 * [FutureGateway API Server Daemon](indigo1/fgapiserverdaemon1.md)
 * [FutureGateway jSAGA Adaptors](indigo1/fg_jsaga_adaptors1.md)

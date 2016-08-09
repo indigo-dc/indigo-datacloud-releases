@@ -28,6 +28,20 @@ Supproted Platforms:
 <a id="id4"></a>
 ### Deployment Notes
 
+After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
+* On CentOS 7 
+
+```$ yum clean all
+$ yum install python-nova-docker```
+
+* On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
+
+```$ apt-get update
+$ apt-get install python-nova-docker```
+
+For configuration details please follow the** [GitHub Documentation](https://indigo-dc.gitbooks.io/nova-docker-documentation/content/)**
+
+
 * see [documentation](https://indigo-dc.gitbooks.io/nova-docker-documentation/content/) 
  
 

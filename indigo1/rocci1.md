@@ -1,4 +1,4 @@
-# rOCCI
+# rOCCI Server v. 1.1.9 & Client v. 4.3.3
 
 
 Summary:
@@ -17,6 +17,13 @@ Summary:
 
 <a id="id2"></a>
 ### What's new
+
+rOCCI-server 1.1.9
+rOCCI-cli 4.3.4
+
+Supported Platforms:
+* from INDiDO-DC repositories - Ubuntu 14 & CentOS7
+* Other: Ubuntu 16, SL 5, SL 6, Debian 6, 7, 8
 
 <a id="id3"></a>
 #### List of RfCs 

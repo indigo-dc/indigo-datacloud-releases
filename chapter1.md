@@ -63,7 +63,7 @@ INDIGO-1 is fully supported
   * **Ubuntu 14.04**
   * Optionally PTs support also other OS platforms. You can find more information in the individual products documentation.
 * on the following **CMFs (Cloud Management Framework)** versions:
-  * **OpenStack v. Liberty,** with the exception of the "TOSCA in HEAT (heat-translator) for which it one must used the Mitaka HEAT, and the rest of services on Liberty
+  * **OpenStack v. Liberty,** with the exception of the "TOSCA in HEAT" (heat-translator) for which it one must used the Mitaka HEAT, and the rest of services on Liberty
   * **OpenNebula v. 4.14**
 
 You can find in the later chapters the full list of products, with detailed release notes and instructions for their installation/configuration. 

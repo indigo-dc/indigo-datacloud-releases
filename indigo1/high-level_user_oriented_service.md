@@ -13,4 +13,5 @@ Researchers and data managers are able to access resources through:
 * [INDIGO Kepler](indigo1/kepler1.md)
 * [jSAGA Adaptors](indigo1/jsaga_adaptors1.md)
 * [Liferay IAM](indigo1/liferayiam1.md)
+* [Ophidia](indigo1/ophidia1.md)
 * [Token Translation Service (TTS)](indigo1/tts1.md)

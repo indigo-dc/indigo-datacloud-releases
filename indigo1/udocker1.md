@@ -34,6 +34,8 @@ Supported Platforms:
 <a id="id3"></a>
 #### List of RfCs 
 
+* N/A
+
 <a id="id4"></a>
 ### Deployment Notes
 

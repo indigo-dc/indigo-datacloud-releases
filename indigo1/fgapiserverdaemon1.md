@@ -25,8 +25,14 @@ Supported Platforms:
 <a id="id3"></a>
 #### List of RfCs 
 
+* * N/A
+
 <a id="id4"></a>
 ### Deployment Notes
+
+Installation methods
+* Clone from [GitHub](https://github.com/indigo-dc/APIServerDaemon) or install it through [PortalSetup scripts](https://github.com/indigo-dc/PortalSetup)
+* Download [tarball](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/APIServerDaemon-v0.0.3.tar.gz) from the INDIGO-DC repositories.
 
 <a id="id5"></a>
 ### Known Issues

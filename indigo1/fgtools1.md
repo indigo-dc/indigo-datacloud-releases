@@ -52,6 +52,10 @@ Supported Platforms:
 <a id="id7"></a>
 ### List of Artifacts
 
+Tarballs:
+* CentOS 7 - [fgTools-0.0.1.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/fgTools-0.0.1.tar.gz)
+* Ubuntu 14.04 - [fgTools-0.0.1.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/main/source/fgTools-0.0.1.tar.gz)
+
 <a id="id8"></a>
 ### Support
 

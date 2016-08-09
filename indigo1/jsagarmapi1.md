@@ -28,7 +28,7 @@ It allows to acquire and manage resources (compute, storage, network). One can t
 <a id="id2"></a>
 ### What's new
 
-Highlights on the [improvements, new features and/or important fixes](http://software.in2p3.fr/jsaga/dev/changes-report.html#a1.2.0)::
+Highlights on the [improvements, new features and/or important fixes](http://software.in2p3.fr/jsaga/dev/changes-report.html#a1.2.0):
 * Implemented the SAGA ResourceManagement API
 
 Supported Platforms : 

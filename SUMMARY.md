@@ -43,7 +43,6 @@
        * [udocker](indigo1/udocker1.md)
        * [Zabbix Probes](indigo1/zabbix-probes1.md)
    * [Core Service 1 template](core_service_1_template.md)
-   * [Applications](applications_indigo1.md)
    * [Updates](updates_indigo1.md)
    * [Data Center Solutions](indigo1/datacenter_solutions.md)
    * [Data Solutions](indigo1/data_solutions.md)

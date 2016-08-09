@@ -38,6 +38,9 @@ Supported Platforms:
 ### Deployment Notes
 
 Installation can be done from [GitHub](https://github.com/indigo-dc/udocker) or [tarball](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/tgz/udocker-v1.0.0.tar.gz)
+* an [Ansible playbook ](https://github.com/indigo-dc/udocker/blob/master/ansible_install.yaml)is also available 
+
+* More details regarding the installation and configuration can be found in the [Installation & Configuration Guide](https://indigo-dc.gitbooks.io/udocker/content/doc/installation_manual.html)
 
 <a id="id5"></a>
 ### Known Issues
@@ -47,14 +50,19 @@ Installation can be done from [GitHub](https://github.com/indigo-dc/udocker) or 
 <a id="id6"></a>
 ### Documentation
 
+* [udocker in GitBook](https://www.gitbook.com/book/indigo-dc/udocker)
+  * [Installation & Configuration Guide](https://indigo-dc.gitbooks.io/udocker/content/doc/installation_manual.html)
+  * [User Guide](https://indigo-dc.gitbooks.io/udocker/content/doc/user_manual.html)
+
 <a id="id7"></a>
 ### List of Artifacts
 
 Tarballs:
-* udocker-v1.0.0-linux-x86_64.tgz
+* [udocker-v1.0.0-linux-x86_64.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/tgz/udocker-v1.0.0.tar.gz)
 
 <a id="id8"></a>
 ### Support
 
 * Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
 https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* developers can be contacted also using udocker@lip.pt

@@ -40,8 +40,12 @@ Supported platforms:
 <a id="id5"></a>
 ### Known Issues
 
+* N/A
+
 <a id="id6"></a>
 ### Documentation
+
+* [README on GitHub](https://github.com/indigo-dc/PortalSetup/blob/master/README.md)
 
 <a id="id7"></a>
 ### List of Artifacts

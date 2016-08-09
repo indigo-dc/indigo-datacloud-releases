@@ -36,6 +36,7 @@ Full list of INDIGO-1 MidnightBlue Services & Applications, with detailed releas
 * [Orchestrator](indigo1/orchestrator1.md)
 * [Nova-Docker](indigo1/nova-docker1.md)
 * [pOCCI](indigo1/pocci1.md)
+* [PortalSetup](indigo1/fgportalsetup1.md)
 * [RepoSync](indigo1/reposync1.md)
 * [rOCCI](indigo1/rocci1.md)
 * [SLA Manager](indigo1/slam1.md)

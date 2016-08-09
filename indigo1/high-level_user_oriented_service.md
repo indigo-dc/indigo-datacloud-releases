@@ -7,5 +7,7 @@ Researchers and data managers are able to access resources through:
 
 * [FutureGateway API Server](fgapiserver1.md)
 * [FutureGateway API Server Daemon](fgapiserverdaemon1.md)
+* [FutureGateway jSAGA Adaptors](indigo1/fg_jsaga_adaptors1.md)
+* [fgTools](indigo1/fgtools1.md)
 * [INDIGO OMT](indigo1/omt1.md)
 * [INDIGO Kepler](indigo1/kepler1.md)

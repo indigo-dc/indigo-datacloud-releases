@@ -18,8 +18,14 @@ Summary:
 <a id="id2"></a>
 ### What's new
 
+Supported Platforms:
+* Linux(ELx/Deb), MacOSx
+* Ubuntu 14.04 Server, CentOSX, MacOSx
+
 <a id="id3"></a>
 #### List of RfCs 
+
+* N/A
 
 <a id="id4"></a>
 ### Deployment Notes

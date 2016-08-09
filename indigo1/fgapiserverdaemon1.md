@@ -42,6 +42,8 @@ Installation methods
 <a id="id6"></a>
 ### Documentation
 
+* Please refer to [FutureGateway documentation](https://www.gitbook.com/book/ricsxn/futuregateway/details)
+
 <a id="id7"></a>
 ### List of Artifacts
 

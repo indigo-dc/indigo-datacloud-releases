@@ -5,4 +5,3 @@ All the INDIGO components are integrated into a comprehensive **Authentication a
 * [Identity Harmonization Service](indigo1/idh1.md)
 * [INDIGO IAM](indigo1/iam1.md)
 * [Token Translation Service (TTS)](indigo1/tts1.md)
-* 

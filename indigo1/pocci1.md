@@ -1,4 +1,4 @@
-# pOCCI
+# pOCCI v. 1.0.2
 
 
 Summary:
@@ -18,6 +18,13 @@ Summary:
 <a id="id2"></a>
 ### What's new
 
+Supported Platforms:
+* OS Systems
+  *  From INDIGO-DC repositories: - CentOS 7, Ubuntu 14/trusty
+  *  [others](http://scientific.zcu.cz/cesnet/pOCCI/html/devel.html#packages), also native python egg (pypi.python.org)
+* clouds: 
+  * Amazon EC2, OpenNebula, OpenStack, rOCCI-server dummy backend for testing
+  
 <a id="id3"></a>
 #### List of RfCs 
 

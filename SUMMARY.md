@@ -52,6 +52,5 @@
    * [Service template](service_template.md)
    * [Updates](indigo1/updates_indigo1.md)
    * [Common Solutions](indigo1/common_solutions.md)
-   * Common Solutions
 * [INDIGO-2 ElectricIndigo](chapter2.md)
 

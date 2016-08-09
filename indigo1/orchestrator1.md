@@ -15,6 +15,8 @@ Summary:
 <a id="id1"></a>
 ## Release Notes
 
+This is the **Orchestrator of the PaaS layer**, a core component of the INDIGO - DataCloud project. It receives high-level deployment requests and coordinates the deployment process over the CMFs and Mesos.
+
 <a id="id2"></a>
 ### What's new
 

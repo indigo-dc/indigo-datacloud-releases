@@ -13,7 +13,7 @@ Full list of INDIGO-1 MidnightBlue Services & Applications, with detailed releas
 * [FutureGateway API Server Daemon](indigo1/fgapiserverdaemon1.md)
 * [FutureGateway jSAGA Adaptors](indigo1/fg_jsaga_adaptors1.md)
 * [fgTools](indigo1/fgtools1.md)
-* [TOSCA-in-HEAT (indigo1/heat-translator1.md)](heattranslator1.md) 
+* [TOSCA-in-HEAT](indigo1/heat-translator1.md) 
 * [Identity Harmonization Service](indigo1/idh1.md)
 * [INDIGO IAM](indigo1/iam1.md)
 * [INDIGO OMT](indigo1/omt1.md)

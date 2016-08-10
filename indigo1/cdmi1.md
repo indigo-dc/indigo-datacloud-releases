@@ -55,7 +55,7 @@ Run with Docker
 ### Documentation
 
 * [INDIGO-DataCloud CDMI Server with QoS - Overview](https://indigo-dc.gitbooks.io/cdmi-qos/content/)
-* [Develoeprs Guide](https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/developer.html)
+* [Developers Guide](https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/developer.html)
 * [Deployment Guide](https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/administrator.html)
 * [User Guide](https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/user.html)
 

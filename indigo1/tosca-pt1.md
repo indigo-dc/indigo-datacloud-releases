@@ -47,15 +47,13 @@ Supported Platforms:
 ### Deployment Notes
 
 After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
-* On CentOS 7 
-
+* On CentOS 7 <br>
   ```$ yum clean all``` <br>
   ```$ yum install tosca-parser```
 
-* On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
-
-```$ apt-get update
-$ apt-get install python-tosca-parser```
+* On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):<br>
+  ```$ apt-get update```<br>
+  ```$ apt-get install python-tosca-parser```
 
  
 * Other installation methods are described [here](https://github.com/indigo-dc/tosca-parser/blob/master/doc/source/installation.rst)

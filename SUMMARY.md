@@ -50,7 +50,7 @@
        * [Token Translation Service](indigo1/tts1.md)
        * [udocker](indigo1/udocker1.md)
        * [Zabbix Probes](indigo1/zabbix-probes1.md)
-       * Keystone AAI support
+       * [Keystone AAI support](indigo1/keystone_aai_support1.md)
    * [Service template](service_template.md)
    * [Updates](indigo1/updates.md)
 * [INDIGO-2 ElectricIndigo](chapter2.md)

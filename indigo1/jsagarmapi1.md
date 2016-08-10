@@ -56,7 +56,7 @@ Installation methods :
 ### Documentation
 
 * j[SAGA RM API GitBook](https://indigo-dc.gitbooks.io/jsaga-resource-management/content/)
-* 
+
 <a id="id7"></a>
 ### List of Artifacts
 

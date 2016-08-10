@@ -1,4 +1,4 @@
-# java-SyncRepos v. 1.0-1
+# RepoSync v. 1.0-1
 
 
 Summary:
@@ -40,20 +40,17 @@ Supported Platforms:
 ### Deployment Notes
 
 After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
-* On CentOS 7 
+* On CentOS 7 <br>
+```$ yum clean all```<br>
+```$ yum install indigo-dc-reposync```
 
-```$ yum clean all
-$ yum install indigo-dc-reposync```
-
-* On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md) add also the JRE 1.8 PPA following the documentation present [here](https://launchpad.net/~openjdk-r/+archive/ubuntu/ppa):
-
-  ```$ apt-get update```
-
+* On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md) add also the JRE 1.8 PPA following the documentation present [here](https://launchpad.net/~openjdk-r/+archive/ubuntu/ppa):<br>
+  ```$ apt-get update```<br>
   ```$ apt-get install reposync```
 
 Other methods:
 * an Ansible playbook is available from the [INDIGO-DC github](https://github.com/indigo-dc/java-syncrepos/tree/master/ansible/tasks)
-* a Docker container is available in the [INDIGO-DC Organization on DockerHub](https://hub.docker.com/r/indigodatacloud/reposync/):
+* a Docker container is available in the [INDIGO-DC Organization on DockerHub](https://hub.docker.com/r/indigodatacloud/reposync/):<br>
   ```docker pull indigodatacloud/reposync:indigo_1```
 
 <a id="id5"></a>

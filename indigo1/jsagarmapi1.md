@@ -69,5 +69,5 @@ Tarballs:
 
 * [https://forge.in2p3.fr/projects/jsaga/boards/11](https://forge.in2p3.fr/projects/jsaga/boards/11)
 or
-* the [INDIGO - DataCloud CatchAll GGUS Support Unit](
+* by using the [INDIGO - DataCloud CatchAll GGUS Support Unit](
 https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

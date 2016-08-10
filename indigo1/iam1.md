@@ -19,13 +19,25 @@ The **Identity and Access Management Service** provides a layer where identities
 <a id="id2"></a>
 ### What's new
 
+
 This is the first public release of the INDIGO Identity and Access Management
 Service.
 
 The IAM is an OpenID-connect identity provider which provides:
-* OpenID-connect and OAuth client registration and management (leveraging and extending the MitreID connect server functionality
-* SCIM user and group provisioning and management
-* A partial implementation of the OAuth Token Exchange draft standard for OAuth token delegation and impersonation
+
+- OpenID-connect and OAuth client registration and management (leveraging and
+  extending the [MitreID connect server][mitre] functionality
+- [SCIM][scim] user and group provisioning and management
+- A partial implementation of the [OAuth Token Exchange draft
+  standard][token-exchange] for OAuth token delegation and impersonation
+
+
+[iam-image]: https://hub.docker.com/r/indigodatacloud/iam-login-service
+[mitre]: https://github.com/mitreid-connect/OpenID-Connect-Java-Spring-Server
+[scim]: http://www.simplecloud.info
+[token-exchange]: https://tools.ietf.org/html/draft-ietf-oauth-token-exchange-05
+[gitbook-manual]: https://www.gitbook.com/book/andreaceccanti/iam/details
+[github-doc]: https://github.com/indigo-iam/iam/blob/master/SUMMARY.md
 
 Supported Platforms:
 * The **IAM** service is currently distributed as a docker image from Dockerhub, so in order to run the service, you will need Docker v. 1.11.1 or greater. If you want to use docker-compose to deploy the service, you will also need docker-compose v.1.7.0 or greater.
@@ -39,7 +51,7 @@ Supported Platforms:
 ### Deployment Notes
 
 * Please read the [Deployment and Administration guide](https://indigo-dc.gitbooks.io/iam/content/doc/admin.html)
-* Documentation on how to build and run the service can be found in the [IAM GitBook manual](https://www.gitbook.com/book/andreaceccanti/iam/details) or on [Github](https://github.com/indigo-iam/iam/blob/master/SUMMARY.md).
+* Documentation on how to build and run the service can be found in the [IAM GitBook manual][gitbook-manual] or on [Github][github-doc].
 
 <a id="id5"></a>
 ### Known Issues

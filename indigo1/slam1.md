@@ -15,14 +15,22 @@ Summary:
 <a id="id1"></a>
 ## Release Notes
 
+The **SLA (Service Level Agreement) Manager** is the service for QoS negotiations developed through the INDIGO - Data Cloud project. It is:
+* providing a web-interface that allows customers to manage SLAs with service providers and describe its preferences
+* enabling REST API for access both preferences and SLAs
+
 <a id="id2"></a>
 ### What's new
 
 <a id="id3"></a>
 #### List of RfCs 
 
+* N/A
+
 <a id="id4"></a>
 ### Deployment Notes
+
+* Please carefully read the [Installation Documentation](https://indigo-dc.gitbooks.io/slam/content/installation.html)
 
 <a id="id5"></a>
 ### Known Issues
@@ -38,8 +46,8 @@ Summary:
 ### List of Artifacts
 
 Docker Container:
-* indigodatacloud/slam-im
-* indigodatacloud/
+* [indigodatacloud/slam-im:indigo_1](https://hub.docker.com/r/indigodatacloud/slam/)
+* [indigodatacloudapps/slam-webapp:indigo_1](https://hub.docker.com/r/indigodatacloudapps/slam-webapp/)
 
 <a id="id8"></a>
 ### Support

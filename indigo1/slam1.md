@@ -1,4 +1,4 @@
-# SLA Manager
+# SLA Manager v. 1.0.0
 
 
 Summary:
@@ -32,8 +32,14 @@ Summary:
 <a id="id6"></a>
 ### Documentation
 
+* [SLA Manager in GitBook](https://indigo-dc.gitbooks.io/slam/content/)
+
 <a id="id7"></a>
 ### List of Artifacts
+
+Docker Container:
+* indigodatacloud/slam-im
+* indigodatacloud/
 
 <a id="id8"></a>
 ### Support

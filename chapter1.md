@@ -106,7 +106,7 @@ INDIGO-1 software can be downloaded from [INDIGO DataCloud repositories](http://
 
 ## Documentation
 
-Please find INDIGO-1 documentation [here](https://www.gitbook.com/@indigo-dc/dashboard)
+Please find INDIGO-1 documentation [here](https://www.gitbook.com/@indigo-dc/)
 
 
 ## Support

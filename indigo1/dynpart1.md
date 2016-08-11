@@ -1,6 +1,10 @@
 # Partition Director v. 0.08-1
 
-Summary:
+**Partition Director** ease management of a hybrid data center, where both Batch System based and cloud based services are provided. Physical computing resources can play both roles in a mutual exclusive fashion.
+
+The **Partition Director** takes care of commuting the role of one or more physical machines from "Worker Node" (member of the batch system cluster) to "Compute Node" (member of a cloud instance) and vice versa.
+
+**Summary**:
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
@@ -13,10 +17,6 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
-
-**Partition Director** ease management of a hybrid data center, where both Batch System based and cloud based services are provided. Physical computing resources can play both roles in a mutual exclusive fashion.
-
-The **Partition Director** takes care of commuting the role of one or more physical machines from "Worker Node" (member of the batch system cluster) to "Compute Node" (member of a cloud instance) and vice versa.
 
 <a id="id2"></a>
 ### What's new

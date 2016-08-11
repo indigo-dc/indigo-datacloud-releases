@@ -1,7 +1,9 @@
 # Orchestrator v. 1.0.0
 
 
-Summary:
+This is the **Orchestrator of the PaaS layer**, a core component of the INDIGO - DataCloud project. It receives high-level deployment requests and coordinates the deployment process over the CMFs and Mesos.
+
+**Summary**:
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
@@ -14,8 +16,6 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
-
-This is the **Orchestrator of the PaaS layer**, a core component of the INDIGO - DataCloud project. It receives high-level deployment requests and coordinates the deployment process over the CMFs and Mesos.
 
 <a id="id2"></a>
 ### What's new

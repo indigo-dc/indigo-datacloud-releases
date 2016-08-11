@@ -1,7 +1,15 @@
 # udocker v. 1.0.0
 
 
-Summary:
+**udocker** - A basic user tool to execute simple docker containers in user space without requiring root privileges. 
+* Enables basic download and execution of docker containers by non-privileged users in Linux systems were docker is not available. 
+* It can be used to access and execute the content of docker containers in Linux batch systems and interactive clusters that are managed by other entities such as grid infrastructures or externaly managed batch or interactive systems.
+
+The Indigo **udocker** does not require any type of privileges nor the deployment of services by system administrators. It can be downloaded and executed entirely by the end user.
+
+**udocker** is a wrapper around several tools to mimic a subset of the docker capabilities including pulling images and running then with minimal functionality.
+
+**Summary**:
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
@@ -14,14 +22,6 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
-
-**udocker** - A basic user tool to execute simple docker containers in user space without requiring root privileges. 
-* Enables basic download and execution of docker containers by non-privileged users in Linux systems were docker is not available. 
-* It can be used to access and execute the content of docker containers in Linux batch systems and interactive clusters that are managed by other entities such as grid infrastructures or externaly managed batch or interactive systems.
-
-The Indigo **udocker** does not require any type of privileges nor the deployment of services by system administrators. It can be downloaded and executed entirely by the end user.
-
-**udocker** is a wrapper around several tools to mimic a subset of the docker capabilities including pulling images and running then with minimal functionality.
 
 <a id="id2"></a>
 ### What's new

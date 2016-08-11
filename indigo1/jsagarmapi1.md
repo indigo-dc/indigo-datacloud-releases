@@ -1,8 +1,16 @@
 
 # jSAGA ResourceManager API v. 1.2.0
 
+The **Resource Management API** is an extension of the SAGA specification / JSAGA implementation. It does not replace the standard Job/Data Management API.
 
-Summary:
+It allows to acquire and manage resources (compute, storage, network). One can then use these resources to run job or manage data (with existing job/data API). Features of this API include:
+* Wrapping to underlying technologies (cloud, pilot jobs, grid…) to an uniform API,
+* Asynchronous mode (task),
+* Timeout management,
+* Notification (metrics),
+* Security context forwarding.
+
+**Summary**:
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
@@ -16,14 +24,6 @@ Summary:
 <a id="id1"></a>
 ## Release Notes
 
-The "Resource Management API" is an extension of the SAGA specification / JSAGA implementation. It does not replace the standard Job/Data Management API.
-
-It allows to acquire and manage resources (compute, storage, network). One can then use these resources to run job or manage data (with existing job/data API). Features of this API include:
-* Wrapping to underlying technologies (cloud, pilot jobs, grid…) to an uniform API,
-* Asynchronous mode (task),
-* Timeout management,
-* Notification (metrics),
-* Security context forwarding.
 
 <a id="id2"></a>
 ### What's new

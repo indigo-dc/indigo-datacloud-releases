@@ -1,6 +1,8 @@
 # CloudInfoProvider v. 0.8.5
 
-Summary:
+The **Cloud Information provider** generates a representation of cloud resources, to be published inside INDIGO - DataCloud CMDB.
+
+**Summary**:
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
@@ -16,11 +18,14 @@ Summary:
 <a id="id2"></a>
 ### What's new
 
-The Cloud Information provider generates a representation of cloud resources, to be published inside INDIGO CMDB.
+Highlights of the first release:
 * The generated representation is described using a Mako template having access to the cloud middleware information.
 * An Ansible role is available: https://galaxy.ansible.com/indigo-dc/cloud-info-provider/
 * Retrieves images information from OpenNebula and OpenStack. 
 * send-to-cmdb tool provided for inserting/updating image information inside the INDIGO CMDB (Does not touch images not present in the local cloud middleware).
+
+Supported Platforms
+* CentOS7 and Ubuntu 14.04 (trusty)
 
 <a id="id3"></a>
 #### List of RfCs 
@@ -29,9 +34,6 @@ The Cloud Information provider generates a representation of cloud resources, to
 
 <a id="id4"></a>
 ### Deployment Notes
-
-Supported platforms
-* CentOS7 and Ubuntu 14.04 (trusty)
 
 installation & Configuration:
 * Please read the detailed information in the [Deployment and Administration Guide](https://indigo-dc.gitbooks.io/cloud-info-provider/content/doc/admin.html)

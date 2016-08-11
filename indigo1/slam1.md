@@ -1,7 +1,10 @@
 # SLA Manager v. 1.0.0
 
+The **SLA (Service Level Agreement) Manager** is the service for QoS negotiations developed through the INDIGO - Data Cloud project. It is:
+* providing a web-interface that allows customers to manage SLAs with service providers and describe its preferences
+* enabling REST API for access both preferences and SLAs
 
-Summary:
+**Summary**:
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
@@ -14,10 +17,6 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
-
-The **SLA (Service Level Agreement) Manager** is the service for QoS negotiations developed through the INDIGO - Data Cloud project. It is:
-* providing a web-interface that allows customers to manage SLAs with service providers and describe its preferences
-* enabling REST API for access both preferences and SLAs
 
 <a id="id2"></a>
 ### What's new

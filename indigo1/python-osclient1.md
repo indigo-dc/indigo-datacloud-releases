@@ -1,7 +1,11 @@
 # OpenStack Client v. 3.0.0.dev278-indigo6
 
 
-Summary:
+**OpenStackClient** (aka OSC) is a command-line client for OpenStack that brings the command set for Compute, Identity, Image, Object Store and Block Storage APIs together in a single shell with a uniform command structure.
+
+The primary goal is to provide a unified shell command structure and a common language to describe operations in OpenStack.
+
+**Summary**:
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
@@ -15,9 +19,6 @@ Summary:
 <a id="id1"></a>
 ## Release Notes
 
-OpenStackClient (aka OSC) is a command-line client for OpenStack that brings the command set for Compute, Identity, Image, Object Store and Block Storage APIs together in a single shell with a uniform command structure.
-
-The primary goal is to provide a unified shell command structure and a common language to describe operations in OpenStack
 
 <a id="id2"></a>
 ### What's new

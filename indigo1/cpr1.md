@@ -2,7 +2,7 @@
 
 **CloudProviderRanker** is a standalone REST WEB Service which ranks cloud providers basing on rules implemented with the [Drools framework]( http://drools.org/)
 
-Summary:
+**Summary**:
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)

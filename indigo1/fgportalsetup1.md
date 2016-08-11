@@ -1,6 +1,7 @@
 # Portal Setup v. 0.0.2
+The **Portal Setup**project is a script collection for automatic installation of the FutureGateway portal and its development environment. 
 
-Summary:
+**Summary**:
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
@@ -13,7 +14,6 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
-The **Portal Setup**project is a script collection for automatic installation of the FutureGateway portal and its development environment. 
 
 <a id="id2"></a>
 ### What's new

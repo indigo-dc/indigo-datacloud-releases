@@ -1,7 +1,12 @@
 # rOCCI Server v. 1.1.9 & Client v. 4.3.4
 
+**rOCCI** is a framework that allows management of resources in arbitrary cloud management frameworks through the OCCI standard. 
 
-Summary:
+rOCCI is a third-party product, which is already documented in the EGI Wiki: [https://wiki.egi.eu/wiki/rOCCI:ROCCI](https://wiki.egi.eu/wiki/rOCCI:ROCCI)
+
+INDIGO contributions have so far dealt mainly with streamlining the functionality in the AWS backend, documented at [https://wiki.egi.eu/wiki/ROCCI-server_Admin_Guide#EC2_Backend](https://wiki.egi.eu/wiki/ROCCI-server_Admin_Guide#EC2_Backend)
+
+**Summary**:
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
@@ -14,12 +19,6 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
-
-**rOCCI** is a framework that allows management of resources in arbitrary cloud management frameworks through the OCCI standard. 
-
-rOCCI is a third-party product, which is already documented in the EGI Wiki: [https://wiki.egi.eu/wiki/rOCCI:ROCCI](https://wiki.egi.eu/wiki/rOCCI:ROCCI)
-
-INDIGO contributions have so far dealt mainly with streamlining the functionality in the AWS backend, documented at [https://wiki.egi.eu/wiki/ROCCI-server_Admin_Guide#EC2_Backend](https://wiki.egi.eu/wiki/ROCCI-server_Admin_Guide#EC2_Backend)
 
 <a id="id2"></a>
 ### What's new

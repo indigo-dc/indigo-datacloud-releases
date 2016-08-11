@@ -1,7 +1,9 @@
 # pOCCI v. 1.0.2
 
 
-Summary:
+**pOCCI** is OCCI standard compliance testing tool. Tests are described [here](http://www.etsi.org/deliver/etsi_ts/103100_103199/103142/01.01.01_60/ts_103142v010101p.pdf).
+
+**Summary**:
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
@@ -14,7 +16,6 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
-pOCCI is OCCI standard compliance testing tool. Tests are described [here](http://www.etsi.org/deliver/etsi_ts/103100_103199/103142/01.01.01_60/ts_103142v010101p.pdf).
 
 <a id="id2"></a>
 ### What's new

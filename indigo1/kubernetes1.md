@@ -9,7 +9,7 @@ Summary:
 <a id="id1"></a>
 ## Release Notes
 
-We provide [documentation](https://indigo-dc.gitbooks.io/kubernetes/content/) on how to setup a Kubernetes Cluster together with a shell script and Ansible playbook for the installation, uploaded to the git: [https://github.com/indigo-dc/kubernete](https://github.com/indigo-dc/kubernete)s
+We provide [documentation](https://indigo-dc.gitbooks.io/kubernetes/content/) on how to setup a **Kubernetes Cluster** together with a shell script and Ansible playbook for the installation, uploaded to the git: [https://github.com/indigo-dc/kubernete](https://github.com/indigo-dc/kubernete)s
 
 <a id="id8"></a>
 ### Support

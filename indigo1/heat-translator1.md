@@ -1,6 +1,9 @@
 # TOSCA-in-HEAT v. 0.5.1
 
-Summary:
+**Heat-Translator** is an Openstack project, with contributions through the INDIGO - DataCloud project, licensed under Apache 2. 
+* It is a command line tool which takes non-Heat templates as an input and produces a Heat Orchestration Template (HOT) which can be deployed by Heat. Currently the development and testing is done with an aim to translate OASIS Topology and Orchestration Specification for Cloud Applications (**TOSCA)** templates to HOT. However, the tool is designed to be easily extended to use with any format other than TOSCA.
+
+**Summary**:
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
@@ -13,8 +16,6 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
-**Heat-Translator** is an Openstack project, with contributions through the INDIGO - DataCloud project, licensed under Apache 2. 
-* It is a command line tool which takes non-Heat templates as an input and produces a Heat Orchestration Template (HOT) which can be deployed by Heat. Currently the development and testing is done with an aim to translate OASIS Topology and Orchestration Specification for Cloud Applications (**TOSCA)** templates to HOT. However, the tool is designed to be easily extended to use with any format other than TOSCA.
 
 <a id="id2"></a>
 ### What's new

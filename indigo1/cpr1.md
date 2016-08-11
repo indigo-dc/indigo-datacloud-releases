@@ -42,10 +42,21 @@ Supported platforms
 * Both provide */etc/init.d/cloudproviderranker start/stop* script. 
 * Installation of RPM also starts the service; de-installation stops the service
 
+After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
+* On CentOS 7 <br>
+  ```$ yum clean all```<br>
+  ```$ yum install tts```
+
+* On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):<br>
+  ```$ apt-get update```<br>
+  ```$ apt-get install tts```
+
+* More details regarding the installation and **configuration** can be found in the [TTS Deployment And Administration Guide](https://indigo-dc.gitbooks.io/token-translation-service/content/admin.html)
+
 <a id="id5"></a>
 ### Known Issues
 * N/A
-* 
+
 <a id="id6"></a>
 ### Documentation
 

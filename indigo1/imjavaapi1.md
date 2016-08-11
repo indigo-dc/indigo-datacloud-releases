@@ -1,5 +1,9 @@
 # Infrastructure Manager Java API  v0.4.7
 
+The **Infrastructure manager Java API** - offers an API that allows to connect to the Infrastructure Manager REST API. For more information about the IM capabilities check: [IM Web](http://www.grycap.upv.es/im).
+
+The javadoc for this project can be found here: [Javadoc](http://indigo-dc.github.io/im-java-api/apidocs/)
+
 Summary:
 * [Release Notes](#id1)
   * [What's new](#id2)
@@ -13,10 +17,6 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
-
-This project offers an API that allows to connect to the Infrastructure Manager REST API. For more information about the IM capabilities check: [IM Web](http://www.grycap.upv.es/im).
-
-The javadoc for this project can be found here: [Javadoc](http://indigo-dc.github.io/im-java-api/apidocs/)
 
 <a id="id2"></a>
 ### What's new

@@ -1,19 +1,6 @@
 # FutureGateway API Server v. v0.0.3
 
 
-Summary:
-* [Release Notes](#id1)
-  * [What's new](#id2)
-  * [List of RfCs](#id3)
-  * [Deployment Notes](#id4)
-  * [Known Issues](#id5)
-  * [Documentation](#id6)
-  * [List of Artifacts](#id7)
-  * [Support](#id8)
-
-
-<a id="id1"></a>
-## Release Notes
 The **FutureGateway** aids the creation of Science Gateways or enable existing community oriented interfaces to become a Science Gateway, thus accessing any distributed computing resource using a simple set of REST APIs.
 
 The **FutureGateway API Server** project implements the interface of a RESTful API Server, compliant with [CSGF APIs](http://docs.csgfapis.apiary.io/#reference/v1.0/application/create-a-task) specifications. Any activity processed by this interface will be then processed and orchestrated by the [FutureGateway API Server Daemon](indigo1/fgapiserverdaemon1.md) component.
@@ -26,7 +13,24 @@ The Principal advantages of this solutions are:
 * Backward compatibility with existing systems based on the CSGF
 * Fast provisioning of ready to go solutions
 * Fast prototyping when designing new features and components (including APIServer itself)
-* Ideal solution for existing development environments already using CSGF
+* Ideal solution for existing development environments already using CSGF.
+
+**Summary**:
+* [Release Notes](#id1)
+  * [What's new](#id2)
+  * [List of RfCs](#id3)
+  * [Deployment Notes](#id4)
+  * [Known Issues](#id5)
+  * [Documentation](#id6)
+  * [List of Artifacts](#id7)
+  * [Support](#id8)
+
+
+<a id="id1"></a>
+## Release Notes
+
+
+
 
 <a id="id2"></a>
 ### What's new

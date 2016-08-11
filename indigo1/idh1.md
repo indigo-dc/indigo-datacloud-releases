@@ -1,6 +1,10 @@
 # Identity Harmonization Service (IDH) v. 1.0-2
 
-Summary:
+
+The **INDIGO-DataCloud Identity Harmonization Service** provides a RESTful web service to link and unlink multiple local user accounts.
+* Linking user accounts modifies the local user accounts so that all linked accounts represent the specified primary account with group memberships of all groups from all accounts.
+
+**Summary**:
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
@@ -13,9 +17,6 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
-
-The **INDIGO-DataCloud Identity Harmonization Service** provides a RESTful web service to link and unlink multiple local user accounts.
-* Linking user accounts modifies the local user accounts so that all linked accounts represent the specified primary account with group memberships of all groups from all accounts.
 
 <a id="id2"></a>
 ### What's new

@@ -8,7 +8,7 @@ Summary:
 <a id="id1"></a>
 ## Release Notes
 
-The **"Keystone AAI Support"** is a guide How to configure OpenStack Keystone to support the INDIGO - DataCloud Identity and Access Management (IAM) OpenID Connect based authentication.
+The **"Keystone AAI Support"** is a guide on how to configure OpenStack Keystone to support the INDIGO - DataCloud Identity and Access Management (IAM) OpenID Connect based authentication.
 
 The documentation is available [here](https://www.gitbook.com/book/indigo-dc/openid-keystone/details), and contains stept-by-step guides  details on:
 * [INDIGO-DataCloud IAM Configuration](https://indigo-dc.gitbooks.io/openid-keystone/content/indigo-configuration.html)

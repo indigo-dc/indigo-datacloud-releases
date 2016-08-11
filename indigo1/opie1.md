@@ -1,7 +1,9 @@
 # OpenStack Preemptible Instances Extension (OPIE) v. 12.0.0
 
 
-Summary:
+**OPIE** is the materialization of the [preemptible instances extension](https://blueprints.launchpad.net/openstack/?searchtext=preemptible-instances) serving as a reference implementation. This package provides a set of pluggable extensions for [OpenStack Compute (nova)](http://openstack.org/) making possible to execute premptible instances using a modified filter scheduler.
+
+**Summary**:
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
@@ -14,8 +16,6 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
-
-**OPIE** is the materialization of the [preemptible instances extension](https://blueprints.launchpad.net/openstack/?searchtext=preemptible-instances) serving as a reference implementation. This package provides a set of pluggable extensions for [OpenStack Compute (nova)](http://openstack.org/) making possible to execute premptible instances using a modified filter scheduler.
 
 <a id="id2"></a>
 ### What's new

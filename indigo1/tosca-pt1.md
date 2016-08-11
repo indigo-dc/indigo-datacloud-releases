@@ -1,7 +1,13 @@
 # TOSCA Parser 0.5.1 & Types v. 1.0.1
 
+The **TOSCA Parser** is an OpenStack project and licensed under Apache 2. It is developed to parse TOSCA Simple Profile in YAML. It reads the TOSCA templates and creates an in-memory graph of TOSCA nodes and their relationship.
+* more information on its Architecture can be found in the [README](https://github.com/openstack/tosca-parser/blob/master/README.rst)
 
-Summary:
+The **[INDIGO TOSCA Types](https://github.com/indigo-dc/tosca-types/tree/v1.0.1)** repository  shows a YAML description of new types added in the INDIGO project to extend TOSCA Simple Profile in YAML Version 1.0 to add high level entities. In the examples directory there are a set of TOSCA documents using these types that will be supported by the INDIGO components.
+
+* The **TOSCA Parser** now supports profile definition extensions that can be accessed via a custom tosca_definitions_version. Extensions can be added by creating a module in the "toscaparser/extensions" directory. See the ["nfv"](https://github.com/indigo-dc/tosca-parser/tree/0.5.1/toscaparser/extensions/nfv) module for an example.
+
+**Summary**:
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
@@ -14,13 +20,6 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
-
-The **TOSCA Parser** is an OpenStack project and licensed under Apache 2. It is developed to parse TOSCA Simple Profile in YAML. It reads the TOSCA templates and creates an in-memory graph of TOSCA nodes and their relationship.
-* more information on its Architecture can be found in the [README](https://github.com/openstack/tosca-parser/blob/master/README.rst)
-
-The **[INDIGO TOSCA Types](https://github.com/indigo-dc/tosca-types/tree/v1.0.1)** repository  shows a YAML description of new types added in the INDIGO project to extend TOSCA Simple Profile in YAML Version 1.0 to add high level entities. In the examples directory there are a set of TOSCA documents using these types that will be supported by the INDIGO components.
-
-* The **TOSCA Parser** now supports profile definition extensions that can be accessed via a custom tosca_definitions_version. Extensions can be added by creating a module in the "toscaparser/extensions" directory. See the ["nfv"](https://github.com/indigo-dc/tosca-parser/tree/0.5.1/toscaparser/extensions/nfv) module for an example.
 
 <a id="id2"></a>
 ### What's new

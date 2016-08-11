@@ -1,6 +1,8 @@
 # INDIGO OpenMobile Toolkit (OMT) v0.7.3
 
-Summary:
+**INDIGO OpenMobile Toolkit** - Android Library Project which simplifies access to INDIGO DataCloud API
+
+**Summary**:
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
@@ -13,7 +15,6 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
-**INDIGO OpenMobile Toolkit** - Android Library Project which simplifies access to INDIGO DataCloud API
 
 <a id="id2"></a>
 ### What's new

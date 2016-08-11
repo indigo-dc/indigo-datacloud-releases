@@ -42,15 +42,13 @@ Supported Platforms:
 ### Deployment Notes
 
 After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
-* On CentOS 7 
+* On CentOS 7:<br> 
+  ```$ yum clean all```<br>
+  ```$ yum install opie```
 
-```$ yum clean all
-$ yum install opie```
-
-* On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
-
-```$ apt-get update
-$ apt-get install opie```
+* On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):<br>
+```$ apt-get update```<br>
+```$ apt-get install opie```
 
 * More details regarding installation can be found [here](https://opie.readthedocs.io/en/latest/installation.html)
 * After the installation the service needs to be configured as described [here](https://opie.readthedocs.io/en/latest/configuration.html)

@@ -1,7 +1,8 @@
 # Token Translation Service & Client v. v0.2.2
 
+The **Token Translation Service (TTS)** offers an easy way to self service credentials by the users. The TTS was necessary to develop for cases when OpenId Connect serves as the only source for authorization and identification. Therefore, the TTS bridges the gap between services that do not support OpenId Connect and the OpenId Connect provider. 
 
-Summary:
+**Summary**:
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
@@ -14,7 +15,6 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
-The **Token Translation Service (TTS)** offers an easy way to self service credentials by the users. The TTS was necessary to develop for cases when OpenId Connect serves as the only source for authorization and identification. Therefore, the TTS bridges the gap between services that do not support OpenId Connect and the OpenId Connect provider. 
 
 <a id="id2"></a>
 ### What's new

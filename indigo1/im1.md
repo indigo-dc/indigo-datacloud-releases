@@ -1,6 +1,13 @@
 # Infrastructure Manager v1.4.6
 
-Summary:
+The **Infrastructure Manager (IM)** is a tool that deploys complex and customized virtual infrastructures on IaaS Cloud deployments (such as AWS, OpenStack, etc.). 
+* It eases the access and the usability of IaaS clouds by automating the VMI (Virtual Machine Image) selection, deployment, configuration, software installation, monitoring and update of the virtual infrastructure. 
+* It supports APIs from a large number of virtual platforms, making user applications cloud-agnostic. 
+* In addition it integrates a contextualization system to enable the installation and configuration of all the user required applications providing the user with a fully functional infrastructure.
+
+This version evolved in the [INDIGO-Datacloud project](https://www.indigo-datacloud.eu/) by adding support to TOSCA documents as input for the infrastructure creation.
+
+**Summary**:
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
@@ -14,12 +21,6 @@ Summary:
 <a id="id1"></a>
 ## Release Notes
 
-**IM** is a tool that deploys complex and customized virtual infrastructures on IaaS Cloud deployments (such as AWS, OpenStack, etc.). 
-* It eases the access and the usability of IaaS clouds by automating the VMI (Virtual Machine Image) selection, deployment, configuration, software installation, monitoring and update of the virtual infrastructure. 
-* It supports APIs from a large number of virtual platforms, making user applications cloud-agnostic. 
-* In addition it integrates a contextualization system to enable the installation and configuration of all the user required applications providing the user with a fully functional infrastructure.
-
-This version evolved in the [INDIGO-Datacloud project](https://www.indigo-datacloud.eu/) by adding support to TOSCA documents as input for the infrastructure creation.
 
 <a id="id2"></a>
 ### What's new

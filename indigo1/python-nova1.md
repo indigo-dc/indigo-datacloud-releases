@@ -1,7 +1,8 @@
 # OpenStack NOVA Client v. 5.0.1.dev3
 
+This is a client for the OpenStack Nova API. There's a Python API (the novaclient module), and a command-line script (nova). Each implements 100% of the OpenStack Nova API.
 
-Summary:
+**Summary**:
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
@@ -14,7 +15,6 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
-This is a client for the OpenStack Nova API. There's a Python API (the novaclient module), and a command-line script (nova). Each implements 100% of the OpenStack Nova API.
 
 <a id="id2"></a>
 ### What's new

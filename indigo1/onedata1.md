@@ -82,8 +82,8 @@ From [INDIGO-1 repositories](http://repo.indigo-datacloud.eu) **OneZone** and **
 ### List of Artifacts
 
 Packages
-* Ubuntu 12.04 - oneclient_3.0.0.07-1_amd64.deb
-* CentOS7 - oneclient-3.0.0.07-1.el7.centos.x86_64.rpm
+* Ubuntu 14.04 - oneclient_3.0.0.07-1_amd64.deb
+* CentOS 7 - oneclient-3.0.0.07-1.el7.centos.x86_64.rpm
 
 Docker images:
 * [indigodatacloud/onezone:indigo_1](https://hub.docker.com/r/indigodatacloud/onezone/)

@@ -1,5 +1,7 @@
 # CloudProviderRanker v. 0.4.2-1
 
+**CloudProviderRanker** is a standalone REST WEB Service which ranks cloud providers basing on rules implemented with the [Drools framework]( http://drools.org/)
+
 Summary:
 * [Release Notes](#id1)
   * [What's new](#id2)
@@ -13,8 +15,6 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
-
-**CloudProviderRanker** is a standalone REST WEB Service which ranks cloud providers basing on rules implemented with the [Drools framework]( http://drools.org/)
 
 <a id="id2"></a>
 ### What's new

@@ -1,7 +1,8 @@
 # OpenStack OCCI Interface v. 0.3.1-1
 
+**OOI** is an implementation of the [Open Cloud Computing Interface (OCCI)](http://www.occi-wg.org/) for [OpenStack]( http://openstack.org). 
 
-Summary:
+**Summary**:
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
@@ -14,8 +15,6 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
-
-OOI is an implementation the [Open Cloud Computing Interface (OCCI)](http://www.occi-wg.org/) for [OpenStack]( http://openstack.org). 
 
 <a id="id2"></a>
 ### What's new

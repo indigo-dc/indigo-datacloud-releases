@@ -1,6 +1,11 @@
 # ONEDATA v. 3.0.0.07
 
-Summary:
+
+**Onedata** is a global data management system, providing easy access to distributed storage resources, supporting wide range of use cases from personal data management to data-intensive scientific computations.
+
+For quick overview of basic concepts and functionality check out our [Getting started](https://indigo-dc.gitbooks.io/onedata-documentation/content/doc/getting_started/what_is_onedata.html) section.
+
+**Summary**:
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
@@ -14,12 +19,10 @@ Summary:
 <a id="id1"></a>
 ## Release Notes
 
-**Onedata** is a global data management system, providing easy access to distributed storage resources, supporting wide range of use cases from personal data management to data-intensive scientific computations.
-
-For quick overview of basic concepts and functionality check out our [Getting started](https://indigo-dc.gitbooks.io/onedata-documentation/content/doc/getting_started/what_is_onedata.html) section.
 <a id="id2"></a>
 
 ### What's new
+
 This release provides te following versions of the OneData framework:
 * Oneprovider 3.0.0.07
 * Onezone 3.0.0.07

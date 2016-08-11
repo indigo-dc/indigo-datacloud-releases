@@ -61,7 +61,7 @@ Other methods:
 <a id="id6"></a>
 ### Documentation
 
-* [RepoSync on GitBook](https://www.gitbook.com/book/jose-sanchezm/java-syncrepos/details)
+* [RepoSync on GitBook](https://indigo-dc.gitbooks.io/java-syncrepos/content/)
 
 <a id="id7"></a>
 ### List of Artifacts

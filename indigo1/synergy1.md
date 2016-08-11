@@ -1,7 +1,13 @@
 # Synergy 1.0.1
 
+**Synergy** is as a new extensible general purpose management OpenStack service. Its capabilities are implemented by a collection of managers which are specific and independent pluggable tasks, executed periodically or interactively. The managers can interact with each other in a loosely coupled way.
+* The **Scheduler Manager** provides advanced scheduling (fairshare) capability for OpenStack. In particular it aims to address the resource utilization issues coming from the static allocation model inherent in the Cloud paradigm, by adopting the dynamic partitioning strategy implemented by the advanced batch schedulers.
 
-Summary:
+Synergy is made of two packages:
+* *synergy-service*: the main package
+* *synergy-scheduler-manager*: plugin for synergy-service that adds the scheduler functionality. This package depends on synergy-service.
+
+**Summary**:
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
@@ -14,13 +20,6 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
-**Synergy** is as a new extensible general purpose management OpenStack service. Its capabilities are implemented by a collection of managers which are specific and independent pluggable tasks, executed periodically or interactively. The managers can interact with each other in a loosely coupled way.
-* The **Scheduler Manager** provides advanced scheduling (fairshare) capability for OpenStack. In particular it aims to address the resource utilization issues coming from the static allocation model inherent in the Cloud paradigm, by adopting the dynamic partitioning strategy implemented by the advanced batch schedulers.
-
-Synergy is made of two packages:
-* *synergy-service*: the main package
-* *synergy-scheduler-manager*: plugin for synergy-service that adds the scheduler functionality. This package depends on synergy-service..
-
 
 <a id="id2"></a>
 ### What's new

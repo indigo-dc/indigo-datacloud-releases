@@ -79,7 +79,7 @@ From [INDIGO-1 repositories](http://repo.indigo-datacloud.eu) **OneZone** and **
 <a id="id6"></a>
 ### Documentation
 
-* [OneData on GitBook](https://www.gitbook.com/book/indigo-dc/onedata-documentation-indigo-dc/welcome)
+* [OneData on GitBook]( https://www.gitbook.com/book/indigo-dc/onedata-documentation-indigo-dc/details)
 
 <a id="id7"></a>
 ### List of Artifacts

@@ -1,5 +1,9 @@
 # CDMI Server v. 0.1
 
+**INDIGO-DataCloud CDMI Server with QoS:**
+* This project provides the official reference implementation of the **SNIA Cloud Data Management Interface (CDMI)**, an ISO standard, and also a Spring Boot application port of the SNIA CDMI-Server.
+* The **CDMI server** has been extended to support Quality-of-Service (QoS) and Data Life-cycle (DLC) operations for multiple storage back-ends like dCache, Ceph, GPFS, Gemss+TSM, StoRM and HPSS.
+
 Summary:
 * [Release Notes](#id1)
   * [What's new](#id2)
@@ -12,9 +16,6 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
-**INDIGO-DataCloud CDMI Server with QoS:**
-* This project provides the official reference implementation of the **SNIA Cloud Data Management Interface (CDMI)**, an ISO standard, and also a Spring Boot application port of the SNIA CDMI-Server.
-* The **CDMI server** has been extended to support Quality-of-Service (QoS) and Data Life-cycle (DLC) operations for multiple storage back-ends like dCache, Ceph, GPFS, Gemss+TSM, StoRM and HPSS.
 
 <a id="id2"></a>
 ### What's new

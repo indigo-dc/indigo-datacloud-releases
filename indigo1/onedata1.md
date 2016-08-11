@@ -71,6 +71,9 @@ From [INDIGO-1 repositories](http://repo.indigo-datacloud.eu) **OneZone** and **
 <a id="id4"></a>
 ### Deployment Notes
 
+* To quickly setup a Onedata deployment try [Administrator quickstart](https://indigo-dc.gitbooks.io/onedata-documentation-indigo-dc/content/doc/getting_started/admin_onedata_101.html) 
+* or more detailed information see[ Administration guide](https://indigo-dc.gitbooks.io/onedata-documentation-indigo-dc/content/doc/admin_guide.html).
+* 
 <a id="id5"></a>
 ### Known Issues
 

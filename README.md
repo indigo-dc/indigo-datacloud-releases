@@ -29,7 +29,7 @@ Taking into account the rapidly changing environment, and especially some of the
 
 ## Repositories
 
-INDIGO DataCloud releases are available from the official [INDIGO - DataCloud Repositories](http://repo.indigo.-datacloud.eu), for operating systems packages and Docker containers.
+INDIGO DataCloud releases are available from the official [INDIGO - DataCloud Repositories](http://repo.indigo-datacloud.eu), for operating systems packages and Docker containers.
 
 ## Release Announcements
 

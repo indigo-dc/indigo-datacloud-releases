@@ -16,14 +16,17 @@ Summary:
 <a id="id2"></a>
 ### What's new
 
-* Firt release of the APEL REST interface
+* First release of the APEL REST interface
 
 <a id="id3"></a>
 #### List of RfCs 
 
-* https://project.indigo-datacloud.eu/work_packages/3230
-* https://project.indigo-datacloud.eu/work_packages/3269
-* https://github.com/apel/rest/issues
+GitHub issues:
+* [https://github.com/apel/rest/issues](https://github.com/apel/rest/issues)
+
+and  INDIGO-DC SQA (internal tasks)
+* [https://project.indigo-datacloud.eu/work_packages/3230](https://project.indigo-datacloud.eu/work_packages/3230)
+* [https://project.indigo-datacloud.eu/work_packages/3269](https://project.indigo-datacloud.eu/work_packages/3269)
 
 <a id="id4"></a>
 ### Deployment Notes

@@ -4,7 +4,8 @@
 * This project provides the official reference implementation of the **SNIA Cloud Data Management Interface (CDMI)**, an ISO standard, and also a Spring Boot application port of the SNIA CDMI-Server.
 * The **CDMI server** has been extended to support Quality-of-Service (QoS) and Data Life-cycle (DLC) operations for multiple storage back-ends like dCache, Ceph, GPFS, Gemss+TSM, StoRM and HPSS.
 
-Summary:
+
+**Summary:**
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)

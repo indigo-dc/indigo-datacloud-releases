@@ -1,5 +1,7 @@
 # Nova-Docker v. 16.04-4
 
+**Nova-Docker** is the Docker driver for OpenStack Nova.
+
 Summary:
 * [Release Notes](#id1)
   * [What's new](#id2)
@@ -13,7 +15,6 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
-Nova-docker is the Docker driver for OpenStack Nova
 
 <a id="id2"></a>
 ### What's new
@@ -22,25 +23,22 @@ We provide [detailed documentation](https://indigo-dc.gitbooks.io/nova-docker-do
 
 With this release we provide also packaging ([rpm and debs]((#id7)) that facilitate the installation of the service.
 
-Supproted Platforms:
+Supported Platforms:
 * CentOS7 & Ubuntu 14.04, OpenStack
 
 <a id="id4"></a>
 ### Deployment Notes
 
 After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
-* On CentOS 7 
+* On CentOS 7:<br> 
+  ```$ yum clean all```<br>
+  ```$ yum install python-nova-docker```
 
-```$ yum clean all
-$ yum install python-nova-docker```
-
-* On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
-
-```$ apt-get update
-$ apt-get install python-nova-docker```
+* On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):<br>
+  ```$ apt-get update```
+  ```$ apt-get install python-nova-docker```
 
 For configuration details please follow the** [GitHub Documentation](https://indigo-dc.gitbooks.io/nova-docker-documentation/content/)**
-
 
 * see [documentation](https://indigo-dc.gitbooks.io/nova-docker-documentation/content/) 
  

@@ -1,6 +1,8 @@
 # ONEDock v. 1.0
 
-Summary:
+**ONEDock** project intends to provide support for OpenNebula to create Docker containers and deliver them to the end user as if they were Virtual Machines.
+
+**Summary**:
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
@@ -13,12 +15,11 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
-ONEDock project intends to provide support for OpenNebula to create Docker containers and deliver them to the end user as if they were Virtual Machines.
 
 <a id="id2"></a>
 ### What's new
 
-Highlights on the improvements, new features and/or important fixes
+Highlights on the improvements, new features and/or important fixes:
 * Feature parity with respect to VMs within OpenNebula
   * Included support for volumes (used for contextualization)
   * Fully functional from API, CLI, and GUI (SunStone)

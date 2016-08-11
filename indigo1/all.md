@@ -22,6 +22,7 @@ Full list of INDIGO-1 MidnightBlue Services & Applications, with detailed releas
 * [Infrastructure Manager Java API (IM-Java-API)](imjavaapi1.md)
 * [jSAGA Adaptors](jsaga_adaptors1.md)
 * [JSAGA Resource Management API](jsagarmapi1.md)
+* [Keystone AAI support]
 * [Kubernetes](kubernetes1.md)
 * [Liferay IAM](liferayiam1.md)
 * [ONEDATA](onedata1.md)

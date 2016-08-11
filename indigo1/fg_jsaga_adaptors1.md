@@ -1,7 +1,18 @@
 # FutureGateway jSAGA Adaptors v. v0.0.1
 
+**jSAGA-adaptor-tosca**:
+* Adaptor to instantiate resources woth TOSCA
 
-Summary:
+**jSAGA-adaptor-rocci**:
+* Using the JSAGA adaptor for OCCI-compliant cloud middleware stacks supporting the OCCI standard, user can:
+  * switching on the VM pre-installed with the required application,
+  * establishing a secure connection to it signed using a digital “robot” certificate,
+  * staging the input file(s) in the VM,
+  * executing the application,
+  * retrieving the output file(s) at the end of the computation and
+  * killing the VM.
+
+**Summary**:
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
@@ -14,18 +25,6 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
-
-**jSAGA-adaptor-tosca**:
-* Adaptor to instantiate resources woth TOSCA
-
-**jSAGA-adaptor-rocci**:
-* Using the JSAGA adaptor for OCCI-compliant cloud middleware stacks supporting the OCCI standard, user can:
-  * switching on the VM pre-installed with the required application,
-  * establishing a secure connection to it signed using a digital “robot” certificate,
-  * staging the input file(s) in the VM,
-  * executing the application,
-  * retrieving the output file(s) at the end of the computation and
-  * killing the VM.
 
 <a id="id2"></a>
 ### What's new

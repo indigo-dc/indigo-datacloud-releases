@@ -1,6 +1,15 @@
 # OpenStack Identity Authentication Library v. 2.10.0
 
-Summary:
+**OpenStack Identity Authentication Library** - **Keystoneauth** - provides a standard way to do authentication and service requests within the OpenStack ecosystem. It is designed for use in conjunction with the existing OpenStack clients and for simplifying the process of writing new clients.
+
+The version release in INDIGO-1 adds support for INDIGO AAI developments
+
+This package contains tools for authenticating to an OpenStack-based cloud. These tools include:
+* Authentication plugins (password, token, and federation based)
+* Discovery mechanisms to determine API version support
+* A session that is used to maintain client settings across requests (based on the requests Python library)
+
+**Summary**:
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
@@ -13,14 +22,6 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
-OpenStack Identity Authentication Library - Keystoneauth - provides a standard way to do authentication and service requests within the OpenStack ecosystem. It is designed for use in conjunction with the existing OpenStack clients and for simplifying the process of writing new clients.
-
-The version release in INDIGO-1 adds support for INDIGO AAI developments
-
-This package contains tools for authenticating to an OpenStack-based cloud. These tools include:
-* Authentication plugins (password, token, and federation based)
-* Discovery mechanisms to determine API version support
-* A session that is used to maintain client settings across requests (based on the requests Python library)
 
 <a id="id2"></a>
 ### What's new

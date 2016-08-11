@@ -75,10 +75,10 @@ where
 
 All packages are signed with the INDIGO - DataCloud gpg key. The public key can be downloaded from [here](http://repo.indigo-datacloud.eu/repository/RPM-GPG-KEY-indigodc), and the fingerprint from [here](http://repo.indigo-datacloud.eu/repository/INDIGODC_key_fingerprint.asc). Please import the key **BEFORE** starting! 
 
-* for CentOS7 save the key under */etc/pki/rpm-gpg/* 
+* for CentOS7 save the key under */etc/pki/rpm-gpg/* <br>
 ```# rpm --import http://repo.indigo-datacloud.eu/repository/RPM-GPG-KEY-indigodc```
 
-* for Ubuntu: 
+* for Ubuntu: <br>
 ```# wget -q   -O - http://repo.indigo-datacloud.eu/repository/RPM-GPG-KEY-indigodc | sudo apt-key add -```
 
 <a id="id5"></a>
@@ -86,10 +86,10 @@ All packages are signed with the INDIGO - DataCloud gpg key. The public key can 
 
 It is strongly recommended that INDIGO repositories take precedence over EPEL when installing and upgrading packages.
 For manual configuration:
-* you must install the **yum-priorities**** plugin and ensure that its configuration file, */etc/yum/pluginconf.d/priorities.conf* is as follows:
-```[main]
-enabled = 1
-check_obsoletes = 1```
+* you must install the **yum-priorities**** plugin and ensure that its configuration file, */etc/yum/pluginconf.d/priorities.conf* is as follows:<br>
+```[ main ]```<br>
+```enabled = 1```<br>
+```check_obsoletes = 1```
 
 For automatic configuration:
 * we strongly recommend the use of **indigodc-release** package. Please follow the instructions given bellow on what version of the package, how to get and install it.
@@ -106,13 +106,14 @@ YUM & APT configuration files are available at:
 Install INDIGO - DataCloud repositories :
 * CentOS7: 
 
-```yum install http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/base/indigodc-release-1.0.0-1.el7.centos.noarch.rpm``` 
+```wget http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/base/indigodc-release-1.0.0-1.el7.centos.noarch.rpm```<br>
+```yum localinstall -y indigodc-release-1.0.0-1.el7.centos.noarch.rpm``` 
 
 * Ubuntu 14.04:
 
 ```
-wget http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/main/binary-amd64/indigodc-release_1.0.0-1_amd64.deb
-dpkg -i indigodc-release_1.0.0-1_amd64.deb
+wget http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/main/binary-amd64/indigodc-release_1.0.0-1_amd64.deb```<br>
+```dpkg -i indigodc-release_1.0.0-1_amd64.deb
 ``` 
 
 These packages will install required dependencies, the INDIGO - DataCloud public key and ensures the precedence of INDIGO - DataCloud repositories over EPEL and Ubuntu. 

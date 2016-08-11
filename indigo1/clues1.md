@@ -1,6 +1,11 @@
 # CLUES v. 0.5.1
 
-Summary:
+**CLUES (CLUster Energy Saving) INDIGO Extensions**
+* indigo_orchestrator.py: CLUES plugin to connect with the INDIGO orchestrator. Copy it to the cluesplugins directory of CLUES.
+* condor.py: CLUES plugin to connect with the HTCondor.
+* mesos.py: CLUES plugin to connect with the Mesos, Chronos, and Marathon.
+
+**Summary**:
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
@@ -13,11 +18,6 @@ Summary:
 
 <a id="id1"></a>
 ## Release Notes
-
-**CLUES (CLUster Energy Saving) INDIGO Extensions**
-* indigo_orchestrator.py: CLUES plugin to connect with the INDIGO orchestrator. Copy it to the cluesplugins directory of CLUES.
-* condor.py: CLUES plugin to connect with the HTCondor.
-* mesos.py: CLUES plugin to connect with the Mesos, Chronos, and Marathon.
 
 <a id="id2"></a>
 ### What's new

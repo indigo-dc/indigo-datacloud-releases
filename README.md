@@ -33,4 +33,4 @@ INDIGO DataCloud releases are available from the official [INDIGO - DataCloud Re
 
 ## Release Announcements
 
-Stay updated subscribing to the [INDIGO - DataCloud RSS release feed](http://TO-BE-ADDED)  or by subscribing to the [INDIGO - DataCloud Announces Mailing List](https://lists.indigo-datacloud.eu/sympa/info/indigo-announce). 
+Stay updated subscribing to the [INDIGO - DataCloud RSS release feed](http://repo.indigo-datacloud.eu/INDIGODataCloudNews.rss.xml)  or by subscribing to the [INDIGO - DataCloud Announces Mailing List](https://lists.indigo-datacloud.eu/sympa/info/indigo-announce). 

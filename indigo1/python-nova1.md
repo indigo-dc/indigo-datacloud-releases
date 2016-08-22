@@ -19,7 +19,7 @@ This is a client for the OpenStack Nova API. There's a Python API (the novaclien
 <a id="id2"></a>
 ### What's new
 
-This version add in OpenStack Nova support for INDIGO developments (preemptible instances, etc.)
+This version adds in OpenStack Nova support for INDIGO developments (preemptible instances, etc.)
 
 Supported Platforms:
 * CentOS7, Ubuntu14.04, OpenStack
@@ -33,9 +33,18 @@ Supported Platforms:
 <a id="id4"></a>
 ### Deployment Notes
 
-* through packages.rpm for CentOS7 and edb for Ubuntu 14.04
+After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
+* On CentOS 7, as root or otherwise using sudo:<br>
+  ```$ yum install -y https://repos.fedorapeople.org/openstack/openstack-liberty/rdo-release-liberty-5.noarch.rpm```<br>
+  ```$ yum clean all```<br>
+  ```$ yum install python2-novaclient```<br>
+* On Ubuntu 14.04, as root or otherwise using sudo:<br>
+  ```$ add-apt-repository cloud-archive:liberty```<br>
+  ```$ apt-get update```<br>
+  ```$ apt-get install python-novaclient```<br>
+
 * See the [OpenStack CLI guide](http://docs.openstack.org/cli-reference/nova.html) for information on how to use the nova command-line tool. You may also want to look at the [OpenStack API documentation](http://developer.openstack.org/api-ref-compute-v2.1.html).
-* 
+
 <a id="id5"></a>
 ### Known Issues
 

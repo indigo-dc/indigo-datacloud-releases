@@ -42,13 +42,14 @@ Supported Platforms:
 ### Deployment Notes
 
 After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
-* On CentOS 7:<br> 
+* On CentOS 7, as root or otherwise using sudo:<br>
+  ```$ yum install -y https://repos.fedorapeople.org/openstack/openstack-liberty/rdo-release-liberty-5.noarch.rpm```<br>
   ```$ yum clean all```<br>
-  ```$ yum install opie```
-
-* On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):<br>
-```$ apt-get update```<br>
-```$ apt-get install opie```
+  ```$ yum install opie```<br>
+* On Ubuntu 14.04, as root or otherwise using sudo:<br>
+  ```$ add-apt-repository cloud-archive:liberty```<br>
+  ```$ apt-get update```<br>
+  ```$ apt-get install opie```<br>
 
 * More details regarding installation can be found [here](https://opie.readthedocs.io/en/latest/installation.html)
 * After the installation the service needs to be configured as described [here](https://opie.readthedocs.io/en/latest/configuration.html)

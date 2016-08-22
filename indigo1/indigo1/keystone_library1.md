@@ -42,22 +42,16 @@ access_token (so three different auth plugins)
 <a id="id4"></a>
 ### Deployment Notes
 After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
-* On CentOS 7 
-
-  ```$ yum clean all```
-
-  ```$ yum install python2-keystoneauth1```
-
-* On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
-
-  ```$ apt-get update```
-
-  ```$ apt-get install python3-keystoneauth1```
-
-or
-
-  ```$ apt-get install python-keystoneauth1```
-
+* On CentOS 7, as root or otherwise using sudo:<br>
+  ```$ yum install -y https://repos.fedorapeople.org/openstack/openstack-liberty/rdo-release-liberty-5.noarch.rpm```<br>
+  ```$ yum clean all```<br>
+  ```$ yum install python-openstackclient```<br>
+* On Ubuntu 14.04, as root or otherwise using sudo:<br>
+  ```$ add-apt-repository cloud-archive:liberty```<br>
+  ```$ apt-get update```<br>
+  ```$ apt-get install python3-keystoneauth1```<br>
+or <br>
+  ```$ apt-get install python-keystoneauth1```<br>
 
 <a id="id5"></a>
 ### Known Issues

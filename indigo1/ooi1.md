@@ -44,9 +44,18 @@ Ssupported Platforms:
 <a id="id4"></a>
 ### Deployment Notes
 
-* Installation via packages, rpm for CentOS7 and deb for Ubuntu 14 from [INDIGO-DC repositories](http://repo.indigo-datacloud.eu/)
+After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
+* On CentOS 7, as root or otherwise using sudo:<br>
+  ```$ yum install -y https://repos.fedorapeople.org/openstack/openstack-liberty/rdo-release-liberty-5.noarch.rpm```<br>
+  ```$ yum clean all```<br>
+  ```$ yum install python-ooi```<br>
+* On Ubuntu 14.04, as root or otherwise using sudo:<br>
+  ```$ add-apt-repository cloud-archive:liberty```<br>
+  ```$ apt-get update```<br>
+  ```$ apt-get install python-ooi```<br>
+
 * More details are available in the [0.3.1 Installation Guide](http://ooi.readthedocs.io/en/stable/user/installation.html)
-* 
+
 <a id="id5"></a>
 ### Known Issues
 

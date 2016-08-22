@@ -38,15 +38,15 @@ Supported Platforms:
 ### Deployment Notes
 
 After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
-* On CentOS 7 
+* On CentOS 7, as root or otherwise using sudo:<br>
+  ```$ yum install -y https://repos.fedorapeople.org/openstack/openstack-liberty/rdo-release-liberty-5.noarch.rpm```<br>
+  ```$ yum clean all```<br>
+  ```$ yum install python-openstackclient```
+* On Ubuntu 14.04, as root or otherwise using sudo:<br>
+  ```$ add-apt-repository cloud-archive:liberty```<br>
+  ```$ apt-get update```<br>
+  ```$ apt-get install python-openstackclient```
 
-```$ yum clean all
-$ yum install python-openstackclient```
-
-* On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
-
-```$ apt-get update
-$ apt-get install python-openstackclient```
 
 For configuration please follow the "Configuration section in the [GitHub Documentation](https://github.com/indigo-dc/python-openstackclient/blob/3.0.0.dev278/README.rst)
 

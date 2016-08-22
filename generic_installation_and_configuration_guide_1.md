@@ -46,7 +46,12 @@ Information to install this operating system can be found at [http://releases.ub
 
 Please follow the official OpenStack Liberty Installation Guides:
 * for [RedHat & CentOS](http://docs.openstack.org/liberty/install-guide-rdo/)
+  * Please enable the use of Liberty RDO repository by using:<br>
+  ```$ sudo yum install -y https://repos.fedorapeople.org/openstack/openstack-liberty/rdo-release-liberty-5.noarch.rpm
+```
 * for [Ubuntu 14.04](http://docs.openstack.org/liberty/install-guide-ubuntu/)
+  * Please enable the use of Liberty CloudArchive by using:<br>
+  ```$ sudo add-apt-repository cloud-archive:liberty```
 
 #### OpenNebula 4.14
 
@@ -97,7 +102,7 @@ For automatic configuration:
 #### Configuring the use of INDIGO - DataCloud repositories
 
 INDIGO-1 production repositories are available at:
-* http://repo.indigo-datacloud.eu/repository/indigo/1/ 
+* [http://repo.indigo-datacloud.eu/repository/indigo/1/](http://repo.indigo-datacloud.eu/repository/indigo/1/)
 
 YUM & APT configuration files are available at:
 * CentOS7 - [http://repo.indigo-datacloud.eu/repos/1/indigo1.repo](http://repo.indigo-datacloud.eu/repos/1/indigo1.repo)

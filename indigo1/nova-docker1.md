@@ -37,7 +37,7 @@ After setting the INDIGO-DC repositories as explained in the [Generic Installati
 * On Ubuntu 14.04, as root or otherwise using sudo:<br>
   ```$ add-apt-repository cloud-archive:liberty```<br>
   ```$ apt-get update```<br>
-  ```$ apt-get install python-nova-docker````<br>
+  ```$ apt-get install python-nova-docker```<br>
 
 For configuration details please follow the** [GitHub Documentation](https://indigo-dc.gitbooks.io/nova-docker-documentation/content/)**
 

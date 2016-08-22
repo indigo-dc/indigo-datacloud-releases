@@ -73,7 +73,7 @@ Docker Container
 * [indigodatacloud/cloudproviderranker:indigo_1](https://hub.docker.com/r/indigodatacloud/cloudproviderranker/)
 
 <a id="id8"></a>
-### Support
+### Supporteddddd
 
 * Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
 https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

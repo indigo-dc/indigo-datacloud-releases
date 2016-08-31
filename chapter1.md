@@ -9,6 +9,7 @@ The first INDIGO-DataCloud release provides **open source components** for:
 * **Data solutions**, offering advanced access to distributed data.
 * **Automated solutions**, allowing users to easily specify and deploy complex data and compute resource requirements.
 * **User-level solutions**, integrating scientific applications in programmable front-ends and in mobile applications.
+* **Common solutions**, enableing the integration of all INDIGO components into a comprehensive Authentication and Authorization Architecture.
 
 **Key technical highlights:**
 

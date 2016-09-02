@@ -9,7 +9,7 @@ The INDIGO - DataCloud project provides a rich set of high-level automated funct
 * Integrated support for *high-performance Big Data analytics*.
 * Support for *dynamic and elastic clusters of resources*. HTCondor, Torque and Mesos cluster are supported. 
 
-
+<br>
 * [Accounting](accounting1.md)
 * [CloudInfoProvider](cip1.md)
 * [CloudProviderRanker](cpr1.md)

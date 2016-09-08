@@ -114,10 +114,8 @@ Install INDIGO - DataCloud repositories :
 ```yum localinstall -y indigodc-release-1.0.0-1.el7.centos.noarch.rpm``` 
 
 * Ubuntu 14.04:<br>
-```
-wget http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/main/binary-amd64/indigodc-release_1.0.0-1_amd64.deb```<br>
-```dpkg -i indigodc-release_1.0.0-1_amd64.deb
-``` 
+```wget http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/main/binary-amd64/indigodc-release_1.0.0-1_amd64.deb```<br>
+```dpkg -i indigodc-release_1.0.0-1_amd64.deb``` 
 
 These packages will install required dependencies, the INDIGO - DataCloud public key and ensures the precedence of INDIGO - DataCloud repositories over EPEL and Ubuntu. 
 

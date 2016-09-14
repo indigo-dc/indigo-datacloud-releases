@@ -60,7 +60,7 @@ Supported Platforms:
 <a id="id6"></a>
 ### Documentation
 
-* [Orchestrator on GitBook](ttps://www.gitbook.com/book/indigo-dc/orchestrator/details)
+* [Orchestrator on GitBook](https://www.gitbook.com/book/indigo-dc/orchestrator/details)
 
 * Other documentation:
   * [REST API doc](http://indigo-dc.github.io/orchestrator/restdocs/)

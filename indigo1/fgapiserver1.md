@@ -62,7 +62,7 @@ Installation methods
 * N/A
 
 <a id="id6"></a>
-### Documentation
+## Documentation
 
 * Please refer to [FutureGateway documentation](https://www.gitbook.com/book/ricsxn/futuregateway/details)
 
@@ -74,7 +74,7 @@ Tarballs:
 * Ubuntu 14.04 - [fgAPIServer_v0.0.3.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/main/source/fgAPIServer_v0.0.3.tar.gz)
 
 <a id="id8"></a>
-### Support
+## Support
 
 * Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
 https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

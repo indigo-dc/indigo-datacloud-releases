@@ -15,6 +15,9 @@
   * [List of Artifacts](#id7)
   * [Support](#id8)
 
+* Updates
+  * [CDMI v. 0.2](indigo1/first_update_of_indigo-1.md#cdmi)
+
 <a id="id1"></a>
 ## Release Notes
 

@@ -7,7 +7,7 @@ The First Update of INDIGO-1 release contains:
   * [fgAPIServer v0.0.4](#fgapis)
   * [APIServerDaemon v0.0.4](#fgapisd)
   * [PortalSetup v0.0.3](#fgps)
-* LiferayIAM v. 1.1
+* [LiferayIAM v. 1.1](#li)
 * TTS v. 0.4.0
 
 
@@ -116,7 +116,7 @@ The First Update of INDIGO-1 release contains:
 * Ubuntu14.04
   * [PortalSetup-v0.0.3.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/source/PortalSetup-v0.0.3.tar.gz)
 
-## LiferayIAM v. 1.1
+## <a name="li"></a>LiferayIAM v. 1.1
 
 #### What's new
 * This release improve the token validation. With this release the validation is not limited to the token obtained during the login and/or the refresh but also to token obtained by different applications. The change simplify the integration with mobile applications which can get the token from IAM.
@@ -137,11 +137,29 @@ The First Update of INDIGO-1 release contains:
 ## TTS v. 0.4.0
 
 #### What's new
-
+* Several new features like new plugins (basic x509 & info), configurable OpenID Connect scopes per provider, updated documentation, several minor improvements and bug fixes 
 
 #### List of RfCs
+* New Features:
+  * Basic X.509 CA: a new plugin that sets up a self-signed basic CA
+  * Info Plugin, showing the information provided by the OpenId Connect Provider, this is mostly useful for developers of plugins, but might also interesting for users to see which informations the TTS receives about them. https://github.com/indigo-dc/tts/issues/150
+  * Configurable OpenID Connect scopes per provider: to be able to request as little information as possible per provider, yet more when needed: https://github.com/indigo-dc/tts/issues/132
+  * Updated to the latest OpenId Connect library OIDCC: the library now handles the complete login process, the TTS just gets a success or failed message: https://github.com/indigo-dc/tts/issues/105
+  * Updated/Enhanced Documentation https://github.com/indigo-dc/tts/issues/156
+  * Internal Refactor to increase test coverage and code reusability: https://github.com/indigo-dc/tts/issues/106
+* Minor Improvements:
+  * creation time now in RFC1132 format: https://github.com/indigo-dc/tts/issues/128
+  * enforce content type on REST interface: https://github.com/indigo-dc/tts/issues/160
+  * store credentials for the REST interface only a certain amount of time and then automatically delete them: https://github.com/indigo-dc/tts/issues/161
+* Bugs Fixed:
+  * basic-idh had an issue in the default configuration: https://github.com/indigo-dc/tts/issues/130 https://github.com/indigo-dc/tts/issues/138
+  * idh-single-user had issues with different providers, caused by local user cache: https://github.com/indigo-dc/tts/issues/135 https://github.com/indigo-dc/tts/issues/140
 
 #### Installation & Configuration
+Upgrading the TTS from version 0.2.2 to 0.4.0 is straight forward. As the configuration files are compatible the only actions to do are:
+* stop the TTS:   ``` tts stop  ``` 
+* install the new package
+* start the newly installed TTS: ``` tts start  ``` 
 
 #### Artefacts
 * CentOS 7

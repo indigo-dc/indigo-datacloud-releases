@@ -53,5 +53,6 @@
        * [Zabbix Probes](indigo1/zabbix-probes1.md)
    * [Service template](service_template.md)
    * [Updates](indigo1/updates.md)
+     * [First Update of INDIGO-1](indigo1/first_update_of_indigo-1.md)
 * [INDIGO-2 ElectricIndigo](chapter2.md)
 

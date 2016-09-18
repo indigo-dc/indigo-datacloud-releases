@@ -8,7 +8,7 @@ The First Update of INDIGO-1 release contains:
   * [APIServerDaemon v0.0.4](#fgapisd)
   * [PortalSetup v0.0.3](#fgps)
 * [LiferayIAM v. 1.1](#li)
-* TTS v. 0.4.0
+* [TTS v. 0.4.0](#tts)
 
 
 ## <a name="cdmi"></a>CDMI v. 0.2
@@ -134,7 +134,7 @@ The First Update of INDIGO-1 release contains:
 * Ubuntu14.04
   * [LiferayIAM-binary-v1.1.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/LiferayIAM-binary-v1.1.tgz)
 
-## TTS v. 0.4.0
+## <a name="cdmi"></a>TTS v. 0.4.0
 
 #### What's new
 * Several new features like new plugins (basic x509 & info), configurable OpenID Connect scopes per provider, updated documentation, several minor improvements and bug fixes 
@@ -142,18 +142,18 @@ The First Update of INDIGO-1 release contains:
 #### List of RfCs
 * New Features:
   * Basic X.509 CA: a new plugin that sets up a self-signed basic CA
-  * Info Plugin, showing the information provided by the OpenId Connect Provider, this is mostly useful for developers of plugins, but might also interesting for users to see which informations the TTS receives about them. https://github.com/indigo-dc/tts/issues/150
-  * Configurable OpenID Connect scopes per provider: to be able to request as little information as possible per provider, yet more when needed: https://github.com/indigo-dc/tts/issues/132
-  * Updated to the latest OpenId Connect library OIDCC: the library now handles the complete login process, the TTS just gets a success or failed message: https://github.com/indigo-dc/tts/issues/105
-  * Updated/Enhanced Documentation https://github.com/indigo-dc/tts/issues/156
-  * Internal Refactor to increase test coverage and code reusability: https://github.com/indigo-dc/tts/issues/106
+  * [Issue-150](https://github.com/indigo-dc/tts/issues/150) - Info Plugin, showing the information provided by the OpenId Connect Provider, this is mostly useful for developers of plugins, but might also interesting for users to see which informations the TTS receives about them.
+  * [Issue - 132](https://github.com/indigo-dc/tts/issues/132) - Configurable OpenID Connect scopes per provider: to be able to request as little information as possible per provider, yet more when needed
+  * [Issue-105](https://github.com/indigo-dc/tts/issues/105) - Updated to the latest OpenId Connect library OIDCC: the library now handles the complete login process, the TTS just gets a success or failed message
+  * [Issue-156](https://github.com/indigo-dc/tts/issues/156) - Updated/Enhanced Documentation
+  * [Issue-106](https://github.com/indigo-dc/tts/issues/106)Internal Refactor to increase test coverage and code reusability
 * Minor Improvements:
-  * creation time now in RFC1132 format: https://github.com/indigo-dc/tts/issues/128
-  * enforce content type on REST interface: https://github.com/indigo-dc/tts/issues/160
-  * store credentials for the REST interface only a certain amount of time and then automatically delete them: https://github.com/indigo-dc/tts/issues/161
+  * [Issue-128](https://github.com/indigo-dc/tts/issues/128) - creation time now in RFC1132 format
+  * [Issue-160](https://github.com/indigo-dc/tts/issues/160) - enforce content type on REST interface
+  * [Issue-161](https://github.com/indigo-dc/tts/issues/161) - store credentials for the REST interface only a certain amount of time and then automatically delete them
 * Bugs Fixed:
-  * basic-idh had an issue in the default configuration: https://github.com/indigo-dc/tts/issues/130 https://github.com/indigo-dc/tts/issues/138
-  * idh-single-user had issues with different providers, caused by local user cache: https://github.com/indigo-dc/tts/issues/135 https://github.com/indigo-dc/tts/issues/140
+  * [Issue-130](https://github.com/indigo-dc/tts/issues/130),[Issue-138](https://github.com/indigo-dc/tts/issues/138) - basic-idh had an issue in the default configuration
+  * [Issue-135](https://github.com/indigo-dc/tts/issues/135), [Issue-140](https://github.com/indigo-dc/tts/issues/140) - idh-single-user had issues with different providers, caused by local user cache
 
 #### Installation & Configuration
 Upgrading the TTS from version 0.2.2 to 0.4.0 is straight forward. As the configuration files are compatible the only actions to do are:

@@ -47,11 +47,6 @@ installation & Configuration:
 
 * N/A
 
-<a id="id6"></a>
-### Documentation
-
-* [CloudInfoProvider GitBook](https://indigo-dc.gitbooks.io/cloud-info-provider/content/) 
-
 <a id="id7"></a>
 ### List of Artifacts
 
@@ -59,8 +54,13 @@ Packages:
 * [cloud-info-provider-indigo-0.8.5-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/base/cloud-info-provider-indigo-0.8.5-1.el7.centos.noarch.rpm)
 * [python-cloud-info-provider-indigo_0.8.5_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/main/binary-amd64/python-cloud-info-provider-indigo_0.8.5_all.deb)
 
+<a id="id6"></a>
+## Documentation
+
+* [CloudInfoProvider GitBook](https://indigo-dc.gitbooks.io/cloud-info-provider/content/) 
+
 <a id="id8"></a>
-### Support
+## Support
 
 * Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
 https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

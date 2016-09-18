@@ -1,21 +1,25 @@
-# Liferay IAM v. 1.0
+# Liferay IAM
 
 
-**[LiferayIAM](https://indigo-dc.gitbooks.io/liferay-iam-connector/content/) **is a set of modules for authentication using INDIGO-DATACLOUD IAM service.
+*[LiferayIAM](https://indigo-dc.gitbooks.io/liferay-iam-connector/content/)* is a set of modules for authentication using INDIGO-DATACLOUD IAM service.
 
 These modules implement the authentication using OpenID Connect protocol and they are able to manage the additional information provided by IAM such as the user groups and others. Additionally, the modules made available the access token for application running in the portal, or external to the portal, using the remote APIs.
 
 The code of the modules is based on some of the modules provided with Liferay 7.0 for the authentication with facebook and google and their configuration and management is very similar.
 
 **Summary**:
-* [Release Notes](#id1)
+* Updagtes
+  * [LiferayIAM v. 1.1](https://github.com/indigo-dc/indigo-datacloud-releases/blob/master/indigo1/first_update_of_indigo-1.md#li)
+
+* [Release Notes v. 1.0](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [Documentation](#id6)
   * [List of Artifacts](#id7)
-  * [Support](#id8)
+
+* [Documentation](#id6)
+* [Support](#id8)
 
 
 <a id="id1"></a>
@@ -49,21 +53,20 @@ Installation Methods:
 ### Known Issues
 
 * N/A
-
-<a id="id6"></a>
-### Documentation
-
-* [LiferayIAM GitBook](https://www.gitbook.com/book/indigo-dc/liferay-iam-connector/details)
-
+ 
 <a id="id7"></a>
 ### List of Artifacts
 
 Tarballs:
 * LiferayIAM-binary-v1.0.tgz
 
+<a id="id6"></a>
+## Documentation
+
+* [LiferayIAM GitBook](https://www.gitbook.com/book/indigo-dc/liferay-iam-connector/details)
 
 <a id="id8"></a>
-### Support
+## Support
 
 * Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
 https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

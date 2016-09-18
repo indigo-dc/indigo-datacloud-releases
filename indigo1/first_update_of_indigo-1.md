@@ -1,5 +1,5 @@
 The First Update of INDIGO-1 release contains:
-* [CDMI v. 1.1](#cdmi)
+* [CDMI v. 0.2](#cdmi)
 * CloudInfoProvider v. 0.9.3
 * FutureGateway components:
   * fgAPIServer v0.0.4
@@ -9,13 +9,34 @@ The First Update of INDIGO-1 release contains:
 * TTS v. 0.4.0
 
 
-## <a name="cdmi"></a>CDMI v. 1.1
+## <a name="cdmi"></a>CDMI v. 0.2
 #### What's new
+* Improving the CDMI specification compliance, fixing authentication and file-system issues
 
 #### List of RfCs
-#### Installation & Configuration
-#### Artefacts
+* [Issue 63](https://github.com/indigo-dc/CDMI/issues/63): Querying for capability of a file with invalid Bearer token work - incorrect behavior
+* [Issue 62](https://github.com/indigo-dc/CDMI/issues/62): Querying for capability with an invalid token works - incorrect behaviour
+* [Issue 56](https://github.com/indigo-dc/CDMI/issues/56): NPE on querying capabilities of a file, when file not in the root directory
+* [Issue 55](https://github.com/indigo-dc/CDMI/issues/55): NPE on querying the capability of a dataobject when it has been uploaded through an out of band mechanism
+* [Issue 54](https://github.com/indigo-dc/CDMI/issues/54): Changing capability on a data object without querying for its capabilities first returns some JSON (possibly incorrect behavior)
+* [Issue 53](https://github.com/indigo-dc/CDMI/issues/53): Changing Capability of an Object returns 409 Conflict
+* [Issue 52]((https://github.com/indigo-dc/CDMI/issues/52)): Incorrect JSON returned on querying capability
+* [Issue 51](https://github.com/indigo-dc/CDMI/issues/51): AccessDeniedExceptions on clean startup of CDMI server
+* [Issue 50](https://github.com/indigo-dc/CDMI/issues/50): Children not found on querying capabilities with dCacheStorageBackend
+* [Issue 49](https://github.com/indigo-dc/CDMI/issues/49): Null Pointer Exception on getting the current capability of a file or directory
+* [Issue 38](https://github.com/indigo-dc/CDMI/issues/38): Reopened: Incorrect response when Unauthorised expected
+* [Issue 33](https://github.com/indigo-dc/CDMI/issues/33): Incorrect response when Unauthorised expected
 
+#### Installation & Configuration
+* In order to perform an update please carefully read the instructions available in the [CDMI-QoS Deployment and Administration Guide](https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/administrator.html)
+
+#### Artefacts
+CentOS 7
+* [cdmi-server-0.2-1.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/cdmi-server-0.2-1.x86_64.rpm)
+Ubuntu 14.04
+* [cdmi-server-0.2_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/cdmi-server-0.2_all.deb)
+Docker Container:
+* [indigodatacloud/cdmi:indigo_1](https://hub.docker.com/r/indigodatacloud/cdmi/tags/)
 
 ## CloudInfoProvider v. 0.9.3
 #### What's new

@@ -1,4 +1,4 @@
-# CDMI Server v. 0.1
+# CDMI Server
 
 **INDIGO-DataCloud CDMI Server with QoS:**
 * This project provides the official reference implementation of the **SNIA Cloud Data Management Interface (CDMI)**, an ISO standard, and also a Spring Boot application port of the SNIA CDMI-Server.
@@ -6,17 +6,20 @@
 
 
 **Summary:**
-* [Release Notes](#id1)
+
+* Updates
+  * [CDMI v. 0.2](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/first_update_of_indigo-1.html#cdmi)
+
+* [Release Notes v. 0.1](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [Documentation](#id6)
   * [List of Artifacts](#id7)
-  * [Support](#id8)
 
-* Updates
-  * [CDMI v. 0.2](first_update_of_indigo-1.md#cdmi)
+* [Documentation](#id6)
+* [Support](#id8)
+
 
 <a id="id1"></a>
 ## Release Notes

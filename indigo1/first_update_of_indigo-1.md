@@ -3,10 +3,10 @@
 The First Update of INDIGO-1 release contains:
 * [CDMI v. 0.2](#cdmi)
 * [CloudInfoProvider v. 0.9.3](#cip)
-* FutureGateway components:
-  * fgAPIServer v0.0.4
-  * APIServerDaemon v0.0.4
-  * PortalSetup v0.0.3
+* [FutureGateway components](#fg):
+  * [fgAPIServer v0.0.4](#fgapis)
+  * [APIServerDaemon v0.0.4](#fgapisd)
+  * [PortalSetup v0.0.3](#fgps)
 * LiferayIAM v. 1.1
 * TTS v. 0.4.0
 
@@ -73,24 +73,48 @@ The First Update of INDIGO-1 release contains:
   * [python-cloud-info-provider-indigo_0.9.3_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-cloud-info-provider-indigo_0.9.3_all.deb)
 
 
-## FutureGateway
-### fgAPIServer v0.0.4
+## <a name="fg"></a>FutureGateway
+### <a name="fgas"></a>fgAPIServer v0.0.4
 #### What's new
-#### List of RfCs
-#### Installation & Configuration
-#### Artefacts
+* Aligned LiferayIAM answers to the latest version
+* Fixed little bug DELETE task
+* Fix when using default user (No mapping in PTV)
 
-### APIServerDaemon v0.0.4
-#### What's new
-#### List of RfCs
 #### Installation & Configuration
-#### Artefacts
+* To update fgAPIServer, just extract its code from the tarball placing it into $FGLOCATION, paying attention to do not overwrite any configuration file. Once new files are available, restart fgapiserver.py scipt in the screen section or restart the web server in case the front-end uses wsgi to execute.
 
-### PortalSetup v0.0.3
-#### What's new
-#### List of RfCs
-#### Installation & Configuration
 #### Artefacts
+* CentOS7
+  * [fgAPIServer-v0.0.4.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/fgAPIServer-v0.0.4.tar.gz)
+* Ubuntu14.04
+  * [fgAPIServer-v0.0.4.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/source/fgAPIServer-v0.0.4.tar.gz)
+
+### <a name="fgasd"></a>APIServerDaemon v0.0.4
+#### What's new
+* Fix on WAITING tasks
+* Including runtime_data while deleting task
+* Adding resource info in ToscaIDC executor interface (token)
+
+#### Installation & Configuration
+* To update APIServerDaemon, rename the existing $FGLOCATION/APIServerDaemon directory, extract its new code from the tarball make a full copy of the direcrtory web/WEB-INF/lib to the new APIServerDaemon dir. Execute and all and generate the new war file. Copy the war file into $CATALINA_HOME/webapps and check the log file $CATALINA_HOME/logs/catalina.log for successful deployment.
+* 
+#### Artefacts
+  * [APIServerDaemon-v0.0.4.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/APIServerDaemon-v0.0.4.tar.gz)
+* Ubuntu14.04
+  * [APIServerDaemon-v0.0.4.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/source/APIServerDaemon-v0.0.4.tar.gz)
+
+### <a name="fgps"></a>PortalSetup v0.0.3
+#### What's new
+* fgSetup.sh can be configured to extract a fixed release
+* Included fgSetup.sh script pointing to the latest available release
+
+#### Installation & Configuration
+* Just extract new files from the tarball
+
+#### Artefacts
+  * [PortalSetup-v0.0.3.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/PortalSetup-v0.0.3.tar.gz)
+* Ubuntu14.04
+  * [PortalSetup-v0.0.3.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/source/PortalSetup-v0.0.3.tar.gz)
 
 ## LiferayIAM v. 1.1
 

@@ -1,6 +1,8 @@
+# First Update of INDIGO-1
+
 The First Update of INDIGO-1 release contains:
 * [CDMI v. 0.2](#cdmi)
-* CloudInfoProvider v. 0.9.3
+* [CloudInfoProvider v. 0.9.3](#cip)
 * FutureGateway components:
   * fgAPIServer v0.0.4
   * APIServerDaemon v0.0.4
@@ -10,6 +12,7 @@ The First Update of INDIGO-1 release contains:
 
 
 ## <a name="cdmi"></a>CDMI v. 0.2
+
 #### What's new
 * Improving the CDMI specification compliance, fixing authentication and file-system issues
 
@@ -31,18 +34,19 @@ The First Update of INDIGO-1 release contains:
 * In order to perform an update please carefully read the instructions available in the [CDMI-QoS Deployment and Administration Guide](https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/administrator.html)
 
 #### Artefacts
-CentOS 7
-* [cdmi-server-0.2-1.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/cdmi-server-0.2-1.x86_64.rpm)
-Ubuntu 14.04
-* [cdmi-server-0.2_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/cdmi-server-0.2_all.deb)
-Docker Container:
-* [indigodatacloud/cdmi:indigo_1](https://hub.docker.com/r/indigodatacloud/cdmi/tags/)
+* CentOS 7
+  * [cdmi-server-0.2-1.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/cdmi-server-0.2-1.x86_64.rpm)
+* Ubuntu 14.04
+  * [cdmi-server-0.2_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/cdmi-server-0.2_all.deb)
+* Docker Container:
+  * [indigodatacloud/cdmi:indigo_1](https://hub.docker.com/r/indigodatacloud/cdmi/tags/)
 
-## CloudInfoProvider v. 0.9.3
+## <a name="cip"></a>CloudInfoProvider v. 0.9.3
+
 #### What's new
+* Implement cleaning of obsolete images from CMDB, fix OpenStack provider deprecation warnings and vebose output, fix and improve LDIF output, python3 support, testing and documentation.
 
 #### List of RfCs
-
 * send-to-cmdb can now delete obsolete images from the CMDB
 * Re-enable and fix support of LDIF output using Mako templates
 * Fix OpenStack deprecation warning
@@ -50,10 +54,18 @@ Docker Container:
 * Improved and Updated documentation
 
 #### Installation & Configuration
-* Update has to be done using the system package manager, no manual intervention needed:<br>
-``` yum clean all && yum upgrade cloud-info-provider-indigo```<br>
-```apt-get update && apt-get upgrade python-cloud-info-provider-indigo```<br>
-* you can find more info in the [Deployment & Administration Guide](https://indigo-dc.gitbooks.io/cloud-info-provider/content/doc/admin.html)
+* A complete update of the node hosting the service can to be done using the system package manager, no manual intervention needed:<br>
+  * For CentOS 7:<br>
+  ``` yum clean all && yum update```<br>
+  * For Ubuntu 14:04:<br>
+  ```apt-get upgrade```<br>
+* In order to update jsut the cloud-info-provider:<br>
+  * For CentOS 7:<br>
+  ``` yum clean all && yum update cloud-info-provider-indigo```<br>
+  * For Ubuntu 14:04:<br>
+  ```apt-get update && apt-get install -V python-cloud-info-provider-indigo```<br>
+* For more info please read the [Deployment & Administration Guide](https://indigo-dc.gitbooks.io/cloud-info-provider/content/doc/admin.html)
+
 #### Artefacts
 * CentOS7
   * [cloud-info-provider-indigo-0.9.3-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/centos7/x86_64/updates/cloud-info-provider-indigo-0.9.3-1.el7.centos.noarch.rpm)
@@ -81,13 +93,28 @@ Docker Container:
 #### Artefacts
 
 ## LiferayIAM v. 1.1
+
 #### What's new
+
 #### List of RfCs
+
 #### Installation & Configuration
+
 #### Artefacts
 
 ## TTS v. 0.4.0
+
 #### What's new
+
+
 #### List of RfCs
+
 #### Installation & Configuration
+
 #### Artefacts
+* CentOS 7
+  * [tts-0.4.0-1.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/tts-0.4.0-1.el7.centos.x86_64.rpm)
+* Ubuntu 14.04
+  * [tts_0.4.0-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/tts_0.4.0-1_amd64.deb)
+* Docker Container:
+  * [indigodatacloud/cdmi:indigo_1](https://hub.docker.com/r/indigodatacloud/cdmi/tags/)

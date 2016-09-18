@@ -1,16 +1,20 @@
-# CloudInfoProvider v. 0.8.5
+# CloudInfoProvider
 
 The **Cloud Information provider** generates a representation of cloud resources, to be published inside INDIGO - DataCloud CMDB.
 
 **Summary**:
-* [Release Notes](#id1)
+* Updates
+  * [CloudInfoProvider v. 0.9.8](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/first_update_of_indigo-1.html#cip)
+
+* [Release Notes  v. 0.8.5](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [Documentation](#id6)
   * [List of Artifacts](#id7)
-  * [Support](#id8)
+
+* [Documentation](#id6)
+* [Support](#id8)
 
 <a id="id1"></a>
 ## Release Notes

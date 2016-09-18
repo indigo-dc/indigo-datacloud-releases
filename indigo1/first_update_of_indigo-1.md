@@ -97,7 +97,7 @@ The First Update of INDIGO-1 release contains:
 
 #### Installation & Configuration
 * To update APIServerDaemon, rename the existing $FGLOCATION/APIServerDaemon directory, extract its new code from the tarball make a full copy of the direcrtory web/WEB-INF/lib to the new APIServerDaemon dir. Execute and all and generate the new war file. Copy the war file into $CATALINA_HOME/webapps and check the log file $CATALINA_HOME/logs/catalina.log for successful deployment.
-* 
+
 #### Artefacts
   * [APIServerDaemon-v0.0.4.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/APIServerDaemon-v0.0.4.tar.gz)
 * Ubuntu14.04
@@ -119,12 +119,20 @@ The First Update of INDIGO-1 release contains:
 ## LiferayIAM v. 1.1
 
 #### What's new
+* This release improve the token validation. With this release the validation is not limited to the token obtained during the login and/or the refresh but also to token obtained by different applications. The change simplify the integration with mobile applications which can get the token from IAM.
 
 #### List of RfCs
+* [Issue-5](https://github.com/indigo-dc/LiferayIAM/issues/5) - token validation
 
 #### Installation & Configuration
+* To upgrade a Liferay the package has to be installed as the first time. The only difference is that custom values will not be overwritten.
+* More information can be found in the [Administration Guide](https://indigo-dc.gitbooks.io/liferay-iam-connector/content/doc/admin.html)
 
 #### Artefacts
+* CentOS 7
+  * [LiferayIAM-binary-v1.1.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/tgz/LiferayIAM-binary-v1.1.tgz)
+* Ubuntu14.04
+  * [LiferayIAM-binary-v1.1.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/LiferayIAM-binary-v1.1.tgz)
 
 ## TTS v. 0.4.0
 

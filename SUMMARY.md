@@ -51,8 +51,9 @@
        * [Token Translation Service](indigo1/tts1.md)
        * [udocker](indigo1/udocker1.md)
        * [Zabbix Probes](indigo1/zabbix-probes1.md)
-   * [Service template](service_template.md)
    * [Updates](indigo1/updates.md)
      * [First Update of INDIGO-1](indigo1/first_update_of_indigo-1.md)
+   * [Service template](service_template.md)
+
 * [INDIGO-2 ElectricIndigo](chapter2.md)
 

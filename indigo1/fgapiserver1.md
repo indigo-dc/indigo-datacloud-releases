@@ -1,4 +1,4 @@
-# FutureGateway API Server v. v0.0.3
+# FutureGateway API Server
 
 
 The **FutureGateway** aids the creation of Science Gateways or enable existing community oriented interfaces to become a Science Gateway, thus accessing any distributed computing resource using a simple set of REST APIs.
@@ -16,21 +16,22 @@ The Principal advantages of this solutions are:
 * Ideal solution for existing development environments already using CSGF.
 
 **Summary**:
-* [Release Notes](#id1)
+* Updates
+  * [fgAPIServer v0.0.4](https://github.com/indigo-dc/indigo-datacloud-releases/blob/master/indigo1/first_update_of_indigo-1.md#fgapis) 
+
+* [Release Notes v. v0.0.3](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [Documentation](#id6)
   * [List of Artifacts](#id7)
-  * [Support](#id8)
+
+* [Documentation](#id6)
+* [Support](#id8)
 
 
 <a id="id1"></a>
-## Release Notes
-
-
-
+## Release Notes v. 0.0.3
 
 <a id="id2"></a>
 ### What's new

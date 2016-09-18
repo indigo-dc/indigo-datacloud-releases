@@ -25,8 +25,9 @@ The FutureGateway is currently adopted and developed in the context of the INDIG
 is configured in order to involve INDIGO IAM system, while a dedicated executor interface have been developed in order 
 to target the TOSCA orchestrator.
 
-* [FutureGateway API Server](fgapiserver1.md)
-* [FutureGateway API Server Daemon](fgapiserverdaemon1.md)
-* [FutureGateway jSAGA Adaptors](fg_jsaga_adaptors1.md)
-* [FutureGateway Portal Setup](fgportalsetup1.md)
-* [fgTools](fgtools1.md)
+
+* [FutureGateway API Server](indigo1/fgapiserver1.md)
+* [FutureGateway API Server Daemon](indigo1/fgapiserverdaemon1.md)
+* [FutureGateway jSAGA Adaptors](indigo1/fg_jsaga_adaptors1.md)
+* [FutureGateway Portal Setup](indigo1/fgportalsetup1.md)
+* [fgTools](indigo1/fgtools1.md)

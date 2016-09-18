@@ -3,7 +3,7 @@
 The First Update of INDIGO-1 release contains:
 * [CDMI v. 0.2](#cdmi)
 * [CloudInfoProvider v. 0.9.3](#cip)
-* [FutureGateway components](#fg):
+* [FutureGateway](#fg):
   * [fgAPIServer v0.0.4](#fgapis)
   * [APIServerDaemon v0.0.4](#fgapisd)
   * [PortalSetup v0.0.3](#fgps)

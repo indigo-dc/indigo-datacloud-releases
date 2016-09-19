@@ -58,8 +58,8 @@ The First Update of INDIGO-1 release contains:
   * For CentOS 7:<br>
   ``` yum clean all && yum update```<br>
   * For Ubuntu 14:04:<br>
-  ```apt-get upgrade```<br>
-* In order to update jsut the cloud-info-provider:<br>
+  ```apt-get update && apt-get upgrade```<br>
+* In order to update just the cloud-info-provider:<br>
   * For CentOS 7:<br>
   ``` yum clean all && yum update cloud-info-provider-indigo```<br>
   * For Ubuntu 14:04:<br>

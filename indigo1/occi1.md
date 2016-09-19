@@ -10,7 +10,7 @@ extended AWS support for rOCCI. Python and Java libraries for OCCI support.
 * [pOCCI](pocci1.md)
 * [rOCCI](rocci1.md)
 
-<a id="id1"></a>
+<a id="install"></a>
 ## Installation and Configuration
 
 After setting the INDIGO-DC repositories as explained in the

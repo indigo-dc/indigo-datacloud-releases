@@ -45,7 +45,7 @@ After setting the INDIGO-DC repositories as explained in the [Generic Installati
 * On CentOS 7, as root or otherwise using sudo:<br>
   ```$ yum install -y https://repos.fedorapeople.org/openstack/openstack-liberty/rdo-release-liberty-5.noarch.rpm```<br>
   ```$ yum clean all```<br>
-  ```$ yum install python-openstackclient```<br>
+  ```$ yum install python2-keystoneauth1```<br>
 * On Ubuntu 14.04, as root or otherwise using sudo:<br>
   ```$ add-apt-repository cloud-archive:liberty```<br>
   ```$ apt-get update```<br>

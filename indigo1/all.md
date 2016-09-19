@@ -16,7 +16,7 @@ Full list of INDIGO-1 MidnightBlue Services & Applications, with detailed releas
       * [OpenStack Identity Authentication Library support for INDIGO AAI developments](indigo1/keystone_library1.md)
       * [Keystone AAI support](keystone_aai_support1.md)
   * [Docker driver for OpenStack Nova](nova-docker1.md)
-  * [Heat-Translator tool is aimed to translate non-heat templates to OpenStack Heat Orchestration Template (HOT)*(heat-translator1.md)
+  * [Heat-Translator tool is aimed to translate non-heat templates to OpenStack Heat Orchestration Template (HOT)](heat-translator1.md)
   * [Docker support for OpenNebula](onedock1.md)
   * [Sync between INDIGO Docker-hub, ONEDock and nova-docker](reposync1.md) 
 * [FutureGateway Components](fg1.md)

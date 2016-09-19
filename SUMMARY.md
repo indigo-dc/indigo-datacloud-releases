@@ -16,7 +16,7 @@
        * [CLUES](indigo1/clues1.md)
        * [dCache](indigo1/dcache1.md)
        * [Partition Director](indigo1/dynpart1.md)
-       * [FutureGateway Components](indigo1/fg1.md)
+       * [FutureGateway](indigo1/fg1.md)
        * [TOSCA-in-HEAT](indigo1/heat-translator1.md)
        * [Identity Harmonization Service](indigo1/idh1.md)
        * [INDIGO IAM](indigo1/iam1.md)

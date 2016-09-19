@@ -37,7 +37,7 @@ After setting the INDIGO-DC repositories as explained in the
   or <br>
   ```$ yum install python-nova-docker```<br>
 or<br>
-  ```$ yum install python2-novaclient``` <br> or ```$ yum install python-openstackclient```<br>
+  ```$ yum install python2-novaclient``` or ```$ yum install python-openstackclient```<br>
 or <br>
   ```$ yum install indigo-dc-reposync```<br>
   
@@ -50,7 +50,7 @@ or <br>
   or<br>
   ```$ apt-get install python-nova-docker``` <br>
   or <br>
-  ```$ apt-get install python-novaclient```<br>
+  ```$ apt-get install python-novaclient``` ore ```$ apt-get install python-openstackclient```<br>
   or <br>
   ```$ apt-get install reposync```
 

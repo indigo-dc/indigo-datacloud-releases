@@ -8,6 +8,7 @@ Full list of INDIGO-1 MidnightBlue Services & Applications, with detailed releas
 * [CLUES (CLUster Energy Saving)](clues1.md)
 * [Core PaaS](core_paas1.md)
   * [Accounting](accounting1.md)
+  * [Kubernetes](kubernetes1.md)
   * [Zabbix Probes](zabbix-probes1.md)
 * [dCache](dcache1.md)
 * [Partition Director (dynpart)](dynpart1.md)

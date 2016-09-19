@@ -2,11 +2,13 @@
 
 Full list of INDIGO-1 MidnightBlue Services & Applications, with detailed release notes and instructions for their installation/configuration.
 
-* [Accounting](accounting1.md)
 * [CDMI Server](cdmi1.md)
 * [CloudInfoProvider](cip1.md)
 * [CloudProviderRanker](cpr1.md)
 * [CLUES (CLUster Energy Saving)](clues1.md)
+* [Core PaaS](core_paas1.md)
+  * [Accounting](accounting1.md)
+  * [Zabbix Probes](zabbix-probes1.md)
 * [dCache](dcache1.md)
 * [Partition Director (dynpart)](dynpart1.md)
 * [Extended OpenStack and OpenNebula Functionalities](eoof1.md)
@@ -43,5 +45,4 @@ Full list of INDIGO-1 MidnightBlue Services & Applications, with detailed releas
 * [TOSCA-Parser & Types](tosca-pt1.md)
 * [Token Translation Service (TTS)](tts1.md)
 * [udocker](udocker1.md)
-* [Zabbix Probes](zabbix-probes1.md)
 

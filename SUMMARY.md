@@ -33,7 +33,7 @@
        * [OpenStack Client](indigo1/python-osclient1.md)
        * [OpenStack Identity Authentication Library](indigo1/indigo1/keystone_library1.md)
        * [OpenStack NOVA Client](indigo1/python-nova1.md)
-       * [OCCI support for OpenStack and OpenNebula](occi1.md)
+       * [OCCI support for OpenStack and OpenNebula](indigo1/occi1.md)
          * [OpenStack OCCI Interface](indigo1/ooi1.md)
          * [pOCCI](indigo1/pocci1.md)
          * [rOCCI](indigo1/rocci1.md)

@@ -1,5 +1,10 @@
 # SLA Manager v. 1.0.0
 
+This service allows the handshake between a userand a site on a given SLA and gives the Orchestrator/Ranker useful information to make decisions on tasks scheduling according to valid SLAs.
+Moreover, it describes the QoS that a specific user/group has, both over a given site  or  generally  in  the  PaaS  as  a  whole; this includes a priority of a given user, the capability to access to different QoS at each site (Gold, Silver, Bronze services). 
+Finally, it provides information on the configuration of the features / configuration / endpoints / closeness of the available resources
+
+
 The **SLA (Service Level Agreement) Manager** is the service for QoS negotiations developed through the INDIGO - Data Cloud project. It is:
 * providing a web-interface that allows customers to manage SLAs with service providers and describe its preferences
 * enabling REST API for access both preferences and SLAs

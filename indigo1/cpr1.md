@@ -2,6 +2,11 @@
 
 **CloudProviderRanker** is a standalone REST WEB Service which ranks cloud providers basing on rules implemented with the [Drools framework]( http://drools.org/)
 
+The CloudProviderRanker checks if preferences have been specified; if they have, then they have absolute priority over any other provider's information (like monitoring data).
+
+If preferences are not specified, for each provider the rank is calculated as sum of SLA's rank and a combination of monitoring data, each of them conveniently normalized with weight specified in a Ranker's configuration file.
+
+
 **Summary**:
 * [Release Notes](#id1)
   * [What's new](#id2)

@@ -41,17 +41,17 @@ Supported Platforms:
 After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
 * On CentOS 7 
 
-```$ yum clean all
-$ yum install occi-server
+```$ yum clean all```<br>
+```$ yum install occi-server```<br>
 or
-$ yum install occi-cli```
+```$ yum install occi-cli```<br>
 
 * On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
 
-```$ apt-get update
-$ apt-get install occi-server
+```$ apt-get update```<br>
+```$ apt-get install occi-server```<br>
 or
-$ apt-get install occi-cli```
+```$ apt-get install occi-cli```<br>
 
 Some more details regarding the installation can be found in th [Installing_rOCCI-server Guide]( https://wiki.egi.eu/wiki/rOCCI:ROCCI-server_Admin_Guide#Installing_rOCCI-server)
 

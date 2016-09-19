@@ -26,6 +26,7 @@ Full list of INDIGO-1 MidnightBlue Services & Applications, with detailed releas
 * [ONEDock](onedock1.md)
 * [OpenStack Client](python-osclient1.md)
 * [OpenStack Identity Authentication Library](indigo1/keystone_library1.md)
+* [OCCI support for OpenStack and OpenNebula](occi1.md)
 * [OpenStack OCCI Interface (OOI)](ooi1.md)
 * [OpenStack NOVA Client](python-nova1.md)
 * [OpenStack Preemptible Instances Extension (OPIE)](opie1.md)

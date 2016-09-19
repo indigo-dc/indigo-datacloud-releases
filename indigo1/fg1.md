@@ -31,3 +31,8 @@ to target the TOSCA orchestrator.
 * [FutureGateway jSAGA Adaptors](indigo1/fg_jsaga_adaptors1.md)
 * [FutureGateway Portal Setup](indigo1/fgportalsetup1.md)
 * [fgTools](indigo1/fgtools1.md)
+
+
+<a id="install"></a>
+## Installation and Configuration
+

@@ -1,4 +1,4 @@
-# SLA Manager v. 1.0.0
+# QoS/SLA Management Service v. 1.0.0
 
 This service allows the handshake between a userand a site on a given SLA and gives the Orchestrator/Ranker useful information to make decisions on tasks scheduling according to valid SLAs.
 Moreover, it describes the QoS that a specific user/group has, both over a given site  or  generally  in  the  PaaS  as  a  whole; this includes a priority of a given user, the capability to access to different QoS at each site (Gold, Silver, Bronze services). 

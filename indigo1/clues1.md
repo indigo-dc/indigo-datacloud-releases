@@ -1,9 +1,14 @@
 # CLUES v. 0.5.1
 
 **CLUES (CLUster Energy Saving) INDIGO Extensions**
-* indigo_orchestrator.py: CLUES plugin to connect with the INDIGO orchestrator. Copy it to the cluesplugins directory of CLUES.
-* condor.py: CLUES plugin to connect with the HTCondor.
-* mesos.py: CLUES plugin to connect with the Mesos, Chronos, and Marathon.
+
+[CLUES](https://github.com/grycap/clues) is an elasticity manager system for HPC clusters and Cloud infrastructures that features the ability to power on/deploy working nodes as needed (depending on the job workload of the cluster) and to power off/terminate them when they are no longer needed.
+
+CLUES has been extended in the INDIGO-DataCloud project with new plugins to support the [PaaS Orchestrator](https://github.com/indigo-dc/orchestrator) and to introduce elasticity capabilities to both HTCondor and Apache Mesos (including its frameworks Chronos and Marathon). These are the plugins:
+
+* indigo_orchestrator.py: CLUES plugin to connect with the INDIGO orchestrator.
+* condor.py: CLUES plugin to connect with HTCondor.
+* mesos.py: CLUES plugin to connect with Mesos, Chronos, and Marathon.
 
 **Summary**:
 * [Release Notes](#id1)
@@ -31,10 +36,10 @@ Supported on:
 * Ubuntu 14.04 / CentOS 7
 
 <a id="id3"></a>
-#### List of RfCs 
+#### List of RfCs
 
 * High-level development tasks coordinated via [INDIGO-DC OpenProject tasks](http://bit.ly/clues_rfc_indigo1) (internal link)
- 
+
 <a id="id4"></a>
 ### Deployment Notes
 
@@ -62,4 +67,3 @@ Tarballs:
 * Support via GitHub issues: [https://github.com/indigo-dc/clues-indigo/issues](https://github.com/indigo-dc/clues-indigo/issues)
 * or through the [INDIGO - DataCloud CatchAll GGUS Support Unit](
 https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
-

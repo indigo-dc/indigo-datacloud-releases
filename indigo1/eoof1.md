@@ -10,8 +10,8 @@
 
 
 
-
-* OpenStack support for INDIGO developments (AAI, preemptible instances, etc.)<br>
+Components:
+* OpenStack support for INDIGO developments (AAI, preemptible instances, etc.)
   * [OpenStack preemptible instances support (OpenStack Preemptible Instances Extensions)](opie1.md)
   * OpenStack support for INDIGO AAI
     * [OpenStack Identity Authentication Library support for INDIGO AAI developments](indigo1/keystone_library1.md)

@@ -1,4 +1,4 @@
-# FutureGateway Components
+# FutureGateway (Programmable Scientific Portal)
 
 The FutureGateway consists of a set of software components able to build, or assist existing web portals or other community oriented 
 interfaces to become Science Gateways. In accordance to the definition of Science Gateways, the FutureGateway allow the 

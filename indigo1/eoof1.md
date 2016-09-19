@@ -9,6 +9,7 @@
   *	Enhancements will include the development of custom TOSCA templates to facilitate resource orchestration for end users, increased scalability of deployed resources and support of orchestration capabilities for OpenNebula.
 
 
+<br>
 
 Components:
 * OpenStack support for INDIGO developments (AAI, preemptible instances, etc.)

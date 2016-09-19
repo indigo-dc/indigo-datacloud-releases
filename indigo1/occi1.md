@@ -1,7 +1,10 @@
 # OCCI support for OpenStack and OpenNebula
 
-An implementation of the Open Grid Forum's Open Cloud Computing Interface (OCCI) for OpenStack. 
-Extended AWS support for rOCCI. Python and Java libraries for OCCI support.
+OCCI is a framework that allows management of resources in arbitrary cloud management frameworks through the OCCI standard.
+This allow the users to exploit same CLI and APIs to manage diverse Cloud Management Framework in a transparent way.  
+
+INDIGO - DataCloud project offersaAn implementation of the Open Grid Forum's Open Cloud Computing Interface (OCCI) for OpenStack. 
+extended AWS support for rOCCI. Python and Java libraries for OCCI support.
 
 * [OpenStack OCCI Interface (OOI)](ooi1.md)
 * [pOCCI](pocci1.md)

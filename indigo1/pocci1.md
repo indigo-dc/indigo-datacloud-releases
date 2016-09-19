@@ -61,17 +61,17 @@ List of bugfixes and extensions:
 After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
 * On CentOS 7 
 
-```$ yum clean all
-$ yum install python-nova-docker
+```$ yum clean all```<br>
+```$ yum install python-pocci```<br>
 or
-$ yum install python3-pOCCI```
+```$ yum install python3-pOCCI```
 
 * On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
 
-```$ apt-get update
-$ apt-get install python-pocci
+```$ apt-get update```<br>
+```$ apt-get install python-pocci```<br>
 or
-$ apt-get install python3-pocci```
+```$ apt-get install python3-pocci```
 
 Other instalaltion methods:
 * installation from egg: [http://scientific.zcu.cz/cesnet/pOCCI/html/usage.html#installation](http://scientific.zcu.cz/cesnet/pOCCI/html/usage.html#installation)

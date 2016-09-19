@@ -50,7 +50,7 @@ or <br>
   or<br>
   ```$ apt-get install python-nova-docker``` <br>
   or <br>
-  ```$ apt-get install python-novaclient``` ore ```$ apt-get install python-openstackclient```<br>
+  ```$ apt-get install python-novaclient``` or ```$ apt-get install python-openstackclient```<br>
   or <br>
   ```$ apt-get install reposync```
 

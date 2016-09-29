@@ -7,10 +7,18 @@ The Core PaaS provide the basic functionalities/tools to steer the performance o
 
 Components & Services:
  * [Accounting](accounting1.md)
- * [Monitoring](zabbix-probes1.md)
+ * [Monitoring](zabbix-probes1.md)<br>
  * [Kubernetes](kubernetes1.md)
  
  
  <a id="install"></a>
 ## Installation and Configuration
+
+In order to install:
+* the Accounting components please follow its [Instalation & Configuration Guide](https://indigo-dc.gitbooks.io/accounting/content/)
+* For the Monitoring Components, the Zabbix-probes plugins, detailed instructions on installation and configuration can be found:
+** for the Zabbix Probes - [here](https://indigo-dc.gitbooks.io/monitoring/content/zabbix_probes.html)
+** for the Zabbix Wrapper - [here](https://indigo-dc.gitbooks.io/monitoring/content/zabbix_wrapper.html)
+* for the Kubernetes clusters deployments please follow their specific [documentation](https://indigo-dc.gitbooks.io/kubernetes/content/)
+
 

@@ -3,7 +3,7 @@
 The Second Update of INDIGO-1 release contains:
 * [INDIGO IAM v. 0.4.0](#iam)
 * [Infrastructure manager v1.4.7](#im)
-* [ONEdock v. 0.4.0](#onedock)
+* [ONEdock v. 1.0-2](#onedock)
 * [TOSCA-parser v. 0.4.0](#tp)
 * [Heat-Translator v. 0.4.0](#ht)
 * [OOI v. 0.4.0](#ooi)
@@ -62,8 +62,8 @@ The Second Update of INDIGO-1 release contains:
   ```apt-get update && apt-get install python-im```<br>
 * For containers  
   *   
-
-* For more info please read the [Deployment & Administration Guide](https://indigo-dc.gitbooks.io/im/content/)
+  
+* For more info please read the [Deployment & Administration Guide](https://indigo-dc.gitbooks.io/im/content/)<br>
 
 #### Artefacts
 * CentOS7
@@ -73,22 +73,37 @@ The Second Update of INDIGO-1 release contains:
 * Container
   * [indigodatacloud/im:indigo_1](https://hub.docker.com/r/indigodatacloud/im/tags/)
 
-## <a name="onedock"></a>ONEdock v.
+## <a name="onedock"></a>ONEdock v. 1.0-2
 
 #### What's new
-* text
+*  The updated version of OneDock addresses a problem due to the change in the -f parameter in the Docker CLI with the updated versions of Docker 
 
 #### List of RfCs
-* text
-
-* More information about bug fixes and other developments can be found on our [ADD](https://link) 
+* Add ansible installation for onedock
+* Update config file installation
+* Create package generating scripts for debian-based systems
+* Create package generating scripts for rpm
+* Remove the -f flag for docker tag
+* Update scripts to comply with bashate style rules
+* Add wiki documentation to gitbook
 
 #### Installation & Configuration
-* In order to perform an update please carefully read the instructions available in the [INDIGO-IAM Deployment and Administration Guide](https://andreaceccanti.gitbooks.io/iam/content/doc/admin.html)
-
+In order to update the packages please use:
+* For CentOS 7:<br>
+  ```yum clean all && yum update onedock-master``` and<br>
+  ```yum clean all && yum update onedock-node```<br>
+* For Ubuntu 14:04:<br>
+  ```apt-get update && apt-get install onedock-master```and<br>
+  ```apt-get update && apt-get install onedock-node```and<br>
+  
 #### Artefacts
-* Docker Container:
-  * [text](https://text)
+* CentOS 7
+  * [onedock-master-1.0-2.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/onedock-master-1.0-2.noarch.rpm)
+  * [onedock-node-1.0-2.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/onedock-node-1.0-2.noarch.rpm)
+* Ubuntu 14.04
+  * [onedock_1.0-2_master_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/onedock_1.0-2_master_all.deb)
+  * [onedock_1.0-2_node_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/onedock_1.0-2_node_all.deb)
+  
 
 ## <a name="tp"></a>TOSCA-parser v.
 

@@ -5,8 +5,8 @@ The Second Update of INDIGO-1 release contains:
 * [Infrastructure manager v1.4.7](#im)
 * [ONEdock v. 1.0-2](#onedock)
 * [TOSCA-parser v. 0.6.1](#tp)
-* [TOSCA-in-HEAT/Heat-Translator v. 1.1](#ht)
-* [OOI v. 0.4.0](#ooi)
+* [TOSCA-in-HEAT/Heat-Translator v. indigo-1.1](#ht)
+* [OOI v. 0.3.2](#ooi)
 * [Zabbix-probes v. 0.4.0](#zp)
 * [Orchestrator v. 0.4.0](#orchestrator)
 * [Nova-Docker v. 0.4.0](#nd)
@@ -150,18 +150,25 @@ In order to update the packages please use:
 * Ubuntu14.04
   * [python-heat-translator_0.5.1.dev38-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-heat-translator_0.5.1.dev38-1_all.deb)
 
-## <a name="ooi"></a>OOI v.
+## <a name="ooi"></a>OOI v. 0.3.2
 
 #### What's new
-* text
+* The updated version provides only bug fixes, no new feature
 
 #### List of RfCs
-* text
+* ooi fails with 500 when deleting a volume
+* ooi fails with error 500 when deleting a volume that is attached
 
-* More information about bug fixes and other developments can be found on our [ADD](https://link) 
+* More info at [Milestone-0.3.2](https://launchpad.net/ooi/+milestone/0.3.2)
 
 #### Installation & Configuration
-* In order to perform an update please carefully read the instructions available in the [INDIGO-IAM Deployment and Administration Guide](https://andreaceccanti.gitbooks.io/iam/content/doc/admin.html)
+In order to update the packages please use:
+* For CentOS 7:<br>
+  ``` yum clean all && yum update python-ooi```<br>
+* For Ubuntu 14:04:<br>
+  ```apt-get update && apt-get install python-ooi``` and/or<br>
+  ```apt-get update && apt-get install python-ooi``` /or<br>
+
 
 #### Artefacts
 * Docker Container:

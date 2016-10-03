@@ -5,7 +5,7 @@ The Second Update of INDIGO-1 release contains:
 * [Infrastructure manager v1.4.7](#im)
 * [ONEdock v. 1.0-2](#onedock)
 * [TOSCA-parser v. 0.6.1](#tp)
-* [Heat-Translator v. 0.4.0](#ht)
+* [TOSCA-in-HEAT/Heat-Translator v. 1.1](#ht)
 * [OOI v. 0.4.0](#ooi)
 * [Zabbix-probes v. 0.4.0](#zp)
 * [Orchestrator v. 0.4.0](#orchestrator)
@@ -131,22 +131,24 @@ In order to update the packages please use:
   * [python-tosca-parser_0.6.1-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-tosca-parser_0.6.1-1_all.deb)
   
   
-## <a name="ht"></a>HEAT-Translator v.
+## <a name="ht"></a>TOSCA-in-HEAT/HEAT-Translator v. indigo-1.1
 
 #### What's new
-* text
-
-#### List of RfCs
-* text
-
-* More information about bug fixes and other developments can be found on our [ADD](https://link) 
+* Fix network support : a map was wrongly used instead of a list which would create invalid hot templates. 
 
 #### Installation & Configuration
-* In order to perform an update please carefully read the instructions available in the [INDIGO-IAM Deployment and Administration Guide](https://andreaceccanti.gitbooks.io/iam/content/doc/admin.html)
+In order to update the packages please use:
+* For CentOS 7 + Mitaka:<br>
+  ``` yum clean all && yum update heat-translator```<br>
+* For Ubuntu 14:04:<br>
+  ```apt-get update && apt-get install python-heat-translator```<br>
+
 
 #### Artefacts
-* Docker Container:
-  * [text](https://text)
+* CentOS7
+  * [heat-translator-0.5.1.dev38-1.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/centos7/x86_64/updates/heat-translator-0.5.1.dev38-1.noarch.rpm)
+* Ubuntu14.04
+  * [python-heat-translator_0.5.1.dev38-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-heat-translator_0.5.1.dev38-1_all.deb)
 
 ## <a name="ooi"></a>OOI v.
 

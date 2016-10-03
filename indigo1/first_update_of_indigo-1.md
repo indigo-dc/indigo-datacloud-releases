@@ -134,7 +134,7 @@ The First Update of INDIGO-1 release contains:
 * Ubuntu14.04
   * [LiferayIAM-binary-v1.1.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/LiferayIAM-binary-v1.1.tgz)
 
-## <a name="cdmi"></a>TTS v. 0.4.0
+## <a name="tts"></a>TTS v. 0.4.0
 
 #### What's new
 * Several new features like new plugins (basic x509 & info), configurable OpenID Connect scopes per provider, updated documentation, several minor improvements and bug fixes 

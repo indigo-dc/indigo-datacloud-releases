@@ -4,7 +4,7 @@ The Second Update of INDIGO-1 release contains:
 * [INDIGO IAM v. 0.4.0](#iam)
 * [Infrastructure manager v1.4.7](#im)
 * [ONEdock v. 1.0-2](#onedock)
-* [TOSCA-parser v. 0.4.0](#tp)
+* [TOSCA-parser v. 0.6.1](#tp)
 * [Heat-Translator v. 0.4.0](#ht)
 * [OOI v. 0.4.0](#ooi)
 * [Zabbix-probes v. 0.4.0](#zp)
@@ -56,6 +56,7 @@ The Second Update of INDIGO-1 release contains:
 * Bugfix in OCCI not waiting the volumes on creation
 
 #### Installation & Configuration
+In order to update the packages please use:
 * For CentOS 7:<br>
   ``` yum clean all && yum update IM```<br>
 * For Ubuntu 14:04:<br>
@@ -105,10 +106,10 @@ In order to update the packages please use:
   * [onedock_1.0-2_node_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/onedock_1.0-2_node_all.deb)
   
 
-## <a name="tp"></a>TOSCA-parser v.
+## <a name="tp"></a>TOSCA-parser v. 0.6.1
 
 #### What's new
-* text
+* The updated version of TOSCA-parser addresses minor bug fixes and integrates the changes made upstream (in openstack/tosca-parser v.0.6).
 
 #### List of RfCs
 * text
@@ -116,13 +117,20 @@ In order to update the packages please use:
 * More information about bug fixes and other developments can be found on our [ADD](https://link) 
 
 #### Installation & Configuration
-* In order to perform an update please carefully read the instructions available in the [INDIGO-IAM Deployment and Administration Guide](https://andreaceccanti.gitbooks.io/iam/content/doc/admin.html)
-
+In order to update the packages please use:
+* For CentOS 7:<br>
+  ``` yum clean all && yum update tosca-parser```<br>
+* For Ubuntu 14:04:<br>
+  ```apt-get update && apt-get install python-tosca-parser```<br>
+  
+  
 #### Artefacts
-* Docker Container:
-  * [text](https://text)
-
-
+* CentOS7
+  * [tosca-parser-0.6.1-1.el7.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/centos7/x86_64/updates/tosca-parser-0.6.1-1.el7.noarch.rpm)
+* Ubuntu14.04
+  * [python-tosca-parser_0.6.1-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-tosca-parser_0.6.1-1_all.deb)
+  
+  
 ## <a name="ht"></a>HEAT-Translator v.
 
 #### What's new

@@ -156,9 +156,8 @@ In order to update the packages please use:
 * The updated version provides only bug fixes, no new feature
 
 #### List of RfCs
-* #1624233:
-  * ooi fails with 500 when deleting a volume
-  * ooi fails with error 500 when deleting a volume that is attached
+* ooi fails with 500 when deleting a volume
+* ooi fails with error 500 when deleting a volume that is attached
 
 * More info at [Milestone-0.3.2](https://launchpad.net/ooi/+milestone/0.3.2)
 
@@ -167,8 +166,7 @@ In order to update the packages please use:
 * For CentOS 7:<br>
   ```yum clean all && yum update python-ooi```<br>
 * For Ubuntu 14:04:<br>
-  ```apt-get update && apt-get install python-ooi```<br>```
-
+  ```apt-get update && apt-get install python-ooi```<br>
 
 #### Artefacts
 * CentOS7
@@ -177,18 +175,20 @@ In order to update the packages please use:
   * [python-ooi_0.3.2-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-ooi_0.3.2-1_all.deb)
   * [ooi-doc_0.3.2-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/ooi-doc_0.3.2-1_all.deb)
   
-## <a name="zp"></a>Zabbix-probes v.
+## <a name="zp"></a>Zabbix-probes v. 1.01
 
 #### What's new
-* text
+* The current update is mainly focused on solving several bugs detected and on adding a feature to the OCCI probe for improving its adoption rate, since the former user/password authentication was not adequate enough for automating the whoel monitoring process.  The documentation includes also a new section about updating the Zabbix probes
 
 #### List of RfCs
-* text
+* [Issue #6](ttps://github.com/indigo-dc/Monitoring/issues/6)Bug fix related to retrieving the config file info when the file is not available
+* Add IAM support for authentication in the OCCI probe
+
 
 * More information about bug fixes and other developments can be found on our [ADD](https://link) 
 
 #### Installation & Configuration
-* 
+* deb and rpm files will be provided for updating the current packages
 
 #### Artefacts
 * 

@@ -116,11 +116,6 @@ In order to update the packages please use:
 #### What's new
 * The updated version of TOSCA-parser addresses minor bug fixes and integrates the changes made upstream (in openstack/tosca-parser v.0.6).
 
-#### List of RfCs
-* text
-
-* More information about bug fixes and other developments can be found on our [ADD](https://link) 
-
 #### Installation & Configuration
 In order to update the packages please use:
 * For CentOS 7:<br>

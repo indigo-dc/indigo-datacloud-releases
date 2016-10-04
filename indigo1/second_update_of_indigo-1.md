@@ -64,7 +64,7 @@ In order to update the packages please use:
 * For containers  
   * Stop the old container:<br>
   ```sudo docker stop im ```<br>
-  * Remove the old container:
+  * Remove the old container:<br>
   ```sudo docker rm im ```<br>
   * Pull the new image version:<br>
   ```sudo docker pull indigodatacloud/im``` <br> 
@@ -96,11 +96,11 @@ In order to update the packages please use:
 #### Installation & Configuration
 In order to update the packages please use:
 * For CentOS 7:<br>
-  ```yum clean all && yum update onedock-master``` and<br>
+  ```yum clean all && yum update onedock-master``` and <br>
   ```yum clean all && yum update onedock-node```<br>
 * For Ubuntu 14:04:<br>
   ```apt-get update && apt-get install onedock-master```and<br>
-  ```apt-get update && apt-get install onedock-node```and<br>
+  ```apt-get update && apt-get install onedock-node``` and <br>```
   
 #### Artefacts
 * CentOS 7
@@ -146,7 +146,7 @@ In order to update the packages please use:
 * For CentOS 7 + Mitaka:<br>
   ``` yum clean all && yum update heat-translator```<br>
 * For Ubuntu 14:04:<br>
-  ```apt-get update && apt-get install python-heat-translator```<br>
+  ```apt-get update && apt-get install python-heat-translator```<br>```
 
 
 #### Artefacts
@@ -161,24 +161,27 @@ In order to update the packages please use:
 * The updated version provides only bug fixes, no new feature
 
 #### List of RfCs
-* ooi fails with 500 when deleting a volume
-* ooi fails with error 500 when deleting a volume that is attached
+* #1624233:
+  * ooi fails with 500 when deleting a volume
+  * ooi fails with error 500 when deleting a volume that is attached
 
 * More info at [Milestone-0.3.2](https://launchpad.net/ooi/+milestone/0.3.2)
 
 #### Installation & Configuration
 In order to update the packages please use:
 * For CentOS 7:<br>
-  ``` yum clean all && yum update python-ooi```<br>
+  ```yum clean all && yum update python-ooi```<br>
 * For Ubuntu 14:04:<br>
-  ```apt-get update && apt-get install python-ooi``` and/or<br>
-  ```apt-get update && apt-get install python-ooi``` /or<br>
+  ```apt-get update && apt-get install python-ooi```<br>```
 
 
 #### Artefacts
-* Docker Container:
-  * [text](https://text)
-
+* CentOS7
+  * [python-ooi-0.3.2-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/centos7/x86_64/updates/python-ooi-0.3.2-1.el7.centos.noarch.rpm)
+* Ubuntu14.04
+  * [python-ooi_0.3.2-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-ooi_0.3.2-1_all.deb)
+  * [ooi-doc_0.3.2-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/ooi-doc_0.3.2-1_all.deb)
+  
 ## <a name="zp"></a>Zabbix-probes v.
 
 #### What's new

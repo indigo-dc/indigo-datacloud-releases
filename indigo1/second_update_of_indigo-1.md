@@ -69,7 +69,7 @@ In order to update the packages please use:
   * Pull the new image version:<br>
   ```sudo docker pull indigodatacloud/im``` <br> 
   * Start the new version:
-  ```sudo docker run -d -p 8899:8899 -p 8800:8800 -e IM_DATA_DB=mysql://username:password@server/db_name --name im indigodatacloud/im  ``` <br> ``` 
+  ```sudo docker run -d -p 8899:8899 -p 8800:8800 -e IM_DATA_DB=mysql://username:password@server/db_name --name im indigodatacloud/im  ``` <br>
 
 #### Artefacts
 * CentOS7
@@ -100,7 +100,7 @@ In order to update the packages please use:
   ```yum clean all && yum update onedock-node```<br>
 * For Ubuntu 14:04:<br>
   ```apt-get update && apt-get install onedock-master```and<br>
-  ```apt-get update && apt-get install onedock-node``` and <br>```
+  ```apt-get update && apt-get install onedock-node``` and <br>
   
 #### Artefacts
 * CentOS 7
@@ -146,7 +146,7 @@ In order to update the packages please use:
 * For CentOS 7 + Mitaka:<br>
   ``` yum clean all && yum update heat-translator```<br>
 * For Ubuntu 14:04:<br>
-  ```apt-get update && apt-get install python-heat-translator```<br>```
+  ```apt-get update && apt-get install python-heat-translator```<br>
 
 
 #### Artefacts
@@ -193,29 +193,39 @@ In order to update the packages please use:
 * More information about bug fixes and other developments can be found on our [ADD](https://link) 
 
 #### Installation & Configuration
-* In order to perform an update please carefully read the instructions available in the [INDIGO-IAM Deployment and Administration Guide](https://andreaceccanti.gitbooks.io/iam/content/doc/admin.html)
+* 
 
 #### Artefacts
-* Docker Container:
-  * [text](https://text)
+* 
 
 
-## <a name="orchestrator"></a>Orchestrator v.
+## <a name="orchestrator"></a>Orchestrator v. 1.1.0-FINAL
 
 #### What's new
-* text
+* The compatibility with IAM has been improved
+* Now the resources obtained from the REST APIs are sorted by date
+* CLUES installed on board of the elastic clusters can receive the IAM token
+
 
 #### List of RfCs
-* text
-
-* More information about bug fixes and other developments can be found on our [ADD](https://link) 
+* [Issue #109](https://github.com/indigo-dc/orchestrator/issues/109) - Support iam_access_token property in tosca.nodes.indigo.ElasticCluster nodes
+* [Issue #110](https://github.com/indigo-dc/orchestrator/issues/110) - Support multiple SLAs for the same cloud provider
+* [Issue #101](https://github.com/indigo-dc/orchestrator/issues/101) - Deployments and resources must be sorted by date when retrieved from REST APIs
+* [Issue #104](https://github.com/indigo-dc/orchestrator/issues/104) - Adapt user info data to the new IAM format
 
 #### Installation & Configuration
-* In order to perform an update please carefully read the instructions available in the [INDIGO-IAM Deployment and Administration Guide](https://andreaceccanti.gitbooks.io/iam/content/doc/admin.html)
+In order to update the container, please do:
+* Stop the old container:<br>
+  ```sudo docker stop orchestrator ```<br>
+* Remove the old container:<br>
+  ```sudo docker rm orchestrator ```<br>
+* Pull the new image version:<br>
+  ```sudo docker pull indigodatacloud/orchestrator``` <br> 
+* Start the new version:
 
 #### Artefacts
 * Docker Container:
-  * [text](https://text)
+  * [docker pull indigodatacloud/orchestrator:indigo_1](https://hub.docker.com/r/indigodatacloud/orchestrator/tags/)
 
 
 ## <a name="nd"></a>Nova-Docker v.

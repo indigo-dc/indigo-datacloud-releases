@@ -40,7 +40,7 @@ The Second Update of INDIGO-1 release contains:
 * Docker Container:
   * [indigodatacloud/iam-login-service:indigo_1](https://hub.docker.com/r/indigodatacloud/iam-login-service/tags/)
 
-## <a name="im"></a>Infrastructure manager v1.4.7
+## <a name="im"></a>Infrastructure Manager v1.4.7
 
 #### What's new
 * The updated version of the IM adddresses a number of issues like return 403 error when the user cannot access the infrastructure and add features like single site support 
@@ -100,7 +100,7 @@ In order to update the packages please use:
   ```yum clean all && yum update onedock-node```<br>
 * For Ubuntu 14:04:<br>
   ```apt-get update && apt-get install onedock-master```and<br>
-  ```apt-get update && apt-get install onedock-node``` and <br>
+  ```apt-get update && apt-get install onedock-node```<br>
   
 #### Artefacts
 * CentOS 7

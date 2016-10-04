@@ -14,7 +14,7 @@ The Second Update of INDIGO-1 release contains:
   * [fgAPIServer v0.0.4](#fgapis)
   * [APIServerDaemon v0.0.4](#fgapisd)
   * [PortalSetup v0.0.3](#fgps)
-* [LiferayIAM v. 1.1](#li)
+* [LiferayIAM v. 1.1.1](#li)
 
 
 ## <a name="iam"></a>INDIGO IAM v.0.4.0
@@ -290,21 +290,25 @@ In order to update the container, please do:
   * [PortalSetup-v0.0.3.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/source/PortalSetup-v0.0.3.tar.gz)
 -->
 
-## <a name="li"></a>LiferayIAM v. 1.1
+## <a name="li"></a>LiferayIAM v. 1.1.1
 
 #### What's new
-* This release improve the token validation. With this release the validation is not limited to the token obtained during the login and/or the refresh but also to token obtained by different applications. The change simplify the integration with mobile applications which can get the token from IAM.
+* This release improve updates groups management following the new IAM groups specification: From IAM >= v0.4.0.rc0 groups are provided as a simple list of name and not as maps with name and other properties. The new version can manage the group list.
 
 #### List of RfCs
-* [Issue-5](https://github.com/indigo-dc/LiferayIAM/issues/5) - token validation
+* [Issue-10](https://github.com/indigo-dc/LiferayIAM/issues/10) - Groups generate exceptions
 
 #### Installation & Configuration
-* To upgrade a Liferay the package has to be installed as the first time. The only difference is that custom values will not be overwritten.
-* More information can be found in the [Administration Guide](https://indigo-dc.gitbooks.io/liferay-iam-connector/content/doc/admin.html)
+* In order to use the latest version, 1.1.1, it is requested:
+  * to remove the old version from the Liferay portal configuration panel and remove the old jar
+  * restart Liferay and deploy the new one
+  * No post-installation configuration is requested.
+
+* More information can be found in the "Upgrade to a new release" section of the [Administration Guide](https://indigo-dc.gitbooks.io/liferay-iam-connector/content/doc/admin.html)
 
 #### Artefacts
 * CentOS 7
-  * [LiferayIAM-binary-v1.1.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/tgz/LiferayIAM-binary-v1.1.tgz)
+  * [LiferayIAM-binary-v1.1.1.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/tgz/LiferayIAM-binary-v1.1.1.tgz)
 * Ubuntu14.04
-  * [LiferayIAM-binary-v1.1.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/LiferayIAM-binary-v1.1.tgz)
+  * [LiferayIAM-binary-v1.1.1.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/LiferayIAM-binary-v1.1.1.tgz)
 

@@ -2,7 +2,7 @@
 
 The Second Update of INDIGO-1 release contains:
 * [INDIGO IAM v. 0.4.0](#iam)
-* [Infrastructure manager v1.4.7](#im)
+* [Infrastructure Manager v1.4.7](#im)
 * [ONEdock v. 1.0-2](#onedock)
 * [TOSCA-parser v. 0.6.1](#tp)
 * [TOSCA-in-HEAT/Heat-Translator v. indigo-1.1](#ht)
@@ -62,9 +62,14 @@ In order to update the packages please use:
 * For Ubuntu 14:04:<br>
   ```apt-get update && apt-get install python-im```<br>
 * For containers  
-  *   
-  
-* For more info please read the [Deployment & Administration Guide](https://indigo-dc.gitbooks.io/im/content/)<br>
+  * Stop the old container:<br>
+  ```sudo docker stop im ```<br>
+  * Remove the old container:
+  ```sudo docker rm im ```<br>
+  * Pull the new image version:<br>
+  ```sudo docker pull indigodatacloud/im``` <br> 
+  * Start the new version:
+  ```sudo docker run -d -p 8899:8899 -p 8800:8800 -e IM_DATA_DB=mysql://username:password@server/db_name --name im indigodatacloud/im  ``` <br> ``` 
 
 #### Artefacts
 * CentOS7

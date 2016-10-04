@@ -8,8 +8,8 @@ The Second Update of INDIGO-1 release contains:
 * [TOSCA-in-HEAT/Heat-Translator v. indigo-1.1](#ht)
 * [OOI v. 0.3.2](#ooi)
 * [Zabbix-probes v. 0.4.0](#zp)
-* [Orchestrator v. 0.4.0](#orchestrator)
-* [Nova-Docker v. 0.4.0](#nd)
+* [Orchestrator v. 1.1.0-FINAL](#orchestrator)
+* [Nova-Docker v. 12.0.0](#nd)
 * [FutureGateway](#fg):
   * [fgAPIServer v0.0.4](#fgapis)
   * [APIServerDaemon v0.0.4](#fgapisd)
@@ -228,24 +228,22 @@ In order to update the container, please do:
   * [docker pull indigodatacloud/orchestrator:indigo_1](https://hub.docker.com/r/indigodatacloud/orchestrator/tags/)
 
 
-## <a name="nd"></a>Nova-Docker v.
+## <a name="nd"></a>Nova-Docker v. 12.0.0
 
 #### What's new
-* text
-
-#### List of RfCs
-* text
-
-* More information about bug fixes and other developments can be found on our [ADD](https://link) 
+* The new version provides better packaging, configuration files are now provided in a separate package from the library, and also [improved documentation is provided](https://indigo-dc.gitbooks.io/openstack-nova-docker/content/)
 
 #### Installation & Configuration
-* In order to perform an update please carefully read the instructions available in the [INDIGO-IAM Deployment and Administration Guide](https://andreaceccanti.gitbooks.io/iam/content/doc/admin.html)
+* In order to perform an update please follow the following instructions:
+
 
 #### Artefacts
-* Docker Container:
-  * [text](https://text)
-
-
+* CentOS7
+  * [python-nova-docker-12.0.4_indigo-1.el7.local.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/centos7/x86_64/updates/python-nova-docker-12.0.4_indigo-1.el7.local.noarch.rpm)
+* Ubuntu14.04
+  * [nova-compute-docker_12.0.0_indigo-1_all.deb ](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/nova-compute-docker_12.0.0_indigo-1_all.deb )
+  * [python-nova-docker_12.0.0_indigo-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-nova-docker_12.0.0_indigo-1_all.deb)
+  
 
 <!--
 ## <a name="fg"></a>FutureGateway

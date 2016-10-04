@@ -208,15 +208,21 @@ In order to update the packages please use:
 * [Issue #101](https://github.com/indigo-dc/orchestrator/issues/101) - Deployments and resources must be sorted by date when retrieved from REST APIs
 * [Issue #104](https://github.com/indigo-dc/orchestrator/issues/104) - Adapt user info data to the new IAM format
 
+* More details can be found in the [CHANGELOG](https://github.com/indigo-dc/orchestrator/blob/master/CHANGELOG.md#v110---2016-09-30)
+
 #### Installation & Configuration
-In order to update the container, please do:
-* Stop the old container:<br>
+* Before the upgrade it needs to be checked on IAM if the openid scope is selected for the Orchestrator protected resource server, otherwise the clients will not be able to make requests to it.
+* In order to update the container, please do:
+  * Stop the old container:<br>
   ```sudo docker stop orchestrator ```<br>
-* Remove the old container:<br>
+  * Remove the old container:<br>
   ```sudo docker rm orchestrator ```<br>
-* Pull the new image version:<br>
-  ```sudo docker pull indigodatacloud/orchestrator``` <br> 
-* Start the new version:
+  * Pull the new image version:<br>
+  ```sudo docker pull indigodatacloud/orchestrator:indigo_1``` <br> 
+  * Start the new version, with the same command that you used before, just pay attention to use the right tag of the container, like:
+  ```sudo docker run --name orchestrator --link databaseWorkflow:databaseWorkflow --link databaseOrchestrator:databaseOrchestrator \
+-p 80:8080 -e ORCHESTRATOR_URL="<public_orchestrator_url, like http://localhost:80>" -d indigodatacloud/orchestrator:indigo_1```
+
 
 #### Artefacts
 * Docker Container:

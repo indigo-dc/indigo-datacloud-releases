@@ -13,7 +13,7 @@ The Second Update of INDIGO-1 release contains:
 * [FutureGateway](#fg):
   * [fgAPIServer v0.0.4](#fgapis)
   * [APIServerDaemon v0.0.4](#fgapisd)
-  * [PortalSetup v0.0.3](#fgps)
+  * [PortalSetup v1.0.0](#fgps)
 * [LiferayIAM v. 1.1.1](#li)
 
 

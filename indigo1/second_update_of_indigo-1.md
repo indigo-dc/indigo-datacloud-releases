@@ -293,7 +293,7 @@ In order to update the container, please do:
 ## <a name="li"></a>LiferayIAM v. 1.1.1
 
 #### What's new
-* This release improve updates groups management following the new IAM groups specification: From IAM >= v0.4.0.rc0 groups are provided as a simple list of name and not as maps with name and other properties. The new version can manage the group list.
+* This release improve updates groups management following the new IAM groups specification: From IAM >= v0.4.0.rc0 groups are provided as a simple list of name and not as maps with name and other properties. The new version can manage the group list. Additionally, documentation has been improved with instructions to upgrade from the previous version.
 
 #### List of RfCs
 * [Issue-10](https://github.com/indigo-dc/LiferayIAM/issues/10) - Groups generate exceptions

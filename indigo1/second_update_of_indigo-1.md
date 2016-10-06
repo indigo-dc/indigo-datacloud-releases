@@ -8,12 +8,12 @@ The Second Update of INDIGO-1 release contains:
 * [TOSCA-parser v. 0.6.1](#tp)
 * [TOSCA-in-HEAT/Heat-Translator v. indigo-1.1](#ht)
 * [OOI v. 0.3.2](#ooi)
-* [Zabbix-probes v. 0.4.0](#zp)
 * [Orchestrator v. 1.1.0-FINAL](#orchestrator)
 * [Nova-Docker v. 12.0.0](#nd)
 * [LiferayIAM v. 1.1.1](#li)
 
 <!--
+* [Zabbix-probes v. 1.0-1](#zp)
 * [FutureGateway](#fg):
   * [fgAPIServer v0.0.4](#fgapis)
   * [APIServerDaemon v0.0.4](#fgapisd)
@@ -67,7 +67,7 @@ The Second Update of INDIGO-1 release contains:
      ```   --name iam-login-service --net=iam -p 8080:8080 \  ``` <br>
      ```   --env-file=/path/to//iam-login-service/env \  ``` <br>
      ```   -v /path/to//keystore.jks:/keystore.jks:ro \  ``` <br>
-     ```   indigodatacloud/iam-login-service   ``` <br>
+     ```   indigodatacloud/iam-login-service:indigo_1   ``` <br>
 
 #### Artefacts
 * Docker Container:
@@ -207,7 +207,8 @@ In order to update the packages please use:
 * Ubuntu14.04
   * [python-ooi_0.3.2-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-ooi_0.3.2-1_all.deb)
   * [ooi-doc_0.3.2-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/ooi-doc_0.3.2-1_all.deb)
-  
+
+<!--
 ## <a name="zp"></a>Zabbix-probes v. 1.01
 
 #### What's new
@@ -218,14 +219,12 @@ In order to update the packages please use:
 * Add IAM support for authentication in the OCCI probe
 
 
-* More information about bug fixes and other developments can be found on our [ADD](https://link) 
-
 #### Installation & Configuration
-* deb and rpm files will be provided for updating the current packages
+ * deb and rpm files will be provided for updating the current packages
 
 #### Artefacts
 * 
-
+-->
 
 ## <a name="orchestrator"></a>Orchestrator v. 1.1.0-FINAL
 
@@ -269,7 +268,12 @@ In order to update the packages please use:
 
 #### Installation & Configuration
 * In order to perform an update please follow the following instructions:
-
+* For CentOS 7:<br>
+  ``` yum -y remove python-nova-docker && yum clean all && yum -y update python-nova-docker```<br>
+* For Ubuntu 14:04:<br>
+  ```apt-get -y remove && apt-get update && apt-get install python-nova-docker nova-compute-docker```<br>
+  
+apt-get -y install python-nova-docker
 
 #### Artefacts
 * CentOS7

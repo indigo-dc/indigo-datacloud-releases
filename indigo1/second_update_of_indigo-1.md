@@ -60,14 +60,14 @@ The Second Update of INDIGO-1 release contains:
 
 #### Installation & Configuration
 * If the installation was done following the the instructions available in the [INDIGO-IAM Deployment and Administration Guide](https://indigo-dc.gitbooks.io/iam/content/doc/admin.html), please follow the following steps to upgrade:
-     ``` docker pull indigodatacloud/iam-login-service <br>
-         docker stop iam-login-service <br>
-         docker rm iam-login-service <br>
-         docker run \  <br>
-           --name iam-login-service --net=iam -p 8080:8080 \  <br>
-           --env-file=/path/to//iam-login-service/env \  <br>
-            -v /path/to//keystore.jks:/keystore.jks:ro \  <br>
-           indigodatacloud/iam-login-service   ``` <br>
+     ``` docker pull indigodatacloud/iam-login-service ``` <br>
+     ``` docker stop iam-login-service ``` <br>
+     ``` docker rm iam-login-service ``` <br>
+     ``` docker run \  ``` <br>
+     ```   --name iam-login-service --net=iam -p 8080:8080 \  ``` <br>
+     ```   --env-file=/path/to//iam-login-service/env \  ``` <br>
+     ```   -v /path/to//keystore.jks:/keystore.jks:ro \  ``` <br>
+     ```   indigodatacloud/iam-login-service   ``` <br>
 
 #### Artefacts
 * Docker Container:

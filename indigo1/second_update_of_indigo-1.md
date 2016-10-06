@@ -271,10 +271,9 @@ In order to update the packages please use:
 * For CentOS 7:<br>
   ``` yum -y remove python-nova-docker && yum clean all && yum -y update python-nova-docker```<br>
 * For Ubuntu 14:04:<br>
-  ```apt-get -y remove && apt-get update && apt-get install python-nova-docker nova-compute-docker```<br>
+  ```apt-get remove --purge python-nova-docker```<br>
+  ```apt-get update && apt-get -y install python-nova-docker nova-compute-docker```<br>
   
-apt-get -y install python-nova-docker
-
 #### Artefacts
 * CentOS7
   * [python-nova-docker-12.0.4_indigo-1.el7.local.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/centos7/x86_64/updates/python-nova-docker-12.0.4_indigo-1.el7.local.noarch.rpm)

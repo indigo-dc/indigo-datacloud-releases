@@ -59,7 +59,7 @@ The Second Update of INDIGO-1 release contains:
 * More information about bug fixes and other developments can be found on our [JIRA release board](https://issues.infn.it/jira/browse/INDIAM/fixforversion/13811) 
 
 #### Installation & Configuration
-* If the installation was done following the the instructions available in the [INDIGO-IAM Deployment and Administration Guide](https://indigo-dc.gitbooks.io/iam/content/doc/admin.html), please follow the following steps to upgrade:
+* If the installation was done following the the instructions available in the [INDIGO-IAM Deployment and Administration Guide](https://indigo-dc.gitbooks.io/iam/content/doc/admin.html), please follow the following steps to upgrade:<br>
      ``` docker pull indigodatacloud/iam-login-service ``` <br>
      ``` docker stop iam-login-service ``` <br>
      ``` docker rm iam-login-service ``` <br>

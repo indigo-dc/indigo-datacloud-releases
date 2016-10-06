@@ -1,6 +1,7 @@
 # Second Update of INDIGO-1
 
 The Second Update of INDIGO-1 release contains:
+* [CDMI v. 0.2](#cdmi)
 * [INDIGO IAM v. 0.4.0](#iam)
 * [Infrastructure Manager v1.4.7](#im)
 * [ONEdock v. 1.0-2](#onedock)
@@ -10,11 +11,35 @@ The Second Update of INDIGO-1 release contains:
 * [Zabbix-probes v. 0.4.0](#zp)
 * [Orchestrator v. 1.1.0-FINAL](#orchestrator)
 * [Nova-Docker v. 12.0.0](#nd)
+* [LiferayIAM v. 1.1.1](#li)
+
+<!--
 * [FutureGateway](#fg):
   * [fgAPIServer v0.0.4](#fgapis)
   * [APIServerDaemon v0.0.4](#fgapisd)
   * [PortalSetup v1.0.0](#fgps)
-* [LiferayIAM v. 1.1.1](#li)
+-->
+
+## <a name="cdmi"></a>CDMI v. 1.1
+
+#### What's new
+* Redis-Db replaces the filesystem-backed storage of metadata
+
+#### List of RfCs
+* Redis-DB as new metadata storage
+* Focus on QoS-management via CDMI
+* refactoring
+
+#### Installation & Configuration
+* In order to perform an update please carefully read the instructions available in the [Updating CDMI-QoS Guide](hhttps://indigo-dc.gitbooks.io/cdmi-qos/content/doc/updating_cdmi-qos.html)
+
+#### Artefacts
+* CentOS 7
+  * [cdmi-server-1.1-1.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/ccdmi-server-1.1-1.x86_64.rpm)
+* Ubuntu 14.04
+  * [cdmi-server-1.1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/cdmi-server-1.1_all.deb)
+* Docker Container:
+  * [indigodatacloud/cdmi:indigo_1](https://hub.docker.com/r/indigodatacloud/cdmi/tags/)
 
 
 ## <a name="iam"></a>INDIGO IAM v.0.4.0
@@ -34,7 +59,15 @@ The Second Update of INDIGO-1 release contains:
 * More information about bug fixes and other developments can be found on our [JIRA release board](https://issues.infn.it/jira/browse/INDIAM/fixforversion/13811) 
 
 #### Installation & Configuration
-* In order to perform an update please carefully read the instructions available in the [INDIGO-IAM Deployment and Administration Guide](https://andreaceccanti.gitbooks.io/iam/content/doc/admin.html)
+* If the installation was done following the the instructions available in the [INDIGO-IAM Deployment and Administration Guide](https://indigo-dc.gitbooks.io/iam/content/doc/admin.html), please follow the following steps to upgrade:
+     ``` docker pull indigodatacloud/iam-login-service <br>
+         docker stop iam-login-service <br>
+         docker rm iam-login-service <br>
+         docker run \  <br>
+           --name iam-login-service --net=iam -p 8080:8080 \  <br>
+           --env-file=/path/to//iam-login-service/env \  <br>
+            -v /path/to//keystore.jks:/keystore.jks:ro \  <br>
+           indigodatacloud/iam-login-service   ``` <br>
 
 #### Artefacts
 * Docker Container:

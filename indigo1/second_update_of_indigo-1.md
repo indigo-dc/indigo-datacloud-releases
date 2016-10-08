@@ -1,7 +1,7 @@
 # Second Update of INDIGO-1
 
 The Second Update of INDIGO-1 release contains:
-* [CDMI v. 0.2](#cdmi)
+* [CDMI v. 1.1](#cdmi)
 * [INDIGO IAM v. 0.4.0](#iam)
 * [Infrastructure Manager v1.4.7](#im)
 * [ONEdock v. 1.0-2](#onedock)
@@ -335,7 +335,7 @@ In order to update the packages please use:
 #### List of RfCs
 * [Issue-10](https://github.com/indigo-dc/LiferayIAM/issues/10) - Groups generate exceptions
 
-#### Installation & Configuration
+#### Installation \& Configuration
 * In order to use the latest version, 1.1.1, it is requested:
   * to remove the old version from the Liferay portal configuration panel and remove the old jar
   * restart Liferay and deploy the new one

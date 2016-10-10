@@ -15,9 +15,9 @@ The Indigo **udocker** does not require any type of privileges nor the deploymen
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [Documentation](#id6)
   * [List of Artifacts](#id7)
-  * [Support](#id8)
+* [Documentation](#id6)
+* [Support](#id8)
 
 
 <a id="id1"></a>
@@ -49,12 +49,6 @@ Installation can be done from [GitHub](https://github.com/indigo-dc/udocker) or 
 
 * N/A
 
-<a id="id6"></a>
-### Documentation
-
-* [udocker in GitBook](https://www.gitbook.com/book/indigo-dc/udocker)
-  * [Installation & Configuration Guide](https://indigo-dc.gitbooks.io/udocker/content/doc/installation_manual.html)
-  * [User Guide](https://indigo-dc.gitbooks.io/udocker/content/doc/user_manual.html)
 
 <a id="id7"></a>
 ### List of Artifacts
@@ -62,9 +56,15 @@ Installation can be done from [GitHub](https://github.com/indigo-dc/udocker) or 
 Tarballs:
 * [udocker-v1.0.0-linux-x86_64.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/tgz/udocker-v1.0.0.tar.gz)
 
-<a id="id8"></a>
-### Support
+<a id="id6"></a>
+## Documentation
 
-* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
-https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* [udocker in GitBook](https://www.gitbook.com/book/indigo-dc/udocker)
+  * [Installation & Configuration Guide](https://indigo-dc.gitbooks.io/udocker/content/doc/installation_manual.html)
+  * [User Guide](https://indigo-dc.gitbooks.io/udocker/content/doc/user_manual.html)
+
+<a id="id8"></a>
+## Support
+
+* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
 * developers can be contacted also using udocker@lip.pt

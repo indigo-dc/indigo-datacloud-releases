@@ -120,19 +120,20 @@ In order to update the packages please use:
 ## <a name="fg"></a>FutureGateway
 ### <a name="fgas"></a>fgAPIServer & APIServerDaemon v0.0.5, PortalSetup v. 0.0.4
 #### What's new
-* Bug fixes update
-  * New LiferayIAM valid token rule in PTV
-  * Wrong internal status in TASK table
-  * Checkstyle issue with jdk8
-  * PortalSetup installation scripts point now to latest tags
+* This update contains only bug fixes
+
+#### List of RfCs
+* Portal token validator: LiferayIAM does not uses error: field to invalidate tokens; this time valid tokens are the ones providing the subject
+* An internal 'state' has been exposes as an official state foreseen by API specifications
+* During installation on machines having jdk8 the checkstyle caused a failure due to an unsupported jar file
+* PortalSetup contains static references to the newest versions of fgAPIServer and APIServerDaemon for the installation script fgSetup.sh
   
 #### Installation & Configuration
-* fgAPIServer: 
-  * requires only new files just extracting them from Git. Pay attention to configuration file and to restart the service related to wsgi in case the front end operates wit that service.
-* APIServerDaemon: 
-  * extract from git; recompile with 'ant all' the second component; then place generated war file into $CATALINA_HOME/web's
-* PortalSetup
-   * the use of the scripts-collection is intended only for new installations. Detailed guide on how to use them can be found [here](https://github.com/indigo-dc/PortalSetup/blob/master/README.md)
+1. Extract from Git, paying attention to do not overwrite the apps/ directory and existing .conf files
+2. Restart the service
+  2.a) If fgAPIServer runs as an application (command line execution); just restart the service. In case the service has been started by the /etc/init.d/futuregateway script execute a restart
+  2.b) The fgAPIServer runs as wsgi. Restart the service that provides the configured wsgi execution (In case of apache restart it).
+3. APIServerDaemon; this is a Java web application and its code must be extracted from Git and compiled executing 'ant all', once obtained the war file copy the file under $CATALINA_HOME/webapps, then control the file $CATALINA_HOME/logs/catalina.out file checking for its successful installation. The service is now ready and polling activity can be monitored by the log file $CATALINA_HOME/webapps/APIServerDaemon/WEB-INF/logs/APIServerDaemon.log
 
 #### Artefacts
 * CentOS7

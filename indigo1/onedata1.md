@@ -11,9 +11,9 @@ For quick overview of basic concepts and functionality check out our [Getting st
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [Documentation](#id6)
   * [List of Artifacts](#id7)
-  * [Support](#id8)
+* [Documentation](#id6)
+* [Support](#id8)
 
 
 <a id="id1"></a>
@@ -79,10 +79,6 @@ From [INDIGO-1 repositories](http://repo.indigo-datacloud.eu) **OneZone** and **
 
 * N/A
 
-<a id="id6"></a>
-### Documentation
-
-* [OneData on GitBook]( https://www.gitbook.com/book/indigo-dc/onedata-documentation-indigo-dc/details)
 
 <a id="id7"></a>
 ### List of Artifacts
@@ -96,9 +92,13 @@ Docker images:
 * [indigodatacloud/oneprovider:indigo_1](https://hub.docker.com/r/indigodatacloud/oneprovider/)
 * [indigodatacloud/oneclient:indigo_1](https://hub.docker.com/r/indigodatacloud/oneclient/)
 
+<a id="id6"></a>
+### Documentation
+
+* [OneData on GitBook]( https://www.gitbook.com/book/indigo-dc/onedata-documentation-indigo-dc/details)
+
 <a id="id8"></a>
 ### Support
 
 * Onedata provides live support chat: https://www.hipchat.com/g3ST0Aaci
-* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
-https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

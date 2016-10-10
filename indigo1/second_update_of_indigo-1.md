@@ -4,13 +4,17 @@ The Second Update of INDIGO-1 release contains:
 * [CDMI v. 1.1](#cdmi)
 * [INDIGO IAM v. 0.4.0](#iam)
 * [Infrastructure Manager v1.4.7](#im)
-* [ONEdock v. 1.0-2](#onedock)
-* [TOSCA-parser v. 0.6.1](#tp)
+* [FutureGateway](#fg):
+  * [fgAPIServer v0.0.5](#fgapis)
+  * [APIServerDaemon v0.0.5](#fgapisd)
 * [HEAT-Translator v. indigo-1.1](#ht)
+* [LiferayIAM v. 1.1.1](#li)
+* [Nova-Docker v. 12.0.0](#nd)
+* [ONEdock v. 1.0-2](#onedock)
 * [OOI v. 0.3.2](#ooi)
 * [Orchestrator v. 1.1.0-FINAL](#orchestrator)
-* [Nova-Docker v. 12.0.0](#nd)
-* [LiferayIAM v. 1.1.1](#li)
+* [TOSCA-parser v. 0.6.1](#tp)
+
 
 <!--
 * [Zabbix-probes v. 1.0-1](#zp)
@@ -112,6 +116,105 @@ In order to update the packages please use:
 * Container
   * [indigodatacloud/im:indigo_1](https://hub.docker.com/r/indigodatacloud/im/tags/)
 
+## <a name="fg"></a>FutureGateway
+### <a name="fgas"></a>fgAPIServer & APIServerDaemon v0.0.5
+#### What's new
+* Bug fixes update
+  * New LiferayIAM valid token rule in PTV
+  * Wrong internal status in TASK table
+  * Checkstyle issue with jdk8
+  
+#### Installation & Configuration
+* fgAPIServer: 
+  * requires only new files just extracting them from Git. Pay attention to configuration file and to restart the service related to wsgi in case the front end operates wit that service.
+* APIServerDaemon: 
+  * extract from git; recompile with 'ant all' the second component; then place generated war file into $CATALINA_HOME/web's
+
+#### Artefacts
+* CentOS7
+  * [fgAPIServer-v0.0.5.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/fgAPIServer-v0.0.5.tar.gz)
+  * [APIServerDaemon-v0.0.5.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/APIServerDaemon-v0.0.5.tar.gz)
+* Ubuntu14.04
+  * [fgAPIServer-v0.0.5.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/source/fgAPIServer-v0.0.5.tar.gz)
+  * [APIServerDaemon-v0.0.5.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/source/APIServerDaemon-v0.0.5.tar.gz)
+
+
+<!--
+### <a name="fgps"></a>PortalSetup v0.0.3
+#### What's new
+* fgSetup.sh can be configured to extract a fixed release
+* Included fgSetup.sh script pointing to the latest available release
+
+#### Installation & Configuration
+* Just extract new files from the tarball
+
+#### Artefacts
+  * [PortalSetup-v0.0.3.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/PortalSetup-v0.0.3.tar.gz)
+* Ubuntu14.04
+  * [PortalSetup-v0.0.3.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/source/PortalSetup-v0.0.3.tar.gz)
+-->
+
+## <a name="ht"></a>HEAT-Translator v. indigo-1.1
+
+#### What's new
+* Fix network support : a map was wrongly used instead of a list which would create invalid hot templates. 
+
+#### Installation & Configuration
+In order to update the packages please use:
+* For CentOS 7 + Mitaka:<br>
+  ``` yum clean all && yum update heat-translator```<br>
+* For Ubuntu 14:04:<br>
+  ```apt-get update && apt-get install python-heat-translator```<br>
+
+#### Artefacts
+* CentOS7
+  * [heat-translator-0.5.1.dev38-1.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/centos7/x86_64/updates/heat-translator-0.5.1.dev38-1.noarch.rpm)
+* Ubuntu14.04
+  * [python-heat-translator_0.5.1.dev38-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-heat-translator_0.5.1.dev38-1_all.deb)
+
+## <a name="li"></a>LiferayIAM v. 1.1.1
+
+#### What's new
+* This release improve updates groups management following the new IAM groups specification: From IAM >= v0.4.0.rc0 groups are provided as a simple list of name and not as maps with name and other properties. The new version can manage the group list. Additionally, documentation has been improved with instructions to upgrade from the previous version.
+
+#### List of RfCs
+* [Issue-10](https://github.com/indigo-dc/LiferayIAM/issues/10) - Groups generate exceptions
+
+#### Installation \& Configuration
+* In order to use the latest version, 1.1.1, it is requested:
+  * to remove the old version from the Liferay portal configuration panel and remove the old jar
+  * restart Liferay and deploy the new one
+  * No post-installation configuration is requested.
+
+* More information can be found in the "Upgrade to a new release" section of the [Administration Guide](https://indigo-dc.gitbooks.io/liferay-iam-connector/content/doc/admin.html)
+
+#### Artefacts
+* CentOS 7
+  * [LiferayIAM-binary-v1.1.1.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/tgz/LiferayIAM-binary-v1.1.1.tgz)
+* Ubuntu14.04
+  * [LiferayIAM-binary-v1.1.1.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/LiferayIAM-binary-v1.1.1.tgz)
+
+
+## <a name="nd"></a>Nova-Docker v. 12.0.0
+
+#### What's new
+* The new version provides better packaging, configuration files are now provided in a separate package from the library, and also [improved documentation is provided](https://indigo-dc.gitbooks.io/openstack-nova-docker/content/)
+
+#### Installation & Configuration
+* In order to perform an update please follow the following instructions:
+* For CentOS 7:<br>
+  ``` yum -y remove python-nova-docker && yum clean all && yum -y update python-nova-docker```<br>
+* For Ubuntu 14:04:<br>
+  ```apt-get remove --purge python-nova-docker```<br>
+  ```apt-get update && apt-get -y install python-nova-docker nova-compute-docker```<br>
+  
+#### Artefacts
+* CentOS7
+  * [python-nova-docker-12.0.4_indigo-1.el7.local.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/centos7/x86_64/updates/python-nova-docker-12.0.4_indigo-1.el7.local.noarch.rpm)
+* Ubuntu14.04
+  * [nova-compute-docker_12.0.0_indigo-1_all.deb ](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/nova-compute-docker_12.0.0_indigo-1_all.deb )
+  * [python-nova-docker_12.0.0_indigo-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-nova-docker_12.0.0_indigo-1_all.deb)
+
 ## <a name="onedock"></a>ONEdock v. 1.0-2
 
 #### What's new
@@ -144,45 +247,6 @@ In order to update the packages please use:
   * [onedock_1.0-2_node_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/onedock_1.0-2_node_all.deb)
   
 
-## <a name="tp"></a>TOSCA-parser v. 0.6.1
-
-#### What's new
-* The updated version of TOSCA-parser addresses minor bug fixes and integrates the changes made upstream (in openstack/tosca-parser v.0.6).
-
-#### Installation & Configuration
-In order to update the packages please use:
-* For CentOS 7:<br>
-  ``` yum clean all && yum update tosca-parser```<br>
-* For Ubuntu 14:04:<br>
-  ```apt-get update && apt-get install python-tosca-parser```<br>
-  
-  
-#### Artefacts
-* CentOS7
-  * [tosca-parser-0.6.1-1.el7.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/centos7/x86_64/updates/tosca-parser-0.6.1-1.el7.noarch.rpm)
-* Ubuntu14.04
-  * [python-tosca-parser_0.6.1-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-tosca-parser_0.6.1-1_all.deb)
-  
-  
-## <a name="ht"></a>HEAT-Translator v. indigo-1.1
-
-#### What's new
-* Fix network support : a map was wrongly used instead of a list which would create invalid hot templates. 
-
-#### Installation & Configuration
-In order to update the packages please use:
-* For CentOS 7 + Mitaka:<br>
-  ``` yum clean all && yum update heat-translator```<br>
-* For Ubuntu 14:04:<br>
-  ```apt-get update && apt-get install python-heat-translator```<br>
-
-
-#### Artefacts
-* CentOS7
-  * [heat-translator-0.5.1.dev38-1.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/centos7/x86_64/updates/heat-translator-0.5.1.dev38-1.noarch.rpm)
-* Ubuntu14.04
-  * [python-heat-translator_0.5.1.dev38-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-heat-translator_0.5.1.dev38-1_all.deb)
-
 ## <a name="ooi"></a>OOI v. 0.3.2
 
 #### What's new
@@ -207,24 +271,6 @@ In order to update the packages please use:
 * Ubuntu14.04
   * [python-ooi_0.3.2-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-ooi_0.3.2-1_all.deb)
   * [ooi-doc_0.3.2-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/ooi-doc_0.3.2-1_all.deb)
-
-<!--
-## <a name="zp"></a>Zabbix-probes v. 1.01
-
-#### What's new
-* The current update is mainly focused on solving several bugs detected and on adding a feature to the OCCI probe for improving its adoption rate, since the former user/password authentication was not adequate enough for automating the whoel monitoring process.  The documentation includes also a new section about updating the Zabbix probes
-
-#### List of RfCs
-* [Issue #6](ttps://github.com/indigo-dc/Monitoring/issues/6)Bug fix related to retrieving the config file info when the file is not available
-* Add IAM support for authentication in the OCCI probe
-
-
-#### Installation & Configuration
- * deb and rpm files will be provided for updating the current packages
-
-#### Artefacts
-* 
--->
 
 ## <a name="orchestrator"></a>Orchestrator v. 1.1.0-FINAL
 
@@ -259,93 +305,45 @@ In order to update the packages please use:
 #### Artefacts
 * Docker Container:
   * [docker pull indigodatacloud/orchestrator:indigo_1](https://hub.docker.com/r/indigodatacloud/orchestrator/tags/)
+  
 
 
-## <a name="nd"></a>Nova-Docker v. 12.0.0
+## <a name="tp"></a>TOSCA-parser v. 0.6.1
 
 #### What's new
-* The new version provides better packaging, configuration files are now provided in a separate package from the library, and also [improved documentation is provided](https://indigo-dc.gitbooks.io/openstack-nova-docker/content/)
+* The updated version of TOSCA-parser addresses minor bug fixes and integrates the changes made upstream (in openstack/tosca-parser v.0.6).
 
 #### Installation & Configuration
-* In order to perform an update please follow the following instructions:
+In order to update the packages please use:
 * For CentOS 7:<br>
-  ``` yum -y remove python-nova-docker && yum clean all && yum -y update python-nova-docker```<br>
+  ``` yum clean all && yum update tosca-parser```<br>
 * For Ubuntu 14:04:<br>
-  ```apt-get remove --purge python-nova-docker```<br>
-  ```apt-get update && apt-get -y install python-nova-docker nova-compute-docker```<br>
+  ```apt-get update && apt-get install python-tosca-parser```<br>
+  
   
 #### Artefacts
 * CentOS7
-  * [python-nova-docker-12.0.4_indigo-1.el7.local.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/centos7/x86_64/updates/python-nova-docker-12.0.4_indigo-1.el7.local.noarch.rpm)
+  * [tosca-parser-0.6.1-1.el7.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/centos7/x86_64/updates/tosca-parser-0.6.1-1.el7.noarch.rpm)
 * Ubuntu14.04
-  * [nova-compute-docker_12.0.0_indigo-1_all.deb ](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/nova-compute-docker_12.0.0_indigo-1_all.deb )
-  * [python-nova-docker_12.0.0_indigo-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-nova-docker_12.0.0_indigo-1_all.deb)
-  
+  * [python-tosca-parser_0.6.1-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-tosca-parser_0.6.1-1_all.deb)
+
 
 <!--
-## <a name="fg"></a>FutureGateway
-### <a name="fgas"></a>fgAPIServer v0.0.4
-#### What's new
-* Aligned LiferayIAM answers to the latest version
-* Fixed little bug DELETE task
-* Fix when using default user (No mapping in PTV)
-
-#### Installation & Configuration
-* To update fgAPIServer, just extract its code from the tarball placing it into $FGLOCATION, paying attention to do not overwrite any configuration file. Once new files are available, restart fgapiserver.py scipt in the screen section or restart the web server in case the front-end uses wsgi to execute.
-
-#### Artefacts
-* CentOS7
-  * [fgAPIServer-v0.0.4.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/fgAPIServer-v0.0.4.tar.gz)
-* Ubuntu14.04
-  * [fgAPIServer-v0.0.4.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/source/fgAPIServer-v0.0.4.tar.gz)
-
-### <a name="fgasd"></a>APIServerDaemon v0.0.4
-#### What's new
-* Fix on WAITING tasks
-* Including runtime_data while deleting task
-* Adding resource info in ToscaIDC executor interface (token)
-
-#### Installation & Configuration
-* To update APIServerDaemon, rename the existing $FGLOCATION/APIServerDaemon directory, extract its new code from the tarball make a full copy of the direcrtory web/WEB-INF/lib to the new APIServerDaemon dir. Execute and all and generate the new war file. Copy the war file into $CATALINA_HOME/webapps and check the log file $CATALINA_HOME/logs/catalina.log for successful deployment.
-
-#### Artefacts
-  * [APIServerDaemon-v0.0.4.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/APIServerDaemon-v0.0.4.tar.gz)
-* Ubuntu14.04
-  * [APIServerDaemon-v0.0.4.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/source/APIServerDaemon-v0.0.4.tar.gz)
-
-### <a name="fgps"></a>PortalSetup v0.0.3
-#### What's new
-* fgSetup.sh can be configured to extract a fixed release
-* Included fgSetup.sh script pointing to the latest available release
-
-#### Installation & Configuration
-* Just extract new files from the tarball
-
-#### Artefacts
-  * [PortalSetup-v0.0.3.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/PortalSetup-v0.0.3.tar.gz)
-* Ubuntu14.04
-  * [PortalSetup-v0.0.3.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/source/PortalSetup-v0.0.3.tar.gz)
--->
-
-## <a name="li"></a>LiferayIAM v. 1.1.1
+## <a name="zp"></a>Zabbix-probes v. 1.01
 
 #### What's new
-* This release improve updates groups management following the new IAM groups specification: From IAM >= v0.4.0.rc0 groups are provided as a simple list of name and not as maps with name and other properties. The new version can manage the group list. Additionally, documentation has been improved with instructions to upgrade from the previous version.
+* The current update is mainly focused on solving several bugs detected and on adding a feature to the OCCI probe for improving its adoption rate, since the former user/password authentication was not adequate enough for automating the whoel monitoring process.  The documentation includes also a new section about updating the Zabbix probes
 
 #### List of RfCs
-* [Issue-10](https://github.com/indigo-dc/LiferayIAM/issues/10) - Groups generate exceptions
+* [Issue #6](ttps://github.com/indigo-dc/Monitoring/issues/6)Bug fix related to retrieving the config file info when the file is not available
+* Add IAM support for authentication in the OCCI probe
 
-#### Installation \& Configuration
-* In order to use the latest version, 1.1.1, it is requested:
-  * to remove the old version from the Liferay portal configuration panel and remove the old jar
-  * restart Liferay and deploy the new one
-  * No post-installation configuration is requested.
 
-* More information can be found in the "Upgrade to a new release" section of the [Administration Guide](https://indigo-dc.gitbooks.io/liferay-iam-connector/content/doc/admin.html)
+#### Installation & Configuration
+ * deb and rpm files will be provided for updating the current packages
 
 #### Artefacts
-* CentOS 7
-  * [LiferayIAM-binary-v1.1.1.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/tgz/LiferayIAM-binary-v1.1.1.tgz)
-* Ubuntu14.04
-  * [LiferayIAM-binary-v1.1.1.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/LiferayIAM-binary-v1.1.1.tgz)
+* 
+-->
+
 

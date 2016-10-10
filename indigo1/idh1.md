@@ -54,11 +54,6 @@ Supported Platforms
 
 * N/A
 
-<a id="id6"></a>
-### Documentation
-
-* [Identity Harmonisation Service GitBook](https://www.gitbook.com/book/indigo-dc/identity-harmonization/details)
-
 <a id="id7"></a>
 ### List of Artifacts
 Packages:
@@ -66,10 +61,15 @@ Packages:
 * identity-harmonization-0.0.1-1.x86_64.rpm
 
 Docker Container:
-* 
+* indigodatacloud/idh
+
+<a id="id6"></a>
+## Documentation
+
+* [Identity Harmonisation Service GitBook](https://www.gitbook.com/book/indigo-dc/identity-harmonization/details)
 
 <a id="id8"></a>
-### Support
+## Support
 
 * Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
 https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

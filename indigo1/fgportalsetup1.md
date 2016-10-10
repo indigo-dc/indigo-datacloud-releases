@@ -1,8 +1,12 @@
-# Portal Setup v. 0.0.2
+# FutureGateway Portal Setup
 The **Portal Setup**project is a script collection for automatic installation of the FutureGateway portal and its development environment. 
 
 **Summary**:
-* [Release Notes](#id1)
+* Updates
+  * [fgPortalSetup v. 0.0.4](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/second_update_of_indigo-1.html#fg)
+  * [fgPortalSetup v. 0.0.3](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/first_update_of_indigo-1.html#fgps)
+
+* [Release Notes v. 0.0.2](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
@@ -18,7 +22,7 @@ The **Portal Setup**project is a script collection for automatic installation of
 <a id="id2"></a>
 ### What's new
 
-First release of the PortalSetup scripts-collection
+First release of the FutureGateway PortalSetup scripts-collection
 
 The OS platform should be automatically identified while the script runs. Each setup file has the form setup_*, where * refers to a specific component and some of them require to be executed as root or by sudo. Please notice that OS specific intallation scripts are collected inside dedicated directories.
 

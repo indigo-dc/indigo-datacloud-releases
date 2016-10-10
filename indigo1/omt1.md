@@ -8,9 +8,9 @@
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [Documentation](#id6)
   * [List of Artifacts](#id7)
-  * [Support](#id8)
+* [Documentation](#id6)
+* [Support](#id8)
 
 
 <a id="id1"></a>
@@ -48,20 +48,19 @@ Supported Platforms:
 
 * N/A
 
-<a id="id6"></a>
-### Documentation
-
-* [INDIGO OMT GitBook](https://www.gitbook.com/book/indigo-dc/omt-android/details)
-
 <a id="id7"></a>
 ### List of Artifacts
 
 * [https://jcenter.bintray.com/pl/psnc/indigo/indigo-omt-android-library/0.7.3/indigo-omt-android-library-0.7.3.aar](https://jcenter.bintray.com/pl/psnc/indigo/indigo-omt-android-library/0.7.3/indigo-omt-android-library-0.7.3.aar)
 
-<a id="id8"></a>
-### Support
+<a id="id6"></a>
+## Documentation
 
-* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
-https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* [INDIGO OMT GitBook](https://www.gitbook.com/book/indigo-dc/omt-android/details)
+
+<a id="id8"></a>
+## Support
+
+* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)<br>
 or
 * [https://github.com/indigo-dc/omt-android/issues](https://github.com/indigo-dc/omt-android/issues)

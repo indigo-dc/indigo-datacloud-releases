@@ -11,7 +11,7 @@
 
 * Updates
   * [CDMI v. 1.1](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/second_update_of_indigo-1.html#cdmi)
-  * [CDMI v. 0.2](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/first_update_of_indigo-1.html#cdmi)
+  * [CDMI v. 0.2](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/first_update_of_indigo-1.html#cdmi)<br>
 
 * [Release Notes v. 0.1](#id1)
   * [What's new](#id2)
@@ -25,7 +25,7 @@
 
 
 <a id="id1"></a>
-## Release Notes
+## Release Notes v. 0.1
 
 <a id="id2"></a>
 ### What's new

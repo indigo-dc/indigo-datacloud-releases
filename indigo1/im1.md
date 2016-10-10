@@ -1,4 +1,4 @@
-# Infrastructure Manager v1.4.6
+# Infrastructure Manager 
 
 The **Infrastructure Manager (IM)** is a tool that deploys complex and customized virtual infrastructures on IaaS Cloud deployments (such as AWS, OpenStack, etc.). 
 * It eases the access and the usability of IaaS clouds by automating the VMI (Virtual Machine Image) selection, deployment, configuration, software installation, monitoring and update of the virtual infrastructure. 
@@ -10,9 +10,9 @@ This version evolved in the [INDIGO-Datacloud project](https://www.indigo-datacl
 **Summary**:
 
 * Updates
-  * [IM v.1.4.7](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/second_update_of_indigo-1.html#im)
+  * [IM v.1.4.7](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/second_update_of_indigo-1.html#im)<br>
 
-* [Release Notes](#id1)
+* [Release Notes v1.4.6](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
@@ -23,7 +23,7 @@ This version evolved in the [INDIGO-Datacloud project](https://www.indigo-datacl
 
 
 <a id="id1"></a>
-## Release Notes
+## Release Notes v1.4.6
 
 
 <a id="id2"></a>

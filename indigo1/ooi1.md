@@ -1,9 +1,12 @@
-# OpenStack OCCI Interface v. 0.3.1-1
+# OpenStack OCCI Interface 
 
 **OOI** is an implementation of the [Open Cloud Computing Interface (OCCI)](http://www.occi-wg.org/) for [OpenStack]( http://openstack.org). 
 
 **Summary**:
-* [Release Notes](#id1)
+* Updates
+  * [OOI v. 0.3.2](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/second_update_of_indigo-1.html#ooi)
+
+* [Release Notes v. 0.3.1-1](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)

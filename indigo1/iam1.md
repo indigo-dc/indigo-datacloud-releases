@@ -3,6 +3,10 @@
 The **Identity and Access Management Service** provides a layer where identities, enrollment, group membership and other attributes and authorization policies on distributed resources can be managed in an homogeneous way, supporting the federated authentication mechanisms supported by the INDIGO AAI. The IAM service provides user identity and policy information to services so that consistent authorization decisions can be enforced across distributed services.
 
 **Summary**:
+
+* Updates
+  * [INDIGO IAM v.0.4.0](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/second_update_of_indigo-1.html#iam)
+
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)

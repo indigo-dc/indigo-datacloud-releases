@@ -131,8 +131,8 @@ In order to update the packages please use:
 #### Installation & Configuration
 1. Extract from Git, paying attention to do not overwrite the apps/ directory and existing .conf files
 2. Restart the service
-  2.a) If fgAPIServer runs as an application (command line execution); just restart the service. In case the service has been started by the /etc/init.d/futuregateway script execute a restart
-  2.b) The fgAPIServer runs as wsgi. Restart the service that provides the configured wsgi execution (In case of apache restart it).
+  2. a) If fgAPIServer runs as an application (command line execution); just restart the service. In case the service has been started by the /etc/init.d/futuregateway script execute a restart
+  2. b) The fgAPIServer runs as wsgi. Restart the service that provides the configured wsgi execution (In case of apache restart it).
 3. APIServerDaemon; this is a Java web application and its code must be extracted from Git and compiled executing 'ant all', once obtained the war file copy the file under $CATALINA_HOME/webapps, then control the file $CATALINA_HOME/logs/catalina.out file checking for its successful installation. The service is now ready and polling activity can be monitored by the log file $CATALINA_HOME/webapps/APIServerDaemon/WEB-INF/logs/APIServerDaemon.log
 
 #### Artefacts

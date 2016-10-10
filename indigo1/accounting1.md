@@ -38,13 +38,6 @@ and  INDIGO-DC SQA (internal tasks)
 
 * N/A
 
-<a id="id6"></a>
-### Documentation
-
-* [Developer guide](https://indigo-dc.gitbooks.io/accounting/content/doc/developer.html)
-* [Deployment and Administration guide](https://indigo-dc.gitbooks.io/accounting/content/doc/admin.html)
-* [User guide](https://indigo-dc.gitbooks.io/accounting/content/doc/user.html)
-
 <a id="id7"></a>
 ### List of Artifacts
 
@@ -58,9 +51,16 @@ Third-Party dependencies:
 * Accounting Collectors - OpenStack
   * [tarball](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/caso_0.3.2.orig.tar.gz)
   * [deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/third-party/binary-amd64/caso_0.3.2-1ubuntu2_all.deb)
+  
+<a id="id6"></a>
+## Documentation
+
+* [Developer guide](https://indigo-dc.gitbooks.io/accounting/content/doc/developer.html)
+* [Deployment and Administration guide](https://indigo-dc.gitbooks.io/accounting/content/doc/admin.html)
+* [User guide](https://indigo-dc.gitbooks.io/accounting/content/doc/user.html)
+
 
 <a id="id8"></a>
-### Support
+## Support
 
-* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
-https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

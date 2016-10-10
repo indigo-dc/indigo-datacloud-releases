@@ -16,9 +16,9 @@ It allows to acquire and manage resources (compute, storage, network). One can t
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [Documentation](#id6)
   * [List of Artifacts](#id7)
-  * [Support](#id8)
+* [Documentation](#id6)
+* [Support](#id8)
 
 
 <a id="id1"></a>
@@ -52,22 +52,21 @@ Installation methods :
 
 * N/A
 
-<a id="id6"></a>
-### Documentation
-
-* j[SAGA RM API GitBook](https://indigo-dc.gitbooks.io/jsaga-resource-management/content/)
-
 <a id="id7"></a>
 ### List of Artifacts
 
 Tarballs:
 * jsaga-installer-1.2.0-20160802.161115-8-bin.tar.gz
 
+<a id="id6"></a>
+## Documentation
+
+* [jSAGA RM API GitBook](https://indigo-dc.gitbooks.io/jsaga-resource-management/content/)
+
 
 <a id="id8"></a>
-### Support
+## Support
 
-* [https://forge.in2p3.fr/projects/jsaga/boards/11](https://forge.in2p3.fr/projects/jsaga/boards/11)
+* [https://forge.in2p3.fr/projects/jsaga/boards/11](https://forge.in2p3.fr/projects/jsaga/boards/11)<br>
 or
-* by using the [INDIGO - DataCloud CatchAll GGUS Support Unit](
-https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* by using the [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

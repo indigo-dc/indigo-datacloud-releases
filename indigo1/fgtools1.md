@@ -1,6 +1,6 @@
 # fgTools v. 1.0.0
 
-**fgTools** are A collection of tools and utilities for general purpose usage such as: code and service maintenance, installation facilities, etc.:
+**fgTools** are a collection of tools and utilities for general purpose usage such as: code and service maintenance, installation facilities, etc.:
 * *pushProxy* - Timely provides robot proxies to a given set of target hosts
 * *updateCode* - Utility to manage **fgAPIServer** (front-end) and **APIServer daemon** FutureGateway components.
 
@@ -10,9 +10,9 @@
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [Documentation](#id6)
   * [List of Artifacts](#id7)
-  * [Support](#id8)
+* [Documentation](#id6)
+* [Support](#id8)
 
 
 <a id="id1"></a>

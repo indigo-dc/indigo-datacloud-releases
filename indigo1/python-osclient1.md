@@ -11,9 +11,9 @@ The primary goal is to provide a unified shell command structure and a common la
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [Documentation](#id6)
   * [List of Artifacts](#id7)
-  * [Support](#id8)
+* [Documentation](#id6)
+* [Support](#id8)
 
 
 <a id="id1"></a>
@@ -55,12 +55,6 @@ For configuration please follow the "Configuration section in the [GitHub Docume
 
 * N/A
 
-<a id="id6"></a>
-### Documentation
-
-* [Online Documentation](http://docs.openstack.org/developer/python-openstackclient/)
-* [Launchpad project](Launchpad project) 
-* [Blueprints](https://blueprints.launchpad.net/python-openstackclient) - feature specifications
 
 <a id="id7"></a>
 ### List of Artifacts
@@ -70,10 +64,16 @@ packages:
 * python-openstackclient_3.0.0.dev278-indigo6_all.deb
 * python-openstackclient-doc_3.0.0.dev278-indigo6_all.deb
 
-<a id="id8"></a>
-### Support
+<a id="id6"></a>
+## Documentation
 
-* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
-https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* [Online Documentation](http://docs.openstack.org/developer/python-openstackclient/)
+* [Launchpad project](Launchpad project) 
+* [Blueprints](https://blueprints.launchpad.net/python-openstackclient) - feature specifications
+
+<a id="id8"></a>
+## Support
+
+* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)<br>
 or
 * [https://bugs.launchpad.net/python-openstackclient](https://bugs.launchpad.net/python-openstackclient)

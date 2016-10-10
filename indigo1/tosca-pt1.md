@@ -1,4 +1,4 @@
-# TOSCA Parser 0.5.1 & Types v. 1.0.1
+# TOSCA Parser & Types
 
 The **TOSCA Parser** is an OpenStack project and licensed under Apache 2. It is developed to parse TOSCA Simple Profile in YAML. It reads the TOSCA templates and creates an in-memory graph of TOSCA nodes and their relationship.
 * more information on its Architecture can be found in the [README](https://github.com/openstack/tosca-parser/blob/master/README.rst)
@@ -8,14 +8,17 @@ The **[INDIGO TOSCA Types](https://github.com/indigo-dc/tosca-types/tree/v1.0.1)
 * The **TOSCA Parser** now supports profile definition extensions that can be accessed via a custom tosca_definitions_version. Extensions can be added by creating a module in the "toscaparser/extensions" directory. See the ["nfv"](https://github.com/indigo-dc/tosca-parser/tree/0.5.1/toscaparser/extensions/nfv) module for an example.
 
 **Summary**:
-* [Release Notes](#id1)
+* Updates
+  * [TOSCA Parser v. 0.6.1](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/second_update_of_indigo-1.html#tp)
+  
+* [Release Notes TOSCA Parser v. 0.5.1 & Types v. 1.0.1](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [Documentation](#id6)
   * [List of Artifacts](#id7)
-  * [Support](#id8)
+* [Documentation](#id6)
+* [Support](#id8)
 
 
 <a id="id1"></a>
@@ -64,15 +67,6 @@ After setting the INDIGO-DC repositories as explained in the [Generic Installati
 
 * N/A
 
-<a id="id6"></a>
-### Documentation
-
-* [TOSCA-parser Documentation](https://github.com/indigo-dc/tosca-parser/blob/master/README.rst)
-  * [Installation](https://github.com/indigo-dc/tosca-parser/blob/0.5.1/doc/source/installation.rst)
-  * [Usage](https://github.com/indigo-dc/tosca-parser/blob/0.5.1/doc/source/usage.rst)
-* [TOSCA types Documentation](https://github.com/indigo-dc/tosca-types/blob/master/README.md)
-
-
 <a id="id7"></a>
 ### List of Artifacts
 
@@ -83,8 +77,15 @@ Packages:
 Tarballs:
 * tosca-types-v1.0.1.tar.gz
 
+<a id="id6"></a>
+## Documentation
+
+* [TOSCA-parser Documentation](https://github.com/indigo-dc/tosca-parser/blob/master/README.rst)
+  * [Installation](https://github.com/indigo-dc/tosca-parser/blob/0.5.1/doc/source/installation.rst)
+  * [Usage](https://github.com/indigo-dc/tosca-parser/blob/0.5.1/doc/source/usage.rst)
+* [TOSCA types Documentation](https://github.com/indigo-dc/tosca-types/blob/master/README.md)
+
 <a id="id8"></a>
 ### Support
 
-* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
-https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

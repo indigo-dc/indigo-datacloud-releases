@@ -1,4 +1,4 @@
-# HEAT-translator v. 0.5.1
+# HEAT-translator
 
 **Heat-Translator** is an Openstack project, with contributions through the INDIGO - DataCloud project, licensed under Apache 2. 
 * It is a command line tool which takes non-Heat templates as an input and produces a Heat Orchestration Template (HOT) which can be deployed by Heat. Currently the development and testing is done with an aim to translate OASIS Topology and Orchestration Specification for Cloud Applications (**TOSCA)** templates to HOT. However, the tool is designed to be easily extended to use with any format other than TOSCA.
@@ -7,7 +7,7 @@
 * Updates
   * [HEAT-translator v. indigo-1.1](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/second_update_of_indigo-1.html#ht)
 
-* [Release Notes](#id1)
+* [Release Notes v. 0.5.1](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)

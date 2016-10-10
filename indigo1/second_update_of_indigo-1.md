@@ -6,7 +6,7 @@ The Second Update of INDIGO-1 release contains:
 * [Infrastructure Manager v1.4.7](#im)
 * [ONEdock v. 1.0-2](#onedock)
 * [TOSCA-parser v. 0.6.1](#tp)
-* [TOSCA-in-HEAT/Heat-Translator v. indigo-1.1](#ht)
+* [TOSCA-in-HEAT (Heat-Translator) v. indigo-1.1](#ht)
 * [OOI v. 0.3.2](#ooi)
 * [Orchestrator v. 1.1.0-FINAL](#orchestrator)
 * [Nova-Docker v. 12.0.0](#nd)

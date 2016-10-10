@@ -24,7 +24,7 @@ The code of the modules is based on some of the modules provided with Liferay 7.
 
 
 <a id="id1"></a>
-## Release Notes
+## Release Notes v. 1.0
 
 <a id="id2"></a>
 ### What's new

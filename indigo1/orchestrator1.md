@@ -12,9 +12,9 @@ This is the **Orchestrator of the PaaS layer**, a core component of the INDIGO -
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [Documentation](#id6)
   * [List of Artifacts](#id7)
-  * [Support](#id8)
+* [Documentation](#id6)
+* [Support](#id8)
 
 
 <a id="id1"></a>
@@ -60,8 +60,14 @@ Supported Platforms:
 
 * The issues are tracked at [https://github.com/indigo-dc/orchestrator/issues](https://github.com/indigo-dc/orchestrator/issues)
 
+<a id="id7"></a>
+### List of Artifacts
+
+Docker Container:
+* [indigodatacloud/orchestrator:indigo_1](https://hub.docker.com/r/indigodatacloud/orchestrator/)
+
 <a id="id6"></a>
-### Documentation
+## Documentation
 
 * [Orchestrator on GitBook](https://www.gitbook.com/book/indigo-dc/orchestrator/details)
 
@@ -69,14 +75,8 @@ Supported Platforms:
   * [REST API doc](http://indigo-dc.github.io/orchestrator/restdocs/)
   * [JAVA API doc](http://indigo-dc.github.io/orchestrator/apidocs/)
 
-<a id="id7"></a>
-### List of Artifacts
-
-Docker Container:
-* [indigodatacloud/orchestrator:indigo_1](https://hub.docker.com/r/indigodatacloud/orchestrator/)
 
 <a id="id8"></a>
-### Support
+## Support
 
-* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
-https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

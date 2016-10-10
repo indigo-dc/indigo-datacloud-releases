@@ -6,7 +6,7 @@ The Second Update of INDIGO-1 release contains:
 * [Infrastructure Manager v1.4.7](#im)
 * [ONEdock v. 1.0-2](#onedock)
 * [TOSCA-parser v. 0.6.1](#tp)
-* [Heat-Translator v. indigo-1.1](#ht)
+* [HEAT-Translator v. indigo-1.1](#ht)
 * [OOI v. 0.3.2](#ooi)
 * [Orchestrator v. 1.1.0-FINAL](#orchestrator)
 * [Nova-Docker v. 12.0.0](#nd)
@@ -164,7 +164,7 @@ In order to update the packages please use:
   * [python-tosca-parser_0.6.1-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-tosca-parser_0.6.1-1_all.deb)
   
   
-## <a name="ht"></a>TOSCA-in-HEAT/HEAT-Translator v. indigo-1.1
+## <a name="ht"></a>HEAT-Translator v. indigo-1.1
 
 #### What's new
 * Fix network support : a map was wrongly used instead of a list which would create invalid hot templates. 

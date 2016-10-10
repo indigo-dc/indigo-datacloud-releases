@@ -5,8 +5,8 @@ The Second Update of INDIGO-1 release contains:
 * [INDIGO IAM v. 0.4.0](#iam)
 * [Infrastructure Manager v1.4.7](#im)
 * [FutureGateway](#fg):
-  * [fgAPIServer v0.0.5](#fgapis)
-  * [APIServerDaemon v0.0.5](#fgapisd)
+  * [fgAPIServer v0.0.5](#fg)
+  * [APIServerDaemon v0.0.5](#fg)
 * [HEAT-Translator v. indigo-1.1](#ht)
 * [LiferayIAM v. 1.1.1](#li)
 * [Nova-Docker v. 12.0.0](#nd)

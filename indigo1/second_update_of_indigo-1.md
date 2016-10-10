@@ -39,7 +39,7 @@ The Second Update of INDIGO-1 release contains:
 
 #### Artefacts
 * CentOS 7
-  * [cdmi-server-1.1-1.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/ccdmi-server-1.1-1.x86_64.rpm)
+  * [cdmi-server-1.1-1.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/cdmi-server-1.1-1.x86_64.rpm)
 * Ubuntu 14.04
   * [cdmi-server-1.1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/cdmi-server-1.1_all.deb)
 * Docker Container:

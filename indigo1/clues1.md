@@ -49,21 +49,19 @@ Supported on:
 ### Known Issues
 * N/A
 
-<a id="id6"></a>
-### Documentation
-
-* [CLUES GitBook](https://indigo-dc.gitbooks.io/clues-indigo/content/)
-
-
 <a id="id7"></a>
 ### List of Artifacts
 
 Tarballs:
 * clues-indigo-v0.5.1.tar.gz
 
+<a id="id6"></a>
+## Documentation
+
+* [CLUES GitBook](https://indigo-dc.gitbooks.io/clues-indigo/content/)
+
 <a id="id8"></a>
-### Support
+## Support
 
 * Support via GitHub issues: [https://github.com/indigo-dc/clues-indigo/issues](https://github.com/indigo-dc/clues-indigo/issues)
-* or through the [INDIGO - DataCloud CatchAll GGUS Support Unit](
-https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* or through the [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

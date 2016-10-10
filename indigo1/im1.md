@@ -10,7 +10,7 @@ This version evolved in the [INDIGO-Datacloud project](https://www.indigo-datacl
 **Summary**:
 
 * Updates
-  * [IM v.1.4.7](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/second_update_of_indigo-1.html#im)<br>
+  * [IM v1.4.7](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/second_update_of_indigo-1.html#im)<br>
 
 * [Release Notes v1.4.6](#id1)
   * [What's new](#id2)

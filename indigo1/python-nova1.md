@@ -8,9 +8,9 @@ This is a client for the OpenStack Nova API. There's a Python API (the novaclien
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [Documentation](#id6)
   * [List of Artifacts](#id7)
-  * [Support](#id8)
+* [Documentation](#id6)
+* [Support](#id8)
 
 
 <a id="id1"></a>
@@ -50,11 +50,6 @@ After setting the INDIGO-DC repositories as explained in the [Generic Installati
 
 * N/A
 
-<a id="id6"></a>
-### Documentation
-
-* The product extends the current set of operations of python-novaclient by adding the preemptible option, needed by OPIE product. The documentation included in [OpenStack Preemptible Instances Extension (OPIE)](indigo1/opie1.md) cover this new functionality added to the API.
-
 <a id="id7"></a>
 ### List of Artifacts
 
@@ -64,9 +59,12 @@ Packages:
 * python-novaclient_5.0.1.dev3-indigo2_all.deb
 * python-novaclient-doc_5.0.1.dev3-indigo2_all.deb
 
+<a id="id6"></a>
+## Documentation
+
+* The product extends the current set of operations of python-novaclient by adding the preemptible option, needed by OPIE product. The documentation included in [OpenStack Preemptible Instances Extension (OPIE)](indigo1/opie1.md) cover this new functionality added to the API.
 
 <a id="id8"></a>
-### Support
+## Support
 
-* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
-https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

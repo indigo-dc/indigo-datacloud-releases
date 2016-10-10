@@ -50,16 +50,7 @@ Supported Platforms:
 
 <a id="id5"></a>
 ### Known Issues
-
 * N/A
-
-<a id="id6"></a>
-### Documentation
-
-* Documentation: http://docs.openstack.org/developer/heat-translator/
-* Launchpad: https://launchpad.net/heat-translator
-* Blueprints: https://blueprints.launchpad.net/heat-translator
-* 
 
 <a id="id7"></a>
 ### List of Artifacts
@@ -68,10 +59,16 @@ Packages:
 * heat-translator-0.5.1.dev37-1.noarch.rpm
 * python-heat-translator_0.5.1.dev37-1_all.deb
 
+<a id="id6"></a>
+## Documentation
+
+* Documentation: http://docs.openstack.org/developer/heat-translator/
+* Launchpad: https://launchpad.net/heat-translator
+* Blueprints: https://blueprints.launchpad.net/heat-translator
+
 
 <a id="id8"></a>
-### Support
+## Support
 
-* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
-https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
 * IRC Channel: #openstack-heat-translator

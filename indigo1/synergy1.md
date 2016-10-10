@@ -13,9 +13,9 @@ Synergy is made of two packages:
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [Documentation](#id6)
   * [List of Artifacts](#id7)
-  * [Support](#id8)
+* [Documentation](#id6)
+* [Support](#id8)
 
 
 <a id="id1"></a>
@@ -50,11 +50,6 @@ Supported Platforms:
 
 * N/A
 
-<a id="id6"></a>
-### Documentation
-
-* [Synergy on GitBook](https://indigo-dc.gitbooks.io/synergy/content/)
-
 <a id="id7"></a>
 ### List of Artifacts
 
@@ -66,11 +61,15 @@ Packages:
   * python-synergy-service_1.0.1_all.deb
   * python-synergy-scheduler-manager_1.0.1_all.deb
 
-<a id="id8"></a>
-### Support
+<a id="id6"></a>
+## Documentation
 
-* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
-https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
-* or 
+* [Synergy on GitBook](https://indigo-dc.gitbooks.io/synergy/content/)
+
+<a id="id8"></a>
+## Support
+
+* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)<br>
+or 
   * [http://bugs.launchpad.net/synergy-scheduler-manager](http://bugs.launchpad.net/synergy-scheduler-manager)
   * [http://bugs.launchpad.net/synergy-service](http://bugs.launchpad.net/synergy-service)

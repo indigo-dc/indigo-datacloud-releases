@@ -4,20 +4,20 @@
 
 Summary:
 * Updates
-  * [Nova-Docker v. 12.0.0](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/second_update_of_indigo-1.html#nd)
+  * [Nova-Docker v. 12.0.0](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/second_update_of_indigo-1.html#nd)<br>
 
 * [Release Notes v. 16.04-4](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [Documentation](#id6)
   * [List of Artifacts](#id7)
-  * [Support](#id8)
+* [Documentation](#id6)
+* [Support](#id8)
 
 
 <a id="id1"></a>
-## Release Notes
+## Release Notes v. 16.04-4
 
 <a id="id2"></a>
 ### What's new
@@ -44,12 +44,6 @@ After setting the INDIGO-DC repositories as explained in the [Generic Installati
 
 For configuration details please follow the** [GitHub Documentation](https://indigo-dc.gitbooks.io/nova-docker-documentation/content/)**
 
-
-<a id="id6"></a>
-### Documentation
-
-* Deployment, configuration and usage of nova-docker on [GitBook](https://indigo-dc.gitbooks.io/openstack-nova-docker/content/) 
-
 <a id="id7"></a>
 ### List of Artifacts
 
@@ -57,8 +51,12 @@ Packages:
 * python-nova-docker_16.04-1_all.deb
 * python-nova-docker-16.04-4.el7.local.noarch.rpm
 
-<a id="id8"></a>
-### Support
+<a id="id6"></a>
+## Documentation
 
-* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
-https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* Deployment, configuration and usage of nova-docker on [GitBook](https://indigo-dc.gitbooks.io/openstack-nova-docker/content/) 
+
+<a id="id8"></a>
+## Support
+
+* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

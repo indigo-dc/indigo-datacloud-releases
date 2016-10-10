@@ -11,13 +11,13 @@ The **Portal Setup**project is a script collection for automatic installation of
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [Documentation](#id6)
   * [List of Artifacts](#id7)
-  * [Support](#id8)
+* [Documentation](#id6)
+* [Support](#id8)
 
 
 <a id="id1"></a>
-## Release Notes
+## Release Notes v. 0.0.2
 
 <a id="id2"></a>
 ### What's new

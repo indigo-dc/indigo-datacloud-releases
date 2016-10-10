@@ -1,4 +1,4 @@
-# INDIGO Plug-ins for scientific workflow systems
+# INDIGO Plugins for scientific workflow systems
 
 This plugin could be used in order to allow, already available workflow manager, to exploit the INDIGO WP6 APIs. 
 In this way it is possibile to submit requests for execution of applications directly from the workflow manager to the INDIGO APIs.
@@ -9,3 +9,5 @@ Available Plugins:
 
 <a id="install"></a>
 ## Installation and Configuration
+
+* Detailed information on how to install and configure these plugins can be found [here](https://www.gitbook.com/book/indigo-dc/indigokepler/details)

@@ -8,9 +8,9 @@ The **java-SyncRepos** component can be used to synchronize Docker images in Doc
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [Documentation](#id6)
   * [List of Artifacts](#id7)
-  * [Support](#id8)
+* [Documentation](#id6)
+* [Support](#id8)
 
 
 <a id="id1"></a>
@@ -57,11 +57,6 @@ Other methods:
 
 * N/A
 
-<a id="id6"></a>
-### Documentation
-
-* [RepoSync on GitBook](https://indigo-dc.gitbooks.io/java-syncrepos/content/)
-
 <a id="id7"></a>
 ### List of Artifacts
 
@@ -72,8 +67,12 @@ Packages:
 Docker Container:
 * [indigodatacloud/reposync:indigo_1](https://hub.docker.com/r/indigodatacloud/reposync/)
 
-<a id="id8"></a>
-### Support
+<a id="id6"></a>
+## Documentation
 
-* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
-https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* [RepoSync on GitBook](https://indigo-dc.gitbooks.io/java-syncrepos/content/)
+
+<a id="id8"></a>
+## Support
+
+* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

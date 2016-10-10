@@ -56,13 +56,7 @@ After setting the INDIGO-DC repositories as explained in the [Generic Installati
 
 <a id="id5"></a>
 ### Known Issues
-
 * N/A
-
-<a id="id6"></a>
-### Documentation
-
-* [OPIE GitBook](https://indigo-dc.gitbooks.io/opie/content/)
 
 <a id="id7"></a>
 ### List of Artifacts
@@ -72,10 +66,14 @@ Packages:
 * opie-doc_12.0.0-1ubuntu0_all.deb
 * opie_12.0.0-1ubuntu0_all.deb
 
-<a id="id8"></a>
-### Support
+<a id="id6"></a>
+## Documentation
 
-* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
-https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* [OPIE GitBook](https://indigo-dc.gitbooks.io/opie/content/)
+
+<a id="id8"></a>
+## Support
+
+* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)<br>
 or
 * [https://github.com/indigo-dc/opie/issues](https://github.com/indigo-dc/opie/issues)

@@ -7,6 +7,7 @@ The Second Update of INDIGO-1 release contains:
 * [FutureGateway](#fg):
   * [fgAPIServer v0.0.5](#fg)
   * [APIServerDaemon v0.0.5](#fg)
+  * [PortalSetup v0.0.4](#fg)
 * [HEAT-Translator v. indigo-1.1](#ht)
 * [LiferayIAM v. 1.1.1](#li)
 * [Nova-Docker v. 12.0.0](#nd)
@@ -117,42 +118,31 @@ In order to update the packages please use:
   * [indigodatacloud/im:indigo_1](https://hub.docker.com/r/indigodatacloud/im/tags/)
 
 ## <a name="fg"></a>FutureGateway
-### <a name="fgas"></a>fgAPIServer & APIServerDaemon v0.0.5
+### <a name="fgas"></a>fgAPIServer & APIServerDaemon v0.0.5, PortalSetup v. 0.0.4
 #### What's new
 * Bug fixes update
   * New LiferayIAM valid token rule in PTV
   * Wrong internal status in TASK table
   * Checkstyle issue with jdk8
+  * PortalSetup installation scripts point now to latest tags
   
 #### Installation & Configuration
 * fgAPIServer: 
   * requires only new files just extracting them from Git. Pay attention to configuration file and to restart the service related to wsgi in case the front end operates wit that service.
 * APIServerDaemon: 
   * extract from git; recompile with 'ant all' the second component; then place generated war file into $CATALINA_HOME/web's
+* PortalSetup
+   * the use of the scripts-collection is intended only for new installations. Detailed guide on how to use them can be found [here](https://github.com/indigo-dc/PortalSetup/blob/master/README.md)
 
 #### Artefacts
 * CentOS7
   * [fgAPIServer-v0.0.5.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/fgAPIServer-v0.0.5.tar.gz)
   * [APIServerDaemon-v0.0.5.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/APIServerDaemon-v0.0.5.tar.gz)
+  * [PortalSetup-v0.0.4.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/PortalSetup-v0.0.4.tar.gz)
 * Ubuntu14.04
   * [fgAPIServer-v0.0.5.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/source/fgAPIServer-v0.0.5.tar.gz)
   * [APIServerDaemon-v0.0.5.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/source/APIServerDaemon-v0.0.5.tar.gz)
-
-
-<!--
-### <a name="fgps"></a>PortalSetup v0.0.3
-#### What's new
-* fgSetup.sh can be configured to extract a fixed release
-* Included fgSetup.sh script pointing to the latest available release
-
-#### Installation & Configuration
-* Just extract new files from the tarball
-
-#### Artefacts
-  * [PortalSetup-v0.0.3.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/PortalSetup-v0.0.3.tar.gz)
-* Ubuntu14.04
-  * [PortalSetup-v0.0.3.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/source/PortalSetup-v0.0.3.tar.gz)
--->
+  * [PortalSetup-v0.0.4.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/source/PortalSetup-v0.0.4.tar.gz)
 
 ## <a name="ht"></a>HEAT-Translator v. indigo-1.1
 

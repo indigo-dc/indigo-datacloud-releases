@@ -6,6 +6,10 @@ The **[FutureGateway API Server]([FutureGateway API Server](indigo1/fgapiserver1
 The **APIServerDaemon** is a polling daemon working as a java servlet operating under Tomcat8. This daemon polls on top of the REST queue table and process the requests accordingly
 
 **Summary**:
+* Updates
+  * [APIServer Daemon v0.0.5](https://github.com/indigo-dc/indigo-datacloud-releases/blob/master/indigo1/second_update_of_indigo-1.md#fg) 
+  * [APIServer Daemon v0.0.4](https://github.com/indigo-dc/indigo-datacloud-releases/blob/master/indigo1/first_update_of_indigo-1.md#fgapisd) 
+
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)

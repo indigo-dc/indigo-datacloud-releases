@@ -8,9 +8,9 @@
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [Documentation](#id6)
   * [List of Artifacts](#id7)
-  * [Support](#id8)
+* [Documentation](#id6)
+* [Support](#id8)
 
 
 <a id="id1"></a>
@@ -64,11 +64,6 @@ After setting the INDIGO-DC repositories as explained in the [Generic Installati
 
 * N/A
 
-<a id="id6"></a>
-### Documentation
-
-* [Ophidia GitBook](https://www.gitbook.com/book/indigo-dc/ophidia/details)
-
 <a id="id7"></a>
 ### List of Artifacts
 
@@ -84,9 +79,13 @@ Packages:
   * ophidia-server-0.10.3-0.el7.centos.x86_64.rpm
   * ophidia-terminal-0.10.3-0.el7.centos.x86_64.rpm
 
+<a id="id6"></a>
+## Documentation
+
+* [Ophidia GitBook](https://www.gitbook.com/book/indigo-dc/ophidia/details)
+
 <a id="id8"></a>
-### Support
-* [ophidia-info@lists.cmcc.it](ophidia-info@lists.cmcc.it)
+## Support
+* [ophidia-info@lists.cmcc.it](ophidia-info@lists.cmcc.it)<br>
 or
-* [INDIGO - DataCloud CatchAll GGUS Support Unit](
-https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

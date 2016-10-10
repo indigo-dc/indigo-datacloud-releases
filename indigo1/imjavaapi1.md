@@ -10,9 +10,9 @@ Summary:
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [Documentation](#id6)
   * [List of Artifacts](#id7)
-  * [Support](#id8)
+* [Documentation](#id6)
+* [Support](#id8)
 
 
 <a id="id1"></a>
@@ -44,17 +44,18 @@ SUpported Platforms:
 
 * N/A
 
-<a id="id6"></a>
-### Documentation
-
-* [IM-Java-API GitBook](https://www.gitbook.com/book/indigo-dc/im-java-api/details)
-
 <a id="id7"></a>
 ### List of Artifacts
 
 Tarballs:
 * im-java-api-0.4.7.tar.gz
 * im-java-api-0.4.7-jar-with-dependencies.tar.gz
+
+
+<a id="id6"></a>
+### Documentation
+
+* [IM-Java-API GitBook](https://www.gitbook.com/book/indigo-dc/im-java-api/details)
 
 <a id="id8"></a>
 ### Support

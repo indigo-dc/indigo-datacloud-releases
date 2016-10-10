@@ -9,9 +9,9 @@
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [Documentation](#id6)
   * [List of Artifacts](#id7)
-  * [Support](#id8)
+* [Documentation](#id6)
+* [Support](#id8)
 
 
 <a id="id1"></a>
@@ -81,12 +81,6 @@ Other instalaltion methods:
 
 * N/A
 
-<a id="id6"></a>
-### Documentation
-
-* [pOCCI on GitBook](https://www.gitbook.com/download/pdf/book/indigo-dc/pocci)
-* User documentation is in the form of manpages (links are in the gitbook).
-
 <a id="id7"></a>
 ### List of Artifacts
 
@@ -103,10 +97,15 @@ Packages:
   * python-pocci_1.0.2-1.dsc
   * python-pocci_1.0.2.orig.tar.gz
   * python-pocci-doc_1.0.2-1_all.deb
+  
+<a id="id6"></a>
+## Documentation
+
+* [pOCCI on GitBook](https://www.gitbook.com/download/pdf/book/indigo-dc/pocci)
+* User documentation is in the form of manpages (links are in the gitbook).
 
 <a id="id8"></a>
-### Support
+## Support
 
-* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
-https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
-* For Technical stuff: using github: [https://github.com/CESNET/pOCCI/issues](https://github.com/CESNET/pOCCI/issues)
+* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* For Technical stuff: please use github - [https://github.com/CESNET/pOCCI/issues](https://github.com/CESNET/pOCCI/issues)

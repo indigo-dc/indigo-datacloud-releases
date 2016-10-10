@@ -36,3 +36,9 @@ to target the TOSCA orchestrator.
 <a id="install"></a>
 ## Installation and Configuration
 
+Detailed documentation on how to install and configure the different components can be found at:
+* [FutureGateway API Server](indigo1/fgapiserver1.md#id4)
+* [FutureGateway API Server Daemon](indigo1/fgapiserverdaemon1.md#id4)
+* [FutureGateway jSAGA Adaptors](indigo1/fg_jsaga_adaptors1.md#id4)
+* [FutureGateway Portal Setup](indigo1/fgportalsetup1.md#id4)
+* [fgTools](indigo1/fgtools1.md#id4)

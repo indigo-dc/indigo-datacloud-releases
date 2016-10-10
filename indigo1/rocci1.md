@@ -12,9 +12,9 @@ INDIGO contributions have so far dealt mainly with streamlining the functionalit
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [Documentation](#id6)
   * [List of Artifacts](#id7)
-  * [Support](#id8)
+* [Documentation](#id6)
+* [Support](#id8)
 
 
 <a id="id1"></a>
@@ -60,11 +60,6 @@ Some more details regarding the installation can be found in th [Installing_rOCC
 
 * N/A
 
-<a id="id6"></a>
-### Documentation
-
-* [rOCCI on GitBOOK](https://www.gitbook.com/book/indigo-dc/rocci/details)
-
 <a id="id7"></a>
 ### List of Artifacts
 Packages:
@@ -75,10 +70,12 @@ Packages:
   * occi-server_1.1.9+20160622115755-1_amd64.deb
   * occi-cli_4.3.4+20160624175848-1_amd64.deb
 
+<a id="id6"></a>
+## Documentation
 
+* [rOCCI on GitBOOK](https://www.gitbook.com/book/indigo-dc/rocci/details)
  
 <a id="id8"></a>
-### Support
+## Support
 
-* Please use the [rOCCI GGUS Support Unit](
-https://wiki.egi.eu/wiki/GGUS:ROCCI_FAQ)
+* Please use the [rOCCI GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:ROCCI_FAQ)

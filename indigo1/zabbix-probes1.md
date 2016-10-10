@@ -16,9 +16,9 @@ The version of the **OCCI** and **Heapster** probes provided for the INDIGO-1 re
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [Documentation](#id6)
   * [List of Artifacts](#id7)
-  * [Support](#id8)
+* [Documentation](#id6)
+* [Support](#id8)
 
 
 <a id="id1"></a>
@@ -68,18 +68,6 @@ Detailed instructions on instalaltion and configuration can be found
 
 * N/A
 
-<a id="id6"></a>
-### Documentation
-
-* Documentation on the INDIGO-DC Monitoring Framework is available from the [README](https://github.com/indigo-dc/Monitoring/blob/master/README.md) file in GitHub.
-* INDIGO-DC Monitoring Documentation is available also from [GitBook](https://indigo-dc.gitbooks.io/monitoring/content/ )
-  * specific documentation on [Zabbix Probes](https://indigo-dc.gitbooks.io/monitoring/content/zabbix_probes.html)
-
-Documentation is divided in three main parts:
-* Deployment and Administration Guide: Describes how to install and configure correctly the probes and their main dependencies (JVM and Zabbix Agent);
-* User Guide: Provides information about how to use the probes and how to find the information they generate in Zabbix;
-* Developer Guide: Describes some aspects of the implementation and instructions about validation, building and packaging
-
 <a id="id7"></a>
 ### List of Artifacts
 
@@ -97,9 +85,21 @@ The packages released are the following:
 Docker Containers:
 * [indigodatacloud/zabbix-wrapper:indigo_1](https://hub.docker.com/r/indigodatacloud/zabbix-wrapper/)
 
-<a id="id8"></a>
-### Support
+<a id="id6"></a>
+## Documentation
 
-* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
-https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* Documentation on the INDIGO-DC Monitoring Framework is available from the [README](https://github.com/indigo-dc/Monitoring/blob/master/README.md) file in GitHub.
+* INDIGO-DC Monitoring Documentation is available also from [GitBook](https://indigo-dc.gitbooks.io/monitoring/content/ )
+  * specific documentation on [Zabbix Probes](https://indigo-dc.gitbooks.io/monitoring/content/zabbix_probes.html)
+
+Documentation is divided in three main parts:
+* Deployment and Administration Guide: Describes how to install and configure correctly the probes and their main dependencies (JVM and Zabbix Agent);
+* User Guide: Provides information about how to use the probes and how to find the information they generate in Zabbix;
+* Developer Guide: Describes some aspects of the implementation and instructions about validation, building and packaging
+
+<a id="id8"></a>
+## Support
+
+* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)<br
+or
 * [https://github.com/indigo-dc/Monitoring/issues](https://github.com/indigo-dc/Monitoring/issues) 

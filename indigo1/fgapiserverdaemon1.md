@@ -1,4 +1,4 @@
-# FutureGateway API Server Daemon  v0.0.3
+# FutureGateway API Server Daemon
 
 
 The **[FutureGateway API Server]([FutureGateway API Server](indigo1/fgapiserver1.md))** project implements the interface of a RESTful API Server, compliant with [CSGF APIs](http://docs.csgfapis.apiary.io/#reference/v1.0/application/create-a-task) specifications. Any activity processed by this interface will be then processed and orchestrated by the **FutureGateway API Server Daemon**  component.
@@ -10,18 +10,18 @@ The **APIServerDaemon** is a polling daemon working as a java servlet operating 
   * [APIServer Daemon v0.0.5](https://github.com/indigo-dc/indigo-datacloud-releases/blob/master/indigo1/second_update_of_indigo-1.md#fg) 
   * [APIServer Daemon v0.0.4](https://github.com/indigo-dc/indigo-datacloud-releases/blob/master/indigo1/first_update_of_indigo-1.md#fgapisd) 
 
-* [Release Notes](#id1)
+* [Release Notes v0.0.3](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [Documentation](#id6)
   * [List of Artifacts](#id7)
-  * [Support](#id8)
+* [Documentation](#id6)
+* [Support](#id8)
 
 
 <a id="id1"></a>
-## Release Notes
+## Release Notes v0.0.3
 
 <a id="id2"></a>
 ### What's new

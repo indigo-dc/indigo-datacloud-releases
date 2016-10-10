@@ -7,7 +7,7 @@ The Core PaaS provide the basic functionalities/tools to steer the performance o
 
 Components & Services:
  * [Accounting](accounting1.md)
- * [Monitoring](zabbix-probes1.md)<br>
+ * [Monitoring](zabbix-probes1.md)
  * [Kubernetes](kubernetes1.md)
  
  

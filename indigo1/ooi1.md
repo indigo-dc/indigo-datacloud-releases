@@ -1,7 +1,7 @@
 # OpenStack OCCI Interface 
 
 **OOI** is an implementation of the [Open Cloud Computing Interface (OCCI)](http://www.occi-wg.org/) for [OpenStack]( http://openstack.org). 
-
+<br>
 **Summary**:
 * Updates
   * [OOI v. 0.3.2](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/second_update_of_indigo-1.html#ooi)
@@ -11,9 +11,9 @@
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [Documentation](#id6)
   * [List of Artifacts](#id7)
-  * [Support](#id8)
+* [Documentation](#id6)
+* [Support](#id8)
 
 
 <a id="id1"></a>
@@ -64,11 +64,6 @@ After setting the INDIGO-DC repositories as explained in the [Generic Installati
 
 * N/A
 
-<a id="id6"></a>
-### Documentation
-
-* [OOI GitBook](https://indigo-dc.gitbooks.io/ooi/content/)
- 
 <a id="id7"></a>
 ### List of Artifacts
 
@@ -76,9 +71,13 @@ Packages:
 * python-ooi_0.3.1-1_all.deb
 * python-ooi-0.3.1-1.el7.centos.noarch.rpm
 
+<a id="id6"></a>
+## Documentation
+
+* [OOI GitBook](https://indigo-dc.gitbooks.io/ooi/content/)
+
 <a id="id8"></a>
-### Support
+## Support
 
 * [https://blueprints.launchpad.net/ooi](https://blueprints.launchpad.net/ooi)
-* [INDIGO - DataCloud CatchAll GGUS Support Unit](
-https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

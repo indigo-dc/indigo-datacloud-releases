@@ -67,13 +67,7 @@ Supported platforms:
 
 <a id="id5"></a>
 ### Known Issues
-
 * N/A
-
-<a id="id6"></a>
-### Documentation
-
-* [dCache Gitbook](https://www.gitbook.com/book/indigo-dc/dcache/details)
 
 <a id="id7"></a>
 ### List of Artifacts
@@ -82,9 +76,13 @@ Packages:
 * dcache_2.16.7-1_all.deb
 * dcache-2.16.6-1.noarch.rpm
 
+<a id="id6"></a>
+## Documentation
+
+* [dCache Gitbook](https://www.gitbook.com/book/indigo-dc/dcache/details)
+
 <a id="id8"></a>
-### Support
+## Support
 * E-mail support is available via [support@dcache.org](support@dcache.org), and a mailing list for discussions amongst users (with the developers participating) is at [user-forum@dcache.org](user-forum@dcache.org).
 * GGUS unit: [dCache Support](https://wiki.egi.eu/wiki/GGUS:DCache_Support_FAQ)
-* You can also use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
-https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* You can also use the [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

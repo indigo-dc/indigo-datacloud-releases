@@ -11,10 +11,9 @@ The **Token Translation Service (TTS)** offers an easy way to self service crede
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [List of Artifacts](#id7)<br>
-
-  * [Documentation](#id6)
-  * [Support](#id8)
+  * [List of Artifacts](#id7)
+* [Documentation](#id6)
+* [Support](#id8)
 
 
 <a id="id1"></a>
@@ -78,5 +77,4 @@ Packages:
 <a id="id8"></a>
 ## Support
 
-* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
-https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

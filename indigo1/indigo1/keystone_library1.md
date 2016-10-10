@@ -15,9 +15,9 @@ This package contains tools for authenticating to an OpenStack-based cloud. Thes
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [Documentation](#id6)
   * [List of Artifacts](#id7)
-  * [Support](#id8)
+* [Documentation](#id6)
+* [Support](#id8)
 
 
 <a id="id1"></a>
@@ -58,12 +58,6 @@ or <br>
 
 * see list of unsolved bugs at [https://bugs.launchpad.net/keystoneauth](https://bugs.launchpad.net/keystoneauth)
 
-<a id="id6"></a>
-### Documentation
-
-* [GitHub README](https://github.com/indigo-dc/keystoneauth/blob/master/README.rst)
-* [Official OpenStack Identity Authentication Library Documentation](http://docs.openstack.org/developer/keystoneauth/)
-
 <a id="id7"></a>
 ### List of Artifacts
 Packages:
@@ -76,13 +70,17 @@ Packages:
   * python-keystoneauth1_2.10.0-indigo1.debian.tar.xz
   * python-keystoneauth1_2.10.0-indigo1.dsc
   * python-keystoneauth1_2.10.0.orig.tar.gz
+  
+<a id="id6"></a>
+### Documentation
 
+* [GitHub README](https://github.com/indigo-dc/keystoneauth/blob/master/README.rst)
+* [Official OpenStack Identity Authentication Library Documentation](http://docs.openstack.org/developer/keystoneauth/)
 
 <a id="id8"></a>
 ### Support
 
-* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
-https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
 
 
 

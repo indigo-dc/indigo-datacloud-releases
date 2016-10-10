@@ -1,9 +1,12 @@
-# ONEDock v. 1.0
+# ONEDock
 
 **ONEDock** project intends to provide support for OpenNebula to create Docker containers and deliver them to the end user as if they were Virtual Machines.
 
 **Summary**:
-* [Release Notes](#id1)
+* Updates
+  * [ONEdock v. 1.0-2](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/second_update_of_indigo-1.html#onedock)
+
+* [Release Notes v. 1.0](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)

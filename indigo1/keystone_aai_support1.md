@@ -13,7 +13,7 @@ The **"Keystone AAI Support"** is a guide on how to configure OpenStack Keystone
 The documentation is available [here](https://www.gitbook.com/book/indigo-dc/openid-keystone/details), and contains stept-by-step guides  details on:
 * [INDIGO-DataCloud IAM Configuration](https://indigo-dc.gitbooks.io/openid-keystone/content/indigo-configuration.html)
 * [Google Auth Configuration](https://indigo-dc.gitbooks.io/openid-keystone/content/google-configuration.html)
-*[ Configuring Multiple OpenID Providers](https://indigo-dc.gitbooks.io/openid-keystone/content/various-idps.html)
+* [Configuring Multiple OpenID Providers](https://indigo-dc.gitbooks.io/openid-keystone/content/various-idps.html)
 
 <a id="id8"></a>
 ### Support

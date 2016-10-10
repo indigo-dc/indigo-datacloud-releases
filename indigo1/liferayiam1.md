@@ -12,7 +12,7 @@ The code of the modules is based on some of the modules provided with Liferay 7.
   * [LiferayIAM v. 1.1.1](https://github.com/indigo-dc/indigo-datacloud-releases/blob/master/indigo1/second_update_of_indigo-1.md#li)<br>
   * [LiferayIAM v. 1.1](https://github.com/indigo-dc/indigo-datacloud-releases/blob/master/indigo1/first_update_of_indigo-1.md#li)<br>
 
-* [Release Notes v. 1.0](#id1)
+* [Release Notes v. 1.0](#id1)<br>
   * [What's new](#id2)
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)

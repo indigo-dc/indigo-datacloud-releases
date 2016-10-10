@@ -21,7 +21,7 @@ Components:
 * [Heat-Translator tool is aimed to translate non-heat templates to OpenStack Heat Orchestration Template (HOT)](heat-translator1.md)
 * [Docker support for OpenNebula](onedock1.md)
 * [Sync between INDIGO Docker-hub, ONEDock and nova-docker](reposync1.md)
-* [OpenStack Client](/python-osclient1.md) & [Nova Client](python-nova1)
+* [OpenStack Client](python-osclient1.md) & [Nova Client](python-nova1.md)
 
 <a id="install"></a>
 ## Installation and Configuration

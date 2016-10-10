@@ -69,5 +69,5 @@ Docker Container:
 * Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
 https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
 or
-* [indigoclient GitHub Issues](https://github.com/indigo-dc/indigoclient/issues)
-* [indigokepler GitHub Issues](https://github.com/indigo-dc/indigokepler/issues)
+  * [indigoclient GitHub Issues](https://github.com/indigo-dc/indigoclient/issues)
+  * [indigokepler GitHub Issues](https://github.com/indigo-dc/indigokepler/issues)

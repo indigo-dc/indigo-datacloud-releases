@@ -62,21 +62,21 @@ Supported Platforms:
 
 * N/A
 
-<a id="id6"></a>
-### Documentation
-
-* [INDIGO IAM GitBook](https://indigo-dc.gitbooks.io/iam/content/)
-
 <a id="id7"></a>
 ### List of Artifacts
 
 Docker Container:
-* i[ndigodatacloud/iam-login-service:indigo_1](https://hub.docker.com/r/indigodatacloud/iam-login-service/)
+* [indigodatacloud/iam-login-service:indigo_1](https://hub.docker.com/r/indigodatacloud/iam-login-service/)
+
+<a id="id6"></a>
+## Documentation
+
+* [INDIGO IAM GitBook](https://indigo-dc.gitbooks.io/iam/content/)
+
 
 <a id="id8"></a>
-### Support
+## Support
 
-* [INDIGO - DataCloud CatchAll GGUS Support Unit](
-https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
 * [INDIGO AAI Task Force mailing list](https://lists.indigo-datacloud.eu/sympa/sigrequest/indigo-aai-tf)
 * [INDIGO AAI on Slack](https://indigo-aai.slack.com/)

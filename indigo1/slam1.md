@@ -10,14 +10,15 @@ The **SLA (Service Level Agreement) Manager** is the service for QoS negotiation
 * enabling REST API for access both preferences and SLAs
 
 **Summary**:
+
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [Documentation](#id6)
   * [List of Artifacts](#id7)
-  * [Support](#id8)
+* [Documentation](#id6)
+* [Support](#id8)
 
 
 <a id="id1"></a>
@@ -41,11 +42,6 @@ The **SLA (Service Level Agreement) Manager** is the service for QoS negotiation
 
 * N/A
 
-<a id="id6"></a>
-### Documentation
-
-* [SLA Manager in GitBook](https://indigo-dc.gitbooks.io/slam/content/)
-
 <a id="id7"></a>
 ### List of Artifacts
 
@@ -53,8 +49,13 @@ Docker Container:
 * [indigodatacloud/slam-im:indigo_1](https://hub.docker.com/r/indigodatacloud/slam/)
 * [indigodatacloudapps/slam-webapp:indigo_1](https://hub.docker.com/r/indigodatacloudapps/slam-webapp/)
 
-<a id="id8"></a>
-### Support
+<a id="id6"></a>
+## Documentation
 
-* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
-https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* [SLA Manager in GitBook](https://indigo-dc.gitbooks.io/slam/content/)
+
+
+<a id="id8"></a>
+## Support
+
+* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

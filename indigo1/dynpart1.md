@@ -41,13 +41,7 @@ Supported Platforms:
 
 <a id="id5"></a>
 ### Known Issues
-
 * N/A
-
-<a id="id6"></a>
-### Documentation
-
-* [Partition Director GitBook](https://www.gitbook.com/book/indigo-dc/dynpart/details)
 
 <a id="id7"></a>
 ### List of Artifacts
@@ -56,8 +50,12 @@ Packages:
 * python-dynpart-partition-director-0.08-1.el7.centos.noarch.rpm
 * python-lsf-dynpart-partition-director-0.08-1.el7.centos.noarch.rpm
 
-<a id="id8"></a>
-### Support
+<a id="id6"></a>
+## Documentation
 
-* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
-https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* [Partition Director GitBook](https://www.gitbook.com/book/indigo-dc/dynpart/details)
+
+<a id="id8"></a>
+## Support
+
+* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

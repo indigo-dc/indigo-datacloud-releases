@@ -60,7 +60,6 @@ Tarballs:
 <a id="id8"></a>
 ### Support
 
-* via GitHub issues: [https://github.com/indigo-dc/im-java-api/issues](https://github.com/indigo-dc/im-java-api/issues)
+* via GitHub issues: [https://github.com/indigo-dc/im-java-api/issues](https://github.com/indigo-dc/im-java-api/issues)<br>
 or
-* the [INDIGO - DataCloud CatchAll GGUS Support Unit](
-https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)
+* the [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

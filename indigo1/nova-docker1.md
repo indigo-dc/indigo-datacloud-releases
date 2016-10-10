@@ -1,9 +1,12 @@
-# Nova-Docker v. 16.04-4
+# Nova-Docker 
 
 **Nova-Docker** is the Docker driver for OpenStack Nova.
 
 Summary:
-* [Release Notes](#id1)
+* Updates
+  * [Nova-Docker v. 12.0.0](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/second_update_of_indigo-1.html#nd)
+
+* [Release Notes v. 16.04-4](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)

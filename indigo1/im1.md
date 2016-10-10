@@ -17,9 +17,9 @@ This version evolved in the [INDIGO-Datacloud project](https://www.indigo-datacl
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [Documentation](#id6)
   * [List of Artifacts](#id7)
-  * [Support](#id8)
+* [Documentation](#id6)
+* [Support](#id8)
 
 
 <a id="id1"></a>
@@ -59,15 +59,11 @@ Supported Platforms:
 * Other installation procedures are described in: [https://www.gitbook.com/book/indigo-dc/im/details](https://www.gitbook.com/book/indigo-dc/im/details)
 
 * An Ansible playbokk is also available in [GitHub](https://raw.githubusercontent.com/indigo-dc/im/master/ansible_install.yaml) for an easier instalaltion and configuration
+
 <a id="id5"></a>
 ### Known Issues
 
 * N/A
-
-<a id="id6"></a>
-### Documentation
-
-* [Infrastructure Manager GitBook](https://www.gitbook.com/book/indigo-dc/im/details)
 
 <a id="id7"></a>
 ### List of Artifacts
@@ -77,9 +73,15 @@ Packages:
 * python-im_1.4.6-1_all.deb
 
 Docker Container:
-* [indigodatacloud/im:indigo_1](indigodatacloud/im)
+* [indigodatacloud/im:indigo_1](https://hub.docker.com/r/indigodatacloud/im/)
+
+
+<a id="id6"></a>
+## Documentation
+
+* [Infrastructure Manager GitBook](https://www.gitbook.com/book/indigo-dc/im/details)
 
 <a id="id8"></a>
-### Support
+## Support
 
 * GitHub issues: [https://github.com/indigo-dc/im/issues](https://github.com/indigo-dc/im/issues)

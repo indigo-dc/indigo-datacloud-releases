@@ -18,7 +18,7 @@ This is the **Orchestrator of the PaaS layer**, a core component of the INDIGO -
 
 
 <a id="id1"></a>
-## Release Notes
+## Release Notes v. 1.0.0
 
 <a id="id2"></a>
 ### What's new

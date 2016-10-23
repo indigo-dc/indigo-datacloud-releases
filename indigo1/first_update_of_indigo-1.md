@@ -68,9 +68,9 @@ The First Update of INDIGO-1 release contains:
 
 #### Artefacts
 * CentOS7
-  * [cloud-info-provider-indigo-0.9.3-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/centos7/x86_64/updates/cloud-info-provider-indigo-0.9.3-1.el7.centos.noarch.rpm)
+  * [cloud-info-provider-indigo-0.9.3-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/cloud-info-provider-indigo-0.9.3-1.el7.centos.noarch.rpm)
 * Ubuntu14.04
-  * [python-cloud-info-provider-indigo_0.9.3_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-cloud-info-provider-indigo_0.9.3_all.deb)
+  * [python-cloud-info-provider-indigo_0.9.3_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-cloud-info-provider-indigo_0.9.3_all.deb)
 
 
 ## <a name="fg"></a>FutureGateway

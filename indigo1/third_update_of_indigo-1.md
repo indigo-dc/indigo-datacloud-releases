@@ -1,7 +1,7 @@
 The Third Update of INDIGO-1 release contains:
 * [Acounting v. 1.2.1-1](#accounting)
 * [LiferayIAM v. 1.2.0](#li)
-* [Ophidia v. 0.6.1](#tp)
+* [Ophidia v. 0.10.6](#ophidia)
 * [Orchent v. 12.0.0](#orchent)
 * [Orchestrator v. 1.1.0-FINAL](#orchestrator)
 * [Zabbix-probes v. 1.01](#zp)
@@ -62,6 +62,36 @@ and/or other components.
   * [LiferayIAM-binary-v1.2.0.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/tgz/LiferayIAM-binary-v1.2.0.tgz)
 * Ubuntu14.04
   * [LiferayIAM-binary-v1.2.0.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/LiferayIAM-binary-v1.2.0.tgz)
+  
+
+## <a name="ophidia"></a>Ophidia v. 0.10.6
+
+#### What's new
+* This update adds new features like the first support for interactive and interleaved workflows, improved usability and few bug fixes
+
+#### List of RfCs
+* New features and bug fixes:
+  * first support for interactive workflow interfaces
+  * first support for interleaved workflow interfaces
+  * improved usability of the Ophidia terminal
+  * improved stability of the Ophidia server
+  * bug fixing and new features for several operators exploited in the WP2 case studies (e.g. OPH_IMPORT)
+
+#### Installation & Configuration
+* In order to perform an update please carefully read the instructions available in the [ADD](https://add)
+
+#### Artefacts
+Packages:
+* Ubuntu 14.04
+  * [ophidia-analytics-framework_0.10.6-0_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/ophidia-analytics-framework_0.10.6-0_amd64.deb)
+  * [ophidia-primitives_0.10.6-0_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/ophidia-primitives_0.10.6-0_amd64.deb)
+  * [ophidia-server_0.10.6-0_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/ophidia-server_0.10.6-0_amd64.deb)
+  * [ophidia-terminal_0.10.6-0_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/ophidia-terminal_0.10.6-0_amd64.deb)
+* CentOS 7 
+  * [ophidia-analytics-framework-0.10.6-0.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/ophidia-analytics-framework-0.10.6-0.el7.centos.x86_64.rpm)
+  * [ophidia-primitives-0.10.6-0.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/ophidia-primitives-0.10.6-0.el7.centos.x86_64.rpm)
+  * [ophidia-server-0.10.6-0.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/ophidia-server-0.10.6-0.el7.centos.x86_64.rpm)
+  * [ophidia-terminal-0.10.6-0.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/ophidia-terminal-0.10.6-0.el7.centos.x86_64.rpm)
   
 ## <a name="zp"></a>Zabbix-probes v. 1.01
 

@@ -30,7 +30,7 @@ The Third Update of INDIGO-1 release contains:
 ** Increase in test coverage (to 87%)
 
 #### Installation & Configuration
-* In order to perform an update please carefully read the instructions available in the [How to update an already deployed service to 1.2.0 (from <1.2.0)](https://indigo-dc.gitbooks.io/accounting/content/doc/admin.html)
+* In order to perform an update please carefully read the instructions available in the [How to update an already deployed service to 1.2.0 (from <1.2.0)](https://github.com/indigo-dc/Accounting/blob/master/doc/admin.md#how-to-update-an-already-deployed-service-to-120-from-120)
 
 #### Artefacts
 *Docker Container:

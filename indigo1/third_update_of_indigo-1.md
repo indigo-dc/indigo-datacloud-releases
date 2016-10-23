@@ -2,7 +2,7 @@ The Third Update of INDIGO-1 release contains:
 * [Acounting v. 1.2.1-1](#accounting)
 * [LiferayIAM v. 1.2.0](#li)
 * [Ophidia v. 0.10.6](#ophidia)
-* [Orchent v. 12.0.0](#orchent)
+* [Orchent v. 0.1.0](#orchent)
 * [Orchestrator v. 1.1.0-FINAL](#orchestrator)
 * [Zabbix-probes v. 1.01](#zp)
 
@@ -93,6 +93,33 @@ Packages:
   * [ophidia-server-0.10.6-0.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/ophidia-server-0.10.6-0.el7.centos.x86_64.rpm)
   * [ophidia-terminal-0.10.6-0.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/ophidia-terminal-0.10.6-0.el7.centos.x86_64.rpm)
   
+## <a name="orchent"></a>Orchent v. 0.1.0
+
+#### What's new
+* The first command line client for the INDIGO DataCloud Orchestrator. With a lot of support at your fingertips: ```orchent help```
+  * Supports the full REST interface of the orchestrator:<br>
+  ```listing all deployments
+    showing a specific deployment
+    showing the template of a specific deployment
+    listing all resources of a deployment
+    showing a specific resource of a deployment
+    creating a new deployment
+    updating a given deployment
+    deleting a given deployment  ```
+    
+
+#### List of RfCs
+* N/A
+
+#### Installation & Configuration
+* Documentation is avalable at - [Orchent GitBook](https://www.gitbook.com/book/indigo-dc/orchent/details)
+
+#### Artefacts
+* CentOS7
+  * [orchent-0.1.0-1.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/orchent-0.1.0-1.el7.centos.x86_64.rpm)
+* Ubuntu14.04
+  * [orchent-0.1.0-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/orchent-0.1.0-1_amd64.deb)
+
 ## <a name="zp"></a>Zabbix-probes v. 1.01
 
 #### What's new

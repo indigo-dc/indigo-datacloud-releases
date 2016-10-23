@@ -98,7 +98,7 @@ Packages:
 #### What's new
 * The first command line client for the INDIGO DataCloud Orchestrator. With a lot of support at your fingertips: ```orchent help```
   * Supports the full REST interface of the orchestrator:<br>
-  ```listing all deployments <br>
+  ```listing all deployments ```<br>
   ```  showing a specific deployment ```<br>
   ```  showing the template of a specific deployment ```<br>
   ```  listing all resources of a deployment ```<br>

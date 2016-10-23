@@ -136,11 +136,11 @@ Packages:
 This release doesn't require any change of configuration or paramaters so the upgrade operations are:
 * Stop the old container:<br>
   ```sudo docker stop orchestrator```<br>
-* Remove the old container:
+* Remove the old container:<br>
   ```sudo docker rm orchestrator```<br>
-* Pull the new image version:
+* Pull the new image version:<br>
   ```sudo docker pull indigodatacloud/orchestrator:1.2.0-FINAL```<br>
-* Start the new version:
+* Start the new version:<br>
   ```docker run ...*same parameters*... indigodatacloud/orchestrator:1.2.0-FINAL```<br>
 
 #### Artefacts

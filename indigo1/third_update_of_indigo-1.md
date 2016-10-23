@@ -12,7 +12,7 @@ The Third Update of INDIGO-1 release contains:
 * [Zabbix-probes v. 1.0-2](#orchestrator)
 
 
-## <a name="cdmi"></a>Accounting v. 1.2.1-1
+## <a name="accounting"></a>Accounting v. 1.2.1-1
 
 #### What's new
 * THis update provides some enhancemenets, like allowing deployment only of the server container and of locally built images, and few bug fixes, like the ones regarding GET/POST authZ/authN issues

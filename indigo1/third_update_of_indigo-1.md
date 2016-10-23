@@ -99,13 +99,13 @@ Packages:
 * The first command line client for the INDIGO DataCloud Orchestrator. With a lot of support at your fingertips: ```orchent help```
   * Supports the full REST interface of the orchestrator:<br>
   ```listing all deployments ```<br>
-       ```showing a specific deployment ```<br>
-       ```showing the template of a specific deployment ```<br>
-       ```listing all resources of a deployment ```<br>
-       ```showing a specific resource of a deployment ```<br>
-       ```creating a new deployment ```<br>
-       ```updating a given deployment ```<br>
-       ```deleting a given deployment  ```<br>
+    ```   showing a specific deployment ```<br>
+    ```   showing the template of a specific deployment ```<br>
+    ```   listing all resources of a deployment ```<br>
+    ```   showing a specific resource of a deployment ```<br>
+    ```   creating a new deployment ```<br>
+    ```   updating a given deployment ```<br>
+    ```   deleting a given deployment  ```<br>
     
 
 #### List of RfCs

@@ -69,15 +69,15 @@ After setting the INDIGO-DC repositories as explained in the [Generic Installati
 
 Packages:
 * Ubuntu 14.04
-  * ophidia-analytics-framework_0.10.3-0_amd64.deb
-  * ophidia-primitives_0.10.3-0_amd64.deb
-  * ophidia-server_0.10.3-0_amd64.deb
-  * ophidia-terminal_0.10.3-0_amd64.deb
+  * [ophidia-analytics-framework_0.10.3-0_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/ophidia-analytics-framework_0.10.3-0_amd64.deb)
+  * [ophidia-primitives_0.10.3-0_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/ophidia-primitives_0.10.3-0_amd64.deb)
+  * [ophidia-server_0.10.3-0_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/ophidia-server_0.10.3-0_amd64.deb)
+  * [ophidia-terminal_0.10.3-0_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/ophidia-terminal_0.10.3-0_amd64.deb)
 * CentOS 7 
-  * ophidia-analytics-framework-0.10.3-0.el7.centos.x86_64.rpm
-  * ophidia-primitives-0.10.3-0.el7.centos.x86_64.rpm
-  * ophidia-server-0.10.3-0.el7.centos.x86_64.rpm
-  * ophidia-terminal-0.10.3-0.el7.centos.x86_64.rpm
+  * [ophidia-analytics-framework-0.10.3-0.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/ophidia-analytics-framework-0.10.3-0.el7.centos.x86_64.rpm)
+  * [ophidia-primitives-0.10.3-0.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/ophidia-primitives-0.10.3-0.el7.centos.x86_64.rpm)
+  * [ophidia-server-0.10.3-0.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/ophidia-server-0.10.3-0.el7.centos.x86_64.rpm)
+  * [ophidia-terminal-0.10.3-0.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/ophidia-terminal-0.10.3-0.el7.centos.x86_64.rpm)
 
 <a id="id6"></a>
 ## Documentation

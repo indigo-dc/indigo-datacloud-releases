@@ -3,7 +3,7 @@ The Third Update of INDIGO-1 release contains:
 * [LiferayIAM v. 1.2.0](#li)
 * [Ophidia v. 0.10.6](#ophidia)
 * [Orchent v. 0.1.0](#orchent)
-* [Orchestrator v. 1.1.0-FINAL](#orchestrator)
+* [Orchestrator v. 1.2.0-FINAL](#orchestrator)
 * [Zabbix-probes v. 1.01](#zp)
 
 <!--
@@ -106,7 +106,6 @@ Packages:
    ```  creating a new deployment ```<br>
    ```  updating a given deployment ```<br>
    ```  deleting a given deployment  ```<br>
-    
 
 #### List of RfCs
 * N/A
@@ -119,6 +118,35 @@ Packages:
   * [orchent-0.1.0-1.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/orchent-0.1.0-1.el7.centos.x86_64.rpm)
 * Ubuntu14.04
   * [orchent-0.1.0-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/orchent-0.1.0-1_amd64.deb)
+
+## <a name="orchestrator"></a>Orchestrator v. 1.2.0-FINAL
+
+#### What's new
+* The current update provides an enhanced TOSCA support.
+
+#### List of RfCs
+* Added:
+  * [Issue #142](https://project.indigo-datacloud.eu/work_packages/142) - Support input substitution in listValue properties
+  * [Issue #139](https://project.indigo-datacloud.eu/work_packages/139) - Support TOSCA extended node requirements definition in topology templates
+* Removed:
+  * [Issue #125](https://project.indigo-datacloud.eu/work_packages/125) - Removed deprecated occi proxy authentication 
+
+
+#### Installation & Configuration
+This release doesn't require any change of configuration or paramaters so the upgrade operations are:
+* Stop the old container:<br>
+  ```sudo docker stop orchestrator```<br>
+* Remove the old container:
+  ```sudo docker rm orchestrator```<br>
+* Pull the new image version:
+  ```sudo docker pull indigodatacloud/orchestrator:1.2.0-FINAL```<br>
+* Start the new version:
+  ```docker run ...*same parameters*... indigodatacloud/orchestrator:1.2.0-FINAL```<br>
+
+#### Artefacts
+* Docker Container:
+  * [indigodatacloud/orchestrator:indigo_1](https://hub.docker.com/r/indigodatacloud/orchestrator/)
+
 
 ## <a name="zp"></a>Zabbix-probes v. 1.01
 

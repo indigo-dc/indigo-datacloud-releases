@@ -1,16 +1,18 @@
 The Third Update of INDIGO-1 release contains:
 * [Acounting v. 1.2.1-1](#accounting)
-* [CMDB v. 0.4.0](#cmdb)
-* [FutureGateway](#fg):
-  * [fgAPIServer v0.0.5](#fg)
-  * [APIServerDaemon v0.0.5](#fg)
-  * [PortalSetup v0.0.4](#fg)
 * [LiferayIAM v. 1.1.1](#li)
 * [Ophidia v. 0.6.1](#tp)
 * [Orchent v. 12.0.0](#orchent)
 * [Orchestrator v. 1.1.0-FINAL](#orchestrator)
 * [Zabbix-probes v. 1.01](#zp)
 
+<!--
+* [CMDB v. 0.4.0](#cmdb)
+* [FutureGateway](#fg):
+  * [fgAPIServer v0.0.5](#fg)
+  * [APIServerDaemon v0.0.5](#fg)
+  * [PortalSetup v0.0.4](#fg)
+-->  
 
 ## <a name="accounting"></a>Accounting v. 1.2.1-1
 
@@ -36,7 +38,30 @@ The Third Update of INDIGO-1 release contains:
 * Docker Container:
   * [indigodatacloud/accounting:indigo_1](https://hub.docker.com/r/indigodatacloud/accounting/)
   
-  
+
+## <a name="li"></a>LiferayIAM v. 1.2.0
+
+#### What's new
+* The new version of LiferayIAM includes a new method to retrieve an access token using the user subject. This is requested to
+allow other services interacting with the portal, like the FG APIs, to get a valid token before to interact with the orchestrator
+and/or other components.
+
+#### List of RfCs
+* [Issue-12](https://github.com/indigo-dc/LiferayIAM/issues/12) - Error message for invalid token is not correctly formatted
+* [Issue-13](https://github.com/indigo-dc/LiferayIAM/issues/13) - Error in remote API 
+* [Issue-14](https://github.com/indigo-dc/LiferayIAM/issues/14) - Redirect link
+* [Issue-16](https://github.com/indigo-dc/LiferayIAM/issues/16) - Make available the token by user subject
+
+#### Installation \& Configuration
+* In order to use the latest version, 1.1.1, it is requested:
+  * Upgrade requires to reinstall the component as described in the documentation - please read [Upgrade to a new release](https://github.com/indigo-dc/LiferayIAM/blob/master/doc/admin.md#upgrade-to-a-new-release) for more information.
+  * Current configuration will not be overwritten.
+
+#### Artefacts
+* CentOS 7
+  * [LiferayIAM-binary-v1.2.0.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/tgz/LiferayIAM-binary-v1.2.0.tgz)
+* Ubuntu14.04
+  * [LiferayIAM-binary-v1.2.0.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/LiferayIAM-binary-v1.2.0.tgz)
   
 ## <a name="zp"></a>Zabbix-probes v. 1.01
 

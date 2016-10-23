@@ -45,12 +45,12 @@ Docker Container:
 * [indigodatacloud/accounting:indigo_1](https://hub.docker.com/r/indigodatacloud/accounting/)
 
 Third-Party dependencies:
-* Accounting Collectors - OpenNebula
-  * [rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/third-party/oneacct-export-0.2.6-1.x86_64.rpm)
-  * [deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/third-party/binary-amd64/oneacct-export_0.2.6-1_amd64.deb)
+* Accounting Collectors - OpenNebula:<br>
+  * [oneacct-export-0.2.6-1.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/third-party/oneacct-export-0.2.6-1.x86_64.rpm)
+  * [oneacct-export_0.2.6-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/third-party/binary-amd64/oneacct-export_0.2.6-1_amd64.deb)
 * Accounting Collectors - OpenStack
-  * [tarball](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/caso_0.3.2.orig.tar.gz)
-  * [deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/third-party/binary-amd64/caso_0.3.2-1ubuntu2_all.deb)
+  * [caso_0.3.2.orig.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/caso_0.3.2.orig.tar.gz)
+  * [caso_0.3.2-1ubuntu2_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/third-party/binary-amd64/caso_0.3.2-1ubuntu2_all.deb)
   
 <a id="id6"></a>
 ## Documentation
@@ -58,7 +58,6 @@ Third-Party dependencies:
 * [Developer guide](https://indigo-dc.gitbooks.io/accounting/content/doc/developer.html)
 * [Deployment and Administration guide](https://indigo-dc.gitbooks.io/accounting/content/doc/admin.html)
 * [Service Reference Card](https://indigo-dc.gitbooks.io/accounting/content/doc/admin.html)
-
 * [User guide](https://indigo-dc.gitbooks.io/accounting/content/doc/user.html)
 
 

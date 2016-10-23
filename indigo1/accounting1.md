@@ -57,6 +57,8 @@ Third-Party dependencies:
 
 * [Developer guide](https://indigo-dc.gitbooks.io/accounting/content/doc/developer.html)
 * [Deployment and Administration guide](https://indigo-dc.gitbooks.io/accounting/content/doc/admin.html)
+* [Service Reference Card](https://indigo-dc.gitbooks.io/accounting/content/doc/admin.html)
+
 * [User guide](https://indigo-dc.gitbooks.io/accounting/content/doc/user.html)
 
 

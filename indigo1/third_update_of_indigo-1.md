@@ -163,5 +163,13 @@ This release doesn't require any change of configuration or paramaters so the up
 * In order to perform an update please carefully read the instructions available in the [XXX](https://XXX)
 
 #### Artefacts
+* CentOS7
+  * [HeapsterZabbixProbe-1.01-1.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/HeapsterZabbixProbe-1.01-1.rpm)
+  * [OCCIZabbixProbe-1.01-1.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/OCCIZabbixProbe-1.01-1.rpm)
+* Ubuntu14.04
+  * [heapster-zabbix-probe-1.01.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/heapster-zabbix-probe-1.01.deb)
+  * [occi-zabbix-probe-1.01.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/occi-zabbix-probe-1.01.deb)
+  
+  
 * Docker Container:
   * [indigodatacloud/zabbix-wrapper:indigo_1](https://hub.docker.com/r/indigodatacloud/zabbix-wrapper/)

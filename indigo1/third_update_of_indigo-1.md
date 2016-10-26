@@ -75,10 +75,22 @@ and/or other components.
   * first support for interleaved workflow interfaces
   * improved usability of the Ophidia terminal
   * improved stability of the Ophidia server
-  * bug fixing and new features for several operators exploited in the WP2 case studies (e.g. OPH_IMPORT)
+  * bug fixing and new features for several operators exploited in the WP2 case studies
+    * [Issue #6](https://github.com/OphidiaBigData/ophidia-analytics-framework/issues/6) - ophidia-analytics-framework - "OPH_EXPORTNC2: the operator hangs when the number of cores is higher than the number of fragments of input cube"
+    * [Issue #3](https://github.com/OphidiaBigData/ophidia-terminal/issues/3) - ophidia-terminal - "Unsupported image creation from compact output format"
+    * Bug in gtk handler when window is closed while running in auto-view mode
+    * Bug in handling wrong expression with OPH_IF
+    * Bug in setting exit status of OPH_ENDFOR
+    * Bug in OphidiaDB update when a massive operation is retried
+    * Bug in handling OPH_IF when Matheval is not enabled
+    * Bug in setting basic notification message for massive operations
+    * Bug in building function 'oph_if_impl' when MathEval library is disabled
+    * Bug in handling filter 'path' in massive operations
+    * Bug in massive operation handler
 
 #### Installation & Configuration
-* In order to perform an update please carefully read the instructions available in the [ADD](https://add)
+* In order to perform an update please carefully read the instructions available in the Ophidia Upgrade Guide](https://indigo-dc.gitbooks.io/ophidia/content/upgrade.html)
+* new documentation: [Service Reference Card](https://indigo-dc.gitbooks.io/ophidia/content/service_reference_card.html)
 
 #### Artefacts
 Packages:
@@ -98,7 +110,7 @@ Packages:
 #### What's new
 * The first command line client for the INDIGO DataCloud Orchestrator. With a lot of support at your fingertips: ```orchent help```
   * Supports the full REST interface of the orchestrator:<br>
-  ```listing all deployments ```<br>
+  ```listing all deployments: ```<br>
    ```  showing a specific deployment ```<br>
    ```  showing the template of a specific deployment ```<br>
    ```  listing all resources of a deployment ```<br>

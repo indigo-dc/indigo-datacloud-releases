@@ -59,11 +59,10 @@ and/or other components.
 
 #### Artefacts
 * CentOS 7
-  * [LiferayIAM-binary-v1.2.0.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/tgz/LiferayIAM-binary-v1.2.0.tgz)
+  * [LiferayIAM-binary-v1.2.0.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/tgz/LiferayIAM-binary-1.2.0.tgz)
 * Ubuntu14.04
-  * [LiferayIAM-binary-v1.2.0.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/LiferayIAM-binary-v1.2.0.tgz)
+  * [LiferayIAM-binary-v1.2.0.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/LiferayIAM-binary-1.2.0.tgz)
   
-
 ## <a name="ophidia"></a>Ophidia v. 0.10.6
 
 #### What's new
@@ -75,22 +74,10 @@ and/or other components.
   * first support for interleaved workflow interfaces
   * improved usability of the Ophidia terminal
   * improved stability of the Ophidia server
-  * bug fixing and new features for several operators exploited in the WP2 case studies
-    * [Issue #6](https://github.com/OphidiaBigData/ophidia-analytics-framework/issues/6) - ophidia-analytics-framework - "OPH_EXPORTNC2: the operator hangs when the number of cores is higher than the number of fragments of input cube"
-    * [Issue #3](https://github.com/OphidiaBigData/ophidia-terminal/issues/3) - ophidia-terminal - "Unsupported image creation from compact output format"
-    * Bug in gtk handler when window is closed while running in auto-view mode
-    * Bug in handling wrong expression with OPH_IF
-    * Bug in setting exit status of OPH_ENDFOR
-    * Bug in OphidiaDB update when a massive operation is retried
-    * Bug in handling OPH_IF when Matheval is not enabled
-    * Bug in setting basic notification message for massive operations
-    * Bug in building function 'oph_if_impl' when MathEval library is disabled
-    * Bug in handling filter 'path' in massive operations
-    * Bug in massive operation handler
+  * bug fixing and new features for several operators exploited in the WP2 case studies (e.g. OPH_IMPORT)
 
 #### Installation & Configuration
-* In order to perform an update please carefully read the instructions available in the Ophidia Upgrade Guide](https://indigo-dc.gitbooks.io/ophidia/content/upgrade.html)
-* new documentation: [Service Reference Card](https://indigo-dc.gitbooks.io/ophidia/content/service_reference_card.html)
+* In order to perform an update please carefully read the instructions available in the [ADD](https://add)
 
 #### Artefacts
 Packages:
@@ -110,7 +97,7 @@ Packages:
 #### What's new
 * The first command line client for the INDIGO DataCloud Orchestrator. With a lot of support at your fingertips: ```orchent help```
   * Supports the full REST interface of the orchestrator:<br>
-  ```listing all deployments: ```<br>
+  ```listing all deployments ```<br>
    ```  showing a specific deployment ```<br>
    ```  showing the template of a specific deployment ```<br>
    ```  listing all resources of a deployment ```<br>
@@ -160,7 +147,7 @@ This release doesn't require any change of configuration or paramaters so the up
   * [indigodatacloud/orchestrator:indigo_1](https://hub.docker.com/r/indigodatacloud/orchestrator/)
 
 
-## <a name="zp"></a>Zabbix-probes v. 1.01
+## <a name="zp"></a>Monitoring 
 
 #### What's new
 * The current update is mainly focused on solving several bugs detected and on adding a feature to the OCCI probe for improving its adoption rate, since the former user/password authentication was not adequate enough for automating the whoel monitoring process.
@@ -172,16 +159,12 @@ This release doesn't require any change of configuration or paramaters so the up
 
 
 #### Installation & Configuration
-* In order to perform an update please carefully read the instructions available in the [XXX](https://XXX)
+* In order to perform an update please carefully read the instructions available in the [Deployment and Administraton Guide](https://indigo-dc.gitbooks.io/monitoring/content/doc/admin.html)
 
 #### Artefacts
 * CentOS7
   * [HeapsterZabbixProbe-1.01-1.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/HeapsterZabbixProbe-1.01-1.rpm)
-  * [OCCIZabbixProbe-1.01-1.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/OCCIZabbixProbe-1.01-1.rpm)
 * Ubuntu14.04
-  * [heapster-zabbix-probe-1.01.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/heapster-zabbix-probe-1.01.deb)
-  * [occi-zabbix-probe-1.01.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/occi-zabbix-probe-1.01.deb)
-  
-  
+  * [orchent-0.1.0-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/orchent-0.1.0-1_amd64.deb)
 * Docker Container:
   * [indigodatacloud/zabbix-wrapper:indigo_1](https://hub.docker.com/r/indigodatacloud/zabbix-wrapper/)

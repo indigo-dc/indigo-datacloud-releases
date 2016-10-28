@@ -59,9 +59,9 @@ and/or other components.
 
 #### Artefacts
 * CentOS 7
-  * [LiferayIAM-binary-v1.2.0.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/tgz/LiferayIAM-binary-v1.2.0.tgz)
+  * [LiferayIAM-binary-1.2.0.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/tgz/LiferayIAM-binary-1.2.0.tgz)
 * Ubuntu14.04
-  * [LiferayIAM-binary-v1.2.0.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/LiferayIAM-binary-v1.2.0.tgz)
+  * [LiferayIAM-binary-1.2.0.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/LiferayIAM-binary-1.2.0.tgz)
   
 
 ## <a name="ophidia"></a>Ophidia v. 0.10.6

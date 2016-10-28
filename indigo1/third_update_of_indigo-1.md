@@ -53,7 +53,7 @@ and/or other components.
 * [Issue-16](https://github.com/indigo-dc/LiferayIAM/issues/16) - Make available the token by user subject
 
 #### Installation \& Configuration
-* In order to use the latest version, 1.1.1, it is requested:
+* In order to use the latest version, 1.2.0, it is requested:
   * Upgrade requires to reinstall the component as described in the documentation - please read [Upgrade to a new release](https://github.com/indigo-dc/LiferayIAM/blob/master/doc/admin.md#upgrade-to-a-new-release) for more information.
   * Current configuration will not be overwritten.
 
@@ -172,7 +172,7 @@ This release doesn't require any change of configuration or paramaters so the up
 
 
 #### Installation & Configuration
-* In order to perform an update please carefully read the instructions available in the [XXX](https://XXX)
+* In order to perform an update please carefully read the instructions available in the "2.5 Packages Update" section of the [Monitoring GitBook](https://indigo-dc.gitbooks.io/monitoring/content/)
 
 #### Artefacts
 * CentOS7

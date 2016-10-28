@@ -67,7 +67,7 @@ and/or other components.
 ## <a name="ophidia"></a>Ophidia v. 0.10.6
 
 #### What's new
-* This update adds new features like the first support for interactive and interleaved workflows, improved usability and few bug fixes
+* This update adds new features for interleaving and interactive workflow interfaces. It also includes several improvements and bug fixes. Some operators have been extended to support the user community case studies.
 
 #### List of RfCs
 * New features and bug fixes:

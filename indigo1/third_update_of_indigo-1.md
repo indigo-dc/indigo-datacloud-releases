@@ -1,7 +1,7 @@
 # Third Update of INDIGO-1
 
 The Third Update of INDIGO-1 release contains:
-* [Acounting v. 1.2.1-1](#accounting)
+* [Accounting v. 1.2.1-1](#accounting)
 * [LiferayIAM v. 1.2.0](#li)
 * [Ophidia v. 0.10.6](#ophidia)
 * [Orchent v. 0.1.0](#orchent)

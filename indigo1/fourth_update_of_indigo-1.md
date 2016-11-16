@@ -73,9 +73,13 @@ In order to update the packages please use:
   ``` docker run -it -p 5900:5900 indigodatacloudapps/kepler```<br>
 
 #### Artefacts
-* CentOS7
-  * [IM-1.4.8-1.el7.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/centos7/x86_64/updates/IM-1.4.8-1.el7.noarch.rpm)
-* Ubuntu14.04
-  * [python-im_1.4.8-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-im_1.4.8-1_all.deb)
+* CentOS7 source tarballs
+  * [indigoclient-1.0.2.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/indigoclient-1.0.2.tar.gz)
+  * [indigokepler-1.0.2.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/indigokepler-1.0.2.tar.gz) 
+
+* Ubuntu14.04 source tarballs
+  * [indigoclient-1.0.2.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/source/indigoclient-1.0.2.tar.gz)
+  * [indigokepler-1.0.2.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/source/indigokepler-1.0.2.tar.gz) 
+
 * Container
   * [indigodatacloudapps/kepler:indigo_1](https://hub.docker.com/r/indigodatacloudapps/kepler/tags/)

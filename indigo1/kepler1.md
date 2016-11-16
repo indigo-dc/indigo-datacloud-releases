@@ -18,9 +18,9 @@ Summary:
 ### What's new
 
 * This is the first release of INDIGO Kepler & Client
-  * Component consists of two parts which are both released under 1.0.0 tag:
-    * [indigoclient](https://github.com/indigo-dc/indigoclient/releases/tag/1.0.0)
-    * [indigokepler](https://github.com/indigo-dc/indigokepler/releases/tag/1.0.0) 
+  * Component consists of two parts which are both released under 1.0.1 tag:
+    * [indigoclient](https://github.com/indigo-dc/indigoclient/releases/tag/1.0.1)
+    * [indigokepler](https://github.com/indigo-dc/indigokepler/releases/tag/1.0.1) 
 
 Supported Platforms:
 * The components are in Java, so in principle any modern OS can be used.
@@ -39,8 +39,8 @@ Supported Platforms:
   * indigokepler: ```mvn initialize install dependency:copy-dependencies -DoutputDirectory=target/indigo/lib/jar -DexcludeArtifactIds=ptolemy```
 
 * Ready to compile version are available here:
-  * indigoclient-1.0.1.tar.gz
-  * indigokepler-1.0.1.tar.gz
+  * [indigoclient-1.0.1.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/indigoclient-1.0.1.tar.gz)
+  * [indigokepler-1.0.1.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/SRPMS/tgz/indigokepler-1.0.1.tar.gz)
 * After Maven compilation, two artifacts are created: *indigo-fg-api-1.0.1.jar* and *indigo-fg-actors-1.0.1.jar*
 * Additionally, in *indigokepler/target/* a directory named indigo is created which fulfills Kepler's requirements for a module. It is sufficient to add it to an existing Kepler installation to use INDIGO-Kepler actors.
 

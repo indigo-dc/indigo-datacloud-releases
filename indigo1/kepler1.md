@@ -1,12 +1,17 @@
 # INDIGO Kepler v. 1.0.1
 
-Summary:
-* [Release Notes](#id1)
+**Summary**:
+
+* Updates
+  * [INDIGO Kepler v 1.0.2](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/fourth_update_of_indigo-1.html#ik)<br>
+
+* [Release Notes v. 1.0.1](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
   * [Known Issues](#id5)
-  * [List of Artifacts](#id7)
+  * [List of Artifacts](#id7)<br>
+
 * [Documentation](#id6)
 * [Support](#id8)
 

@@ -65,7 +65,7 @@ In order to update the packages please use:
 
 #### Installation & Configuration
 In order to update the packages please use:
-* The Ansible role is deployed in Ansible Galaxy as indigo-dc/kepler and so the usual steps are required:
+* The Ansible role is deployed in Ansible Galaxy as indigo-dc/kepler and so the usual steps are required:<br>
   ``` ansible-galaxy install indigo-dc.kepler```<br>
   ``` ansible-playbook /etc/ansible/roles/indigo-dc.kepler/tests/kepler.yml```<br>
 * The Docker image is available in Docker Hub as indigodatacloudapps/kepler so the usual steps are required:

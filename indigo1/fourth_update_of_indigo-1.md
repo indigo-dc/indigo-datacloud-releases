@@ -46,9 +46,9 @@ In order to update the packages please use:
 
 #### Artefacts
 * CentOS7
-  * [IM-1.4.8-1.el7.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/centos7/x86_64/updates/IM-1.4.8-1.el7.noarch.rpm)
+  * [IM-1.4.8-1.el7.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/IM-1.4.8-1.el7.noarch.rpm)
 * Ubuntu14.04
-  * [python-im_1.4.8-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-im_1.4.8-1_all.deb)
+  * [python-im_1.4.8-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-im_1.4.8-1_all.deb)
 * Container
   * [indigodatacloud/im:indigo_1](https://hub.docker.com/r/indigodatacloud/im/tags/)
   

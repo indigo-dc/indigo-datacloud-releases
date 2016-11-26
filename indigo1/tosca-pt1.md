@@ -71,11 +71,11 @@ After setting the INDIGO-DC repositories as explained in the [Generic Installati
 ### List of Artifacts
 
 Packages:
-* python-tosca-parser_0.5.1-1_all.deb
-* tosca-parser-0.5.1-1.el7.noarch.rpm
+* [python-tosca-parser_0.5.1-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/main/binary-amd64/python-tosca-parser_0.5.1-1_all.deb)
+* [tosca-parser-0.5.1-1.el7.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/base/tosca-parser-0.5.1-1.el7.noarch.rpm)
 
 Tarballs:
-* tosca-types-v1.0.1.tar.gz
+* [tosca-types-v1.0.1.tar.gz](https://github.com/indigo-dc/tosca-types/releases/download/v1.0.1/tosca-types-v1.0.1.tar.gz)
 
 <a id="id6"></a>
 ## Documentation

@@ -38,6 +38,7 @@ Full list of INDIGO-1 MidnightBlue Services & Applications, with detailed releas
   * [OpenStack OCCI Interface](ooi1.md)
   * [pOCCI](pocci1.md)
   * [rOCCI](rocci1.md)
+  * [jOCCI](jocci1.md)
 * [Ophidia](ophidia1.md)
 * [Orchestrator](orchestrator1.md)
 * [QoS/SLA Management Service](slam1.md)

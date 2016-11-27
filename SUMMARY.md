@@ -49,6 +49,7 @@
          * [OpenStack OCCI Interface](indigo1/ooi1.md)
          * [pOCCI](indigo1/pocci1.md)
          * [rOCCI](indigo1/rocci1.md)
+         * [jOCCI](indigo1/jocci1.md)
        * [Ophidia](indigo1/ophidia1.md)
        * [Orchestrator](indigo1/orchestrator1.md)
        * [Nova-Docker](indigo1/nova-docker1.md)

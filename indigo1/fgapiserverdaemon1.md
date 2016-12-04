@@ -7,6 +7,7 @@ The **APIServerDaemon** is a polling daemon working as a java servlet operating 
 
 **Summary**:
 * Updates
+  * [APIServer Daemon v0.0.6](https://github.com/indigo-dc/indigo-datacloud-releases/blob/master/indigo1/fifth_update_of_indigo-1.md#fg) 
   * [APIServer Daemon v0.0.5](https://github.com/indigo-dc/indigo-datacloud-releases/blob/master/indigo1/second_update_of_indigo-1.md#fg) 
   * [APIServer Daemon v0.0.4](https://github.com/indigo-dc/indigo-datacloud-releases/blob/master/indigo1/first_update_of_indigo-1.md#fgapisd) 
 

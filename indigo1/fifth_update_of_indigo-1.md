@@ -5,6 +5,9 @@ The Fifth Update of INDIGO-1 release contains:
   * [fgAPIServer v0.0.6](#fg)
   * [APIServerDaemon v0.0.6](#fg)
   * [PortalSetup v0.0.5](#fg)
+<!--
+* [INDIGO IAM v. 0.4.0](#iam)
+-->
 * [RepoSync v.1.1-1](#rs)
 
 
@@ -27,7 +30,6 @@ The Fifth Update of INDIGO-1 release contains:
   * [Issue#21](https://github.com/indigo-dc/fgAPIServer/issues/21) Aligning db schema check to v0.0.9
   * [Issue#22](https://github.com/indigo-dc/fgAPIServer/issues/22) GET task call does not show tasks in PURGED status (see APIServerDaemon)
 
-
 * APIServerDaemon v0.0.6
   * [Issue#13](https://github.com/indigo-dc/APIServerDaemon/issues/13) New db schema check to v0.0.9
   * [Issue#14](https://github.com/indigo-dc/APIServerDaemon/issues/14) Including in build.xml the 'test' target using junit and mokito
@@ -43,7 +45,6 @@ The Fifth Update of INDIGO-1 release contains:
   * [Issue#4](https://github.com/indigo-dc/PortalSetup/issues/4) Maven and ant installed by packages
   * [Issue#5](https://github.com/indigo-dc/PortalSetup/issues/5) Improving package installation procedure (for loop change)
   * [Issue#6](https://github.com/indigo-dc/PortalSetup/issues/6) Suggested wsgi configuration
-
 
 #### Installation & Configuration
 * [FutureGateway documentation on GitBook](https://indigo-dc.gitbooks.io/futuregateway/content/) has been updated accordingly to the introduced changes.
@@ -68,7 +69,39 @@ The Fifth Update of INDIGO-1 release contains:
   * [PortalSetup-v0.0.5.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/source/PortalSetup-v0.0.5.tar.gz)
 
 
+<!--
+## <a name="iam"></a>INDIGO IAM v.0.5.0
 
+#### What's new
+* This release provides new functionality and some bug fixes
+
+#### List of RfCs
+* Groups are now encoded in the JSON returned by the IAM /userinfo endpoint as an array of group names.
+* Group information is also exposed by the token introspection endpoint
+* External authentication information (i.e. when a user authenticates with Google or SAML instead of username/password) is now provided in the JSON returned by the /userinfo endpoint
+* The first incarnation of the administrative dashboard is now included in the service
+* The first incarnation of the registration service is now included. The registration service implements a "self-register with admin approval" registration flow
+* User passwords are now encoded in the database using the Bcrypt encoder
+* A password forgotten service is now provided
+
+* More information about bug fixes and other developments can be found on our [JIRA release board](https://issues.infn.it/jira/browse/INDIAM/fixforversion/13811) 
+
+#### Installation & Configuration
+* If the installation was done following the the instructions available in the [INDIGO-IAM Deployment and Administration Guide](https://indigo-dc.gitbooks.io/iam/content/doc/admin.html), please follow the following steps to upgrade:<br>
+     ``` docker pull indigodatacloud/iam-login-service ``` <br>
+     ``` docker stop iam-login-service ``` <br>
+     ``` docker rm iam-login-service ``` <br>
+     ``` docker run \  ``` <br>
+     ```   --name iam-login-service --net=iam -p 8080:8080 \  ``` <br>
+     ```   --env-file=/path/to//iam-login-service/env \  ``` <br>
+     ```   -v /path/to//keystore.jks:/keystore.jks:ro \  ``` <br>
+     ```   indigodatacloud/iam-login-service:indigo_1   ``` <br>
+
+#### Artefacts
+* Docker Container:
+  * [indigodatacloud/iam-login-service:indigo_1](https://hub.docker.com/r/indigodatacloud/iam-login-service/tags/)
+
+-->
 ## <a name="im"></a>RepoSYnc v1.2.0-1
 
 #### What's new

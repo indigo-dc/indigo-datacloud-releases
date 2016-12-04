@@ -1,4 +1,4 @@
-# Second Update of INDIGO-1
+# Second Update of INDIGO-1 - 11/10/2016
 
 The Second Update of INDIGO-1 release contains:
 * [CDMI v. 1.1](#cdmi)
@@ -16,14 +16,6 @@ The Second Update of INDIGO-1 release contains:
 * [Orchestrator v. 1.1.0-FINAL](#orchestrator)
 * [TOSCA-parser v. 0.6.1](#tp)
 
-
-<!--
-* [Zabbix-probes v. 1.0-1](#zp)
-* [FutureGateway](#fg):
-  * [fgAPIServer v0.0.4](#fgapis)
-  * [APIServerDaemon v0.0.4](#fgapisd)
-  * [PortalSetup v1.0.0](#fgps)
--->
 
 ## <a name="cdmi"></a>CDMI v. 1.1
 

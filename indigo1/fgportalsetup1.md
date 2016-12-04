@@ -3,6 +3,7 @@ The **Portal Setup**project is a script collection for automatic installation of
 
 **Summary**:
 * Updates
+  * [fgPortalSetup v. 0.0.5](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/fifth_update_of_indigo-1.html#fg)
   * [fgPortalSetup v. 0.0.4](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/second_update_of_indigo-1.html#fg)
   * [fgPortalSetup v. 0.0.3](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/first_update_of_indigo-1.html#fgps)
 

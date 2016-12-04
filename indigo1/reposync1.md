@@ -1,9 +1,13 @@
-# RepoSync v. 1.0-1
+# RepoSync
 
 The **java-SyncRepos** component can be used to synchronize Docker images in DockerHub to instances of either OpenStack or OpenNebula with Docker support already configured. To do so, it relies on the WebHooks mechanisms offered by DockerHub infrastructure and it provides a REST interface to list the available images already synchronized and some operations to force the synchronization of individual ones.
 
 **Summary**:
-* [Release Notes](#id1)
+
+* Updates
+  * [RepoSync v1.2.0-1](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/fifth_update_of_indigo-1.html#rs)<br>
+
+* [Release Notes v. 1.0-1](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)
@@ -14,7 +18,7 @@ The **java-SyncRepos** component can be used to synchronize Docker images in Doc
 
 
 <a id="id1"></a>
-## Release Notes
+## Release Notes v. 1.0-1
 
 <a id="id2"></a>
 ### What's new

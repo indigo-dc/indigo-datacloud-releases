@@ -5,11 +5,11 @@ The Fifth Update of INDIGO-1 release contains:
   * [fgAPIServer v0.0.6](#fg)
   * [APIServerDaemon v0.0.6](#fg)
   * [PortalSetup v0.0.5](#fg)
+* [RepoSync v.1.1-1](#rs)
+
 <!--
 * [INDIGO IAM v. 0.4.0](#iam)
 -->
-* [RepoSync v.1.1-1](#rs)
-
 
 ## <a name="fg"></a>FutureGateway
 ### <a name="fgas"></a>fgAPIServer & APIServerDaemon v0.0.6, PortalSetup v. 0.0.5

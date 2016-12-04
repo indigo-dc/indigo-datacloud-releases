@@ -1,16 +1,9 @@
-# Fourth Update of INDIGO-1
+# Fourth Update of INDIGO-1 - 16.11.2016
 
 The Fourth Update of INDIGO-1 release contains:
 * [Infrastructure Manager v1.4.8](#im)
 * [Indigo-Kepler v.1.0.2](#ik)
 
-
-<!--
-* [FutureGateway](#fg):
-  * [fgAPIServer v0.0.5](#fg)
-  * [APIServerDaemon v0.0.5](#fg)
-  * [PortalSetup v0.0.4](#fg)
--->
 
 ## <a name="im"></a>Infrastructure Manager v1.4.8
 

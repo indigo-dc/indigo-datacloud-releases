@@ -61,8 +61,8 @@ Other methods:
 ### List of Artifacts
 
 Packages:
-* reposync_1.0~jenkins_all.deb
-* indigo-dc-reposync-1.0-1.noarch.rpm
+* [reposync_1.0~jenkins_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/main/binary-amd64/reposync_1.0~jenkins_all.deb)
+* [indigo-dc-reposync-1.0-1.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/base/indigo-dc-reposync-1.0-1.noarch.rpm)
 
 Docker Container:
 * [indigodatacloud/reposync:indigo_1](https://hub.docker.com/r/indigodatacloud/reposync/)

@@ -4,8 +4,9 @@ The **java-SyncRepos** component can be used to synchronize Docker images in Doc
 
 **Summary**:
 
-* Updates
+* Updates:<br>
   * [RepoSync v1.2.0-1](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/fifth_update_of_indigo-1.html#rs)<br>
+
 
 * [Release Notes v. 1.0-1](#id1)
   * [What's new](#id2)

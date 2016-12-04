@@ -72,7 +72,7 @@ Tarballs:
 <a id="id6"></a>
 ## Documentation
 
-* Please refer to [FutureGateway documentation](https://www.gitbook.com/book/ricsxn/futuregateway/details)
+* Please refer to [FutureGateway documentation](https://indigo-dc.gitbooks.io/futuregateway/content/)
 
 <a id="id8"></a>
 ## Support

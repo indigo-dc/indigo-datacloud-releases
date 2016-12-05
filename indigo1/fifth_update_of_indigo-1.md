@@ -102,7 +102,7 @@ The Fifth Update of INDIGO-1 release contains:
   * [indigodatacloud/iam-login-service:indigo_1](https://hub.docker.com/r/indigodatacloud/iam-login-service/tags/)
 
 -->
-## <a name="im"></a>RepoSYnc v1.2.0-1
+## <a name="im"></a>RepoSync v1.2.0-1
 
 #### What's new
 * Added service support to Ubuntu 14.04 and CentOS 7. Packages are now dependent on jsvc

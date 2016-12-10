@@ -15,6 +15,7 @@
        * [CLUES](indigo1/clues1.md)
        * [Core PaaS](indigo1/core_paas1.md)
          * [Accounting](indigo1/accounting1.md)
+         * [Mesos Cluster](indigo1/mesos1.md)
          * [Kubernetes](indigo1/kubernetes1.md)
          * [Zabbix Probes](indigo1/zabbix-probes1.md)
        * [dCache](indigo1/dcache1.md)

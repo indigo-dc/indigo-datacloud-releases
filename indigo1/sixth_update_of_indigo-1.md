@@ -86,23 +86,24 @@ The Sixth Update of INDIGO-1 release contains:
 #### Installation & Configuration
 This release require a parameter change regarding the zabbix wrapper endpoint - the environment variable provided during startup must be changed from: </br>
   ``` http://${host}:${port}/monitoring/adapters/zabbix/zones/indigo/types/*service*/groups/Cloud_Providers/hosts/ ```</br>
-  to 
-  ``` http://${host}:${port}/monitoring/adapters/zabbix/zones/indigo/types/*infrastructure*/groups/Cloud_Providers/hosts/ ```<br>
+  to </br>
+  ``` http://${host}:${port}/monitoring/adapters/zabbix/zones/indigo/types/*infrastructure*/groups/Cloud_Providers/hosts/ ```</br>
+
 Thus, the upgrade operations are:
-* Stop the old container:<br>
-  ```sudo docker stop orchestrator```<br>
-* Remove the old container:<br>
-  ```sudo docker rm orchestrator```<br>
+* Stop the old container:</br>
+  ```sudo docker stop orchestrator```</br>
+* Remove the old container:</br>
+  ```sudo docker rm orchestrator```</br>
 * Pull the new image version:<br>
-  ```sudo docker pull indigodatacloud/orchestrator:1.2.1-FINAL```<br>
-* Start the new version:<br>
-  ```docker run ...*updated parameters*... indigodatacloud/orchestrator:1.2.1-FINAL```<br>
+  ```sudo docker pull indigodatacloud/orchestrator:1.2.1-FINAL```</br>
+* Start the new version:</br>
+  ```docker run ...*updated parameters*... indigodatacloud/orchestrator:1.2.1-FINAL```</br>
 
 #### Artefacts
 * Docker Container:
   * [indigodatacloud/orchestrator:indigo_1](https://hub.docker.com/r/indigodatacloud/orchestrator/)
 
-## <a name="synergy"></a>Synergy Service, v. 1.3.0  Scheduler Manager, v. 2.2.2
+## <a name="synergy"></a>Synergy Service, v. 1.3.0  and Scheduler Manager, v. 2.2.2
 
 #### What's new
 This update brings many new features and bug fixes like

@@ -6,6 +6,7 @@ This is the **Orchestrator of the PaaS layer**, a core component of the INDIGO -
 **Summary**:
 * Updates
   * [Orchestrator v. 1.1.0-FINAL](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/second_update_of_indigo-1.html#orchestrator)
+  * [Orchestrator v. 1.2.0-FINAL](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/third_update_of_indigo-1.html#orchestrator)
   * [Orchestrator v. 1.2.1-FINAL](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/sixth_update_of_indigo-1.html#orchestrator)
   
 * [Release Notes v. 1.0.0](#id1)

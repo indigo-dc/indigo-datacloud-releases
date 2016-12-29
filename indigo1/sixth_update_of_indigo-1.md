@@ -2,8 +2,8 @@
 
 The Sixth Update of INDIGO-1 release contains:
 * [INDIGO IAM v. 0.5.0](#iam)
-* [LiferayIAM v. 1.2.0](#li)
-* [Orchestrator v. 1.2.0-FINAL](#orchestrator)
+* [LiferayIAM v. 1.2.1](#li)
+* [Orchestrator v. 1.2.1-FINAL](#orchestrator)
 * [Synergy Service, v. 1.3.0 and Scheduler Manager, v. 2.2.2](#synergy)
 
 ## <a name="iam"></a>INDIGO IAM v.0.5.0

@@ -107,10 +107,10 @@ Thus, the upgrade operations are:
 
 #### What's new
 This update brings many new features and bug fixes like
-* new *Synergy Service* features:
+* new **Synergy Service** features:
   * added support for OpenStack DOMAIN to shell.py
   * use pbr fully for easier package building
-* new *Synergy Schedule Manager* features:
+* new **Synergy Schedule Manager** features:
   * OpenStack projects can now access to two distinct quota kinds: private and shared quota (see documentation)
   * Synergy CLI command enhanced in order to be compliant with the OpenStack style
   * KeystoneManager enhanced with the support of trust tokens; added the new "clock skew" feature needed for renewing the tokens a delta time before their expiration (new 'clock_skew' parameter)
@@ -124,7 +124,7 @@ This update brings many new features and bug fixes like
 
 #### List of RfCs
 
-Changes for *synergy-service* since v1.0.1
+Changes for **synergy-service** since v1.0.1
 * Features
   * Added support for OpenStack DOMAIN to shell.py
   * use pbr fully for easier package building
@@ -165,7 +165,7 @@ Changes for *synergy-service* since v1.0.1
   * updated unit tests
   * changed entry points
 
-Changes for *synergy-scheduler-manager* since v1.0.1
+Changes for **synergy-scheduler-manager** since v1.0.1
 * Breaking changes
   * Synergy doesn't rely anymore on nova.conf
 * Features

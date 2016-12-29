@@ -4,7 +4,7 @@ The Sixth Update of INDIGO-1 release contains:
 * [INDIGO IAM v. 0.5.0](#iam)
 * [LiferayIAM v. 1.2.0](#li)
 * [Orchestrator v. 1.2.0-FINAL](#orchestrator)
-* [Synergy Service, v. 1.3.0  Scheduler Manager, v. 2.2.2](#synergy)
+* [Synergy Service, v. 1.3.0 and Scheduler Manager, v. 2.2.2](#synergy)
 
 ## <a name="iam"></a>INDIGO IAM v.0.5.0
 
@@ -84,10 +84,10 @@ The Sixth Update of INDIGO-1 release contains:
 
 
 #### Installation & Configuration
-This release require a parameter change regarding the zabbix wrapper endpoint - the environment variable provided during startup must be changed from<br>
-  ```http://${host}:${port}/monitoring/adapters/zabbix/zones/indigo/types/*service*/groups/Cloud_Providers/hosts/```<br>
+This release require a parameter change regarding the zabbix wrapper endpoint - the environment variable provided during startup must be changed from: </br>
+  ``` http://${host}:${port}/monitoring/adapters/zabbix/zones/indigo/types/*service*/groups/Cloud_Providers/hosts/ ```</br>
   to 
-  ```http://${host}:${port}/monitoring/adapters/zabbix/zones/indigo/types/*infrastructure*/groups/Cloud_Providers/hosts/```<br>
+  ``` http://${host}:${port}/monitoring/adapters/zabbix/zones/indigo/types/*infrastructure*/groups/Cloud_Providers/hosts/ ```<br>
 Thus, the upgrade operations are:
 * Stop the old container:<br>
   ```sudo docker stop orchestrator```<br>

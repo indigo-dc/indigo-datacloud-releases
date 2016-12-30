@@ -3,6 +3,7 @@
 The Sixth Update of INDIGO-1 release contains:
 * [INDIGO IAM v. 0.5.0](#iam)
 * [LiferayIAM v. 1.2.1](#li)
+* [Onedata v. 3.0.0.11](#onedata) 
 * [Orchestrator v. 1.2.1-FINAL](#orchestrator)
 * [Synergy Service, v. 1.3.0 and Scheduler Manager, v. 2.2.2](#synergy)
 
@@ -68,7 +69,129 @@ The Sixth Update of INDIGO-1 release contains:
   * [LiferayIAM-binary-1.2.1.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/tgz/LiferayIAM-binary-1.2.1.tgz)
 * Ubuntu14.04
   * [LiferayIAM-binary-1.2.1.tgz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/LiferayIAM-binary-1.2.1.tgz)
-  
+
+## <a name="onedata"></a>Onedata v. 3.0.0.11
+
+#### What's new
+Onedata 3.0.0.11 INDIGO - DataCloud release improved performance and stability of all Onedata services, as compared to the initial release. New features, such as public shares and file/directory/space metadata support were added. Furthermore, data stored in Onezone and Oneprovider is now automatically processed when upgrading to new version.
+
+#### List of RfCs
+A complete changelog reflecting all bug fixed and new features is included in every Onedata repository on github in CHANGELOG.md. Furthermore, most notable issues were features were selected and included in this document.
+* Onezone
+  * VFS-2633 Use specific package builders
+  * VFS-2582 Using GUI fix for blank notifications
+  * VFS-2390 Upgrade rebar to version 3
+  * Update one panel for extended configuration options
+  * Add ONEPANEL_DEBUG_MODE env variable to release docker entrypoint
+* Oneclient
+  * VFS-2400 Update to new ceph and aws libraries
+  * Fix storage detection in case of unsupported space
+  * VFS-1963 Improve automatic storage discovery
+  * VFS-2316 Integrate new etls version.
+  * VFS-2250 Add base62 encoding and decoding to tokenHandler
+  * VFS-2272 Give precendence to env AUTHORIZATION_TOKEN.
+  * VFS-2270 Print out the hostname of client's provider.
+  * VFS-2215 Remove the file immediately on unlink.
+* Oneprovider
+  * VFS-2617 Changed metadata submenu to metadata panel
+  * VFS-2180 Improve links conflict resolution
+  * VFS-2180 Improve dbsync implementation
+  * VFS-2180 Use gen_server2 instead of erlang's gen_server module
+  * VFS-2390 Fix handlers specification in REST API
+  * VFS-2390 Update rebar to version 3
+  * VFS-2180 Allow for concurrent file creation
+  * Update interfaces
+  * Increase system performance
+  * Update one panel for extended configuration options
+  * Add ONEPANEL_DEBUG_MODE env variable to release docker entrypoint
+  * VFS-2395 Added scrolling to element when clicking settings icon.
+  * Turn off HSTS by default, allow configuration via app.config
+  * Update file consistency management
+  * Enable metadata caching
+  * Extend support for user-defined metadata
+  * Update Web_GUI and REST API
+  * Enable Symmetric Multiprocessing
+  * VFS-2773 Listen to more changes in /changes api and add a few new tests.
+  * VFS-2764 Fix directories having 0B size in GUI
+  * VFS-2764 Fix size of files being zero right after upload
+  * VFS-2662 Append new files to the beginning of the files list
+  * VFS-2662 Implement file creation compatible with pagination model
+  * VFS-2400 Update to new ceph and aws libraries
+  * VFS-2524 Improve translation of acl and xattr records.
+  * VFS-2524 Add basic attributes to /attributes endpoint.
+  * VFS-2524 Fix wrong file owner in cdmi.
+  * VFS-2524 Add copy operation to cdmi interface.
+  * VFS-2573 Repair custom metadata propagation
+  * VFS-2659 Rework user and group models
+  * VFS-2625 Fix public share view not retrieving fiels correctly
+  * VFS-2524 Add move operation to cdmi, split move and copy tests.
+  * VFS-2594 Add remove_metadata operation.
+  * VFS-2180 Implement support for read only spaces
+  * VFS-2456 Add metadata to public view
+  * VFS-2456 Implement first version of metadata backend
+  * VFS-2555 Add shares field to file attr.
+  * VFS-2405 Adjust to new shares API in OP
+  * VFS-2555 Improve share permissions and guest user management.
+  * VFS-2472 Convert metadata to from proplists to maps.
+  * VFS-2472 Unify file identifiers in REST interface.
+  * VFS-2472 Add listing and getting inherited xattrs to REST API.
+  * VFS-2309 oz test mock updated to match actual implementation
+  * VFS-2311 Add private RPC to retrieve file download URL
+  * VFS-2189 Close connection after file upload failure
+  * VFS-2303 Add metadata-id endpoint.
+  * VFS-2303 Add filters for getting metadata.
+  * VFS-2303 Add query-index rest endpoint.
+  * VFS-2269 Enable Symmetric Multiprocessing
+  * VFS-2303 Adjust metadata changes stream to the new metadata organization.
+  * VFS-2319 Reimplement monitoring using events
+  * VFS-2303 Add basic metadata operations.
+  * VFS-2049 Make file_consistency work after system restart.
+  * VFS-2049 Improve file_consistency model.
+  * VFS-2303 Add support for rdf metadata.
+  * VFS-2361 Turn off HSTS by default, allow configuration via app.confi
+
+The list of open and closed issues can be find github:
+* https://github.com/indigo-dc/onedata/issues (8 open/6 closed)
+* https://github.com/indigo-dc/onezone/issues (0 open/0 closed)
+* https://github.com/indigo-dc/oneclient/issues (0 open/0 closed)
+* https://github.com/onedata/getting-started/issues (0 open/3 closed)
+
+#### Installation & Configuration
+
+* Update procedure
+  * There is no way to upgrade from previous release, the clean installation is needed. 
+  * Documentation on clean installation is available at:
+    * https://onedata.org/docs/doc/getting_started/downloading_onedata.html
+    * https://onedata.org/docs/doc/getting_started/admin_onedata_101.html
+
+
+#### Artefacts
+
+* Recomended operating system for all Onedata services is Ubuntu 16.04.
+  * Oneclient:
+    * any platform that supports Docker Engine (>1.11)
+    * Ubuntu 14.04, 15.10, 16.04
+    * Centos 7
+    * Fedora 23
+  * Oneprovider:
+    * any platform that supports Docker Engine (>1.11)
+    * Ubuntu 15.10, 16.04
+    * Fedora 23
+  * Onezone:
+    * any platform that supports Docker Engine (>1.11)
+    * Ubuntu 15.10, 16.04
+    * Fedora 23
+* Artefacts available from IDNIGO-DataCloud repositories:
+  * CentOS 7:
+    *[oneclient-3.0.0.rc11.71.g4e1189e-1.el7.centos.x86_64.rpm]((http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/oneclient-3.0.0.rc11.71.g4e1189e-1.el7.centos.x86_64.rpm])
+  * Ubuntu 14.04:
+    *[	oneclient_3.0.0.rc11.71.g4e1189e-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/	oneclient_3.0.0.rc11.71.g4e1189e-1_amd64.deb)   
+  * Docker images:
+    * indigodatacloud/onezone:3.0.0.11
+    * indigodatacloud/oneprovider:3.0.0.11
+    * indigodatacloud/oneclient:3.0.0.11
+* A repository supporting **optional** Operating Systems is available at http://onedata-dev-packages.cloud.plgrid.pl providing packages for Fedora 23, Ubuntu  15.10 and 16.10
+
 ## <a name="orchestrator"></a>Orchestrator v. 1.2.1-FINAL
 
 #### What's new
@@ -203,7 +326,6 @@ Changes for **synergy-scheduler-manager** since v1.0.1
   * fix OpenStack CentOS repo for docker packaging
   * Cleanup tox.ini: Remove obsolete constraints
   * Add python-nova as a dependency
-
 
 * Complete list of issues is available at: https://review.openstack.org/#/q/projects:openstack/synergy
 

@@ -150,7 +150,7 @@ A complete changelog reflecting all bug fixed and new features is included in ev
   * VFS-2303 Add support for rdf metadata.
   * VFS-2361 Turn off HSTS by default, allow configuration via app.confi
 
-The list of open and closed issues can be find github:
+The list of open and closed issues can be found also in  GitHub:
 * https://github.com/indigo-dc/onedata/issues (8 open/6 closed)
 * https://github.com/indigo-dc/onezone/issues (0 open/0 closed)
 * https://github.com/indigo-dc/oneclient/issues (0 open/0 closed)
@@ -160,10 +160,9 @@ The list of open and closed issues can be find github:
 
 * Update procedure
   * There is no way to upgrade from previous release, the clean installation is needed. 
-  * Documentation on clean installation is available at:
-    * https://onedata.org/docs/doc/getting_started/downloading_onedata.html
-    * https://onedata.org/docs/doc/getting_started/admin_onedata_101.html
-
+* Documentation on clean installation is available at:
+  * https://onedata.org/docs/doc/getting_started/downloading_onedata.html
+  * https://onedata.org/docs/doc/getting_started/admin_onedata_101.html
 
 #### Artefacts
 

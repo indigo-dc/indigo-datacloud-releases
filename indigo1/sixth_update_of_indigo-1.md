@@ -1,4 +1,4 @@
-# Sixth Update of INDIGO-1
+# Sixth Update of INDIGO-1 - 30.12.2016
 
 The Sixth Update of INDIGO-1 release contains:
 * [INDIGO IAM v. 0.5.0](#iam)

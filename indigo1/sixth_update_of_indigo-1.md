@@ -182,9 +182,9 @@ The list of open and closed issues can be found also in  GitHub:
     * Fedora 23
 * Artefacts available from IDNIGO-DataCloud repositories:
   * CentOS 7:
-    *[oneclient-3.0.0.rc11.71.g4e1189e-1.el7.centos.x86_64.rpm]((http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/oneclient-3.0.0.rc11.71.g4e1189e-1.el7.centos.x86_64.rpm])
+    * [oneclient-3.0.0.rc11.71.g4e1189e-1.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/oneclient-3.0.0.rc11.71.g4e1189e-1.el7.centos.x86_64.rpm])
   * Ubuntu 14.04:
-    *[	oneclient_3.0.0.rc11.71.g4e1189e-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/	oneclient_3.0.0.rc11.71.g4e1189e-1_amd64.deb)   
+    * [oneclient_3.0.0.rc11.71.g4e1189e-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/	oneclient_3.0.0.rc11.71.g4e1189e-1_amd64.deb)   
   * Docker images:
     * indigodatacloud/onezone:3.0.0.11
     * indigodatacloud/oneprovider:3.0.0.11

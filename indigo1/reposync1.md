@@ -45,12 +45,12 @@ Supported Platforms:
 <a id="id4"></a>
 ### Deployment Notes
 
-After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
+After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](../generic_installation_and_configuration_guide_1.md):
 * On CentOS 7 <br>
 ```$ yum clean all```<br>
 ```$ yum install indigo-dc-reposync```
 
-* On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md) add also the JRE 1.8 PPA following the documentation present [here](https://launchpad.net/~openjdk-r/+archive/ubuntu/ppa):<br>
+* On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](../generic_installation_and_configuration_guide_1.md) add also the JRE 1.8 PPA following the documentation present [here](https://launchpad.net/~openjdk-r/+archive/ubuntu/ppa):<br>
   ```$ apt-get update```<br>
   ```$ apt-get install reposync```
 

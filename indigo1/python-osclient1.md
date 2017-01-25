@@ -37,7 +37,7 @@ Supported Platforms:
 <a id="id4"></a>
 ### Deployment Notes
 
-After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
+After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](../generic_installation_and_configuration_guide_1.md):
 * On CentOS 7, as root or otherwise using sudo:<br>
   ```$ yum install -y https://repos.fedorapeople.org/openstack/openstack-liberty/rdo-release-liberty-5.noarch.rpm```<br>
   ```$ yum clean all```<br>

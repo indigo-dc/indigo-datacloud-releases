@@ -58,7 +58,7 @@ List of bugfixes and extensions:
 <a id="id4"></a>
 ### Deployment Notes
 
-After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
+After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](../generic_installation_and_configuration_guide_1.md):
 * On CentOS 7 
 
 ```$ yum clean all```<br>
@@ -66,7 +66,7 @@ After setting the INDIGO-DC repositories as explained in the [Generic Installati
 or
 ```$ yum install python3-pOCCI```
 
-* On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
+* On Ubuntu 14.04 - after setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](../generic_installation_and_configuration_guide_1.md):
 
 ```$ apt-get update```<br>
 ```$ apt-get install python-pocci```<br>

@@ -47,7 +47,7 @@ Supported platforms
 * Both provide */etc/init.d/cloudproviderranker start/stop* script. 
 * Installation of RPM also starts the service; de-installation stops the service
 
-After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md):
+After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](../generic_installation_and_configuration_guide_1.md):
 * On CentOS 7, as root or otherwise using sudo:<br>
   ```$ yum install -y https://repos.fedorapeople.org/openstack/openstack-liberty/rdo-release-liberty-5.noarch.rpm```<br>
   ```$ yum clean all```<br>

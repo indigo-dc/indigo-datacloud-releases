@@ -57,7 +57,7 @@ After setting the INDIGO-DC repositories as explained in the [Generic Installati
   ```$ apt-get update```<br>
   ```$ apt-get install CloudProviderRanker```
 
-* More details regarding the installation and **configuration** can be found in the [CloudProviderRanker Deployment And Administration Guide](https://indigo-dc.gitbooks.io/cloud-provider-ranker/content/chapter1.htmll)
+* More details regarding the installation and **configuration** can be found in the [CloudProviderRanker Deployment And Administration Guide](https://indigo-dc.gitbooks.io/cloud-provider-ranker/content/chapter1.html)
 
 <a id="id5"></a>
 ### Known Issues

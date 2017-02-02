@@ -53,7 +53,7 @@ Please see the commits for each of the components:
 <a id="id4"></a>
 ### Deployment Notes
 
-After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](generic_installation_and_configuration_guide_1.md) please follow the instructions present in the [Ophidia Admin Guide]( http://ophidia.cmcc.it/documentation/admin/index.html)
+After setting the INDIGO-DC repositories as explained in the [Generic Installation & Configuration Guide](../generic_installation_and_configuration_guide_1.md) please follow the instructions present in the [Ophidia Admin Guide]( http://ophidia.cmcc.it/documentation/admin/index.html)
 
 
 * installation and configuration can be done also using[ ansible-role-ophidia-all](https://github.com/indigo-dc/ansible-role-ophidia-all)

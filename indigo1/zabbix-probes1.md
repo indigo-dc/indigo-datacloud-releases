@@ -1,4 +1,4 @@
-# Zabbix Probes v. 0.95-1
+# Monitoring
 
 
 The **Monitoring Framework** is a set of tools which allow performing several monitoring operations in the platform resulting from the INDIGO-Datacloud project (https://www.indigo-datacloud.eu/). The Monitoring Framework is based on Zabbix, as the collector of the monitoring information coming from different sources, due to its maturity, its community support and its flexibility for different environments.
@@ -11,7 +11,11 @@ The Monitoring Framework is divided in several main parts:
 The version of the **OCCI** and **Heapster** probes provided for the INDIGO-1 release is **v0.95**.
 
 **Summary**:
-* [Release Notes](#id1)
+
+* Updates
+  * [Zabbix probes v. 1.01](https://github.com/indigo-dc/indigo-datacloud-releases/blob/master/indigo1/third_update_of_indigo-1.md#zp)<br>
+
+* [Release Notes Zabbix probes v. 0.95-1](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)

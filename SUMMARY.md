@@ -17,7 +17,7 @@
          * [Accounting](indigo1/accounting1.md)
          * [Mesos Cluster](indigo1/mesos1.md)
          * [Kubernetes](indigo1/kubernetes1.md)
-         * [Zabbix Probes](indigo1/zabbix-probes1.md)
+         * [Monitoring - Zabbix Probes](indigo1/zabbix-probes1.md)
        * [dCache](indigo1/dcache1.md)
        * [Partition Director(DynPart)](indigo1/dynpart1.md)
        * [Extended OpenStack and OpenNebula Functionalities](indigo1/eoof1.md)

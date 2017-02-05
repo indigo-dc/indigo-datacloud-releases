@@ -4,6 +4,7 @@ The Seventh Update of INDIGO-1 release contains:
 * [CloudProviderRanker v. 0.5.2](#cpr)
 * [CloudInfoProvider v. 0.10.0](#cip)
 * [Ophidia v. 0.11.0](#ophidia)
+* [Monitoring - Zabbix-probes v. 1.02](#zp)
 
 
 ## <a name="cpr"></a>CloudProviderRanker v.0.5.2
@@ -117,3 +118,25 @@ Packages:
   * [ophidia-primitives-0.11.0-0.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/ophidia-primitives-0.11.0-0.el7.centos.x86_64.rpm)
   * [ophidia-server-0.11.0-0.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/ophidia-server-0.11.0-0.el7.centos.x86_64.rpm)
   * [ophidia-terminal-0.11.0-0.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/ophidia-terminal-0.11.0-0.el7.centos.x86_64.rpm)
+  
+## <a name="zp"></a>Monitoring  - Zabbix-probes v. 1.02
+
+#### What's new
+* The current update provides new probes - Mesos cluster probes which includes probes for Mesos, Marathon and Chronos
+
+#### List of RfCs
+* New feature:
+  * Implemented Mesos, Chronos and Marathon probes
+
+#### Installation & Configuration
+* The Monitoring - Zabbix probes documentation has been updated and is available at https://www.gitbook.com/book/indigo-dc/monitoring/details
+* New probe documentation is available at: https://indigo-dc.gitbooks.io/monitoring/content/doc/mesos.html
+
+
+#### Artefacts
+* CentOS7
+  * [MesosZabbixProbe-1.01-1.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/MesosZabbixProbe-1.01-1.noarch.rpm)
+* Ubuntu14.04
+  * [mesos-zabbix-probe-1.01.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/mesos-zabbix-probe-1.01.deb)
+
+

@@ -3,6 +3,7 @@
 The Seventh Update of INDIGO-1 release contains:
 * [CloudProviderRanker v. 0.5.2](#cpr)
 * [CloudInfoProvider v. 0.10.0](#cip)
+* [Infrastructure Manager v1.5.0](#im)
 * [Ophidia v. 0.11.0](#ophidia)
 * [Monitoring - Zabbix-probes v. 1.02](#zp)
 * [udocker v. 1.0.1](#ud)
@@ -65,6 +66,72 @@ Packages:
   * [python-cloud-info-provider-indigo_0.10.0_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-cloud-info-provider-indigo_0.10.0_all.deb)
   * [python-cloud-info-provider_0.7.0_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-cloud-info-provider_0.7.0_all.deb)
 * ansible-role-cloud-info-provider: 0.1.0. Ansible role has been updated to work with the splitted packages.
+
+
+## <a name="im"></a>Infrastructure Manager v1.5.0
+
+#### What's new
+* The updated version of the IM provides several bugfixes and improvements like:
+  * Remove DATA_FILE from configuration. Only DB now.
+  * Remove use of insecure Pickle data.
+  * Support for Understanding VPC-related Network Information.
+  * Support INDIGO Openstack sites as single site.
+  * Several improvements and bugfixes.
+
+#### List of RfCs
+* [Issue #188](https://github.com/grycap/im/issues/188) - Add support for OpenStack pool name in OCCI connector
+* [Issue #148](https://github.com/grycap/im/issues/148) - Add FW creation support in GCE connector
+* [Issue #175](https://github.com/grycap/im/issues/175) - Kubernetes errors
+* [Issue #171](https://github.com/grycap/im/issues/171) - Improve Docker connection with network management
+* [Issue #167](https://github.com/grycap/im/issues/167) - Bugfix killing child processes
+* [Issue #161](https://github.com/grycap/im/issues/161) - Error in GCE connector in case of multiples nodes
+* [Issue #140](https://github.com/grycap/im/issues/140) - Move connectors from httplib to requests lib
+* [Issue #110](https://github.com/grycap/im/issues/110) - Improve data management in DB to enable HA
+* [Issue #141](https://github.com/grycap/im/issues/141) - Move Azure connector to Resource Groups API:
+* [Issue #134](https://github.com/grycap/im/issues/134) - Try to change not maintainer SOAPpy lib
+* [Issue #129](https://github.com/grycap/im/issues/129) - Save IM data in JSON format
+* [Issue #111](https://github.com/grycap/im/issues/111) - Use Vault to improve security in recipes management:
+* [Issue #119](https://github.com/grycap/im/issues/119) - Set restrictive permissions in the master VM data dir:
+* [Issue #132](https://github.com/grycap/im/issues/132) - Support for Understanding VPC-related Network Information
+* [Issue #122](https://github.com/grycap/im/issues/122) - Support INDIGO Openstack sites as single site
+
+#### Installation & Configuration
+* To upgrade to the last version first you have to install the new version using yum or apt tool:
+  ``` yum update IM```<br>
+  ``` apt install python-im```<br>
+
+* As there is a change in the DB format. Old 1.4.X data must be updated. Use the script: db_1_4_to_1_5.py to update the DB format:
+  * In case that you were using a DATA_FILE to store the IM data (the default option in old version of IM), define the DATA_DB in the im.cfg file.
+  * Execute the script db_1_4_to_1_5.py (https://raw.githubusercontent.com/grycap/im/master/scripts/db_1_4_to_1_5.py).
+    * In case that you were using a DATA_FILE you have to specify it as the first parameter of the script.
+    * If you were using a DATA_DB to store your data this parameter is not needed.
+  * The data will be moved to the new format and old data will be renamed as table inf_list_XXXXXX.
+  
+<!--
+* For containers  
+  * Stop the old container:<br>
+  ```sudo docker stop im ```<br>
+  * Remove the old container:<br>
+  ```sudo docker rm im ```<br>
+  * Pull the new image version:<br>
+  ```sudo docker pull indigodatacloud/im``` <br> 
+  * Start the new version:
+  ```sudo docker run -d -p 8899:8899 -p 8800:8800 -e IM_DATA_DB=mysql://username:password@server/db_name --name im indigodatacloud/im  ``` 
+  <br>
+-->
+
+#### Artefacts
+* CentOS7
+  * [IM-1.5.0-1.el7.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/IM-1.5.0-1.el7.noarch.rpm)
+* Ubuntu14.04
+  * [python-im_1.5.0-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-im_1.5.0-1_all.deb)
+<!--
+* Container
+  * [indigodatacloud/im:indigo_1](https://hub.docker.com/r/indigodatacloud/im/tags/)
+-->
+
+
+
 
 ## <a name="ophidia"></a>Ophidia v. 0.11.0
 

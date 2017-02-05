@@ -6,7 +6,11 @@ The Seventh Update of INDIGO-1 release contains:
 * [Infrastructure Manager v1.5.0](#im)
 * [Ophidia v. 0.11.0](#ophidia)
 * [Monitoring - Zabbix-probes v. 1.02](#zp)
+* [TOSCA-parser v. 0.7.1](#tp)
 * [udocker v. 1.0.1](#ud)
+* [WaTTSon v. 1.0.0](#wt)
+
+
 
 
 ## <a name="cpr"></a>CloudProviderRanker v.0.5.2
@@ -130,9 +134,6 @@ Packages:
   * [indigodatacloud/im:indigo_1](https://hub.docker.com/r/indigodatacloud/im/tags/)
 -->
 
-
-
-
 ## <a name="ophidia"></a>Ophidia v. 0.11.0
 
 #### What's new
@@ -207,6 +208,24 @@ Packages:
   * [mesos-zabbix-probe-1.01.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/mesos-zabbix-probe-1.01.deb)
 
 
+## <a name="tp"></a>TOSCA-parser v. 0.7.1
+
+#### What's new
+* The updated version of TOSCA-parser addresses minor bug fixes and integrates the changes made upstream (in openstack/tosca-parser v.0.7).
+
+#### Installation & Configuration
+In order to update the packages please use:
+* For CentOS 7:<br>
+  ``` yum clean all && yum update tosca-parser```<br>
+* For Ubuntu 14:04:<br>
+  ```apt-get update && apt-get install python-tosca-parser```<br>
+  
+#### Artefacts
+* CentOS7
+  * [tosca-parser-0.7.1-1.el7.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/centos7/x86_64/updates/tosca-parser-0.7.1-1.el7.noarch.rpm)
+* Ubuntu14.04
+  * [python-tosca-parser_0.7.1-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-tosca-parser_0.7.1-1_all.deb)
+
 ## <a name="ud"></a>udocker v. 1.0.1
 
 #### What's new
@@ -256,7 +275,7 @@ Packages:
   * [udocker-preng_1.0.1-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/udocker-preng_1.0.1-1_amd64.deb)
 
 
-## <a name="ud"></a>TTSc -> WaTTSon v. 1.0.0
+## <a name="wt"></a>TTSc -> WaTTSon v. 1.0.0
 
 #### What's new
 

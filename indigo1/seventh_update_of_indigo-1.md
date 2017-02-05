@@ -5,6 +5,7 @@ The Seventh Update of INDIGO-1 release contains:
 * [CloudInfoProvider v. 0.10.0](#cip)
 * [Ophidia v. 0.11.0](#ophidia)
 * [Monitoring - Zabbix-probes v. 1.02](#zp)
+* [udocker v. 1.0.1](#ud)
 
 
 ## <a name="cpr"></a>CloudProviderRanker v.0.5.2
@@ -132,7 +133,6 @@ Packages:
 * The Monitoring - Zabbix probes documentation has been updated and is available at https://www.gitbook.com/book/indigo-dc/monitoring/details
 * New probe documentation is available at: https://indigo-dc.gitbooks.io/monitoring/content/doc/mesos.html
 
-
 #### Artefacts
 * CentOS7
   * [MesosZabbixProbe-1.01-1.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/MesosZabbixProbe-1.01-1.noarch.rpm)
@@ -140,3 +140,50 @@ Packages:
   * [mesos-zabbix-probe-1.01.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/mesos-zabbix-probe-1.01.deb)
 
 
+## <a name="ud"></a>udocker v. 1.0.1
+
+#### What's new
+
+* *udocker version 1.0.1* provides support for private docker repositories, better support for docker registry v2 API, verification of image layers integrity, improved download handling, Improved message handling, and packages for CentOS 7 and Ubuntu 14.04.
+
+#### List of RfCs
+
+* Bug fixes
+  * Minor bugfixes
+  * Executable name changed from udocker.py to udocker
+  * Insecure flag fixed
+
+* New features and improvements
+  * Added support for login into docker repositories
+  * Added support for private repositories
+  * Added support for listing of v2 repositories catalog
+  * Added checksum verification for sha256 layers
+  * Improved download handling for v1 and v2 repositories
+  * Improved installation tarball structure
+  * Address seccomp change introduced on kernels >= 4.8.8
+  * Utilities for packaging
+  * [#24](https://github.com/indigo-dc/udocker/issues/24) - Improved verbose levels, messaging and output
+  * [#29](https://github.com/indigo-dc/udocker/issues/29) - Fully implement support for registry selection --registry parameter
+  * [#30](https://github.com/indigo-dc/udocker/issues/24) - Provide support for private repositories e.g. gitlab registries
+  * [#31](https://github.com/indigo-dc/udocker/issues/24) - Provide --insecure command line parameter for SSL requests
+
+#### Installation & Configuration
+
+* GitBook available at: [https://www.gitbook.com/book/indigo-dc/udocker/details](https://www.gitbook.com/book/indigo-dc/udocker/details)
+* in addition a udocker.1 man page is also distributed
+* How to update/upgrade an already deployed service
+  * The information is available in the installation_manual in GitBook
+  * For the users using the tarball</br>
+  ```curl http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/tgz/udocker-1.0.1.tar.gz > udocker-1.0.1.tar.gz```
+  ```export UDOCKER_TARBALL=$(pwd)/udocker-1.0.1.tar.gz```
+  ```tar xzvf $UDOCKER_TARBALL udocker```
+  ```./udocker # automatically updates the installation from the tarball ```
+  
+#### Artefacts
+* The binary tarball [udocker-1.0.1.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/tgz/udocker-1.0.1.tar.gz) is very important for the current users as they cannot rely on RPMs and DEBs.
+* CentOS7
+  * [udocker-1.0.1-1.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/udocker-1.0.1-1.noarch.rpm)
+  * [udocker-preng-1.0.1-1.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/udocker-1.0.1-1.noarch.rpm)
+* Ubuntu14.04
+  * [udocker_1.0.1-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/udocker_1.0.1-1_all.deb)
+  * [udocker-preng_1.0.1-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/udocker-preng_1.0.1-1_amd64.deb)

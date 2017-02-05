@@ -101,7 +101,7 @@ Packages:
   * oph_dim_configuration from framework file (unified with oph_configuration)
   * OPH_IMPORTNC and OPH_IMPORTNC2 operators (deprecated)
   
-* For more details please read the [Ophidia-0.11.0-0](https://indigo-dc.gitbooks.io/ophidia/content/release_notes.html)
+* For more details please read the [Release Notes of Ophidia-0.11.0-0](https://indigo-dc.gitbooks.io/ophidia/content/release_notes.html)
 
 #### Installation & Configuration
 * In order to perform an update please carefully read the instructions available in the Ophidia Upgrade Guide](https://indigo-dc.gitbooks.io/ophidia/content/upgrade.html)
@@ -187,3 +187,33 @@ Packages:
 * Ubuntu14.04
   * [udocker_1.0.1-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/udocker_1.0.1-1_all.deb)
   * [udocker-preng_1.0.1-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/udocker-preng_1.0.1-1_amd64.deb)
+
+
+## <a name="ud"></a>TTSc -> WaTTSon v. 1.0.0
+
+#### What's new
+
+* WaTTSon is a complete reimplementation of the TTS client in the Go programming language.
+
+#### List of RfCs
+
+* As WaTTSon is used in functional testing of WaTTS and might also be used by other applications it has:
+  * a flag to support pure json output (https://github.com/indigo-dc/wattson/issues/2)
+  * supporting both protocols, for TTS v0.4 and for the upcomming WaTTS 1.0 (https://github.com/indigo-dc/wattson/issues/3)
+  * supporting the upcoming advanced requests, which are request with parameter (https://github.com/indigo-dc/wattson/issues/8)
+calles wattson, to have no name clash with ttsc, which might be still present on some systems (https://github.com/indigo-dc/wattson/issues/10)
+
+#### Installation & Configuration
+
+* Documentation is written as [README](https://github.com/indigo-dc/wattson/blob/master/README.md) and [GitBook](https://indigo-dc.gitbooks.io/wattson/content/)
+* No need to upgrade/deploy it is just a single binary command line client to execute:
+  * after enabling the INDIGO-DataCloud repositories jsut do:
+    ```yum install wattson```<br/>
+    ```apt-get install wattson```
+ 
+ #### Artefacts
+ * CentOS7
+  * [wattson-1.0.0.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/wattson-1.0.0.el7.centos.x86_64.rpm)
+* Ubuntu14.04
+  * [wattson-1.0.0-amd64.de](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/wattson-1.0.0-amd64.deb)
+    

@@ -207,6 +207,49 @@ Packages:
 * Ubuntu14.04
   * [mesos-zabbix-probe-1.01.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/mesos-zabbix-probe-1.01.deb)
 
+## <a name="synergy"></a>Synergy Service, v. 1.4.0  and Scheduler Manager, v. 2.3.0
+
+#### What's new
+This update brings the support for the OpenStack Mitaka version and many new features and bug fixes like
+* new **Synergy Service** features:
+  * Synergy CLI command enhanced to support SSL
+* new **Synergy Schedule Manager** features:
+  * Retry mechanism improved
+  * Added support for the automatic recycle of DB connections
+  * Added support for Keystone domains
+  * Added support for AMQP HA to NovaManager
+  * Enable SSL for OpenStack Trust
+  * NovaManager and KeystoneManager enhanced to support SSL
+
+
+#### List of RfCs
+
+* List of RfCs are available at:
+  * [https://launchpad.net/synergy-service/+milestone/1.4.0](https://launchpad.net/synergy-service/+milestone/1.4.0)
+  * [https://launchpad.net/synergy-scheduler-manager/+milestone/2.3.0](https://launchpad.net/synergy-scheduler-manager/+milestone/2.3.0)
+  
+#### Installation & Configuration
+* [https://indigo-dc.gitbooks.io/synergy-doc/content/](https://indigo-dc.gitbooks.io/synergy-doc/content/)
+* Service Reference Card: [https://indigo-dc.gitbooks.io/synergy-doc/content/doc/service_reference_card.html](https://indigo-dc.gitbooks.io/synergy-doc/content/doc/service_reference_card.html)
+* Update/Upgrade Synergy packages: [https://indigo-dc.gitbooks.io/synergy-doc/content/doc/admin.html](https://indigo-dc.gitbooks.io/synergy-doc/content/doc/admin.html)
+
+#### Artefacts
+Packages:
+* CentOS7
+  * Liberty
+    * [python-synergy-service-1.4.0-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/python-synergy-service-1.4.0-1.el7.centos.noarch.rpm)
+    * [python-synergy-scheduler-manager-2.3.0-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/python-synergy-scheduler-manager-2.3.0-1.el7.centos.noarch.rpm)
+  * Mitaka
+    * [python-synergy-service-1.4.0-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/python-synergy-service-1.4.0-1.el7.centos.noarch.rpm)
+    * [python-synergy-scheduler-manager-2.3.0-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/python-synergy-scheduler-manager-2.3.0-1.el7.centos.noarch.rpm)
+* Ubuntu 14.04
+  * Liberty
+    * [python-synergy-service_1.4.0_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-synergy-service_1.4.0_all.deb)
+    * [python-synergy-scheduler-manager_2.2.2_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-synergy-scheduler-manager_2.2.2_all.deb)
+  * Mitaka
+    * [python-synergy-service_1.4.0_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-synergy-service_1.4.0_all.deb)
+    * [python-synergy-scheduler-manager_2.3.0_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-synergy-scheduler-manager_2.3.0_all.deb)
+
 
 ## <a name="tp"></a>TOSCA-parser v. 0.7.1
 

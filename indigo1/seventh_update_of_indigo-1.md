@@ -72,7 +72,7 @@ Packages:
 * ansible-role-cloud-info-provider: 0.1.0. Ansible role has been updated to work with the splitted packages.
 
 
-## <a name="im"></a>Infrastructure Manager v1.5.0
+## <a name="im"></a>Infrastructure Manager v 1.5.0
 
 #### What's new
 * The updated version of the IM provides several bugfixes and improvements like:
@@ -211,7 +211,7 @@ Packages:
 ## <a name="synergy"></a>Synergy Service, v. 1.4.0  and Scheduler Manager, v. 2.3.0
 
 #### What's new
-This update brings the support for the OpenStack Mitaka version and many new features and bug fixes like
+This update brings the support for the OpenStack <b>Mitaka</b> version and many new features and bug fixes like
 * new **Synergy Service** features:
   * Synergy CLI command enhanced to support SSL
 * new **Synergy Schedule Manager** features:

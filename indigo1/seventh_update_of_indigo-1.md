@@ -28,8 +28,8 @@ The Seventh Update of INDIGO-1 release contains:
 * More information about bug fixes and other developments can be found on our [GitHub CloudProviderRanker issue tracker](https://github.com/indigo-dc/CloudProviderRanker/issues) 
 
 #### Installation & Configuration
-* It is enough to upgrade the package and restart the service:</br>
-  ``` /etc/init.d/cloudproviderranker (stop/start) ```
+* It is enough to upgrade the package and restart the service:<br>
+  ```/etc/init.d/cloudproviderranker (stop/start)```
 * Service Reference Card is available [here](https://indigo-dc.gitbooks.io/cloud-provider-ranker/content/chapter6.html)
 
 #### Artefacts
@@ -100,9 +100,9 @@ Packages:
 * [Issue #122](https://github.com/grycap/im/issues/122) - Support INDIGO Openstack sites as single site
 
 #### Installation & Configuration
-* To upgrade to the last version first you have to install the new version using yum or apt tool:
-  ``` yum update IM```<br>
-  ``` apt install python-im```<br>
+* To upgrade to the last version first you have to install the new version using yum or apt tool:<br>
+  ``` # yum update IM```<br>
+  ``` # apt install python-im```<br>
 
 * As there is a change in the DB format. Old 1.4.X data must be updated. Use the script: db_1_4_to_1_5.py to update the DB format:
   * In case that you were using a DATA_FILE to store the IM data (the default option in old version of IM), define the DATA_DB in the im.cfg file.
@@ -111,29 +111,25 @@ Packages:
     * If you were using a DATA_DB to store your data this parameter is not needed.
   * The data will be moved to the new format and old data will be renamed as table inf_list_XXXXXX.
   
-<!--
 * For containers  
   * Stop the old container:<br>
-  ```sudo docker stop im ```<br>
+  ```# sudo docker stop im ```<br>
   * Remove the old container:<br>
-  ```sudo docker rm im ```<br>
+  ```# sudo docker rm im ```<br>
   * Pull the new image version:<br>
-  ```sudo docker pull indigodatacloud/im``` <br> 
+  ```# sudo docker pull indigodatacloud/im``` <br> 
   * Start the new version:
-  ```sudo docker run -d -p 8899:8899 -p 8800:8800 -e IM_DATA_DB=mysql://username:password@server/db_name --name im indigodatacloud/im  ``` 
+  ```# sudo docker run -d -p 8899:8899 -p 8800:8800 -e IM_DATA_DB=mysql://username:password@server/db_name --name im indigodatacloud/im  ``` 
   <br>
--->
 
 #### Artefacts
 * CentOS7
   * [IM-1.5.0-1.el7.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/IM-1.5.0-1.el7.noarch.rpm)
 * Ubuntu14.04
   * [python-im_1.5.0-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-im_1.5.0-1_all.deb)
-
-<!--
 * Container
   * [indigodatacloud/im:indigo_1](https://hub.docker.com/r/indigodatacloud/im/tags/)
--->
+
 
 ## <a name="ophidia"></a>Ophidia v. 0.11.0
 
@@ -260,9 +256,9 @@ Packages:
 #### Installation & Configuration
 In order to update the packages please use:
 * For CentOS 7:<br>
-  ``` yum clean all && yum update tosca-parser```<br>
+  ``` # yum clean all && yum update tosca-parser```<br>
 * For Ubuntu 14:04:<br>
-  ```apt-get update && apt-get install python-tosca-parser```<br>
+  ```# apt-get update && apt-get install python-tosca-parser```<br>
   
 #### Artefacts
 * CentOS7

@@ -1,4 +1,4 @@
-# Eighth Update of INDIGO-1 - 28.02.2017
+# Eighth Update of INDIGO-1 - 01.03.2017
 
 The Eight Update of INDIGO-1 release contains:
 *

@@ -1,4 +1,4 @@
-# Eight Update of INDIGO-1 - 28.02.2017
+# Eighth Update of INDIGO-1 - 28.02.2017
 
 The Eight Update of INDIGO-1 release contains:
 *
@@ -113,7 +113,7 @@ This is a maintenance release for the 4.3.x series. It introduces, among others:
 * support for resizing via partial updates
 
 #### Installation & Configuration
-* Details are available at * [rOCCI on GitBOOK](https://www.gitbook.com/book/indigo-dc/rocci/details)
+* Details are available at [rOCCI on GitBOOK](https://www.gitbook.com/book/indigo-dc/rocci/details)
 
 #### Artefacts
 * CentOS7

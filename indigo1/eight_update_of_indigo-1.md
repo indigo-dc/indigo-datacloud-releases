@@ -4,7 +4,7 @@ The Eight Update of INDIGO-1 release contains:
 *
 * [Infrastructure Manager v1.5.1](#im)
 * [Nova-Docker v. 13.0.0](#nd)
-* [rOCCI_cli v. 3.4.9](#nd)
+* [rOCCI_cli v. 3.4.9](#roc)
 
 
 
@@ -99,4 +99,25 @@ or [db_1_4_to_1_5.py](https://raw.githubusercontent.com/indigo-dc/im/master/scri
 * Ubuntu14.04
   * [nova-compute-docker_13.0.0_indigo-1_all.deb ](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/nova-compute-docker_12.0.0_indigo-1_all.deb )
   * [python-nova-docker_13.0.0_indigo-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-nova-docker_12.0.0_indigo-1_all.deb)
+
+
+## <a name="roc"></a>rOCCI-cli v. 3.4.9
+
+#### What's new
+This is a maintenance release for the 4.3.x series. It introduces, among others:
+* Added support for actions returning mixin(s)
+* Added support for resizing via partial updates, e.g. ``` `--action update --resource /compute/XYZ --mixin resource_tpl#small` ```
+
+#### List of RfCs
+* support for actions returning mixins
+* support for resizing via partial updates
+
+#### Installation & Configuration
+* Details are available at * [rOCCI on GitBOOK](https://www.gitbook.com/book/indigo-dc/rocci/details)
+
+#### Artefacts
+* CentOS7
+  * [occi-cli-4.3.9+20170214132548-1.el7.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/occi-cli-4.3.9+20170214132548-1.el7.x86_64.rpm)
+* Ubuntu14.04
+  * [occi-cli_4.3.9+20170214125535-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/occi-cli_4.3.9+20170214125535-1_amd64.deb)
 

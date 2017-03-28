@@ -13,7 +13,9 @@ The version of the **OCCI** and **Heapster** probes provided for the INDIGO-1 re
 **Summary**:
 
 * Updates
-  * [Zabbix probes v. 1.01](https://github.com/indigo-dc/indigo-datacloud-releases/blob/master/indigo1/third_update_of_indigo-1.md#zp)<br>
+  * [Zabbix probes v. 1.02](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/seventh_update_of_indigo-1.html#zp)
+  * [Zabbix probes v. 1.01](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/third_update_of_indigo-1.html#zp)
+
 
 * [Release Notes Zabbix probes v. 0.95-1](#id1)
   * [What's new](#id2)
@@ -26,7 +28,7 @@ The version of the **OCCI** and **Heapster** probes provided for the INDIGO-1 re
 
 
 <a id="id1"></a>
-## Release Notes
+## Release Notes v. 0.95-1
 
 <a id="id2"></a>
 ### What's new

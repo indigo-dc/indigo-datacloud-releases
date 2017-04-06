@@ -28,7 +28,7 @@ The Seventh Update of INDIGO-1 release contains:
 * More information about bug fixes and other developments can be found on our [GitHub CloudProviderRanker issue tracker](https://github.com/indigo-dc/CloudProviderRanker/issues) 
 
 #### Installation & Configuration
-* It is enough to upgrade the package and restart the service:<br>
+* It is enough to upgrade the package and restart the service:</BR>
   ```/etc/init.d/cloudproviderranker (stop/start)```
 * Service Reference Card is available [here](https://indigo-dc.gitbooks.io/cloud-provider-ranker/content/chapter6.html)
 
@@ -42,7 +42,7 @@ Packages:
 ## <a name="cip"></a>CloudInfoProvider: cloud-info-provider-indigo, v 0.10.0 & cloud-info-provider: 0.7.0
 
 #### What's new
-* This update provides <b>reepositories and packaging refactoring</b>: 
+* This update provides <b>repositories and packaging refactoring</b>: 
   * INDIGO-related content has been moved to a dedicated repository and the cloud-info-provider is now using the stock version as features developed in the context of INDIGO have been merged in it. 
   * With this update it is possible to have only the cloud-info-provider package to register site information in both the CMDB and a Site BDII just by using different arguments and templates. 
   * INDIGO-related templates are deployed by the cloud-info-provider-indigo package.

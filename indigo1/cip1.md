@@ -4,7 +4,9 @@ The **Cloud Information provider** generates a representation of cloud resources
 
 **Summary**:
 * Updates
+  * [CloudInfoProvider v. 0.10.0](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/seventh_update_of_indigo-1.html#cip)
   * [CloudInfoProvider v. 0.9.3](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/first_update_of_indigo-1.html#cip)
+
 
 * [Release Notes  v. 0.8.5](#id1)
   * [What's new](#id2)

@@ -1,6 +1,6 @@
-# INDIGO-1  Services & Applications
+# INDIGO-2  Services & Applications
 
-Full list of INDIGO-1 MidnightBlue Services & Applications, with detailed release notes and instructions for their installation/configuration.
+Full list of INDIGO-2ElectricIndigo Services & Applications, with detailed release notes and instructions for their installation/configuration.
 
 * [CDMI Server](cdmi1.md)
 * [CloudInfoProvider](cip1.md)

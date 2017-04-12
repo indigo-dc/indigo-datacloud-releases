@@ -1,6 +1,6 @@
 # Generic Installation and Configuration Guide - INDIGO-2
 
-This chapter provides information on how to enable and use the INDIGO DataCloud software repositories hsoting the second major release INDIGO-2 (ElectricIndigo).
+This chapter provides information on how to enable and use the INDIGO DataCloud software repositories hosting the second major release INDIGO-2 (ElectricIndigo).
 
 Summary
 * [Installing the Operating Systems and Cloud  Management Frameworks](#id1)

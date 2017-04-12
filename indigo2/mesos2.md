@@ -32,6 +32,7 @@ failed jobs.
   * [Supported platforms](#id3)
   * [Deployment Notes](id4)
   * [Artifacts](id5)
+  * [Documentation](id6)
   * [Support](#id8)
 
 
@@ -82,12 +83,14 @@ Cloud Management Frameworks - any
   * [indigodatacloud/marathon](https://hub.docker.com/r/indigodatacloud/marathon/tags/)
   * [indigodatacloud/chronos](https://hub.docker.com/r/indigodatacloud/chronos/tags/)
 
+
+<a id="id6"></a>
 ## Documentation
 * Link to the GitBook documentation: https://www.gitbook.com/book/indigo-dc/mesos-cluster/details
 
 
 <a id="id8"></a>
-### Support
+## Support
 
 * Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
 https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

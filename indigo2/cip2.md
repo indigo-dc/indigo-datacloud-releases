@@ -20,7 +20,7 @@ The **Cloud Information provider** generates a representation of cloud resources
 * [Support](#id8)
 
 <a id="id1"></a>
-## Release Notes - cloud-info-provider-indigo, v 0.10.0 & cloud-info-provider: 0.7.0
+## Release Notes - cloud-info-provider-indigo v. 0.10.0 & cloud-info-provider v. 0.7.0
 
 <a id="id2"></a>
 ### What's new

@@ -1,6 +1,6 @@
-# Generic Installation and Configuration Guide
+# Generic Installation and Configuration Guide - INDIGO-2
 
-This chapter provides information on how to enable and use the INDIGO DataCloud software repositories.
+This chapter provides information on how to enable and use the INDIGO DataCloud software repositories hsoting the second major release INDIGO-2 (ElectricIndigo).
 
 Summary
 * [Installing the Operating Systems and Cloud  Management Frameworks](#id1)
@@ -32,30 +32,36 @@ EPEL has an 'epel-release' package that includes gpg keys for package signing an
 * [http://download.fedoraproject.org/pub/epel/7/x86_64/e/](http://download.fedoraproject.org/pub/epel/7/x86_64/e/) 
 
 allows you to use normal tools, such as **yum**, to install packages and their dependencies. By default the stable EPEL repo should be enabled.
-
+<!--
 #### Ubuntu 14.04
 
-For more information on Ubuntu please check: [http://www.ubuntu.com/](http://www.ubuntu.com/)
+%For more information on Ubuntu please check: [http://www.ubuntu.com/](http://www.ubuntu.com/)
 
 Information to install this operating system can be found at [http://releases.ubuntu.com/trusty/](http://releases.ubuntu.com/trusty/) and or at [Ubuntu Community Installation Guide ](https://help.ubuntu.com/community/Installation) and regarding Docker Containers at [Ubuntu Official Docker repository](https://hub.docker.com/_/ubuntu/).
+-->
+#### Ubuntu 16.04
+
+%For more information on Ubuntu please check: [http://www.ubuntu.com/](http://www.ubuntu.com/)
+
+Information to install this operating system can be found at [http://releases.ubuntu.com/trusty/](http://releases.ubuntu.com/xenial/) and or at [Ubuntu Community Installation Guide ](https://help.ubuntu.com/community/Installation) and regarding Docker Containers at [Ubuntu Official Docker repository](https://hub.docker.com/_/ubuntu/).
 
 <a id="id3"></a>
 ### Cloud Management Frameworks
 
-#### OpenStack Liberty
+#### OpenStack Newton
 
 Please follow the official OpenStack Liberty Installation Guides:
-* for [RedHat & CentOS](http://docs.openstack.org/liberty/install-guide-rdo/)
-  * Please enable the use of Liberty RDO repository by using:<br>
-  ```$ sudo yum install -y https://repos.fedorapeople.org/openstack/openstack-liberty/rdo-release-liberty-5.noarch.rpm
+* for [RedHat & CentOS](https://docs.openstack.org/newton/install-guide-rdo/)
+  * Please enable the use of Newton RDO repository by using:<br>
+  ```$ sudo yum install -y https://repos.fedorapeople.org/openstack/openstack-newton/rdo-release-newton-4.noarch.rpm
 ```
-* for [Ubuntu 14.04](http://docs.openstack.org/liberty/install-guide-ubuntu/)
-  * Please enable the use of Liberty CloudArchive by using:<br>
-  ```$ sudo add-apt-repository cloud-archive:liberty```
+* for [Ubuntu 16.04](https://docs.openstack.org/newton/install-guide-ubuntu/)
+  * Please enable the use of Newton CloudArchive by using:<br>
+  ```$ sudo add-apt-repository cloud-archive:newton```
 
-#### OpenNebula 4.14
+#### OpenNebula 4.14 & 5.2.X
 
-Please follow the official [OpenNebula 14.4 Installation Guide for CentOS & Ubuntu](http://docs.opennebula.org/4.14/design_and_installation/building_your_cloud/ignc.html)
+Please follow the official [OpenNebula 4.14 Installation Guide for CentOS & Ubuntu](http://docs.opennebula.org/4.14/design_and_installation/building_your_cloud/ignc.html) or [OpenNebula 5.X.4 Installation Guide for CentOS & Ubuntu](http://docs.opennebula.org/5.0/deployment/index.html)
 
 
 
@@ -97,25 +103,25 @@ For manual configuration:
 ```check_obsoletes = 1```
 
 For automatic configuration:
-* we strongly recommend the use of **indigodc-release** package. Please follow the instructions given bellow on what version of the package, how to get and install it.
+* we strongly recommend the use of **indigodc-release** package. Please follow the instructions given bellow on what version of the package to use, how to get and install it.
 
 #### Configuring the use of INDIGO - DataCloud repositories
 
-INDIGO-1 production repositories are available at:
-* [http://repo.indigo-datacloud.eu/repository/indigo/1/](http://repo.indigo-datacloud.eu/repository/indigo/1/)
+INDIGO-2 production repositories are available at:
+* [http://repo.indigo-datacloud.eu/repository/indigo/2/](http://repo.indigo-datacloud.eu/repository/indigo/12)
 
 YUM & APT configuration files are available at:
-* CentOS7 - [http://repo.indigo-datacloud.eu/repos/1/indigo1.repo](http://repo.indigo-datacloud.eu/repos/1/indigo1.repo)
-* Ubuntu 14.04 - [http://repo.indigo-datacloud.eu/repos/1/indigo1-ubuntu14_04.list](http://repo.indigo-datacloud.eu/repos/1/indigo1-ubuntu14_04.list) 
+* CentOS7 - [http://repo.indigo-datacloud.eu/repos/2/indigo2.repo](http://repo.indigo-datacloud.eu/repos/2/indigo2.repo)
+* Ubuntu 16.04 - [http://repo.indigo-datacloud.eu/repos/2/indigo2-ubuntu16_04.list](http://repo.indigo-datacloud.eu/repos/2/indigo2-ubuntu16_04.list) 
 
 Install INDIGO - DataCloud repositories :
 * CentOS7: <br>
-```wget http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/base/indigodc-release-1.0.0-1.el7.centos.noarch.rpm```<br>
-```yum localinstall -y indigodc-release-1.0.0-1.el7.centos.noarch.rpm``` 
+```wget http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/base/indigodc-release-2.0.0-1.el7.centos.noarch.rpm```<br>
+```yum localinstall -y indigodc-release-2.0.0-1.el7.centos.noarch.rpm``` 
 
-* Ubuntu 14.04:<br>
-```wget http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/indigodc-release_1.0.0-2_amd64.deb```<br>
-```dpkg -i indigodc-release_1.0.0-2_amd64.deb``` 
+* Ubuntu 16.04:<br>
+```wget http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial/main/binary-amd64/indigodc-release_2.0.0-1_amd64.deb```<br>
+```dpkg -i indigodc-release_2.0.0-1_amd64.deb``` 
 
 These packages will install required dependencies, the INDIGO - DataCloud public key and ensures the precedence of INDIGO - DataCloud repositories over EPEL and Ubuntu. 
 
@@ -127,7 +133,7 @@ It is strongly recommended the use of the latest version of the **indigodc-relea
 On the [DockerHub Registry](https://hub.docker.com/), INDIGO - DataCloud has organized the repositories under two Organizations:
 * [indigodatacloud](https://hub.docker.com/u/indigodatacloud/), for Core Services
 * [indigodatacloudapps](https://hub.docker.com/u/indigodatacloudapps/), for Applications
-Containers present in those repositories and released in INDIGO-1 are tagged with "*indigo-1*" tag and signed, leveraging the [Docker’s trust features](https://docs.docker.com/engine/security/) so that users can pull trusted images.
+Containers present in those repositories and released in INDIGO-2 are tagged with "*indigo_2*" tag and signed, leveraging the [Docker’s trust features](https://docs.docker.com/engine/security/) so that users can pull trusted images.
 
 Currently, content trust is disabled by default. You must enable it by setting the **DOCKER_CONTENT_TRUST** environment variable, like bellow:
 
@@ -136,41 +142,42 @@ Currently, content trust is disabled by default. You must enable it by setting t
 For more details regarding the "Content Trust in Docker" please read [Docker's Documentation](https://docs.docker.com/engine/security/trust/content_trust/)
 
 Content trust is associated with the TAG portion of an image.
-For INDIGO-1 (Midnight) release the signed tag is ***indigo_1***. See example bellow if you want to ensure the correct use of INDIGO - DataCloud images:
+For INDIGO-2 (ElectricIndigo) release the signed tag is ***indigo_2***. See example bellow if you want to ensure the correct use of INDIGO - DataCloud images:
 * for Core Services
 
 ```
 $ export DOCKER_CONTENT_TRUST=1
-$ docker pull indigodatacloud/orchestrator:1.0.0-RC3
-No trust data for 1.0.0-RC3
-$ docker pull indigodatacloud/orchestrator:indigo_1
-Pull (1 of 1): indigodatacloud/orchestrator:indigo_1@sha256:f1b692cdfe45096e7c778157a35a38a94a71b9daf5e7ba7c213a0107fd51f4a7
-sha256:f1b692cdfe45096e7c778157a35a38a94a71b9daf5e7ba7c213a0107fd51f4a7: Pulling from indigodatacloud/orchestrator
-3d8673bd162a: Pull complete
+$ docker pull indigodatacloud/orchestrator:1.3.0-FINAL
+No trust data for 1.3.0-FINAL
+$ docker pull indigodatacloud/orchestrator:indigo_2
+Pull (1 of 1): indigodatacloud/orchestrator:indigo_2@sha256:441c8b037684422ccdf2fdec322c9c09904ed3ce74d9fcc7d2862a9f53ad36be
+sha256:441c8b037684422ccdf2fdec322c9c09904ed3ce74d9fcc7d2862a9f53ad36be: Pulling from indigodatacloud/orchestrator
+93857f76ae30: Pull complete
 [...]
-88c118280e3d: Pull complete
-Digest: sha256:f1b692cdfe45096e7c778157a35a38a94a71b9daf5e7ba7c213a0107fd51f4a7
-Status: Downloaded newer image for indigodatacloud/orchestrator@sha256:f1b692cdfe45096e7c778157a35a38a94a71b9daf5e7ba7c213a0107fd51f4a7
-Tagging indigodatacloud/orchestrator@sha256:f1b692cdfe45096e7c778157a35a38a94a71b9daf5e7ba7c213a0107fd51f4a7 as indigodatacloud/orchestrator:indigo_1
-$ docker images |grep orchestrator
-indigodatacloud/orchestrator               indigo_1            2153bb4c33d1        4 days ago          837.1 MB
+e8c92b40b492: Pull complete
+Digest: sha256:441c8b037684422ccdf2fdec322c9c09904ed3ce74d9fcc7d2862a9f53ad36be
+Status: Downloaded newer image for indigodatacloud/orchestrator@sha256:441c8b037684422ccdf2fdec322c9c09904ed3ce74d9fcc7d2862a9f53ad36be
+Tagging indigodatacloud/orchestrator@sha256:441c8b037684422ccdf2fdec322c9c09904ed3ce74d9fcc7d2862a9f53ad36be as indigodatacloud/orchestrator:indigo_2
+$ docker images
+REPOSITORY                     TAG                 IMAGE ID            CREATED             SIZE
+indigodatacloud/orchestrator   indigo_2            bdbe758d9f32        37 hours ago        843MB
 ```
 
 * for Applications:
 
 ```
 $ export DOCKER_CONTENT_TRUST=1
-$ docker pull indigodatacloudapps/ambertools:latest
+$ docker pull indigodatacloudapps/ophidia-all:latest
 No trust data for latest
-$ docker pull indigodatacloudapps/ambertools:indigo_1
-Pull (1 of 1): indigodatacloudapps/ambertools:indigo_1@sha256:82c202e06e94b9fec85ec4672a0c8b0b4efcc10652275d15ff32eadf2e1cbefd
-sha256:82c202e06e94b9fec85ec4672a0c8b0b4efcc10652275d15ff32eadf2e1cbefd: Pulling from indigodatacloudapps/ambertools
-6c953ac5d795: Pull complete
+$ docker pull indigodatacloudapps/ophidia-all:indigo_2
+Pull (1 of 1): indigodatacloudapps/ophidia-all:indigo_2@sha256:64df8c1f1103984536c28662baf2cc8da3dd3135e3b20f77335a73802d26e482
+sha256:64df8c1f1103984536c28662baf2cc8da3dd3135e3b20f77335a73802d26e482: Pulling from indigodatacloudapps/ophidia-all
+45a2e645736c: Pull complete
 [...]
-fb42bfb32649: Pull complete
-Digest: sha256:82c202e06e94b9fec85ec4672a0c8b0b4efcc10652275d15ff32eadf2e1cbefd
-Status: Downloaded newer image for indigodatacloudapps/ambertools@sha256:82c202e06e94b9fec85ec4672a0c8b0b4efcc10652275d15ff32eadf2e1cbefd
-Tagging indigodatacloudapps/ambertools@sha256:82c202e06e94b9fec85ec4672a0c8b0b4efcc10652275d15ff32eadf2e1cbefd as indigodatacloudapps/ambertools:indigo_1
+686a6aef9fe7: Pull complete
+Digest: sha256:64df8c1f1103984536c28662baf2cc8da3dd3135e3b20f77335a73802d26e482
+Status: Downloaded newer image for indigodatacloudapps/ophidia-all@sha256:64df8c1f1103984536c28662baf2cc8da3dd3135e3b20f77335a73802d26e482
+Tagging indigodatacloudapps/ophidia-all@sha256:64df8c1f1103984536c28662baf2cc8da3dd3135e3b20f77335a73802d26e482 as indigodatacloudapps/ophidia-all:indigo2_
 $ docker images |grep amber
 indigodatacloudapps/ambertools             indigo_1            6c47a81b761d        11 days ago         1.826 GB
 ```

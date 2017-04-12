@@ -7,14 +7,14 @@
 * the service offers improved QoS capabilities of storage resources.
   * a better support of high-level storage requirements such as flexible allocation of disk or tape storage space and support for data life cycle. This is an enhancement also with respect to what is currently available in public clouds, such as Amazon Glacier and Google Cloud Storage.
 
-**Summary:**
+## Summary
 <!--
 * Updates
   * [CDMI v. 1.1](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/second_update_of_indigo-1.html#cdmi)
   * [CDMI v. 0.2](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/first_update_of_indigo-1.html#cdmi)<br>
 -->
 
-* [Release Notes v. 0.1](#id1)
+* [Release Notes v. 1.2](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)

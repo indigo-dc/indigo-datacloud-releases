@@ -79,9 +79,9 @@ Cloud Management Frameworks - any
   * indigo-dc.haproxy-consul
 
 * Updated docker images:
-  * [indigodatacloud/mesos-master](https://hub.docker.com/r/indigodatacloud/mesos-master/tags/)
-  * [indigodatacloud/marathon](https://hub.docker.com/r/indigodatacloud/marathon/tags/)
-  * [indigodatacloud/chronos](https://hub.docker.com/r/indigodatacloud/chronos/tags/)
+  * [indigodatacloud/mesos-master:1.1.0](https://hub.docker.com/r/indigodatacloud/mesos-master/tags/)
+  * [indigodatacloud/marathon:1.4.1](https://hub.docker.com/r/indigodatacloud/marathon/tags/)
+  * [indigodatacloud/chronos:3.0.2](https://hub.docker.com/r/indigodatacloud/chronos/tags/)
 
 
 <a id="id6"></a>

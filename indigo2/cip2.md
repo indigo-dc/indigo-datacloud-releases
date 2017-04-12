@@ -63,11 +63,11 @@ installation & Configuration:
 ### List of Artifacts
 
 * RedHat
-  * [cloud-info-provider-indigo-0.10.0-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/cloud-info-provider-indigo-0.10.0-1.el7.centos.noarch.rpm) - All INDIGO-specific content (JSON templates, send-to-cmdb script and documentation). Dependent on cloud-info-provider.
-  * [cloud-info-provider-0.7.0-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/cloud-info-provider-0.7.0-1.el7.centos.noarch.rpm) - Upstream version of the cloud-info-provider including changes made in the context of INDIGO.
+  * [cloud-info-provider-indigo-0.10.0-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/base/cloud-info-provider-indigo-0.10.0-1.el7.centos.noarch.rpm) - All INDIGO-specific content (JSON templates, send-to-cmdb script and documentation). Dependent on cloud-info-provider.
+  * [cloud-info-provider-0.7.0-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/base/cloud-info-provider-0.7.0-1.el7.centos.noarch.rpm) - Upstream version of the cloud-info-provider including changes made in the context of INDIGO.
 * Ubuntu
-  * [python-cloud-info-provider-indigo_0.10.0_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-cloud-info-provider-indigo_0.10.0_all.deb)
-  * [python-cloud-info-provider_0.7.0_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-cloud-info-provider_0.7.0_all.deb)
+  * [python-cloud-info-provider-indigo_0.10.0_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/main/binary-amd64/python-cloud-info-provider-indigo_0.10.0_all.deb)
+  * [python-cloud-info-provider_0.7.0_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/main/binary-amd64/python-cloud-info-provider_0.7.0_all.deb)
 * [ansible-role-cloud-info-provider: 0.1.0](https://github.com/indigo-dc/ansible-role-cloud-info-provider). Ansible role has been updated to work with the splitted packages.
 
 <a id="id6"></a>

@@ -26,7 +26,7 @@ It is currently expected that only the QoS/SLA tool will interact with these sum
 
 
 ## Summary:
-* [Release Notesv 1.3.3](#id1)
+* [Release Notesv 1.3.2](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)

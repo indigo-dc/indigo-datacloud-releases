@@ -8,7 +8,6 @@ Full list of INDIGO-1 MidnightBlue Services & Applications, with detailed releas
 * [CLUES (CLUster Energy Saving)](clues1.md)
 * [Core PaaS](core_paas1.md)
   * [Accounting](accounting1.md)
-<!--  * [Kubernetes](kubernetes1.md) -->
   * [Zabbix Probes](zabbix-probes1.md)
 * [dCache](dcache1.md)
 * [Partition Director (dynpart)](dynpart1.md)
@@ -20,7 +19,7 @@ Full list of INDIGO-1 MidnightBlue Services & Applications, with detailed releas
   * [Heat-Translator](heat-translator1.md)
   * [Docker support for OpenNebula (ONEDock)](onedock1.md)
   * [OpenStack Client](python-osclient1.md)
- <!-- * [OpenStack NOVA Client](python-nova1.md) -->
+  * [OpenStack NOVA Client](python-nova1.md)
   * [RepoSync](reposync1.md) 
 * [FutureGateway](fg1.md)
 * [Identity Harmonization Service](idh1.md)
@@ -37,7 +36,6 @@ Full list of INDIGO-1 MidnightBlue Services & Applications, with detailed releas
 * [OCCI support for OpenStack and OpenNebula](occi1.md)
   * [OpenStack OCCI Interface](ooi1.md)
   * [pOCCI](pocci1.md)
-  * [rOCCI](rocci1.md)
   * [jOCCI](jocci1.md)
 * [Ophidia](ophidia1.md)
 * [Orchestrator](orchestrator1.md)
@@ -47,3 +45,5 @@ Full list of INDIGO-1 MidnightBlue Services & Applications, with detailed releas
 * [Token Translation Service (TTS)](tts1.md)
 * [udocker](udocker1.md)
 
+<!--  * [Kubernetes](kubernetes1.md)-->
+<!--   * [rOCCI](rocci1.md) -->

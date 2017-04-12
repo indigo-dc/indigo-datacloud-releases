@@ -25,7 +25,8 @@ failed jobs.
 
 
 
-# Summary:
+## Summary:
+
 * [Release Notes](#id1)
   * [What's new](#id2)
   * [Supported platforms](#id3)

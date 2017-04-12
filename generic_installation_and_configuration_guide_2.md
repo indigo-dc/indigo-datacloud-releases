@@ -32,13 +32,15 @@ EPEL has an 'epel-release' package that includes gpg keys for package signing an
 * [http://download.fedoraproject.org/pub/epel/7/x86_64/e/](http://download.fedoraproject.org/pub/epel/7/x86_64/e/) 
 
 allows you to use normal tools, such as **yum**, to install packages and their dependencies. By default the stable EPEL repo should be enabled.
-<!--
-#### Ubuntu 14.04
+%
+%
+% #### Ubuntu 14.04
+%
+% 
+% For more information on Ubuntu please check: [http://www.ubuntu.com/](http://www.ubuntu.com/)
 
-%For more information on Ubuntu please check: [http://www.ubuntu.com/](http://www.ubuntu.com/)
+% Information to install this operating system can be found at [http://releases.ubuntu.com/trusty/](http://releases.ubuntu.com/trusty/) and % or at [Ubuntu Community Installation Guide ](https://help.ubuntu.com/community/Installation) and regarding Docker Containers at [Ubuntu  Official Docker repository](https://hub.docker.com/_/ubuntu/).
 
-Information to install this operating system can be found at [http://releases.ubuntu.com/trusty/](http://releases.ubuntu.com/trusty/) and or at [Ubuntu Community Installation Guide ](https://help.ubuntu.com/community/Installation) and regarding Docker Containers at [Ubuntu Official Docker repository](https://hub.docker.com/_/ubuntu/).
--->
 #### Ubuntu 16.04
 
 %For more information on Ubuntu please check: [http://www.ubuntu.com/](http://www.ubuntu.com/)

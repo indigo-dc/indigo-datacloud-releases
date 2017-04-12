@@ -37,7 +37,6 @@ allows you to use normal tools, such as **yum**, to install packages and their d
 % #### Ubuntu 14.04
 %
 % 
-% For more information on Ubuntu please check: [http://www.ubuntu.com/](http://www.ubuntu.com/)
 
 % Information to install this operating system can be found at [http://releases.ubuntu.com/trusty/](http://releases.ubuntu.com/trusty/) and % or at [Ubuntu Community Installation Guide ](https://help.ubuntu.com/community/Installation) and regarding Docker Containers at [Ubuntu  Official Docker repository](https://hub.docker.com/_/ubuntu/).
 
@@ -54,9 +53,9 @@ Information to install this operating system can be found at [http://releases.ub
 
 Please follow the official OpenStack Liberty Installation Guides:
 * for [RedHat & CentOS](https://docs.openstack.org/newton/install-guide-rdo/)
-  * Please enable the use of Newton RDO repository by using:<br>
-  ```$ sudo yum install -y https://repos.fedorapeople.org/openstack/openstack-newton/rdo-release-newton-4.noarch.rpm
-```
+  * Please enable the use of Newton RDO repository by using:</br>
+  ```$ sudo yum install -y https://repos.fedorapeople.org/openstack/openstack-newton/rdo-release-newton-4.noarch.rpm```</br>
+  
 * for [Ubuntu 16.04](https://docs.openstack.org/newton/install-guide-ubuntu/)
   * Please enable the use of Newton CloudArchive by using:<br>
   ```$ sudo add-apt-repository cloud-archive:newton```

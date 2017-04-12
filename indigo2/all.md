@@ -2,7 +2,7 @@
 
 Full list of INDIGO-2ElectricIndigo Services & Applications, with detailed release notes and instructions for their installation/configuration.
 
-* [CDMI Server](cdmi1.md)
+* [CDMI Server](cdmi2.md)
 * [CloudInfoProvider](cip1.md)
 * [CloudProviderRanker](cpr1.md)
 * [CLUES (CLUster Energy Saving)](clues1.md)

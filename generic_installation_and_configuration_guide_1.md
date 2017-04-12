@@ -1,6 +1,6 @@
 # Generic Installation and Configuration Guide
 
-This chapter provides information on how to enable and use the INDIGO DataCloud software repositories.
+This chapter provides information on how to enable and use the INDIGO DataCloud software repositories hosting the first major release INDIGO-1 (MidnightBlue).
 
 Summary
 * [Installing the Operating Systems and Cloud  Management Frameworks](#id1)
@@ -47,8 +47,7 @@ Information to install this operating system can be found at [http://releases.ub
 Please follow the official OpenStack Liberty Installation Guides:
 * for [RedHat & CentOS](http://docs.openstack.org/liberty/install-guide-rdo/)
   * Please enable the use of Liberty RDO repository by using:<br>
-  ```$ sudo yum install -y https://repos.fedorapeople.org/openstack/openstack-liberty/rdo-release-liberty-5.noarch.rpm
-```
+  ```$ sudo yum install -y https://repos.fedorapeople.org/openstack/openstack-liberty/rdo-release-liberty-5.noarch.rpm```</br>
 * for [Ubuntu 14.04](http://docs.openstack.org/liberty/install-guide-ubuntu/)
   * Please enable the use of Liberty CloudArchive by using:<br>
   ```$ sudo add-apt-repository cloud-archive:liberty```
@@ -104,17 +103,17 @@ For automatic configuration:
 INDIGO-1 production repositories are available at:
 * [http://repo.indigo-datacloud.eu/repository/indigo/1/](http://repo.indigo-datacloud.eu/repository/indigo/1/)
 
-YUM & APT configuration files are available at:
+YUM and APT configuration files are available at:
 * CentOS7 - [http://repo.indigo-datacloud.eu/repos/1/indigo1.repo](http://repo.indigo-datacloud.eu/repos/1/indigo1.repo)
 * Ubuntu 14.04 - [http://repo.indigo-datacloud.eu/repos/1/indigo1-ubuntu14_04.list](http://repo.indigo-datacloud.eu/repos/1/indigo1-ubuntu14_04.list) 
 
 Install INDIGO - DataCloud repositories :
 * CentOS7: <br>
-```wget http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/base/indigodc-release-1.0.0-1.el7.centos.noarch.rpm```<br>
+```wget http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/base/indigodc-release-1.0.0-1.el7.centos.noarch.rpm```</br>
 ```yum localinstall -y indigodc-release-1.0.0-1.el7.centos.noarch.rpm``` 
 
 * Ubuntu 14.04:<br>
-```wget http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/indigodc-release_1.0.0-2_amd64.deb```<br>
+```wget http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/indigodc-release_1.0.0-2_amd64.deb```</br>
 ```dpkg -i indigodc-release_1.0.0-2_amd64.deb``` 
 
 These packages will install required dependencies, the INDIGO - DataCloud public key and ensures the precedence of INDIGO - DataCloud repositories over EPEL and Ubuntu. 
@@ -127,7 +126,7 @@ It is strongly recommended the use of the latest version of the **indigodc-relea
 On the [DockerHub Registry](https://hub.docker.com/), INDIGO - DataCloud has organized the repositories under two Organizations:
 * [indigodatacloud](https://hub.docker.com/u/indigodatacloud/), for Core Services
 * [indigodatacloudapps](https://hub.docker.com/u/indigodatacloudapps/), for Applications
-Containers present in those repositories and released in INDIGO-1 are tagged with "*indigo-1*" tag and signed, leveraging the [Docker’s trust features](https://docs.docker.com/engine/security/) so that users can pull trusted images.
+Containers present in those repositories and released in INDIGO-1 are tagged with "*indigo_1*" tag and signed, leveraging the [Docker’s trust features](https://docs.docker.com/engine/security/) so that users can pull trusted images.
 
 Currently, content trust is disabled by default. You must enable it by setting the **DOCKER_CONTENT_TRUST** environment variable, like bellow:
 

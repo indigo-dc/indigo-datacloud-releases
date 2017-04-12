@@ -2,8 +2,9 @@
 
 * [Introduction](README.md)
 * [INDIGO-2 ElectricIndigo](chapter2.md)
+   * [Generic Installation and Configuration Guide - INDIGO-2](generic_installation_and_configuration_guide_2.md)
 * [INDIGO-1 MidnightBlue](chapter1.md)
-   * [Generic Installation and Configuration Guide](generic_installation_and_configuration_guide_1.md)
+   * [Generic Installation and Configuration Guide - INDIGO-1](generic_installation_and_configuration_guide_1.md)
    * [Data Center Solutions](indigo1/datacenter_solutions.md)
    * [Data Solutions](indigo1/data_solutions.md)
    * [Automated Solutions](indigo1/automated_solutions.md)

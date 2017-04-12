@@ -62,7 +62,7 @@ Please follow the official OpenStack Liberty Installation Guides:
 
 #### OpenNebula 4.14 & 5.2.X
 
-Please follow the official [OpenNebula 4.14 Installation Guide for CentOS & Ubuntu](http://docs.opennebula.org/4.14/design_and_installation/building_your_cloud/ignc.html) or [OpenNebula 5.X.4 Installation Guide for CentOS & Ubuntu](http://docs.opennebula.org/5.0/deployment/index.html)
+Please follow the official [OpenNebula 4.14 Installation Guide for CentOS & Ubuntu](http://docs.opennebula.org/4.14/design_and_installation/building_your_cloud/ignc.html) or [OpenNebula 5.X Installation Guide for CentOS & Ubuntu](http://docs.opennebula.org/5.0/deployment/index.html)
 
 
 

@@ -31,12 +31,10 @@
 <a id="id2"></a>
 ### What's new
 
-Highlights of the features provided in the INDIGO-1 release:
-* Manage objects/files via CDMI that were uploaded via OneData (or any
-  other transfer mechanism)
-* Request storage quality of objects/files
-* Simulate backend tape system storage (Data and QoS)
-* Support backend object storage system (QoS)
+Highlights of the features provided in the INDIGO-2 release:
+* ntegration of new CDMI capabilities for storage back-ends, alternative data access protocols and exposing container children.
+* Integration of user identity for storage back-end modules.
+* Update of the dummy filesystem module with configuration from JSON file.
 
 Supported platforms:
 * all with Java >= 1.8, tested on Ubuntu 14.04, Ubuntu 16.04, CentOS 7
@@ -49,14 +47,11 @@ Supported platforms:
 <a id="id4"></a>
 ### Deployment Notes
 
-Build from source with maven
-* [https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/building_from_sources.html](https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/building_from_sources.html)
+* Installation guide available at - https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/installing_cdmi-qos.html
+* Upgrade guide available at - https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/updating_cdmi-qos.html
 
-Install via packages: cdmi-server-0.1.deb, cdmi-server-0.1-1.x86_64.rpm
-* [https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/installing_cdmi-qos.html](https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/installing_cdmi-qos.html)
-
-Run with Docker
-* [https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/running_cdmi-qos_as_a_docker_container.html](https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/running_cdmi-qos_as_a_docker_container.html)
+* Run with Docker
+  * [https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/running_cdmi-qos_as_a_docker_container.html](https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/running_cdmi-qos_as_a_docker_container.html)
 
 <a id="id5"></a>
 ### Known Issues
@@ -67,8 +62,10 @@ Run with Docker
 ### List of Artifacts
 
 Packages
-* [cdmi-server-1.0-2.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/base/cdmi-server-1.0-2.noarch.rpm)
-* [cdmi-server-0.1.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty/main/binary-amd64/cdmi-server-0.1.deb)
+cdmi-server-1.2.x86_64.rpm
+cdmi-server-1.2_all.deb
+* [cdmi-server-1.2.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/base/cdmi-server-1.2.x86_64.rpm)
+* [cdmi-server-1.2_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial/main/binary-amd64/cdmi-server-1.2_all.deb)
 
 <a id="id6"></a>
 ## Documentation
@@ -81,4 +78,4 @@ Packages
 <a id="id8"></a>
 ## Support
 
-* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](
+* Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)

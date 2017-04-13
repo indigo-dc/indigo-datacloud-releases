@@ -24,6 +24,6 @@ The INDIGO - DataCloud project is providing many new features/services for resou
 * Orchestrator - [INDIGO-2](indigo2/orchestrator2.md), [INDIGO-1](indigo1/orchestrator1.md)
 * Nova-Docker - [INDIGO-2](indigo2/nova-docker2.md), [INDIGO-1](indigo1/nova-docker1.md)
 * Partition Director (dynpart) - [INDIGO-2](indigo2/dynpart2.md), [INDIGO-1](indigo1/dynpart1.md)
-* RepoSync - [INDIGO-2](indigo2/reposync2. d), [INDIGO-1](indigo1/reposync1.md)
+* RepoSync - [INDIGO-2](indigo2/reposync2.md), [INDIGO-1](indigo1/reposync1.md)
 * Synergy - [INDIGO-2](indigo2/synergy2.md), [INDIGO-1](indigo1/synergy1.md) 
 

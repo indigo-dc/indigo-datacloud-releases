@@ -5,9 +5,10 @@ The INDIGO - DataCloud project  provides a complete set of data-related features
 * *The possibility to federate diverse storage technologies* (such as Posix, Object Storage, CEPH, etc) in a seamless way, letting users exploit data and storage resources wherever they are available.
 
 <br>
-* [CDMI Server](cdmi1.md)
-* [dCache](dcache1.md)
-* [ONEDATA](onedata1.md)
+
+* CDMI Server - [INDIGO-2](indigo2/cdmi2.md), [INDIGO-1](indigo1/cdmi1.md)
+* dCache - [INDIGO-2](indigo2/iam2.md), [INDIGO-1](indigo1/dcache1.md)
+* ONEDATA - [INDIGO-2](indigo2/onedata2.md), [INDIGO-1](indigo1/onedata1.md)
 
 External Solutions used:
-* FTS
+* [FTS](http://fts3-service.web.cern.ch/)

@@ -20,6 +20,6 @@ The INDIGO - DataCloud project provides a rich set of high-level automated funct
 * ONEDATA - [INDIGO-2](indigo2/onedata1.md), [INDIGO-1](onedata1.md)
 * TOSCA-Parser & Types - [INDIGO-2](indigo2/tosca-pt1.md), [INDIGO-1](indigo1/tosca-pt1.md)
 * Token Translation Service - [INDIGO-2](indigo2/tts1.md), [INDIGO-1](indigo1/tts1.md)
-* Zabbix Probes - [INDIGO-2](indigo2/zabbix-probes1.md), [INDIGO-1(indigo1/zabbix-probes1.md)
+* Zabbix Probes - [INDIGO-2](indigo2/zabbix-probes1.md), [INDIGO-1](indigo1/zabbix-probes1.md)
 
 

@@ -27,7 +27,6 @@
          * [Nova-Docker](indigo2/nova-docker2.md)
          * [Docker support for OpenNebula (ONEdock)](indigo2/onedock2.md)
          * [OpenStack Client](indigo2/python-osclient2.md)
-         * [OpenStack NOVA Client](indigo2/python-nova2.md)
          * [RepoSync](indigo2/reposync2.md) 
        * [FutureGateway](indigo2/fg2.md)
        * [Identity Harmonization Service](indigo2/idh2.md)

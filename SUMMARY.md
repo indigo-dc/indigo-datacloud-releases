@@ -16,7 +16,7 @@
        * [Core PaaS](indigo2/core_paas2.md)
          * [Accounting](indigo2/accounting2.md)
          * [Mesos Cluster](indigo2/mesos2.md)
-         * [Monitoring - Zabbix Probes](indigo2/zabbix-probes2.md)
+         * [Monitoring - Zabbix Probes](indigo2/monitoring2.md)
        * [dCache](indigo2/dcache2.md)
        * [Partition Director(DynPart)](indigo2/dynpart2.md)
        * [Extended OpenStack and OpenNebula Functionalities](indigo2/eoof2.md)

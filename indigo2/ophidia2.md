@@ -34,10 +34,10 @@ Supported Platforms
 #### List of RfCs 
 
 History of commits since last release:
-https://github.com/indigo-dc/ophidia-server/compare/v0.11.0...v1.0.0
-https://github.com/indigo-dc/ophidia-terminal/compare/v0.11.0...v1.0.0
-https://github.com/indigo-dc/ophidia-primitives/compare/v0.11.0...v1.0.0
-https://github.com/indigo-dc/ophidia-analytcis-framework/compare/v0.11.0...v1.0.0
+* https://github.com/indigo-dc/ophidia-server/compare/v0.11.0...v1.0.0
+* https://github.com/indigo-dc/ophidia-terminal/compare/v0.11.0...v1.0.0
+* https://github.com/indigo-dc/ophidia-primitives/compare/v0.11.0...v1.0.0
+* https://github.com/indigo-dc/ophidia-analytcis-framework/compare/v0.11.0...v1.0.0
 
 <a id="id4"></a>
 ### Deployment Notes

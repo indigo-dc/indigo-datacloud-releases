@@ -36,7 +36,6 @@
        * [INDIGO Kepler](indigo2/kepler2.md)
        * [Infrastructure Manager](indigo2/im2.md)
        * [Infrastructure Manager Java API](indigo2/imjavaapi2.md)
-       * [jSAGA ResourceManager API](indigo2/jsagarmapi2.md)
        * [Liferay Plugins](indigo2/liferayplugins2.md)
        * [ONEDATA](indigo2/onedata2.md)
        * [ONE-FaSS](indigo2/one-fass2.md)

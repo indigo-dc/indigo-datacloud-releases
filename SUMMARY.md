@@ -43,7 +43,7 @@
          * [OpenStack OCCI Interface](indigo2/ooi2.md)
          * [pOCCI](indigo2/pocci2.md)
          * [jOCCI](indigo2/jocci2.md)
-       * [Ophidia](indigo2/ophidia12.md)
+       * [Ophidia](indigo2/ophidia2.md)
        * [Orchestrator](indigo2/orchestrator2.md)
        * [Nova-Docker](indigo2/nova-docker2.md)
        * [QoS/SLA Management Service](indigo2/slam2.md)

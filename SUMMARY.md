@@ -22,7 +22,7 @@
        * [Extended OpenStack and OpenNebula Functionalities](indigo2/eoof2.md)
          * [OpenStack Preemptible Instances Extensions](indigo2/opie2.md)
          * [OpenStack Identity Authentication Library](indigo2/keystone_library2.md)
-         * [Keystone AAI support](indigo2/keystone_aai_support2.md)
+         * [Keystone AAI support](indigo1/keystone_aai_support1.md)
          * [Heat-Translator](indigo2/heat-translator2.md)
          * [Nova-Docker](indigo2/nova-docker2.md)
          * [Docker support for OpenNebula (ONEdock)](indigo2/onedock2.md)

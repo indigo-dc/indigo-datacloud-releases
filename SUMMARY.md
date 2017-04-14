@@ -50,7 +50,7 @@
        * [Network Orchestrator Wrapper (NOW)](indigo2/now2.md)
        * [Synergy](indigo2/synergy2.md)
        * [TOSCA Parser & Types](indigo2/tosca-pt2.md)
-       * [Token Translation Service](indigo2/tts2.md)
+       * [Token Translation Service](indigo2/watts1.md)
        * [udocker](indigo2/udocker2.md)
 * [INDIGO-1 MidnightBlue](chapter1.md)
    * [Generic Installation and Configuration Guide - INDIGO-1](generic_installation_and_configuration_guide_1.md)

@@ -79,11 +79,11 @@ However, a binary is available [here](http://repo.indigo-datacloud.eu/repository
 <a id="id6"></a>
 ## Documentation
 
-* [INDIGO OMT GitBook](https://www.gitbook.com/book/indigo-dc/omt-android/details)
+* [INDIGO OMT iOS GitBook](https://www.gitbook.com/read/book/indigo-dc/omt-ios)
 
 <a id="id8"></a>
 ## Support
 
 * Please use the [INDIGO - DataCloud CatchAll GGUS Support Unit](https://wiki.egi.eu/wiki/GGUS:INDIGO_DataCloud_Catch-all_FAQ)<br>
 or
-* [https://github.com/indigo-dc/omt-android/issues](https://github.com/indigo-dc/omt-android/issues)
+* [https://github.com/indigo-dc/omt-android/issues](https://github.com/indigo-dc/omt-ios/issues)

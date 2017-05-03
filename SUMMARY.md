@@ -106,6 +106,7 @@
        * [Token Translation Service](indigo1/tts1.md)
        * [udocker](indigo1/udocker1.md)
    * [Updates](indigo1/updates.md)
+     * [Nineth Update of INDIGO-1](indigo1/nineth_update_of_indigo-1.md)
      * [Eighth Update of INDIGO-1](indigo1/eight_update_of_indigo-1.md)
      * [Seventh Update of INDIGO-1](indigo1/seventh_update_of_indigo-1.md)
      * [Sixth Update of INDIGO-1](indigo1/sixth_update_of_indigo-1.md)

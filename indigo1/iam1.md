@@ -5,8 +5,9 @@ The **Identity and Access Management Service** provides a layer where identities
 **Summary**:
 
 * Updates
-  * [INDIGO IAM v.0.4.0](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/second_update_of_indigo-1.html#iam)<br>
+  * [INDIGO IAM v.0.6.0](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/nineth_update_of_indigo-1.html#iam)<br>
   * [INDIGO IAM v.0.5.0](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/sixth_update_of_indigo-1.html#iam)<br>
+  * [INDIGO IAM v.0.4.0](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/second_update_of_indigo-1.html#iam)<br>
 
 * [Release Notes v0.3.0](#id1)
   * [What's new](#id2)

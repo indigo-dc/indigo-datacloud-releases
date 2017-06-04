@@ -24,7 +24,7 @@ and old versions disabled/removed following Liferay plugin deployment guidelines
 #### Artefacts
 * CentOS 7
   * [LiferayPlugins-binary-2.0.2.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/LiferayPlugins-binary-2.0.2.tgz)
-  * [LiferayPlugins-2.0.2.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/SRPMS/tgz/LiferayPlugins-binary-2.0.2.tgz)
+  * [LiferayPlugins-2.0.2.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/SRPMS/tgz/LiferayPlugins-2.0.2.tgz)
 * Ubuntu14.04
   * [LiferayPlugins-binary-2.0.2.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/LiferayPlugins-binary-2.0.2.tgz)
   * [LiferayPlugins-2.0.2.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/source/LiferayPlugins-2.0.2.tgz)

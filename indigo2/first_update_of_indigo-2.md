@@ -55,12 +55,12 @@ In order to update the packages please use:
 
 #### Artefacts
 * CentOS7 source tarballs
-  * [indigoclient-1.1.1.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/SRPMS/tgz/indigoclient-1.1.1.tar.gz)
-  * [indigokepler-1.1.1.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/SRPMS/tgz/indigokepler-1.1.1.tar.gz) 
+  * [indigoclient-v1.1.1.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/SRPMS/tgz/indigoclient-v1.1.1.tar.gz)
+  * [indigokepler-v1.1.1.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/SRPMS/tgz/indigokepler-v1.1.1.tar.gz) 
 
 * Ubuntu14.04 source tarballs
-  * [indigoclient-1.1.1.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/xenial-updates/main/source/indigoclient-1.1.1.tar.gz)
-  * [indigokepler-1.1.1.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/xenial-updates/main/source/indigokepler-1.1.1.tar.gz) 
+  * [indigoclient-v1.1.1.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/xenial-updates/main/source/indigoclient-v1.1.1.tar.gz)
+  * [indigokepler-v1.1.1.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/xenial-updates/main/source/indigokepler-v1.1.1.tar.gz) 
 
 * Container
   * [indigodatacloudapps/kepler:indigo_2](https://hub.docker.com/r/indigodatacloudapps/kepler/tags/)

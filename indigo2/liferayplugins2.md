@@ -44,7 +44,7 @@ is very similar.
 ## Summary:
 
 * Updates
-  * [LiferayIAM v. 2.0.2](https://github.com/indigo-dc/indigo-datacloud-releases/blob/master/indigo2/first_update_of_indigo-2.md#lp)<br>
+  * [LiferayPlugins v. 2.0.2](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo2/first_update_of_indigo-2.html#lp)<br>
 
 * [Release Notes v. 2.0.0](#id1)
   * [What's new](#id2)
@@ -68,7 +68,7 @@ an administrative panel for the FutureGateway and a customisable application por
 in the ScienceGateway.
 
 Supported Platforms
-* Modules are supported by Liferay 7.0.x and this can run in any operating system supporting java 7.
+* Modules are supported by Liferay 7.0.x and this can run in any operating system supporting Java 7.
 
 
 <a id="id3"></a>

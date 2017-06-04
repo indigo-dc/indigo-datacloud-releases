@@ -1,4 +1,4 @@
-# First Update of INDIGO-2
+# First Update of INDIGO-2 - 05.06.2017
 
 The First Update of INDIGO-2 release contains:
 * [LiferayPlugings v. 2.0.2](#lp)

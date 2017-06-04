@@ -43,11 +43,8 @@ is very similar.
 
 ## Summary:
 
-<!--
 * Updates
-  * [LiferayIAM v. 1.1.1](https://github.com/indigo-dc/indigo-datacloud-releases/blob/master/indigo1/second_update_of_indigo-1.md#li)
-  * [LiferayIAM v. 1.1](https://github.com/indigo-dc/indigo-datacloud-releases/blob/master/indigo1/first_update_of_indigo-1.md#li)<br>
--->
+  * [LiferayIAM v. 2.0.2](https://github.com/indigo-dc/indigo-datacloud-releases/blob/master/indigo2/first_update_of_indigo-2.md#lp)<br>
 
 * [Release Notes v. 2.0.0](#id1)
   * [What's new](#id2)

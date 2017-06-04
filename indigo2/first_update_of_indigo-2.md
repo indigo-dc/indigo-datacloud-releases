@@ -32,7 +32,7 @@ and old versions disabled/removed following Liferay plugin deployment guidelines
 ## <a name="ik"></a>Indigo-Kepler v 1.1.1
 
 #### What's new
-* This minor update of INDIGO-Kepler is an adaptation to the latest changes in FutureGateway.
+* This revision update of INDIGO-Kepler is an adaptation to the latest changes in FutureGateway.
 * New versions of the artifacts:
   * indigoclient v1.1.1 https://github.com/indigo-dc/indigoclient/releases/tag/v1.1.1
   * indigokepler v1.1.1 https://github.com/indigo-dc/indigokepler/releases/tag/v1.1.1

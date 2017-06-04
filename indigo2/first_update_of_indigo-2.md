@@ -4,7 +4,7 @@ The First Update of INDIGO-2 release contains:
 * [LiferayPlugings v. 2.0.2](#lp)
 * [INDIGO Kepler v. 1.1.1](#ik)
 
-## <a name="li"></a>LiferayIAM v. 2.0.2
+## <a name="lp"></a>LiferayPlugins v. 2.0.2
 
 #### What's new
 * The update fixes some bugs found in the second version of the LiferayPlugins package.
@@ -24,9 +24,11 @@ and old versions disabled/removed following Liferay plugin deployment guidelines
 #### Artefacts
 * CentOS 7
   * [LiferayPlugins-binary-2.0.2.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/LiferayPlugins-binary-2.0.2.tgz)
+  * [LiferayPlugins-2.0.2.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/SRPMS/tgz/LiferayPlugins-binary-2.0.2.tgz)
 * Ubuntu14.04
   * [LiferayPlugins-binary-2.0.2.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/LiferayPlugins-binary-2.0.2.tgz)
-
+  * [LiferayPlugins-2.0.2.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/source/LiferayPlugins-2.0.2.tgz)
+  
 ## <a name="ik"></a>Indigo-Kepler v 1.1.1
 
 #### What's new

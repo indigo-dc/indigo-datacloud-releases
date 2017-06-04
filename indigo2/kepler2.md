@@ -2,10 +2,9 @@
 
 ## Summary:
 
-<!--
 * Updates
-  * [INDIGO Kepler v 1.0.2](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/fourth_update_of_indigo-1.html#ik)<br>
--->
+  * [INDIGO Kepler v 1.1.1](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo2/first_update_of_indigo-2.html#ik)<br>
+
 
 * [Release Notes v. 1.1 ](#id1)
   * [What's new](#id2)

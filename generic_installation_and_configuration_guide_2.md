@@ -128,6 +128,7 @@ It is strongly recommended the use of the latest version of the **indigodc-relea
 On the [DockerHub Registry](https://hub.docker.com/), INDIGO - DataCloud has organized the repositories under two Organizations:
 * [indigodatacloud](https://hub.docker.com/u/indigodatacloud/), for Core Services
 * [indigodatacloudapps](https://hub.docker.com/u/indigodatacloudapps/), for Applications
+
 Containers present in those repositories and released in INDIGO-2 are tagged with "*indigo_2*" tag and signed, leveraging the [Docker’s trust features](https://docs.docker.com/engine/security/) so that users can pull trusted images.
 
 Currently, content trust is disabled by default. You must enable it by setting the **DOCKER_CONTENT_TRUST** environment variable, like bellow:

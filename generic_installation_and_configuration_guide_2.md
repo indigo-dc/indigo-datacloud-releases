@@ -38,7 +38,7 @@ allows you to use normal tools, such as **yum**, to install packages and their d
 
 * For more information on Ubuntu please check: [http://www.ubuntu.com/](http://www.ubuntu.com/)
 
-Information to install this operating system can be found at [http://releases.ubuntu.com/trusty/](http://releases.ubuntu.com/xenial/) and or at [Ubuntu Community Installation Guide ](https://help.ubuntu.com/community/Installation) and regarding Docker Containers at [Ubuntu Official Docker repository](https://hub.docker.com/_/ubuntu/).
+Information to install this operating system can be found at [http://releases.ubuntu.com/xenial/](http://releases.ubuntu.com/xenial/) and or at [Ubuntu Community Installation Guide ](https://help.ubuntu.com/community/Installation) and regarding Docker Containers at [Ubuntu Official Docker repository](https://hub.docker.com/_/ubuntu/).
 
 <a id="id3"></a>
 ### Cloud Management Frameworks

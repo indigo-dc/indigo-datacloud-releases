@@ -10,15 +10,16 @@ The INDIGO - DataCloud project provides a rich set of high-level automated funct
 * Support for *dynamic and elastic clusters of resources*. HTCondor, Torque and Mesos cluster are supported. 
 
 <br>
-* [Accounting](accounting1.md)
-* [CloudInfoProvider](cip1.md)
-* [CloudProviderRanker](cpr1.md)
-* [Infrastructure Manager (IM)](im1.md)
+* [Accounting](accounting2.md)
+* [CloudInfoProvider](cip2.md)
+* [CloudProviderRanker](cpr2.md)
+* [Infrastructure Manager (IM)](im2.md)
 * [Kubernetes](kubernetes1.md)
-* [Orchestrator](orchestrator1.md)
-* [ONEDATA](onedata1.md)
-* [TOSCA-Parser & Types](tosca-pt1.md)
-* [Token Translation Service (TTS)](tts1.md)
-* [Zabbix Probes](zabbix-probes1.md)
+* [Orchestrator](orchestrator2.md)
+* [ONEDATA](onedata2.md)
+* [QoS/SLA Management Service](slam2.md)
+* [TOSCA-Parser & Types](tosca-pt2.md)
+* [Token Translation Service (TTS)](tts2.md)
+* [Zabbix Probes](zabbix-probes2.md)
 
 

@@ -45,7 +45,7 @@ Information to install this operating system can be found at [http://releases.ub
 
 #### OpenStack Newton
 
-Please follow the official OpenStack Liberty Installation Guides:
+Please follow the official OpenStack Newton Installation Guides:
 * for [RedHat & CentOS](https://docs.openstack.org/newton/install-guide-rdo/)
   * Please enable the use of Newton RDO repository by using:</br>
   ```$ sudo yum install -y https://repos.fedorapeople.org/openstack/openstack-newton/rdo-release-newton-4.noarch.rpm```</br>

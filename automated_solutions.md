@@ -18,12 +18,12 @@ The INDIGO - DataCloud project provides a rich set of high-level automated funct
 * Kubernetes - [INDIGO-1](indigo1/kubernetes1.md)
 * Mesos Cluster - [INDIGO-2](indigo2/mesos2.md), [INDIGO-1](indigo1/mesos1.md)
 * Orchestrator - [INDIGO-2](indigo2/orchestrator2.md), [INDIGO-1](indigo1/orchestrator1.md)
-** Orchent - [INDIGO-2](indigo2/orchent2.md), [INDIGO-1](indigo1/orchent1.md)
+  * Orchent - [INDIGO-2](indigo2/orchent2.md), [INDIGO-1](indigo1/orchent1.md)
 * ONEDATA - [INDIGO-2](indigo2/onedata2.md), [INDIGO-1](indigo1/onedata1.md)
 * QoS/SLA Management Service - [INDIGO-2](slam2.md), [INDIGO-1](indigo1/slam1.md)
 * TOSCA-Parser & Types - [INDIGO-2](indigo2/tosca-pt2.md), [INDIGO-1](indigo1/tosca-pt1.md)
 * Token Translation Service (WaTTS)- [INDIGO-2](indigo2/tts2.md), [INDIGO-1](indigo1/tts1.md)
-** Token Translation Service Client (WaTTSon) - [INDIGO-2](indigo2/watts2.md), [INDIGO-1](indigo1/watts1.md)
+  * Token Translation Service Client (WaTTSon) - [INDIGO-2](indigo2/watts2.md), [INDIGO-1](indigo1/watts1.md)
 * Zabbix Probes - [INDIGO-2](indigo2/zabbix-probes2.md), [INDIGO-1](indigo1/zabbix-probes1.md)
 
 

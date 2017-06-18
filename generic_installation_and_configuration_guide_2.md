@@ -21,7 +21,7 @@ Summary
 
 For more information on CentOS please check: [https://www.centos.org/](https://www.centos.org/)
 
-All the information to install this operating system can be found at [https://wwwhttps://www.centos.org/download/](https://www.centos.org/download/)
+All the information to install this operating system can be found at [https://www.centos.org/download/](https://www.centos.org/download/)
 
 You will find there information on CentOS [packages](http://mirror.centos.org/centos/7/) and [Docker Containers](https://hub.docker.com/_/centos/).
 

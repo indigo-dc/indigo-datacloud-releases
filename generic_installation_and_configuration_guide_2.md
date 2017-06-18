@@ -36,7 +36,7 @@ allows you to use normal tools, such as **yum**, to install packages and their d
 
 #### Ubuntu 16.04
 
-% For more information on Ubuntu please check: [http://www.ubuntu.com/](http://www.ubuntu.com/)
+* For more information on Ubuntu please check: [http://www.ubuntu.com/](http://www.ubuntu.com/)
 
 Information to install this operating system can be found at [http://releases.ubuntu.com/trusty/](http://releases.ubuntu.com/xenial/) and or at [Ubuntu Community Installation Guide ](https://help.ubuntu.com/community/Installation) and regarding Docker Containers at [Ubuntu Official Docker repository](https://hub.docker.com/_/ubuntu/).
 

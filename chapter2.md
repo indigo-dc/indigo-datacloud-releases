@@ -51,7 +51,7 @@ The INDIGO-2 release consists in 40 Products divided in, mainly, Core Services, 
 * 50 Docker containers
 * 243 external/third-party dependencies
 
-INDIGO-1 is fully supported
+INDIGO-2 is fully supported
 * on the following **Operating Systems** platforms:
   * **CentOS 7**
   * **Ubuntu 16.04**

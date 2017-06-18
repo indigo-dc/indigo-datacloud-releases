@@ -12,15 +12,15 @@ The INDIGO - DataCloud project provides a rich set of high-level automated funct
 <br>
 
 * Accounting - [INDIGO-2](indigo2/accounting2.md), [INDIGO-1](indigo1/accounting1.md)
-* CloudInfoProvider - [INDIGO-2](indigo2/cip1.md), [INDIGO-1](indigo1/cip1.md)
-* CloudProviderRanker - [INDIGO-2](indigo2/cpr1.md), [INDIGO-1](indigo1/cpr1.md)
-* Infrastructure Manager (IM) - [INDIGO-2](indigo2/im1.md), [INDIGO-1](indigo1/im1.md)
+* CloudInfoProvider - [INDIGO-2](indigo2/cip2.md), [INDIGO-1](indigo1/cip1.md)
+* CloudProviderRanker - [INDIGO-2](indigo2/cpr2.md), [INDIGO-1](indigo1/cpr1.md)
+* Infrastructure Manager (IM) - [INDIGO-2](indigo2/im2.md), [INDIGO-1](indigo1/im1.md)
 * Kubernetes - [INDIGO-1](indigo1/kubernetes1.md)
-* Orchestrator - [INDIGO-2](indigo2/orchestrator1.md), [INDIGO-1](indigo1/orchestrator1.md)
-* ONEDATA - [INDIGO-2](indigo2/onedata1.md), [INDIGO-1](indigo1/onedata1.md)
+* Orchestrator - [INDIGO-2](indigo2/orchestrator2.md), [INDIGO-1](indigo1/orchestrator1.md)
+* ONEDATA - [INDIGO-2](indigo2/onedata2.md), [INDIGO-1](indigo1/onedata1.md)
 * QoS/SLA Management Service - [INDIGO-2](slam2.md), [INDIGO-1](indigo1/slam1.md)
-* TOSCA-Parser & Types - [INDIGO-2](indigo2/tosca-pt1.md), [INDIGO-1](indigo1/tosca-pt1.md)
-* Token Translation Service - [INDIGO-2](indigo2/tts1.md), [INDIGO-1](indigo1/tts1.md)
-* Zabbix Probes - [INDIGO-2](indigo2/zabbix-probes1.md), [INDIGO-1](indigo1/zabbix-probes1.md)
+* TOSCA-Parser & Types - [INDIGO-2](indigo2/tosca-pt2.md), [INDIGO-1](indigo1/tosca-pt1.md)
+* Token Translation Service - [INDIGO-2](indigo2/tts2.md), [INDIGO-1](indigo1/tts1.md)
+* Zabbix Probes - [INDIGO-2](indigo2/zabbix-probes2.md), [INDIGO-1](indigo1/zabbix-probes1.md)
 
 

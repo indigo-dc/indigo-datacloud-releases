@@ -18,6 +18,8 @@ The Principal advantages of this solutions are:
 * Ideal solution for existing development environments already using CSGF.
 
 ## Summary:
+* Updates
+  * [fgAPIServer & APIServerDaemonv0.0.8](https://github.com/indigo-dc/indigo-datacloud-releases/blob/master/indigo2/second_update_of_indigo-2.md#fg) 
 
 * [Release Notes](#id1)
   * [What's new](#id2)

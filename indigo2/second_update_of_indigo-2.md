@@ -119,3 +119,27 @@ The Second Update of INDIGO-2 release contains:
   * [fgAPIServer-v0.0.8.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/source/fgAPIServer-v0.0.8tar.gz)
   * [APIServerDaemon-v0.0.8.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/source/APIServerDaemon-v0.0.8.tar.gz)
   * [PortalSetup-v0.0.8.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/source/PortalSetup-v0.0.8.tar.gz)
+
+## <a name="li"></a>LiferayPlugIns v. 2.0.3
+
+#### What's new
+* The new version introduces several improvements:
+  * allow to search among tasks, applications and infrastructures using the FG admin portlet
+  * allow to modify information associated with applications and infrastructures
+  * make the customisable portlet configurareble by the domain administrator
+
+#### List of RfCs
+* [Issue-13](https://github.com/indigo-dc/LiferayPlugIns/issues/13) - Implement filtering in the admin portlet 
+* [Issue-14](https://github.com/indigo-dc/LiferayPlugIns/issues/14) - Update FutureGateway value
+* [Issue-17](https://github.com/indigo-dc/LiferayPlugIns/issues/17) - Customisable portlet configuration in configuration panel
+
+#### Installation \& Configuration
+* To upgrade the modules have to be installed again. All configurations will be maintained.
+
+* More information can be found in the "Upgrade to a new release" section of the [Administration Guide](https://indigo-dc.gitbooks.io/liferay-iam-connector/content/doc/admin.html)
+
+#### Artefacts
+* CentOS 7
+  * [LiferayPlugIns-binary-v2.0.3.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/LiferayIAM-binary-v2.0.3.tgz)
+* Ubuntu14.04
+  * [LiferayPlugIns-binary-v2.0.3.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/binary-amd64/LiferayIAM-binary-v2.0.3.tgz)

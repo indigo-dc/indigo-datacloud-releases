@@ -7,7 +7,7 @@ The Second Update of INDIGO-2 release contains:
   * [APIServerDaemon v0.0.8](#fg)
   * [PortalSetup v0.0.8](#fg)
   * [fgSetup v0.0.8](#fg)
-* [LiferayPlugins v. 2.0.3](#li)
+* [LiferayPlugins v. 2.0.3](#lp)
 * [ONEdock v. 1.2](#onedock)
 * [TOSCA-parser v. 0.8.2](#tp)
 
@@ -120,7 +120,7 @@ The Second Update of INDIGO-2 release contains:
   * [APIServerDaemon-v0.0.8.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/source/APIServerDaemon-v0.0.8.tar.gz)
   * [PortalSetup-v0.0.8.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/source/PortalSetup-v0.0.8.tar.gz)
 
-## <a name="li"></a>LiferayPlugIns v. 2.0.3
+## <a name="lp"></a>LiferayPlugIns v. 2.0.3
 
 #### What's new
 * The new version introduces several improvements:

@@ -175,7 +175,34 @@ The Second Update of INDIGO-2 release contains:
 * Ubuntu 14.04
   * [onedock_1.2-1_master_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/binary-amd64/onedock_1.2-1_master_all.deb)
   * [onedock_1.2-1_node_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/binary-amd64/onedock_1.0-2_node_all.deb)
-* Ubuntu 14.04
+* Ubuntu 16.04
   * [onedock_1.2-1_master_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/onedock_1.2-1_master_all.deb)
   * [onedock_1.2-1_node_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/onedock_1.0-2_node_all.deb)  
+
+## <a name="tp"></a>TOSCA-parser v. 0.8.2
+
+#### What's new
+* The updated version of TOSCA-parser addresses minor bugfixes and merged 0.8.1 upstream version.
+
+
+#### List of RfCs
+* Merge upstream version 0.8.1
+* Fix error getting relationshps in case of custom_def capability: https://bugs.launchpad.net/tosca-parser/+bug/1687598
+* Fix _find_host_containing_property does not search for properties in capabilities: https://bugs.launchpad.net/tosca-parser/+bug/1675764
+
+#### Installation & Configuration
+In order to update the packages please use:
+* For CentOS 7:<br>
+  ``` yum clean all && yum update tosca-parser```<br>
+* For Ubuntu 14:04/16.04:<br>
+  ```apt-get update && apt-get install python-tosca-parser```<br>
+  
+  
+#### Artefacts
+* CentOS7
+  * [tosca-parser-0.8.2-.el7.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/tosca-parser-0.8.2-1.el7.noarch.rpm)
+* Ubuntu 14.04
+  * [python-tosca-parser_0.8.2-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/binary-amd64/python-tosca-parser_0.8.2-1_all.deb)
+  * Ubuntu 14.04
+  * [python-tosca-parser_0.8.2-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/python-tosca-parser_0.8.2-1_all.deb)
 

@@ -1,4 +1,4 @@
-# Liferay Plugins 2.0.0
+# Liferay PlugIns
 
 
 LiferayPlugins is a set of Liferay modules for the interaction with INDIGO-DataCloud services.
@@ -44,6 +44,7 @@ is very similar.
 ## Summary:
 
 * Updates
+  * [LiferayPlugins v. 2.0.3](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo2/second_update_of_indigo-2.html#lp)<br>
   * [LiferayPlugins v. 2.0.2](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo2/first_update_of_indigo-2.html#lp)<br>
 
 * [Release Notes v. 2.0.0](#id1)

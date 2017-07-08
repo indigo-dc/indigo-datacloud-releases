@@ -1,4 +1,4 @@
-# Infrastructure Manager v. 1.5.2
+# Infrastructure Manager
 
 The **Infrastructure Manager (IM)** is a tool that deploys complex and customized virtual infrastructures on IaaS Cloud deployments (such as AWS, OpenStack, etc.). 
 * It eases the access and the usability of IaaS clouds by automating the VMI (Virtual Machine Image) selection, deployment, configuration, software installation, monitoring and update of the virtual infrastructure. 

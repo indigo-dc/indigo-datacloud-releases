@@ -7,15 +7,10 @@ The **Infrastructure Manager (IM)** is a tool that deploys complex and customize
 
 This version evolved in the [INDIGO-Datacloud project](https://www.indigo-datacloud.eu/) by adding support to TOSCA documents as input for the infrastructure creation.
 
-## Summary:
+**Summary**:
 
-<!--
 * Updates
-  * [IM v1.5.1](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/eight_update_of_indigo-1.html#im)
-  * [IM v1.5.0](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/seventh_update_of_indigo-1.html#im)
-  * [IM v1.4.8](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/fourth_update_of_indigo-1.html#im)
-  * [IM v1.4.7](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/second_update_of_indigo-1.html#im)
--->
+  * [IM v1.5.5](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo2/second_update_of_indigo-2.html#im)
 
 * [Release Notes v1.5.2](#id1)
   * [What's new](#id2)

@@ -1,4 +1,4 @@
-# Second Update of INDIGO-2 - 17/07/2017
+# Second Update of INDIGO-2 - 07/07/2017
 
 The Second Update of INDIGO-2 release contains:
 * [IM v. 1.5.5](#im)
@@ -143,3 +143,61 @@ The Second Update of INDIGO-2 release contains:
   * [LiferayPlugIns-binary-v2.0.3.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/LiferayIAM-binary-v2.0.3.tgz)
 * Ubuntu14.04
   * [LiferayPlugIns-binary-v2.0.3.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/binary-amd64/LiferayIAM-binary-v2.0.3.tgz)
+
+## <a name="onedock"></a>ONEdock v. 1.2
+
+#### What's new
+* Implemented first version of persistence
+* Update tests to work with opennebula 4 and opennebula 5
+
+
+#### List of RfCs
+* Implemented first version of persistence https://github.com/indigo-dc/onedock/pull/66
+* Update OneDock documentation https://github.com/indigo-dc/onedock/pull/70
+* Update tests to work with one4 and one 5 https://github.com/indigo-dc/onedock/pull/76
+* Fix typo in onedock-master.spec for one 5 https://github.com/indigo-dc/onedock/pull/77
+
+
+#### Installation & Configuration
+* The supported platforms
+  * CentOS 7
+  * Ubuntu 14.04
+  * Ubuntu 16.04
+
+* Installation methods
+  * To install onedock it's recommended to use the install scripts available here: https://github.com/indigo-dc/onedock/tree/master/install
+  * If you plan to use the packages, please, read the manual first:https://indigo-dc.gitbooks.io/onedock/content/doc/install.html
+  
+#### Artefacts
+* CentOS 7
+  * [onedock-master-1.2-1.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/onedock-master-1.2-1.noarch.rpm)
+  * [onedock-node-1.2-1.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/onedock-node-1.2-1.noarch.rpm)
+* Ubuntu 14.04
+  * [onedock_1.2-1_master_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/onedock_1.2-1_master_all.deb)
+  * [onedock_1.2-1_node_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/onedock_1.0-2_node_all.deb)
+  
+
+## <a name="ooi"></a>OOI v. 0.3.2
+
+#### What's new
+* The updated version provides only bug fixes, no new feature
+
+#### List of RfCs
+* ooi fails with 500 when deleting a volume
+* ooi fails with error 500 when deleting a volume that is attached
+
+* More info at [Milestone-0.3.2](https://launchpad.net/ooi/+milestone/0.3.2)
+
+#### Installation & Configuration
+In order to update the packages please use:
+* For CentOS 7:<br>
+  ```yum clean all && yum update python-ooi```<br>
+* For Ubuntu 14:04:<br>
+  ```apt-get update && apt-get install python-ooi```<br>
+
+#### Artefacts
+* CentOS7
+  * [python-ooi-0.3.2-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/centos7/x86_64/updates/python-ooi-0.3.2-1.el7.centos.noarch.rpm)
+* Ubuntu14.04
+  * [python-ooi_0.3.2-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-ooi_0.3.2-1_all.deb)
+  * [ooi-doc_0.3.2-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo-preview/1/ubuntu/dists/trusty-updates/main/binary-amd64/ooi-doc_0.3.2-1_all.deb)

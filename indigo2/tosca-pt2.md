@@ -9,10 +9,9 @@ The **[INDIGO TOSCA Types](https://github.com/indigo-dc/tosca-types/tree/v2.0.0)
 
 ## Summary:
 
-<!--
 * Updates
-  * [TOSCA Parser v. 0.6.1](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/second_update_of_indigo-1.html#tp)
--->
+  * [TOSCA Parser v. 0.8.2](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo2/second_update_of_indigo-2.html#tp)
+
 
 * [Release Notes TOSCA Parser v. 0.7.2 & Types v. 2.0.0](#id1)
   * [What's new](#id2)

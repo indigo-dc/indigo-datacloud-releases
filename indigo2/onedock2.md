@@ -4,10 +4,8 @@
 
 ## Summary:
 
-<!--
 * Updates
-  * [ONEdock v. 1.0-2](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/second_update_of_indigo-1.html#onedock)
--->
+  * [ONEdock v. 1.2](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo2/second_update_of_indigo-2.html#onedock)
 
 * [Release Notes v. 1.1](#id1)
   * [What's new](#id2)

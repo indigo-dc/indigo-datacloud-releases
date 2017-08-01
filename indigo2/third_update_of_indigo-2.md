@@ -2,7 +2,30 @@
 
 The Third Update of INDIGO-2 release contains:
 * [Ophidia v. 1.1.0](#ophidia)
+* [Orchestrator v. 1.4.0-FINAL](#orchestrator)
 * [Monitoring - Zabbix-probes v. 1.1](#zp)
+
+## <a name="zp"></a>Monitoring  - Zabbix-probes v. 1.1
+
+<!--
+#### What's new
+* The current update provides new probes - Mesos cluster probes which includes probes for Mesos, Marathon and Chronos
+
+#### List of RfCs
+* New feature:
+  * Implemented Mesos, Chronos and Marathon probes
+
+#### Installation & Configuration
+* The Monitoring - Zabbix probes documentation has been updated and is available at https://www.gitbook.com/book/indigo-dc/monitoring/details
+* New probe documentation is available at: https://indigo-dc.gitbooks.io/monitoring/content/doc/mesos.html
+
+#### Artefacts
+* CentOS7
+  * [MesosZabbixProbe-1.01-1.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/MesosZabbixProbe-1.01-1.noarch.rpm)
+* Ubuntu14.04
+  * [mesos-zabbix-probe-1.01.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/mesos-zabbix-probe-1.01.deb)
+
+-->
 
 ## <a name="ophidia"></a>Ophidia v. 1.1.0
 
@@ -44,28 +67,37 @@ Packages:
   * [ophidia-primitives-1.1.0-0.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/ophidia-primitives-1.1.0-0.el7.centos.x86_64.rpm)
   * [ophidia-server-1.1.0-0.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/ophidia-server-1.1.0-0.el7.centos.x86_64.rpm)
   * [ophidia-terminal-1.1.0-0.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/ophidia-terminal-1.1.0-0.el7.centos.x86_64.rpm)
-  
-## <a name="zp"></a>Monitoring  - Zabbix-probes v. 1.1
 
-<!--
+## <a name="orchestrator"></a>Orchestrator v. 1.4.0-FINAL
+
 #### What's new
-* The current update provides new probes - Mesos cluster probes which includes probes for Mesos, Marathon and Chronos
+* Support for the deployment of hybrid clusters has been added; Users can also retrieve their own deployents through REST APIs
 
 #### List of RfCs
-* New feature:
-  * Implemented Mesos, Chronos and Marathon probes
+* Improvements:
+  * [Issue #232](https://project.indigo-datacloud.eu/work_packages/232) - Fix IM header generation for IAM federated OpenStacks
+  * [Issue #231](https://project.indigo-datacloud.eu/work_packages/231) - Support for deployment of hybrid clusters
+  * [Issue #230](https://project.indigo-datacloud.eu/work_packages/230) - [Docker] Validate DB connection before starting wildfly
+  * [Issue #229](https://project.indigo-datacloud.eu/work_packages/232) - Add information of who created the deployments in REST response
+  * [Issue #222](https://project.indigo-datacloud.eu/work_packages/232) - Allow filtering of deployment though param in REST APIs
+
 
 #### Installation & Configuration
-* The Monitoring - Zabbix probes documentation has been updated and is available at https://www.gitbook.com/book/indigo-dc/monitoring/details
-* New probe documentation is available at: https://indigo-dc.gitbooks.io/monitoring/content/doc/mesos.html
+No special operations will be required for the upgrade. Thus, the upgrade operations are:
+* Stop the old container:</br>
+  ```sudo docker stop orchestrator```</br>
+* Remove the old container:</br>
+  ```sudo docker rm orchestrator```</br>
+* Pull the new image version:<br>
+  ```sudo docker pull indigodatacloud/orchestrator:1.4.0-FINAL```</br>
+* Start the new version:</br>
+  ```docker run ...*parameters*... indigodatacloud/orchestrator:1.4.0-FINAL```</br>
+* More details are available in the Upgrade guide: https://indigo-dc.gitbooks.io/indigo-paas-orchestrator/content/how_to_upgrade.html 
 
 #### Artefacts
-* CentOS7
-  * [MesosZabbixProbe-1.01-1.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/MesosZabbixProbe-1.01-1.noarch.rpm)
-* Ubuntu14.04
-  * [mesos-zabbix-probe-1.01.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/mesos-zabbix-probe-1.01.deb)
+* Docker Container:
+  * [indigodatacloud/orchestrator:indigo_2](https://hub.docker.com/r/indigodatacloud/orchestrator/)
 
--->
 
 
 

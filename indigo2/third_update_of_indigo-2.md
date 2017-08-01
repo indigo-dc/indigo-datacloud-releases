@@ -1,9 +1,9 @@
 # Third Update of INDIGO-2 - XX/08/2017
 
 The Third Update of INDIGO-2 release contains:
+* [Monitoring - Zabbix-probes v. 1.1](#zp)
 * [Ophidia v. 1.1.0](#ophidia)
 * [Orchestrator v. 1.4.0-FINAL](#orchestrator)
-* [Monitoring - Zabbix-probes v. 1.1](#zp)
 
 ## <a name="zp"></a>Monitoring  - Zabbix-probes v. 1.1
 

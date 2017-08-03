@@ -1,14 +1,42 @@
 # Third Update of INDIGO-2 - XX/08/2017
 
 The Third Update of INDIGO-2 release contains:
+* [CMDB](#CMDB)
+* [Kubernetes](#kube)
 * [Monitoring - Zabbix-probes v. 1.1](#zp)
 * [Ophidia v. 1.1.0](#ophidia)
 * [Orchestrator v. 1.4.0-FINAL](#orchestrator)
 * [SLAM v. 1.2.2](#slam)
 
 
-## <a name="zp"></a>Kubernetes 
+## <a name="cmdb"></a>CMDB v. 0.4 
 
+#### What's new
+* Some of the features of the new release are:
+  * management of following CI: providers, computing and storage services, images
+  * support for public cloud providers
+  * access control on relevant level
+  * support of IAM authentication
+  * support of hierarchical ownership in authorization schema (support of federated organizations)
+    possibility to extend CI schema
+
+* Depends on other components features:
+  * IAM
+* Other componets dependent on new features:
+  * SLAM
+  * Monitoring
+  * CloudInfoProvider
+
+#### Installation & Configuration
+* Information regarding deployment is avalable in the [Deployment Guide](https://indigo-dc.gitbooks.io/cmdb/content/deployment.html)
+* Information regarding the migrating of data is available in the [DataMigration Procedure](https://indigo-dc.gitbooks.io/cmdb/content/data-migration.html)
+
+
+#### Artefacts
+* [indigodatacloud/cmdb:v0.4](https://hub.docker.com/r/indigodatacloud/cmdb/tags/)
+
+
+## <a name="kube"></a>Kubernetes 
 
 #### What's new
 * Updated documentation on how to setup a **Kubernetes Cluster** together with a shell script and Ansible playbook for the installation, uploaded to the git: [https://github.com/indigo-dc/kubernetes](https://github.com/indigo-dc/kubernetes)
@@ -19,7 +47,6 @@ The Third Update of INDIGO-2 release contains:
 * [Documentation](https://indigo-dc.gitbooks.io/kubernetes/content/)
 
 ## <a name="zp"></a>Monitoring  - Zabbix-probes v. 1.1
-
 
 #### What's new
 * Some of the highlights of the new versions are:

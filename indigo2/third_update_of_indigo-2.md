@@ -4,16 +4,31 @@ The Third Update of INDIGO-2 release contains:
 * [Monitoring - Zabbix-probes v. 1.1](#zp)
 * [Ophidia v. 1.1.0](#ophidia)
 * [Orchestrator v. 1.4.0-FINAL](#orchestrator)
+* [SLAM v. 1.2.2](#slam)
+
+
+## <a name="zp"></a>Kubernetes 
+
+
+#### What's new
+* Updated documentation on how to setup a **Kubernetes Cluster** together with a shell script and Ansible playbook for the installation, uploaded to the git: [https://github.com/indigo-dc/kubernetes](https://github.com/indigo-dc/kubernetes)
+  * Feature hub between versions Kybernetes 1.2, 1.3, 1.5
+  * repeatable Installation Guide (already uploaded in Git)
+
+#### Artefacts
+* [Documentation](https://indigo-dc.gitbooks.io/kubernetes/content/)
 
 ## <a name="zp"></a>Monitoring  - Zabbix-probes v. 1.1
 
-<!--
+
 #### What's new
-* The current update provides new probes - Mesos cluster probes which includes probes for Mesos, Marathon and Chronos
+* Some of the highlights of the new versions are:
+  * Openstack and OCCI Probe contain the integration with IAM.
+  * new IM probe
+  * Zabbix-wrapper validates the hostgroups belonging to hosts
 
 #### List of RfCs
-* New feature:
-  * Implemented Mesos, Chronos and Marathon probes
+* N/A
 
 #### Installation & Configuration
 * The Monitoring - Zabbix probes documentation has been updated and is available at https://www.gitbook.com/book/indigo-dc/monitoring/details
@@ -25,7 +40,6 @@ The Third Update of INDIGO-2 release contains:
 * Ubuntu14.04
   * [mesos-zabbix-probe-1.01.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/mesos-zabbix-probe-1.01.deb)
 
--->
 
 ## <a name="ophidia"></a>Ophidia v. 1.1.0
 
@@ -99,7 +113,25 @@ No special operations will be required for the upgrade. Thus, the upgrade operat
   * [indigodatacloud/orchestrator:indigo_2](https://hub.docker.com/r/indigodatacloud/orchestrator/)
 
 
+## <a name="slam"></a>SLAM v. 1.2.2
 
+#### What's new
+* Some of the highlights of this update are:
+  * UX has been greatly improved
+  + added possibility to specify preference of the user using drag-and-drop technique
+  + the current version is compliant with CMDB v0.4
+  + improvement in authorization on REST API
+  + some minor fixes in business logic and QoS
+
+#### List of RfCs
+* N/A
+
+#### Installation & Configuration
+* It is enough to replace service docker, with databases from old version.
+
+#### Artefacts
+* Docker Container
+  * [docker pull indigodatacloud/slam:v1.2.2](https://hub.docker.com/r/indigodatacloud/slam/)
 
 
 

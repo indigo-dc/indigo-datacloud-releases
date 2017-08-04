@@ -60,12 +60,27 @@ The Third Update of INDIGO-2 release contains:
 #### Installation & Configuration
 * The Monitoring - Zabbix probes documentation has been updated and is available at https://www.gitbook.com/book/indigo-dc/monitoring/details
 * New probe documentation is available at: https://indigo-dc.gitbooks.io/monitoring/content/doc/mesos.html
+* OCCI probe: https://indigo-dc.gitbooks.io/monitoring/doc/OCCI.html
+* OpenStack probe: https://indigo-dc.gitbooks.io/monitoring/doc/OPENSTACK.html
+* IM probe: https://indigo-dc.gitbooks.io/monitoring/zabbix-probes/im-zabbix-probe/doc/im-zabbix-agent.html
+
+The only upgraded probe is the OCCI probe. To upgrade just install the new probe packages over the old ones. It should work in the same way however:
+* The IAM information is needed in the configuration file as explained in the Configuration section of the documentation.
+* The CMDB content should have the extra information needed by the new version of the probe or the probe should be set to standalone as explained in the Configuration section of the documentation.
+
 
 #### Artefacts
 * CentOS7
-  * [MesosZabbixProbe-1.01-1.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/MesosZabbixProbe-1.01-1.noarch.rpm)
+  * [imzabbix-agent-1.0-1.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/MesosZabbixProbe-1.01-1.noarch.rpm)
+  * [OCCIZabbixProbe-1.1-1.noarch.rpm]()
+  * [openstack-zabbix-probe-1.1.rpm]()
 * Ubuntu14.04
-  * [mesos-zabbix-probe-1.01.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/mesos-zabbix-probe-1.01.deb)
+  * [imzabbix-agent-1.0-Ubuntu-14.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/mesos-zabbix-probe-1.01.deb)
+  * [occi-zabbix-probe-1.1.deb]()
+  * [openstack-zabbix-probe-1.1.deb]()
+
+* Docker:
+  * Zabbix-wrapper: [indigodatacloud/zabbix-wrapper:indigo_2](https://hub.docker.com/r/indigodatacloud/zabbix-wrapper/tags/)
 
 
 ## <a name="ophidia"></a>Ophidia v. 1.1.0

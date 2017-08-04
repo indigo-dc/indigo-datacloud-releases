@@ -13,6 +13,7 @@
        * [CloudInfoProvider](indigo2/cip2.md)
        * [CloudProviderRanker](indigo2/cpr2.md)
        * [CLUES](indigo2/clues2.md)
+       * [CMDB](indigo2/cmdb2.md)
        * [Core PaaS](indigo2/core_paas2.md)
          * [Accounting](indigo2/accounting2.md)
          * [Mesos Cluster](indigo2/mesos2.md)

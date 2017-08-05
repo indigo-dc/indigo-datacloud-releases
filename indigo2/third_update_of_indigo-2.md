@@ -159,7 +159,9 @@ Make sure that new permissions can be safely added to the system without breakin
   * any platform that supports Docker Engine (>11.2)
   * Ubuntu 16.04 (also 14.04, 15.04 in [Onedata repositories](http://onedata-dev-packages.cloud.plgrid.pl)) 
     * [oneclient_17.06.0.rc2-1_amd64.deb]()
-  * CentOS 7
+    * remember to download also the [Onedata Ubuntu-Xenial-list file](http://repo.indigo-datacloud.eu/repos/2/onedata-xenial.list) and download the onedata-key:
+      ```# wget -q -O - http://onedata-dev-packages.cloud.plgrid.pl/onedata.gpg.key | sudo apt-key add -```</br>
+  * CentOS 7 (remember to download the [onedata-cent0s7-repo file](http://onedata-dev-packages.cloud.plgrid.pl/yum/onedata_centos_7x.repo)
     * [oneclient-17.06.0.rc2-1.el7.centos.x86_64.rpm]()
   * Fedora 23 - in [Onedata repositories](http://onedata-dev-packages.cloud.plgrid.pl)
 * Onezone and Oneprovider:

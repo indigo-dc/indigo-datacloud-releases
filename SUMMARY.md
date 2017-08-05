@@ -56,6 +56,7 @@
          *  [Token Translation Service Client (WaTTSon)](indigo2/wattson2.md)
        * [udocker](indigo2/udocker2.md)
    * [Updates](indigo2/updates.md)
+     * [Third Update of INDIGO-2](indigo2/third_update_of_indigo-2.md)
      * [Second Update of INDIGO-2](indigo2/second_update_of_indigo-2.md)
      * [First Update of INDIGO-2](indigo2/first_update_of_indigo-2.md)
 * [INDIGO-1 MidnightBlue](chapter1.md)

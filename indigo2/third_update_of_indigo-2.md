@@ -4,6 +4,7 @@ The Third Update of INDIGO-2 release contains:
 * [CMDB](#CMDB)
 * [Kubernetes](#kube)
 * [Monitoring - Zabbix-probes v. 1.1](#zp)
+* [Onedata v. 1.1.0](#onedata)
 * [Ophidia v. 1.1.0](#ophidia)
 * [Orchestrator v. 1.4.0-FINAL](#orchestrator)
 * [SLAM v. 1.2.2](#slam)
@@ -82,6 +83,95 @@ The only upgraded probe is the OCCI probe. To upgrade just install the new probe
 * Docker:
   * Zabbix-wrapper: [indigodatacloud/zabbix-wrapper:indigo_2](https://hub.docker.com/r/indigodatacloud/zabbix-wrapper/tags/)
 
+
+## <a name="onedata"></a>Onedata v. 17.06.0-rc2
+
+#### What's new
+* The new version of Onedata includes major performance upgrades, stability improvements and many highly demanded new features.
+
+#### List of RfCs
+* Enabled native GlusterFS support on OSX
+* Multiuser tests implemented
+* add additional logging to performance tests
+* Fix space support with missing storage ID
+* setup luma when adding storage
+* Increase default RAM quota of couchbase buckets
+* Improve dbsync changes filtering and queue size control
+* Remove file_location links.
+* Move periodic cleanup of permission cache to fslogic_worker, refactor file_meta.
+* Adjust changes stream test to delayed creation of file_location.
+* implementation of reverse_luma and luma_cache_behaviour, update of luma tests
+* Enabled native GlusterFS support on OSX
+VFS-3458 Make sure user's connected accounts are popagated through subscriptions, - use md5 rather than base64 to encode user and group ids 
+* User base64 url rather than base64 in user id encoding
+* Fix a bug in groups encoding from SAML assertions, do base64 of user ids from IdPs
+* Update esaml reference to point to repo in onedata's github
+* Add support for GlusterFS
+* Update couchbase version to 4.5.1
+* Improve dbsync changes aggregation
+Make sure that new permissions can be safely added to the system without breaking - gui compliance
+* Remove deprecated privilege names
+* Fix dbsync recovery stream
+* Decode cacert from pem into der format, when opening websocket connection.
+* Make sure user aliases in subscriptions are precomputed every time a space name - changes, decrease changes intervals
+* Cluster_worker update (update node monitoring logging)
+* Showing hashes for conflicting space, group and provider names in Onezone
+* Truncating long provider names in sidebar
+* Loader indicator when creating space
+* New support space modal with support token, deploy provider command and expose - data command
+* Extend oneclient fsync with flushing events and fsyncing files on provider side.
+* Add flush of all event streams
+* Add support for sig v2 to AWS S3 helper
+* Moved extended attribute messages from provider to fuse namespace
+* Added extended attributes support
+* Add copy/remove tests.
+* Check if mtime and ctime are equal after rename (in previous implemetation of - rename they were greater).
+* Use only storage ID in space support request
+* Change provider deregistration behaviour
+* Update provider name after modify
+* Copy/remove files during move when non posix storage is used
+* Implement rename operation.
+* Rewrite current remove implementation and delete rename operation.
+* Rename auth_rhea module to auth_keycloak module
+* Add support for RHEA KeyCloak OpenID Connect
+* Disable storage helpers buffering
+* Integrate with new datastore
+* Integrate with refactored datastore
+* Handle chmod, truncate and updating timestamps in storage_sync
+* Refactor storage_import and space_sync_worker
+* Update datastore models to use new datastore API
+* Remove space-storage mapping on space support revoke
+* Enable release docker to log to stdout
+* Add libcouchbase package dependency
+* Create new test files while verifying storage availability
+* Display Provider software version
+* Displaying Zone name and version in Onezone and login view
+* Fix blocking message when at least one provider is offline
+* Added RHEA social icon
+
+#### Installation & Configuration
+* Clean installation:
+  * https://onedata.org/docs/doc/getting_started/downloading_onedata.html
+  * https://onedata.org/docs/doc/getting_started/admin_onedata_101.html
+
+#### Artefacts
+* Oneclient:
+  * any platform that supports Docker Engine (>11.2)
+  * Ubuntu 16.04 (also 14.04, 15.04 in [Onedata repositories](http://onedata-dev-packages.cloud.plgrid.pl)) 
+    * [oneclient_17.06.0.rc2-1_amd64.deb]()
+  * CentOS 7
+    * [oneclient-17.06.0.rc2-1.el7.centos.x86_64.rpm]()
+  * Fedora 23 - in [Onedata repositories](http://onedata-dev-packages.cloud.plgrid.pl)
+* Onezone and Oneprovider:
+  * any platform that supports Docker Engine (>11.2)
+  * Fedora 23 in [Onedata repositories](http://onedata-dev-packages.cloud.plgrid.pl)
+  * Ubuntu 16.04
+    * [oneprovider_17.06.0.rc2-1_amd64.deb]()
+    * [onezone_17.06.0.rc2-1_amd64.deb]()
+* Docker Container (1.4.0-FINAL):
+  * [indigodatacloud/onezone:17.06.0-rc2](https://hub.docker.com/r/indigodatacloud/onezone/tags)
+  * [indigodatacloud/oneprovider:17.06.0-rc2](https://hub.docker.com/r/indigodatacloud/oneprovider/tags)
+  * [indigodatacloud/oneclient:17.06.0-rc2](https://hub.docker.com/r/indigodatacloud/oneclient/tags)
 
 ## <a name="ophidia"></a>Ophidia v. 1.1.0
 

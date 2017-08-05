@@ -1,4 +1,4 @@
-# Third Update of INDIGO-2 - XX/08/2017
+# Third Update of INDIGO-2 - 05/08/2017
 
 The Third Update of INDIGO-2 release contains:
 * [CMDB](#CMDB)

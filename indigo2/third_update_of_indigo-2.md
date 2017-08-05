@@ -151,7 +151,7 @@ No special operations will be required for the upgrade. Thus, the upgrade operat
 * More details are available in the Upgrade guide: https://indigo-dc.gitbooks.io/indigo-paas-orchestrator/content/how_to_upgrade.html 
 
 #### Artefacts
-* Docker Container:
+* Docker Container (1.4.0-FINAL):
   * [indigodatacloud/orchestrator:indigo_2](https://hub.docker.com/r/indigodatacloud/orchestrator/)
 
 

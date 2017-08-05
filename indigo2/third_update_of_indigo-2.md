@@ -72,13 +72,13 @@ The only upgraded probe is the OCCI probe. To upgrade just install the new probe
 
 #### Artefacts
 * CentOS7
-  * [imzabbix-agent-1.0-1.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/MesosZabbixProbe-1.01-1.noarch.rpm)
-  * [OCCIZabbixProbe-1.1-1.noarch.rpm]()
-  * [openstack-zabbix-probe-1.1.rpm]()
-* Ubuntu14.04
-  * [imzabbix-agent-1.0-Ubuntu-14.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/mesos-zabbix-probe-1.01.deb)
-  * [occi-zabbix-probe-1.1.deb]()
-  * [openstack-zabbix-probe-1.1.deb]()
+  * [imzabbix-agent-1.0-1.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/imzabbix-agent-1.0-1.el7.centos.x86_64.rpm)
+  * [OCCIZabbixProbe-1.1-1.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/OCCIZabbixProbe-1.1-1.noarch.rpm)
+  * [openstack-zabbix-probe-1.1.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/openstack-zabbix-probe-1.1.rpm)
+* Ubuntu16.04
+  * [imzabbix-agent-1.0-Ubuntu-14.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/imzabbix-agent-1.0-Ubuntu-14.deb)
+  * [occi-zabbix-probe-1.1.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/occi-zabbix-probe-1.1.deb)
+  * [openstack-zabbix-probe-1.1.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/openstack-zabbix-probe-1.1.deb)
 
 * Docker:
   * Zabbix-wrapper: [indigodatacloud/zabbix-wrapper:indigo_2](https://hub.docker.com/r/indigodatacloud/zabbix-wrapper/tags/)
@@ -158,18 +158,18 @@ Make sure that new permissions can be safely added to the system without breakin
 * Oneclient:
   * any platform that supports Docker Engine (>11.2)
   * Ubuntu 16.04 (also 14.04, 15.04 in [Onedata repositories](http://onedata-dev-packages.cloud.plgrid.pl)) 
-    * [oneclient_17.06.0.rc2-1_amd64.deb]()
-    * remember to download also the [Onedata Ubuntu-Xenial-list file](http://repo.indigo-datacloud.eu/repos/2/onedata-xenial.list) and download the onedata-key:
+    * [oneclient_17.06.0.rc2-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/oneclient_17.06.0.rc2-1_amd64.deb)
+    * remember to download also the [Onedata Ubuntu-Xenial-list file](http://repo.indigo-datacloud.eu/repos/2/onedata-xenial.list) and download the onedata-key:</br>
       ```# wget -q -O - http://onedata-dev-packages.cloud.plgrid.pl/onedata.gpg.key | sudo apt-key add -```</br>
-  * CentOS 7 (remember to download the [onedata-cent0s7-repo file](http://onedata-dev-packages.cloud.plgrid.pl/yum/onedata_centos_7x.repo)
-    * [oneclient-17.06.0.rc2-1.el7.centos.x86_64.rpm]()
+  * CentOS 7 (remember to download the [onedata-Centos7-repo file](http://onedata-dev-packages.cloud.plgrid.pl/yum/onedata_centos_7x.repo)
+    * [oneclient-17.06.0.rc2-1.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/oneclient-17.06.0.rc2-1.el7.centos.x86_64.rpm)
   * Fedora 23 - in [Onedata repositories](http://onedata-dev-packages.cloud.plgrid.pl)
 * Onezone and Oneprovider:
   * any platform that supports Docker Engine (>11.2)
   * Fedora 23 in [Onedata repositories](http://onedata-dev-packages.cloud.plgrid.pl)
   * Ubuntu 16.04
-    * [oneprovider_17.06.0.rc2-1_amd64.deb]()
-    * [onezone_17.06.0.rc2-1_amd64.deb]()
+    * [oneprovider_17.06.0.rc2-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/oneprovider_17.06.0.rc2-1_amd64.deb)
+    * [onezone_17.06.0.rc2-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/onezone_17.06.0.rc2-1_amd64.deb)
 * Docker Container (1.4.0-FINAL):
   * [indigodatacloud/onezone:17.06.0-rc2](https://hub.docker.com/r/indigodatacloud/onezone/tags)
   * [indigodatacloud/oneprovider:17.06.0-rc2](https://hub.docker.com/r/indigodatacloud/oneprovider/tags)

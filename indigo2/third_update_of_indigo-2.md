@@ -4,7 +4,7 @@ The Third Update of INDIGO-2 release contains:
 * [CMDB](#CMDB)
 * [Kubernetes](#kube)
 * [Monitoring - Zabbix-probes v. 1.1](#zp)
-* [Onedata v. 1.1.0](#onedata)
+* [Onedata v. 17.06.0-rc2](#onedata)
 * [Ophidia v. 1.1.0](#ophidia)
 * [Orchestrator v. 1.4.0-FINAL](#orchestrator)
 * [SLAM v. 1.2.2](#slam)

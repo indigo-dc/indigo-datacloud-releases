@@ -149,5 +149,31 @@ The changes are internal to every Kepler actor. User switching to v1.2 does not 
   * [indigodatacloudapps/kepler-batch:indigo_2](https://hub.docker.com/r/indigodatacloudapps/kepler-batch/tags/)
 
 
+## <a name="lp"></a>LiferayPlugIns v. 2.1.0
+
+#### What's new
+* The new version include a deeply revised customisable portlet which better integrate with OneData allowing users to
+access their information without cut&paste from OneData web interface.
+
+#### List of RfCs
+* [Issue-15](https://github.com/indigo-dc/LiferayPlugIns/issues/15) - OneData integration 
+* [Issue-20](https://github.com/indigo-dc/LiferayPlugIns/issues/20) - Handle time synchronization problem robustly
+* [Issue-22](https://github.com/indigo-dc/LiferayPlugIns/issues/22) - PTV Validation for external user
+* [Issue-23](https://github.com/indigo-dc/LiferayPlugIns/issues/23) - Customisable portlet problem with string in json configuration 
+* [Issue-25](https://github.com/indigo-dc/LiferayPlugIns/issues/25) - Customisable Application Portlet makes REST calls for unlogged user
+* [Issue-26](https://github.com/indigo-dc/LiferayPlugIns/issues/26) - Improve error handling in Customisable Application Portlet
+* [Issue-27](https://github.com/indigo-dc/LiferayPlugIns/issues/27) - Misleading errors in log file about problems parsing a valid token
+
+#### Installation \& Configuration
+* This is the same as previous release and included in the gitBook documentation. Previous components has to deactivated and
+new version deployed and activated through the Liferay app console in the control panel.
+
+* More information can be found in the "Upgrade to a new release" section of the [Administration Guide]https://indigo-dc.gitbooks.io/liferay-plugins/content/)
+
+#### Artefacts
+* CentOS 7
+  * [LiferayPlugIns-binary-v2.1.0.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/LiferayIAM-binary-v2.1.0.tgz)
+* Ubuntu14.04
+  * [LiferayPlugIns-binary-v2.1.0.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/LiferayIAM-binary-v2.0.3.tgz)
 
 

@@ -202,3 +202,36 @@ new version deployed and activated through the Liferay app console in the contro
   * [indigodatacloud/orchent:indigo_2](https://hub.docker.com/r/indigodatacloud/orchemt/tags/)
   
   
+## <a name="ooi"></a>OOI v. 1.2.0
+
+#### What's new
+* The updated version provides:
+  * New features: Implemented VM resize support.
+  * Bug Fixes: Fix floating IP association issue with OpenStack Neutron and several OCCI rendering issues.
+
+#### List of RfCs
+* The complete list is at: https://launchpad.net/ooi/+milestone/1.2.0
+
+* Floating IP association issue with OpenStack Neutron: https://bugs.launchpad.net/ooi/+bug/1709249
+* mixins missing location attribute: https://bugs.launchpad.net/ooi/+bug/1687933
+* os_tpl and resource_tpl mixins are missing `applies`: https://bugs.launchpad.net/ooi/+bug/1687938
+* resource_tpl mixins missing default values: https://bugs.launchpad.net/ooi/+bug/1687943
+* floatingippool mixins need a "parent" mixin: https://bugs.launchpad.net/ooi/+bug/1687935
+
+
+#### Installation & Configuration
+In order to update the packages please use:
+* For CentOS 7:<br>
+  ```yum clean all && yum update python-ooi```<br>
+* For Ubuntu 14:04:<br>
+  ```apt-get update && apt-get install python-ooi```<br>
+
+* No extra actions are needed.
+
+
+#### Artefacts
+* CentOS7
+  * [python-ooi-1.2.0-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/python-ooi-1.2.0-1.el7.centos.noarch.rpm)
+* Ubuntu14.04
+  * [python-ooi_1.2.0-1ubuntu1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/senial-updates/main/binary-amd64/python-ooi_1.2.0-1ubuntu1_all.deb)
+  * [ooi-doc_0.3.2-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/ooi-doc_1.2.0-1_all.deb)

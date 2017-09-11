@@ -279,3 +279,32 @@ Packages:
   * [python-synergy-service_1.5.2_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/xenial-updates/main/binary-amd64/python-synergy-service_1.5.2_all.deb)
   * [python-synergy-scheduler-manager_2.5.0_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/python-synergy-scheduler-manager_2.5.0_all.deb)
 
+
+## <a name="tts"></a>WaTTS v. 1.2.0
+
+#### What's new
+* Mainly the release contains the newest Erlang VM under the hood witha faster startup time by running more concurrent and an enforced check of the user agent and peer ip of the clients. 
+
+#### List of RfCs
+* [Updated to newest Erlang Runtime System (ERTS) 20.0](https://github.com/indigo-dc/tts/issues/285)
+* [support for RSP #281](https://github.com/indigo-dc/tts/issues/285)
+* [ensure fast startup time, including logging of it #437](https://github.com/indigo-dc/tts/issues/437)
+* [enforce checks of user agent and peer IP #394](https://github.com/indigo-dc/tts/issues/394)
+* [https://github.com/indigo-dc/tts/issues/135](https://github.com/indigo-dc/tts/issues/135), [Issue-140](https://github.com/indigo-dc/tts/issues/140) - idh-single-user had issues with different providers, caused by local user cache
+
+#### Installation & Configuration
+   + Just apt install also documented here (maybe add two settings into the config, if updating from 1.0.0):
+https://github.com/indigo-dc/tts/blob/master/gitbook/admin.md
+
+Upgrading the TTS from version 0.2.2 to 0.4.0 is straight forward. As the configuration files are compatible the only actions to do are:
+* stop the TTS:   ``` tts stop  ``` 
+* install the new package
+* start the newly installed TTS: ``` tts start  ``` 
+
+#### Artefacts
+* CentOS 7
+  * [tts-0.4.0-1.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/tts-0.4.0-1.el7.centos.x86_64.rpm)
+* Ubuntu 14.04
+  * [tts_0.4.0-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/tts_0.4.0-1_amd64.deb)
+* Docker Container:
+  * [indigodatacloud/cdmi:indigo_1](https://hub.docker.com/r/indigodatacloud/cdmi/tags/)

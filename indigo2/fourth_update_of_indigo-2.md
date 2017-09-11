@@ -176,4 +176,29 @@ new version deployed and activated through the Liferay app console in the contro
 * Ubuntu14.04
   * [LiferayPlugIns-binary-v2.1.0.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/LiferayIAM-binary-v2.0.3.tgz)
 
+## <a name="orchent"></a>Orchent v. 1.1.0
 
+#### What's new
+* Highlights of this update are:
+  * added support for time and user based filtering #24
+  * added support for alias in a local configuration file #25
+  * add 'test' command to check if the url specified is backed by the orchestrator (to ensure the url has no typos etc) #20
+
+#### List of RfCs
+* (Issue #20)[https://github.com/indigo-dc/orchent/issues/20]
+* (Issue #24)[https://github.com/indigo-dc/orchent/issues/24]
+* (Issue #25)[https://github.com/indigo-dc/orchent/issues/25]
+
+#### Installation & Configuration
+* Documentation is avalable at - [Orchent GitBook](https://www.gitbook.com/book/indigo-dc/orchent/details)
+
+#### Artefacts
+* CentOS7
+  * [orchent-0.1.0-1.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/orchent-0.1.0-1.el7.centos.x86_64.rpm)
+* Ubuntu14.04
+  * [orchent-0.1.0-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/orchent-0.1.0-1_amd64.deb)
+
+* Container
+  * [indigodatacloud/orchent:indigo_2](https://hub.docker.com/r/indigodatacloud/orchemt/tags/)
+  
+  

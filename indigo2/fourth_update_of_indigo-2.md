@@ -217,12 +217,12 @@ new version deployed and activated through the Liferay app console in the contro
 
 #### Artefacts
 * CentOS7
-  * [orchent-1.1.0-1.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/orchent-1.1.0-1.el7.centos.x86_64.rpm)
+  * [orchent-1.1.0-1.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/orchent-1.1.0-1.el7.centos.x86_64.rpm)
 * Ubuntu14.04
-  * [orchent-1.1.0_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/orchent-1.1.0_amd64.deb)
+  * [orchent-1.1.0_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/binary-amd64/orchent-1.1.0_amd64.deb)
 
 * Container
-  * [indigodatacloud/orchent:indigo_2](https://hub.docker.com/r/indigodatacloud/orchemt/tags/)
+  * [indigodatacloud/orchent:indigo_2](t)
   
   
 ## <a name="ooi"></a>OOI v. 1.2.0

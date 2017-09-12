@@ -281,7 +281,7 @@ This update brings many new features and bug fixes like
 #### Installation & Configuration
 * https://indigo-dc.gitbooks.io/synergy-doc/content/
 * Service Reference Card: https://indigo-dc.gitbooks.io/synergy-doc/content/doc/service_reference_card.html
-* Update/Upgrade Synergy packages: https://indigo-dc.gitbooks.io/synergy-doc/content/doc/admin.htm
+* Update/Upgrade Synergy packages: https://indigo-dc.gitbooks.io/synergy-doc/content/doc/admin.html
 
 #### Artefacts
 * Supported Operating Systems platforms:

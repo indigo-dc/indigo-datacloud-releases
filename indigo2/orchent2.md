@@ -2,7 +2,7 @@
 
 Orchet is he command line client for the INDIGO DataCloud Orchestrator.
 
-## Summary:
+Summary:
 * Updates
   * [Orchent v. 1.1.0](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo2/fourth_update_of_indigo-2.html#orchent)<br>
 

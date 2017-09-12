@@ -1,13 +1,12 @@
-# Token Translation Service (WaTTS) v. 1.0.0
+# Token Translation Service (WaTTS)
 
 The **Token Translation Service (TTS)** offers an easy way to self service credentials by the users. The TTS was necessary to develop for cases when OpenId Connect serves as the only source for authorization and identification. Therefore, the TTS bridges the gap between services that do not support OpenId Connect and the OpenId Connect provider. 
 
 ## Summary:
 
-<!--
+
 * Updates
-  * [TTS v. 0.4.0](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo1/first_update_of_indigo-1.html#tts) <br>
--->
+  * [TTS v. 1.2.0](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo2/fourth_update_of_indigo-2.html#watts) <br>
 
 * [Release Notes v. v 1.0.0](#id1)
   * [What's new](#id2)

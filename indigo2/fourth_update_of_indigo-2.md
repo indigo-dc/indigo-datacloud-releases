@@ -100,7 +100,7 @@ The IAM service is provided on the following DockerHub repositories:
 
 How to run the docker container
 
-* The IAM service is executed by starting the docker container with the following command:<\br>
+* The IAM service is executed by starting the docker container with the following command:</br>
 
 ```$ docker run --name iam-login-service \ ```</br>
 ```--net=iam -p 8080:8080 \ ```</br>
@@ -118,13 +118,13 @@ How to run the docker container
 * Packages and repo files are hosted on https://repo.cloud.cnaf.infn.it/repository/indigo-iam public repository.
 * Installation
   * Install the required Indigo IAM repository, install the IAM login service package.
-    * On CentOS:<\br>
-    ```$ sudo yum install -y iam-login-service```<\br>
-    * On Ubuntu:<\br>
-    ```$ sudo apt-get install -y iam-login-service```<\br>
-  * Run the service
-    * The service is managed by Systemd, so to run it use:<\br>
-     ```$ sudo systemctl start iam-login-service ```<\br>
+    * On CentOS:</br>
+    ```$ sudo yum install -y iam-login-service```</br>
+    * On Ubuntu:</br>
+    ```$ sudo apt-get install -y iam-login-service```</br>
+  * Run the service</br>
+    * The service is managed by Systemd, so to run it use:</br>
+     ```$ sudo systemctl start iam-login-service ```</br>
 
 <a id="id7"></a>
 #### Artefacts

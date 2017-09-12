@@ -208,9 +208,9 @@ new version deployed and activated through the Liferay app console in the contro
   * add 'test' command to check if the url specified is backed by the orchestrator (to ensure the url has no typos etc) #20
 
 #### List of RfCs
-* (Issue #20)[https://github.com/indigo-dc/orchent/issues/20]
-* (Issue #24)[https://github.com/indigo-dc/orchent/issues/24]
-* (Issue #25)[https://github.com/indigo-dc/orchent/issues/25]
+* [Issue #20](https://github.com/indigo-dc/orchent/issues/20)
+* [Issue #24](https://github.com/indigo-dc/orchent/issues/24)
+* [Issue #25](https://github.com/indigo-dc/orchent/issues/25)
 
 #### Installation & Configuration
 * Documentation is avalable at - [Orchent GitBook](https://www.gitbook.com/book/indigo-dc/orchent/details)

@@ -137,7 +137,7 @@ How to run the docker container
   * [indigodatacloud/iam-login-service:indigo_2](https://hub.docker.com/r/indigodatacloud/iam-login-service/tags)
 
 
-## <a name="ik"></a>Indigo-Kepler v1.2
+## <a name="kepler"></a>Indigo-Kepler v 1.2
 
 #### What's new
 * Added mechanism to refresh an IAM token. It is used internally by every Kepler actor which communicates with FutureGateway, so that the workflow continues execution even after the original token expires.

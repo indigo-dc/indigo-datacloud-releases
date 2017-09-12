@@ -101,6 +101,7 @@ The IAM service is provided on the following DockerHub repositories:
 How to run the docker container
 
 * The IAM service is executed by starting the docker container with the following command:<\br>
+
 ```$ docker run --name iam-login-service \ ```</br>
 ```--net=iam -p 8080:8080 \ ```</br>
 ```--env-file=/path/to/iam-login-service/env \ ```</br>

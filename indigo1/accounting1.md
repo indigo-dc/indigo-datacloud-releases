@@ -1,7 +1,12 @@
-# Accounting v. 1.0.0-1
+# Accounting
 
 Summary:
-* [Release Notes](#id1)
+
+* Updates
+  * [Accounting v. 1.2.1-1](https://github.com/indigo-dc/indigo-datacloud-releases/blob/master/indigo1/third_update_of_indigo-1.md#accounting)
+
+
+* [Release Notes v. 1.0.0-1](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)

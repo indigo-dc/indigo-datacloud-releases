@@ -195,9 +195,9 @@ new version deployed and activated through the Liferay app console in the contro
 
 #### Artefacts
 * CentOS 7
-  * [LiferayPlugIns-binary-v2.1.0.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/LiferayIAM-binary-v2.1.0.tgz)
+  * [LiferayPlugIns-binary-v2.1.0.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/LiferayPlugIns-binary-v2.1.0.tgz)
 * Ubuntu14.04
-  * [LiferayPlugIns-binary-v2.1.0.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/LiferayIAM-binary-v2.0.3.tgz)
+  * [LiferayPlugIns-binary-v2.1.0.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/LiferayPlugIns-binary-v2.0.3.tgz)
 
 ## <a name="orchent"></a>Orchent v. 1.1.0
 

@@ -44,6 +44,7 @@ is very similar.
 ## Summary:
 
 * Updates
+  * [LiferayPlugins v. 2.1.0](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo2/fourth_update_of_indigo-2.html#lp)<br>
   * [LiferayPlugins v. 2.0.3](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo2/second_update_of_indigo-2.html#lp)<br>
   * [LiferayPlugins v. 2.0.2](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo2/first_update_of_indigo-2.html#lp)<br>
 

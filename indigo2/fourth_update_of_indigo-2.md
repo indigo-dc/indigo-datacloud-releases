@@ -298,7 +298,7 @@ Packages:
   * [python-synergy-service-1.5.2-2.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/python-synergy-service-1.5.2-2.el7.centos.noarch.rpm)
   * [python-synergy-scheduler-manager-2.5.0-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/python-synergy-scheduler-manager-2.5.0-1.el7.centos.noarch.rpm)
 * Ubuntu 14.04
-  * [python-synergy-service_1.5.2_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/xenial-updates/main/binary-amd64/python-synergy-service_1.5.2_all.deb)
+  * [python-synergy-service_1.5.2_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/python-synergy-service_1.5.2_all.deb)
   * [python-synergy-scheduler-manager_2.5.0_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/python-synergy-scheduler-manager_2.5.0_all.deb)
 
 

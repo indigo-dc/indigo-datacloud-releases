@@ -149,13 +149,14 @@ How to run the docker container
 The changes are internal to every Kepler actor. User switching to v1.2 does not need to do any changes in Kepler workflows created with prior version of the module.
 
 #### Artefacts
+
 * Sources
   * https://github.com/indigo-dc/indigoclient/releases/tag/v1.2
   * https://github.com/indigo-dc/indigokepler/releases/tag/v1.2
-  * Ansible role for VM/Docker with VNC (also released in Ansible Galaxy and Docker Hub with v1.2 tag)
-    * https://github.com/indigo-dc/ansible-role-kepler/releases/tag/v1.2
-  * Ansible role for VM/Docker in a batch, non-GUI version (also released in Ansible Galaxy and Docker Hub with v1.2 tag)
-    * https://github.com/indigo-dc/ansible-role-kepler-batch/releases/tag/v1.2
+* Ansible role for VM/Docker with VNC (also released in Ansible Galaxy and Docker Hub with v1.2 tag)
+  * https://github.com/indigo-dc/ansible-role-kepler/releases/tag/v1.2
+* Ansible role for VM/Docker in a batch, non-GUI version (also released in Ansible Galaxy and Docker Hub with v1.2 tag)
+  * https://github.com/indigo-dc/ansible-role-kepler-batch/releases/tag/v1.2
 
 
 * CentOS7 source tarballs

@@ -302,7 +302,7 @@ Packages:
   * [python-synergy-scheduler-manager_2.5.0_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/python-synergy-scheduler-manager_2.5.0_all.deb)
 
 
-## <a name="tts"></a>WaTTS v. 1.2.0
+## <a name="watts"></a>WaTTS v. 1.2.0
 
 #### What's new
 * Mainly the release contains the newest Erlang VM under the hood witha faster startup time by running more concurrent and an enforced check of the user agent and peer ip of the clients. 

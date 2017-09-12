@@ -26,7 +26,10 @@ It is currently expected that only the QoS/SLA tool will interact with these sum
 
 
 ## Summary:
-* [Release Notesv 1.3.2](#id1)
+* Updates
+  * [Accounting v. 1.4.0](https://github.com/indigo-dc/indigo-datacloud-releases/blob/master/indigo2/fourth_update_of_indigo-2.md#accounting)
+
+* [Release Notes v 1.3.2](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)

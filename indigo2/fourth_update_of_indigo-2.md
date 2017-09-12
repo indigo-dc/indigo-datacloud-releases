@@ -325,8 +325,8 @@ Upgrading the TTS from version 0.2.2 to 0.4.0 is straight forward. As the config
 
 #### Artefacts
 * CentOS 7
-  * [tts-1.2.0-1.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/tts-1.2.0-1.el7.centos.x86_64.rpm)
+  * [tts-1.2.0-1.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/tts-1.2.0-1.el7.centos.x86_64.rpm)
 * Ubuntu 14.04
-  * [tts_1.2.0-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/tts_1.2.0-1_amd64.deb)
+  * [tts_1.2.0-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/tts_1.2.0-1_amd64.deb)
 * Docker Container:
   * [indigodatacloud/tts:indigo_2](https://hub.docker.com/r/indigodatacloud/tags)

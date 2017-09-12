@@ -1,4 +1,4 @@
-Orchent v. 1.0.3
+# Orchent 
 
 Orchet is he command line client for the INDIGO DataCloud Orchestrator.
 

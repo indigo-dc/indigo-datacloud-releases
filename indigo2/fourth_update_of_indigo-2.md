@@ -191,7 +191,7 @@ access their information without cut&paste from OneData web interface.
 * This is the same as previous release and included in the gitBook documentation. Previous components has to deactivated and
 new version deployed and activated through the Liferay app console in the control panel.
 
-* More information can be found in the "Upgrade to a new release" section of the [Administration Guide]https://indigo-dc.gitbooks.io/liferay-plugins/content/)
+* More information can be found in the "Upgrade to a new release" section of the [Administration Guide](https://indigo-dc.gitbooks.io/liferay-plugins/content/)
 
 #### Artefacts
 * CentOS 7

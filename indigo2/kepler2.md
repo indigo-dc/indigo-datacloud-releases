@@ -3,6 +3,7 @@
 ## Summary:
 
 * Updates
+  * [INDIGO Kepler v 1.2.0](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo2/fourth_update_of_indigo-2.html#kepler)<br>
   * [INDIGO Kepler v 1.1.1](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo2/first_update_of_indigo-2.html#ik)<br>
 
 

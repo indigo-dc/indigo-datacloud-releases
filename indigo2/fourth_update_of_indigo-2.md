@@ -234,12 +234,11 @@ new version deployed and activated through the Liferay app console in the contro
 
 #### List of RfCs
 * The complete list is at: https://launchpad.net/ooi/+milestone/1.2.0
-
-* Floating IP association issue with OpenStack Neutron: https://bugs.launchpad.net/ooi/+bug/1709249
-* mixins missing location attribute: https://bugs.launchpad.net/ooi/+bug/1687933
-* os_tpl and resource_tpl mixins are missing `applies`: https://bugs.launchpad.net/ooi/+bug/1687938
-* resource_tpl mixins missing default values: https://bugs.launchpad.net/ooi/+bug/1687943
-* floatingippool mixins need a "parent" mixin: https://bugs.launchpad.net/ooi/+bug/1687935
+  * Floating IP association issue with OpenStack Neutron: https://bugs.launchpad.net/ooi/+bug/1709249
+  * mixins missing location attribute: https://bugs.launchpad.net/ooi/+bug/1687933
+  * os_tpl and resource_tpl mixins are missing `applies`: https://bugs.launchpad.net/ooi/+bug/1687938
+  * resource_tpl mixins missing default values: https://bugs.launchpad.net/ooi/+bug/1687943
+  * floatingippool mixins need a "parent" mixin: https://bugs.launchpad.net/ooi/+bug/1687935
 
 
 #### Installation & Configuration

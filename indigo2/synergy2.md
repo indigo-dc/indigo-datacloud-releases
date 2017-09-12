@@ -72,7 +72,7 @@ Packages:
 
 * https://indigo-dc.gitbooks.io/synergy-doc/content/
 * Service Reference Card: https://indigo-dc.gitbooks.io/synergy-doc/content/doc/service_reference_card.html
-* Update/Upgrade Synergy packages: https://indigo-dc.gitbooks.io/synergy-doc/content/doc/admin.htm
+* Update/Upgrade Synergy packages: https://indigo-dc.gitbooks.io/synergy-doc/content/doc/admin.html
 
 <a id="id8"></a>
 ## Support

@@ -8,7 +8,10 @@ If preferences are not specified, for each provider the rank is calculated as su
 
 
 # Summary:
-* [Release Notes](#id1)
+* Updates
+  * [CloudProviderRanker v. 0.6.0](https://github.com/indigo-dc/indigo-datacloud-releases/blob/master/indigo2/fourth_update_of_indigo-2.md#cpr)
+
+* [Release Notes v. 0.5.4-1](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)

@@ -89,6 +89,7 @@ Supported Platforms:
 IAM Login Service can be deployed in two different ways:
 * as Docker container
 * as systemd daemon from precompiled packages
+
 Also a Puppet module is provided to simplify the installation and setup, available at https://github.com/indigo-iam/puppet-indigo-iam. This module is leveraging on the precompiled packages.
 
 ##### IAM docker image

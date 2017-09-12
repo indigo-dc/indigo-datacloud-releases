@@ -86,23 +86,43 @@ Supported Platforms:
 
 #### Installation & Configuration
 
-<!--
-* *How to upgrade already deployed service*:
-  * If you've followed the gitbook guide (https://indigo-dc.gitbooks.io/iam/content/doc/admin.html), you could do as follows:</br>
-```docker pull indigodatacloud/iam-login-service```</br>
-```docker stop iam-login-service```</br>
-```docker rm iam-login-service```</br>
-```docker run \```</br>
-```  --name iam-login-service --net=iam -p 8080:8080 \```</br>
-```  --env-file=/path/to/iam-login-service/env \```</br>
-```   -v /path/to/keystore.jks:/keystore.jks:ro \```</br>
-```  indigodatacloud/iam-login-service```</br>
--->
+IAM Login Service can be deployed in two different ways:
+* as Docker container
+* as systemd daemon from precompiled packages
+Also a Puppet module is provided to simplify the installation and setup, available at https://github.com/indigo-iam/puppet-indigo-iam. This module is leveraging on the precompiled packages.
 
-* *Service Reference*
-  * IAM gitbook: https://indigo-dc.gitbooks.io/iam/content/doc/admin.html
+##### IAM docker image
 
-* Please read the [Deployment and Administration guide](https://indigo-dc.gitbooks.io/iam/content/doc/admin.html)
+The IAM service is provided on the following DockerHub repositories:
+* indigoiam/iam-login-service
+* indigodatacloud/iam-login-service
+
+How to run the docker container
+
+* The IAM service is executed by starting the docker container with the following command:<\br>
+```$ docker run --name iam-login-service \ ```</br>
+```--net=iam -p 8080:8080 \ ```</br>
+```--env-file=/path/to/iam-login-service/env \ ```</br>
+```-v /path/to/keystore.jks:/keystore.jks:ro \ ```</br>
+```indigodatacloud/iam-login-service ```</br>
+
+  * See our gitbook [Admin Guide](https://indigo-dc.gitbooks.io/iam/content/doc/admin.html) for all configuration variables description.
+
+##### Deployment with precompiled packages
+* Since IAM 1.0.0, precompiled packages are available to install IAM Login service
+* Supported platforms:
+  * CentOS 7
+  * Ubuntu 16.04
+* Packages and repo files are hosted on https://repo.cloud.cnaf.infn.it/repository/indigo-iam public repository.
+* Installation
+  * Install the required Indigo IAM repository, install the IAM login service package.
+    * On CentOS:<\br>
+    ```$ sudo yum install -y iam-login-service```<\br>
+    * On Ubuntu:<\br>
+    ```$ sudo apt-get install -y iam-login-service```<\br>
+  * Run the service
+    * The service is managed by Systemd, so to run it use:<\br>
+     ```$ sudo systemctl start iam-login-service ```<\br>
 
 <a id="id7"></a>
 #### Artefacts

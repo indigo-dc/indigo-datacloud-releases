@@ -77,7 +77,7 @@ More details:
 * https://github.com/indigo-iam/iam/releases/tag/v1.0.0
 
 Supported Platforms:
-* The **IAM** service is currently distributed as a docker image from Dockerhub, so in order to run the service, you will need Docker v. 1.11.1 or greater. If you want to use docker-compose to deploy the service, you will also need docker-compose v.1.7.0 or greater.
+* The **IAM** service is distributed as package for CentOS7 and Ubuntu 16.04 and as a docker image from Dockerhub. In order to run the service using the container, you will need Docker v. 1.11.1 or greater. If you want to use docker-compose to deploy the service, you will also need docker-compose v.1.7.0 or greater.
 
 #### List of RfCs
 

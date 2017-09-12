@@ -256,7 +256,7 @@ In order to update the packages please use:
   * [python-ooi-1.2.0-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/python-ooi-1.2.0-1.el7.centos.noarch.rpm)
 * Ubuntu14.04
   * [python-ooi_1.2.0-1ubuntu1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/python-ooi_1.2.0-1ubuntu1_all.deb)
-  * [ooi-doc_0.3.2-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/ooi-doc_1.2.0-1_all.deb)
+  * [ooi-doc_1.2.0-1ubuntu1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/ooi-doc_1.2.0-1ubuntu1_all.deb)
 
 
 ## <a name="synergy"></a>Synergy Service, v. 1.5.2  and Scheduler Manager, v. 2.5.0

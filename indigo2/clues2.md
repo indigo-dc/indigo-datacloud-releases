@@ -11,7 +11,7 @@ CLUES has been extended in the INDIGO-DataCloud project with new plugins to supp
 * mesos.py: CLUES plugin to connect with Mesos, Chronos, and Marathon.
 
 ## Summary:
-* [Release Notes v. 0.8.0](#id1)
+* [Release Notes v. 0.9.0](#id1)
   * [What's new](#id2)
   * [List of RfCs](#id3)
   * [Deployment Notes](#id4)

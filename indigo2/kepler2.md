@@ -1,4 +1,4 @@
-# INDIGO Kepler v. 1.1
+# INDIGO Kepler
 
 ## Summary:
 
@@ -19,7 +19,7 @@
 
 
 <a id="id1"></a>
-## Release Notes v. 1.1
+## Release Notes v. 1.1.1
 
 <a id="id2"></a>
 ### What's new

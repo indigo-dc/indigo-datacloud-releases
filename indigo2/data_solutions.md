@@ -10,4 +10,5 @@ The INDIGO - DataCloud project  provides a complete set of data-related features
 * [ONEDATA](onedata1.md)
 
 External Solutions used:
-* FTS
+* [FTS](http://fts3-service.web.cern.ch/)
+* [DynaFed](http://lcgdm.web.cern.ch/dynafed-dynamic-federation-project)

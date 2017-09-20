@@ -12,3 +12,5 @@ The INDIGO - DataCloud project  provides a complete set of data-related features
 
 External Solutions used:
 * [FTS](http://fts3-service.web.cern.ch/)
+* [DynaFed](http://lcgdm.web.cern.ch/dynafed-dynamic-federation-project)
+

@@ -7,7 +7,7 @@ The Fourth Update of INDIGO-2 release contains:
 * [IM Java API v. 0.4.10](#imjavaapi)
 * [INDIGO-Kepler v. 1.3](#kepler)
 * [Synergy: Service v. 1.5.3 & Scheduler-Manager v. 2.6.0](#synergy)
-* [Liferay Plugins v. 2.1.0](#lp)
+* [Liferay Plugins v. 2.2.1](#lp)
 * [Orchent v. 1.1.0](#orchent)
 * [OOI v. 1.2.0](#ooi)
 * [Synergy: Service v. 1.5.2 & Scheduler-Manager v. 2.5.0](#synergy)
@@ -200,5 +200,39 @@ Packages:
 * Ubuntu 14.04
   * [python-synergy-service_1.5.3_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/python-synergy-service_1.5.3_all.deb)
   * [python-synergy-scheduler-manager_2.5.0_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/python-synergy-scheduler-manager_2.6.0_all.deb)
-  
+
+
+## <a name="lp"></a>LiferayPlugIns v. 2.2.1
+
+#### What's new
+* The new version includes:
+  * the autogeneration of the UI for TOSCA based application
+  * the access to runtime data in the UI.
+  * Improved token management reducing the communication with IAM endpoints.
+  * several bug fixes.
+
+#### List of RfCs
+* [Issue-28](https://github.com/indigo-dc/LiferayPlugIns/issues/28) - Support Runtime Data of the tasks 
+* [Issue-30](https://github.com/indigo-dc/LiferayPlugIns/issues/30) - Ajax call should be async
+* [Issue-31](https://github.com/indigo-dc/LiferayPlugIns/issues/31) - Default paramter file generation
+* [Issue-32](https://github.com/indigo-dc/LiferayPlugIns/issues/32) - Javascript dependency error 
+* [Issue-34](https://github.com/indigo-dc/LiferayPlugIns/issues/34) - Remove or improve alert messages
+* [Issue-36](https://github.com/indigo-dc/LiferayPlugIns/issues/36) - Caching keys for token validation
+* [Issue-38](https://github.com/indigo-dc/LiferayPlugIns/issues/38) - Default values in TOSCA template should be selected in Customisable Application Portlet
+* [Issue-40](https://github.com/indigo-dc/LiferayPlugIns/issues/40) - Float field in the UI should accept integer
+* [Issue-42](https://github.com/indigo-dc/LiferayPlugIns/issues/42) - Admin portlet should list task for all users
+* [Issue-43](https://github.com/indigo-dc/LiferayPlugIns/issues/43) - UserInfo endpoint called with expired token
+* [Issue-49](https://github.com/indigo-dc/LiferayPlugIns/issues/49) - OneProvider dns only name
+
+#### Installation \& Configuration
+* Provided details in the documentation. In short administrator should add the new modules from the Liferay control panel and disable/remove the previous.
+
+* More information can be found in the "Upgrade to a new release" section of the [Administration Guide](https://indigo-dc.gitbooks.io/liferay-plugins/content/)
+
+#### Artefacts
+* CentOS 7
+  * [LiferayPlugins-binary-2.2.1.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/LiferayPlugins-binary-2.2.1.tgz)
+* Ubuntu14.04
+  * [LiferayPlugIns-binary-2.2.1.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/LiferayPlugins-binary-2.2.1.tgz)
+
 

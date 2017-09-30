@@ -8,13 +8,14 @@ The Fourth Update of INDIGO-2 release contains:
 * [INDIGO-Kepler v. 1.3](#kepler)
 * [Synergy: Service v. 1.5.3 & Scheduler-Manager v. 2.6.0](#synergy)
 * [Liferay Plugins v. 2.2.1](#lp)
+* [CLUES v. 2.2.1](#clues)
 * [Orchent v. 1.1.0](#orchent)
 * [OOI v. 1.2.0](#ooi)
 * [Synergy: Service v. 1.5.2 & Scheduler-Manager v. 2.5.0](#synergy)
 * [WaTTs v. 1.2.0](#watts)
 
 
-## <a name="cmdb"></a>Accounting (APEL) v. 1.5.0-1 
+## <a name="accounting"></a>Accounting (APEL) v. 1.5.0-1 
 
 #### What's new
 * New Features and Minor Changes
@@ -235,4 +236,30 @@ Packages:
 * Ubuntu14.04
   * [LiferayPlugIns-binary-2.2.1.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/LiferayPlugins-binary-2.2.1.tgz)
 
+## <a name="clues"></a>CLUES v. 1.0.0
 
+#### What's new
+* Several bugfixes
+
+#### List of RfCs
+* Assure not to delete non existing resources -> https://github.com/indigo-dc/clues-indigo/pull/47
+* Show statusReason in clues log -> https://github.com/indigo-dc/clues-indigo/pull/47
+* Bugfix deleting nodes -> https://github.com/indigo-dc/clues-indigo/pull/48
+* Fix error in mesos plugin in case no data returned by _obtain_mesos_jobs -> https://github.com/indigo-dc/clues-indigo/pull/50
+
+#### Installation & Configuration
+* Ansible role available in (always install latest version):
+  * https://github.com/indigo-dc/ansible-role-clues
+* Documentation
+  * https://www.gitbook.com/book/indigo-dc/clues-indigo/details
+
+#### Artefacts
+The supported platforms
+* CentOS 7
+* Ubuntu 14.04
+* Ubuntu 16.04
+
+* CentOS 7
+  * [clues-indigo-v1.0.0.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/clues-indigo-v1.0.0.tar.gz)
+* Ubuntu 16.04
+  * [clues-indigo-v1.0.0.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/source/clues-indigo-v1.0.0.tar.gz)

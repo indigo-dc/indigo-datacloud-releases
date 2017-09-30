@@ -12,7 +12,7 @@ The Fourth Update of INDIGO-2 release contains:
 * [WaTTs v. 1.2.0](#watts)
 
 
-## <a name="cmdb"></a>Accounting (APEL) v. 1.4.0-1 
+## <a name="accounting"></a>Accounting (APEL) v. 1.4.0-1 
 
 #### What's new
 * Minor Changes:

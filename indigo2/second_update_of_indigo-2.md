@@ -83,7 +83,7 @@ The Second Update of INDIGO-2 release contains:
 * Ubuntu 16.04
   * [python-im_1.5.5-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/python-im_1.5.5-1_all.deb)
 * Docker Container:
-  * [indigodatacloud/cdmi:indigo_2](https://hub.docker.com/r/indigodatacloud/im/tags/)
+  * [indigodatacloud/im:indigo_2](https://hub.docker.com/r/indigodatacloud/im/tags/)
 
 ## <a name="fg"></a>FutureGateway
 ### <a name="fgas"></a>fgAPIServer, APIServerDaemon, PortalSetup &fgSetup v. 0.0.8

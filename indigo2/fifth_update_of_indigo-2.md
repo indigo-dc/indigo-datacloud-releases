@@ -4,7 +4,7 @@ The Fourth Update of INDIGO-2 release contains:
 * [Accounting v. 1.5.0-1](#accounting)
 * [CloudProviderRanker v. 0.6.0](#cpr)
 * [IAM v. 1.0.0](#iam)
-* [INDIGO-Kepler v. 1.2](#kepler)
+* [INDIGO-Kepler v. 1.3](#kepler)
 * [Liferay Plugins v. 2.1.0](#lp)
 * [Orchent v. 1.1.0](#orchent)
 * [OOI v. 1.2.0](#ooi)

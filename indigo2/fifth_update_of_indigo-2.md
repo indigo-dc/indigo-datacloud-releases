@@ -2,8 +2,9 @@
 
 The Fourth Update of INDIGO-2 release contains:
 * [Accounting v. 1.5.0-1](#accounting)
-* [CloudProviderRanker v. 0.6.0](#cpr)
-* [IAM v. 1.0.0](#iam)
+* [IAM v. 1.1.0](#iam)
+* [IM v. 1.6.1](#im)
+* [IM Java API v. 0.4.10](#imjavaapi)
 * [INDIGO-Kepler v. 1.3](#kepler)
 * [Liferay Plugins v. 2.1.0](#lp)
 * [Orchent v. 1.1.0](#orchent)
@@ -37,6 +38,90 @@ Upgrading an already deployed instance
 #### Artefacts
 * [indigodatacloud/accounting:indigo_2](https://hub.docker.com/r/indigodatacloud/accounting/tags) - CentOS7 based image
 
+## <a name="im"></a>Infrastructure Manager v. 1.6.1
+
+#### What's new
+* Add Support OTC.
+* Support "DependsOn" TOSCA relationship.
+* Enable to specify a port range in endpoint ports.
+* Fix error loading an infrastructure from DB in case of invalid TOSCA.
+* Fix error getting IP info in OCCI conn.
+* Fix error in Azure conn creating a VM with only a public net attached.
+* Fix error in contextualization nodes with private leys.
+* More bugfixes and improvements...
+
+#### List of RfCs
+* Improve getting Public network name in OCCI: https://github.com/grycap/im/issues/398.
+* Improve Ansible contextualization to scale more than 50 VMs: https://github.com/grycap/im/issues/393.
+* Add Support Custom instance types in Google Conn: https://github.com/grycap/im/issues/389.
+* Implements Delete SGs in ONE conn only in last VM: https://github.com/grycap/im/issues/390.
+* Fix error getting contmsg output in case of use colors: https://github.com/grycap/im/issues/387.
+* Fix error in SSH module in sftp_put_dir if src dir ends with /: https://github.com/grycap/im/issues/385.
+* Fix SSL verification error in windows: https://github.com/grycap/im/issues/381.
+* Enable to add IPs in OCCI conn in AlterVM: https://github.com/grycap/im/issues/333.
+* Fix error in OpenStack conn trying to assing a floating IP to VM with public IP: https://github.com/grycap/im/issues/379.
+* Wait SSH access to VMs only in one ctxt task: https://github.com/grycap/im/issues/376.
+* Create only one storage account per Infrastructure instead of per VM in Azure conn: https://github.com/grycap/im/issues/362.
+* Improve save data in VM creation process: https://github.com/grycap/im/issues/358.
+* Fix Error creating NGS in Azure conn: https://github.com/grycap/im/issues/352.
+* Return false if VM does not exists in updateVMInfo: https://github.com/grycap/im/issues/354.
+* Update Ansible roles in Master node in reconfiguration: https://github.com/grycap/im/issues/349.
+* Fix error in Azure conn creating subnet: https://github.com/grycap/im/issues/351.
+* Fix error in Context. process in basic test in SSH tests: https://github.com/grycap/im/issues/348.
+* Add compatiblity with Ansible 2.4.0: https://github.com/grycap/im/issues/410.
+* Fix error in ctxt process in some cases in OpenStack sites: https://github.com/grycap/im/issues/408.
+* Enable to specify private network_name without .PRIVATE at the end: https://github.com/indigo-dc/im/issues/196.
+* Fix Error using funtions to set a value of a BlockStorage: https://github.com/indigo-dc/im/issues/193.
+* Enable to specify not using a private ip in a Cumpute node: https://github.com/indigo-dc/im/issues/191.
+
+#### Installation & Configuration
+* The supported platforms
+  * CentOS 7
+  * Ubuntu 14.04
+  * Ubuntu 16.04
+
+#### Documentation
+* https://indigo-dc.gitbooks.io/im/content/
+        
+#### Artefacts
+* CentOS 7
+  * [IM-1.6.1-1.el7.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/IM-1.6.1-1.el7.noarch.rpm)
+* Ubuntu 14.04
+  * [python-im_1.6.1-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/binary-amd64/python-im_1.6.1-1_all.deb)
+* Ubuntu 16.04
+  * [python-im_1.6.1-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/python-im_1.6.1-1_all.deb)
+* Docker Container:
+  * [indigodatacloud/im:indigo_2](https://hub.docker.com/r/indigodatacloud/im/tags/)
+
+## <a name="imjavaapi"></a>Infrastructure Manager Java API v. 0.4.10
+
+#### What's new
+* Allow to set up custom ids for authN headers
+
+#### List of RfCs
+* Allow to set up custom ids for authN headers https://github.com/indigo-dc/im-java-api/pull/41
+* Fix wrong auth_version value for Openstack V3 (with password) authorization header https://github.com/indigo-dc/im-java-api/pull/41
+* Support subscription_id param in Azure auth header https://github.com/indigo-dc/im-java-api/pull/44
+
+#### Installation & Configuration
+* The supported platforms
+  * CentOS 6
+  * CentOS 7
+  * Ubuntu 14.04
+  * Ubuntu 16.04
+
+#### Installation & Configuration
+
+* To know how install the im-java-api library please read the documentation available in:
+  * https://indigo-dc.gitbooks.io/im-java-api/content/
+* To update the library you only need to substitute the im-java-api-X.X.X.jar
+        
+#### Artefacts
+Tarballs:
+* [im-java-api-0.4.10.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/im-java-api-v0.4.10.tar.gz)
+* [im-java-api-0.4.10-jar-with-dependencies.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/im-java-api-0.4.10-jar-with-dependencies.tar.gz)
+
+
 ## <a name="kepler"></a>Indigo-Kepler v 1.3
 
 #### What's new
@@ -60,7 +145,6 @@ How to update: use provided Docker images versioned equally to the main librarie
 * Docker image indigodatacloudapps/kepler:1.3 pushed to Docker Hub
 * Docker image indigodatacloudapps/kepler-batch:1.3 pushed to Docker Hub
 
-
 * CentOS7 source tarballs
   * [indigoclient-v1.3.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/SRPMS/tgz/indigoclient-v1.3.tar.gz)
   * [indigokepler-v1.3.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/SRPMS/tgz/indigokepler-v1.3.tar.gz) 
@@ -73,7 +157,4 @@ How to update: use provided Docker images versioned equally to the main librarie
   * [indigodatacloudapps/kepler:indigo_2](https://hub.docker.com/r/indigodatacloudapps/kepler/tags/)
   * [indigodatacloudapps/kepler-batch:indigo_2](https://hub.docker.com/r/indigodatacloudapps/kepler-batch/tags/)
 
-* Container
-  * [indigodatacloudapps/kepler:indigo_2](https://hub.docker.com/r/indigodatacloudapps/kepler/tags/)
-  * [indigodatacloudapps/kepler-batch:indigo_2](https://hub.docker.com/r/indigodatacloudapps/kepler-batch/tags/)
 

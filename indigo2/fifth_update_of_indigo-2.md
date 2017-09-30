@@ -6,6 +6,7 @@ The Fourth Update of INDIGO-2 release contains:
 * [IM v. 1.6.1](#im)
 * [IM Java API v. 0.4.10](#imjavaapi)
 * [INDIGO-Kepler v. 1.3](#kepler)
+* [Synergy: Service v. 1.5.3 & Scheduler-Manager v. 2.6.0](#synergy)
 * [Liferay Plugins v. 2.1.0](#lp)
 * [Orchent v. 1.1.0](#orchent)
 * [OOI v. 1.2.0](#ooi)
@@ -157,4 +158,47 @@ How to update: use provided Docker images versioned equally to the main librarie
   * [indigodatacloudapps/kepler:indigo_2](https://hub.docker.com/r/indigodatacloudapps/kepler/tags/)
   * [indigodatacloudapps/kepler-batch:indigo_2](https://hub.docker.com/r/indigodatacloudapps/kepler-batch/tags/)
 
+
+## <a name="synergy"></a>Synergy Service, v. 1.5.3  and Scheduler Manager, v. 2.6.0
+
+#### What's new
+This update brings many new features and bug fixes like
+* New Synergy service features:
+  * added security support
+* New Synergy Scheduler Manager features:
+  * Added improvement on queue management algorithm ( Synergy should scale up the oldest user requests from the queue)
+  * Added a mechanism that performs user actions before Synergy deletes the VMs
+
+#### List of RfCs
+
+* https://launchpad.net/synergy-service/+milestone/1.5.3
+* https://launchpad.net/synergy-scheduler-manager/+milestone/2.6.0
+
+
+* Complete list of issues is available at: https://review.openstack.org/#/q/projects:openstack/synergy
+
+#### Installation & Configuration
+* https://github.com/indigo-dc/synergy-doc
+* https://indigo-dc.gitbooks.io/synergy-doc/content/
+* Service Reference Card: https://indigo-dc.gitbooks.io/synergy-doc/content/doc/service_reference_card.html
+* Update/Upgrade Synergy packages: https://indigo-dc.gitbooks.io/synergy-doc/content/doc/admin.html
+
+#### Artefacts
+* Supported Operating Systems platforms:
+  * CentOS 7
+  * Ubuntu 16.04
+* Supported CMF (Cloud Management Framework) versions:
+  * OpenStack v. Ocata
+  * OpenStack v. Newton
+  * OpenStack v. Mitaka (only CentOS 7)
+  * OpenStack v. Liberty (only CentOS 7)
+
+Packages:
+* CentOS7
+  * [python-synergy-service-1.5.3-2.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/python-synergy-service-1.5.3-2.el7.centos.noarch.rpm)
+  * [python-synergy-scheduler-manager-2.6.0-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/python-synergy-scheduler-manager-2.6.0-1.el7.centos.noarch.rpm)
+* Ubuntu 14.04
+  * [python-synergy-service_1.5.3_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/python-synergy-service_1.5.3_all.deb)
+  * [python-synergy-scheduler-manager_2.5.0_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/python-synergy-scheduler-manager_2.6.0_all.deb)
+  
 

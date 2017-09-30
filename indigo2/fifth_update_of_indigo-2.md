@@ -36,3 +36,44 @@ Upgrading an already deployed instance
 
 #### Artefacts
 * [indigodatacloud/accounting:indigo_2](https://hub.docker.com/r/indigodatacloud/accounting/tags) - CentOS7 based image
+
+## <a name="kepler"></a>Indigo-Kepler v 1.3
+
+#### What's new
+* A CLI client built on top of existing library to communicate with FutureGateway. It allows to submit & monitor tasks, upload & download files and query for available applications
+
+#### List of RfCs
+* A CLI client exposing basic FutureGateway functionality to the command line
+* Updated workflows and scripts to support ENES use case
+* Fixed a bug with incorrect handling of timezone offset when parsing timestamps
+
+#### Installation & Configuration
+How to update: use provided Docker images versioned equally to the main libraries.
+
+#### Artefacts
+
+* Sources
+  * https://github.com/indigo-dc/indigoclient/releases/tag/v1.3
+  * https://github.com/indigo-dc/indigokepler/releases/tag/v1.3
+* Ansible role indigo-dc/kepler v1.3 pushed to Ansiible Galaxy
+* Ansible role indigo-dc/kepler-batch v1.3 pushed to Ansible Galaxy
+* Docker image indigodatacloudapps/kepler:1.3 pushed to Docker Hub
+* Docker image indigodatacloudapps/kepler-batch:1.3 pushed to Docker Hub
+
+
+* CentOS7 source tarballs
+  * [indigoclient-v1.3.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/SRPMS/tgz/indigoclient-v1.3.tar.gz)
+  * [indigokepler-v1.3.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/SRPMS/tgz/indigokepler-v1.3.tar.gz) 
+
+* Ubuntu16.04 source tarballs
+  * [indigoclient-v1.3.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/source/indigoclient-v1.3.tar.gz)
+  * [indigokepler-v1.3.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/source/indigokepler-v1.3.tar.gz) 
+
+* Container
+  * [indigodatacloudapps/kepler:indigo_2](https://hub.docker.com/r/indigodatacloudapps/kepler/tags/)
+  * [indigodatacloudapps/kepler-batch:indigo_2](https://hub.docker.com/r/indigodatacloudapps/kepler-batch/tags/)
+
+* Container
+  * [indigodatacloudapps/kepler:indigo_2](https://hub.docker.com/r/indigodatacloudapps/kepler/tags/)
+  * [indigodatacloudapps/kepler-batch:indigo_2](https://hub.docker.com/r/indigodatacloudapps/kepler-batch/tags/)
+

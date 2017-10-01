@@ -12,7 +12,7 @@ The Fourth Update of INDIGO-2 release contains:
 * [CDMI Server v. 1.2.1](#cdmi)
 * [CDMI S3 QoS v. 2.0](#cdmi-s3)
 * [CDMI STORM plugin v. 0.1.0](#cdmi-storm)
-* [Orchent v. 1.1.0](#orchent)
+* [Orchent v. 1.2.0](#orchent)
 * [OOI v. 1.2.0](#ooi)
 * [Synergy: Service v. 1.5.2 & Scheduler-Manager v. 2.5.0](#synergy)
 * [WaTTs v. 1.2.0](#watts)

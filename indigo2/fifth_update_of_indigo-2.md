@@ -16,6 +16,7 @@ The Fourth Update of INDIGO-2 release contains:
 * [OOI v. 1.2.0](#ooi)
 * [Synergy: Service v. 1.5.2 & Scheduler-Manager v. 2.5.0](#synergy)
 * [WaTTs v. 1.2.1](#watts)
+* [WaTTson v. 1.2.0]#wattson)
 
 
 ## <a name="accounting"></a>Accounting (APEL) v. 1.5.0-1 
@@ -359,7 +360,7 @@ a workaroung is to disable caching by setting: oidc.cache_duration = none (versi
 * [use github to download erlang from, as it provides https instead of http](https://github.com/indigo-dc/tts/issues/456)
 
 #### Installation & Configuration
-   + Just apt install also documented here - https://github.com/indigo-dc/tts/blob/master/gitbook/admin.md
+   + Just update/install also documented here - https://github.com/indigo-dc/tts/blob/master/gitbook/admin.md
 
 #### Artefacts
 * CentOS 7
@@ -368,3 +369,21 @@ a workaroung is to disable caching by setting: oidc.cache_duration = none (versi
   * [tts_1.2.1-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/binary-amd64/tts_1.2.1-1_amd64.deb)
 * Ubuntu 16.04
   * [tts_1.2.1-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/tts_1.2.1-1_amd64.deb)
+
+## <a name="wattson"></a>WaTTSon v. 1.2.0
+
+#### What's new
+* This update provides integration with oidc-agent, so it can be used instead of storing an access token in an environmental varible
+
+#### Installation & Configuration
+   + Just update/install install also documented here - https://github.com/indigo-dc/wattson/tree/master/gitbook
+
+#### Artefacts
+* CentOS 7
+  * [wattson-1.2.0.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/wattson-1.2.0.el7.centos.x86_64.rpm)
+* Ubuntu 14.04
+  * [wattson-1.2.0-amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/binary-amd64/wattson-1.2.0-amd64.deb)
+* Ubuntu 16.04
+  * [wattson-1.2.0-amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/wattson-1.2.0-amd64.deb)
+* Docker container.
+  * [indigodatacloud/wattson:indigo_2]()

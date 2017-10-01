@@ -11,6 +11,7 @@ The Fourth Update of INDIGO-2 release contains:
 * [CLUES v. 2.2.1](#clues)
 * [CDMI Server v. 1.2.1](#cdmi)
 * [CDMI S3 QoS v. 2.0](#cdmi-s3)
+* [CDMI STORM plugin v. 0.1.0](#cdmi-storm)
 * [Orchent v. 1.1.0](#orchent)
 * [OOI v. 1.2.0](#ooi)
 * [Synergy: Service v. 1.5.2 & Scheduler-Manager v. 2.5.0](#synergy)
@@ -285,7 +286,7 @@ The supported platforms
 * [cdmi-server-1.2-1.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/base/cdmi-server-1.2-1.x86_64.rpm)
 * [cdmi-server-1.2_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-upèdates/main/binary-amd64/cdmi-server-1.2_all.deb)
   
-## <a name="cdmi"></a>CDMI S3 QoS v. 2.0
+## <a name="cdmi-s3"></a>CDMI S3 QoS v. 2.0
 
 #### What's new
 * support for data namespace browsing. 
@@ -306,5 +307,19 @@ cdmi-s3-qos-ceph-provider now is partially read from configuration file (in case
 #### Artefacts
 
 Packages
-* [cdmi-s3-qos-2.0.0-1.el7.centos.x86_64](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/update/ccdmi-s3-qos-2.0.0-1.el7.centos.x86_64)
+* [cdmi-s3-qos-2.0.0-1.el7.centos.x86_64](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/update/cdmi-s3-qos-2.0.0-1.el7.centos.x86_64.rpm)
 * [cdmi-s3-qos-2.0.0.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial/main/binary-amd64/cdmi-s3-qos-2.0.0.deb)
+
+
+## <a name="cdmi-storm"></a>CDMI STORM Plugin v. 0.1.0
+
+#### What's new
+* This is the first public release of the INDIGO CDMI StoRM plugin.
+* For more details please read https://github.com/italiangrid/cdmi-storm/blob/master/CHANGELOG.md
+
+#### Installation & Configuration
+
+* Documentation is available at: https://www.gitbook.com/book/indigo-dc/cdmi-storm
+#### Artefacts
+The CDMI StoRM plugin is currently released as a RHEL7 rpm.
+* [cdmi-storm-0.1.0-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/update/cdmi-storm-0.1.0-1.el7.centos.noarch.rpm)

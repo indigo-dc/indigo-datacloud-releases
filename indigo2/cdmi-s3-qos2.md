@@ -33,7 +33,7 @@ extension modules for INDIGO CDMI server.
 ### What's new
 
 Highlights of the features provided in the INDIGO-2 release:
-* - support for data namespace browsing. The old version gives access only to QoS attributes of data-objects with well 
+* support for data namespace browsing. The old version gives access only to QoS attributes of data-objects with well 
 know URLs, so to be able to examine attributes of given data-object you had to know the exact URL upfront,
 * support for CDMI export attribute, it allows to expose to the client information about configured data access protocols, thanks to that end user is able to find the data-object with WebDav for example, but to be well understand: export attribute only informs about alternative protocols, it doesn't provide them, if by any chance the data object is available through WebDAV then export attribute will tell it
 * support for bunch of new QoS attributes including:
@@ -48,7 +48,7 @@ Supported platforms:
 <a id="id3"></a>
 #### List of RfCs 
 
-* [https://github.com/indigo-dc/CDMI/issues](https://github.com/indigo-dc/CDMI/issues)
+N/A
 
 <a id="id4"></a>
 ### Deployment Notes

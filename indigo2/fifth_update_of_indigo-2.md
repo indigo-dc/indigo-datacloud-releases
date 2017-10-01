@@ -9,6 +9,8 @@ The Fourth Update of INDIGO-2 release contains:
 * [Synergy: Service v. 1.5.3 & Scheduler-Manager v. 2.6.0](#synergy)
 * [Liferay Plugins v. 2.2.1](#lp)
 * [CLUES v. 2.2.1](#clues)
+* [CDMI Server v. 1.2.1](#cdmi)
+* [CDMI S3 QoS v. 2.0](#cdmi-s3)
 * [Orchent v. 1.1.0](#orchent)
 * [OOI v. 1.2.0](#ooi)
 * [Synergy: Service v. 1.5.2 & Scheduler-Manager v. 2.5.0](#synergy)
@@ -263,3 +265,46 @@ The supported platforms
   * [clues-indigo-v1.0.0.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/clues-indigo-v1.0.0.tar.gz)
 * Ubuntu 16.04
   * [clues-indigo-v1.0.0.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/source/clues-indigo-v1.0.0.tar.gz)
+
+## <a name="cdmi"></a>CDMI Server v. 1.2.1
+
+#### What's new
+* Improved support for storage plugins
+
+#### List of RfCs
+* SLF4J: Class path contains multiple SLF4J bindings. -> https://github.com/indigo-dc/CDMI/issues/111
+
+#### Installation & Configuration
+* Upgrade Guide: https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/updating_cdmi-qos.html
+* Documentation
+  * https://indigo-dc.gitbooks.io/cdmi-qos/content/
+  * https://github.com/indigo-dc/CDMI/wiki/Service-Reference-Card
+
+#### Artefacts
+
+* [cdmi-server-1.2-1.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/base/cdmi-server-1.2-1.x86_64.rpm)
+* [cdmi-server-1.2_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-upèdates/main/binary-amd64/cdmi-server-1.2_all.deb)
+  
+## <a name="cdmi"></a>CDMI S3 QoS v. 2.0
+
+#### What's new
+* support for data namespace browsing. 
+* support for CDMI export attribute, it allows to expose to the client information about configured data access protocols, thanks to that end user is able to find the data-object with WebDav for example, but to be well understand: export attribute only informs about alternative protocols, it doesn't provide them, if by any chance the data object is available through WebDAV then export attribute will tell it
+* support for bunch of new QoS attributes including:
+  * exposing information about data lifetime
+  * exposing information about data retention policy
+* removed dependency on cdmi-s3-qos-ceph-provider module, the information which was earlier provided by 
+cdmi-s3-qos-ceph-provider now is partially read from configuration file (in case of static things) and partially is obtained directly from backed server through S3 protocol
+
+#### Installation & Configuration
+
+* Installation guide available at - https://indigo-dc.gitbooks.io/cdmi-s3-qos/content/
+* Ansible role is available here: https://github.com/indigo-dc/ansible-role-cdmi-s3-qos
+* Run with Docker
+  * [https://indigo-dc.gitbooks.io/cdmi-s3-qos/content/doc/running_from_docker_image.html](https://indigo-dc.gitbooks.io/cdmi-s3-qos/content/doc/running_from_docker_image.html)
+  
+#### Artefacts
+
+Packages
+* [cdmi-s3-qos-2.0.0-1.el7.centos.x86_64](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/update/ccdmi-s3-qos-2.0.0-1.el7.centos.x86_64)
+* [cdmi-s3-qos-2.0.0.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial/main/binary-amd64/cdmi-s3-qos-2.0.0.deb)

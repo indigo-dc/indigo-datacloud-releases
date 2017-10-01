@@ -16,7 +16,7 @@ The Fourth Update of INDIGO-2 release contains:
 * [OOI v. 1.2.0](#ooi)
 * [Synergy: Service v. 1.5.2 & Scheduler-Manager v. 2.5.0](#synergy)
 * [WaTTs v. 1.2.1](#watts)
-* [WaTTson v. 1.2.0]#wattson)
+* [WaTTson v. 1.2.0](#wattson)
 
 
 ## <a name="accounting"></a>Accounting (APEL) v. 1.5.0-1 
@@ -386,4 +386,4 @@ a workaroung is to disable caching by setting: oidc.cache_duration = none (versi
 * Ubuntu 16.04
   * [wattson-1.2.0-amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/wattson-1.2.0-amd64.deb)
 * Docker container.
-  * [indigodatacloud/wattson:indigo_2]()
+  * [indigodatacloud/wattson:indigo_2](https://hub.docker.com/r/indigodatacloud/wattson/tags/)

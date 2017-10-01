@@ -323,3 +323,25 @@ Packages
 #### Artefacts
 The CDMI StoRM plugin is currently released as a RHEL7 rpm.
 * [cdmi-storm-0.1.0-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/update/cdmi-storm-0.1.0-1.el7.centos.noarch.rpm)
+
+## <a name="orchent"></a>Orchent v. 1.2.0
+
+#### What's new
+* Highlights of this update are:
+  * interface to the newly release oidc-agent
+
+#### List of RfCs
+* [Issue #29](https://github.com/indigo-dc/orchent/issues/29) - add oidc-agent support
+
+
+#### Installation & Configuration
+* Documentation is avalable at - [Orchent GitBook](https://github.com/indigo-dc/orchent/blob/master/gitbook/user.md) chapter "Setting the Access Token"
+
+#### Artefacts
+* CentOS 7
+  * [orchent-1.2.0-1.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/orchent-1.2.0.el7.centos.x86_64.rpm)
+* Ubuntu 16.04
+  * [orchent-1.2.0-amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/orchent-1.2.0-amd64.deb)
+
+* Container
+  * [indigodatacloud/orchent:indigo_2](https://hub.docker.com/r/indigodatacloud/orchent/tags)

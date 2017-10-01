@@ -15,7 +15,7 @@ The Fourth Update of INDIGO-2 release contains:
 * [Orchent v. 1.2.0](#orchent)
 * [OOI v. 1.2.0](#ooi)
 * [Synergy: Service v. 1.5.2 & Scheduler-Manager v. 2.5.0](#synergy)
-* [WaTTs v. 1.2.0](#watts)
+* [WaTTs v. 1.2.1](#watts)
 
 
 ## <a name="accounting"></a>Accounting (APEL) v. 1.5.0-1 
@@ -345,3 +345,26 @@ The CDMI StoRM plugin is currently released as a RHEL7 rpm.
 
 * Container
   * [indigodatacloud/orchent:indigo_2](https://hub.docker.com/r/indigodatacloud/orchent/tags)
+
+## <a name="watts"></a>WaTTS v. 1.2.1
+
+#### What's new
+* This update is just a bug fix release:
+  * if caching is uses (which is done by default) access tokens are invalidated way to fast, this is now fixed
+a workaroung is to disable caching by setting: oidc.cache_duration = none (version 1.1.0 to 1.2.0)
+
+#### List of RfCs
+* [new release](https://github.com/indigo-dc/tts/issues/2459)
+* [caching issue with access token](https://github.com/indigo-dc/tts/issues/455)
+* [use github to download erlang from, as it provides https instead of http](https://github.com/indigo-dc/tts/issues/456)
+
+#### Installation & Configuration
+   + Just apt install also documented here - https://github.com/indigo-dc/tts/blob/master/gitbook/admin.md
+
+#### Artefacts
+* CentOS 7
+  * [tts-1.2.1-1.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/tts-1.2.1-1.el7.centos.x86_64.rpm)
+* Ubuntu 14.04
+  * [tts_1.2.1-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/binary-amd64/tts_1.2.1-1_amd64.deb)
+* Ubuntu 16.04
+  * [tts_1.2.1-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/tts_1.2.1-1_amd64.deb)

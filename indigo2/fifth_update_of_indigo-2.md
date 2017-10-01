@@ -16,7 +16,7 @@ The Fourth Update of INDIGO-2 release contains:
 * [OOI v. 1.2.0](#ooi)
 * [Synergy: Service v. 1.5.2 & Scheduler-Manager v. 2.5.0](#synergy)
 * [WaTTs v. 1.2.1](#watts)
-* [WaTTson v. 1.2.0](#wattson)
+* [WaTTSon v. 1.2.0](#wattson)
 
 
 ## <a name="accounting"></a>Accounting (APEL) v. 1.5.0-1 

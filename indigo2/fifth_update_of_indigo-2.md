@@ -12,6 +12,7 @@ The Fourth Update of INDIGO-2 release contains:
 * [CDMI Server v. 1.2.1](#cdmi)
 * [CDMI S3 QoS v. 2.0](#cdmi-s3)
 * [CDMI STORM plugin v. 0.1.0](#cdmi-storm)
+* [OIDC-Agent v. 1.1.1](#oidca)
 * [Orchent v. 1.2.0](#orchent)
 * [OOI v. 1.2.0](#ooi)
 * [Synergy: Service v. 1.5.2 & Scheduler-Manager v. 2.5.0](#synergy)
@@ -325,6 +326,13 @@ Packages
 #### Artefacts
 The CDMI StoRM plugin is currently released as a RHEL7 rpm.
 * [cdmi-storm-0.1.0-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/update/cdmi-storm-0.1.0-1.el7.centos.noarch.rpm)
+
+## <a name="oidca"></a>OIDC-Agent v. 1.1.1
+
+#### What's new
+* *oidc-agent* is a new system service ensuring that always a valid access token is available for
+the command line.
+* for more information please see: https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo2/oidc-agent2.html
 
 ## <a name="orchent"></a>Orchent v. 1.2.0
 

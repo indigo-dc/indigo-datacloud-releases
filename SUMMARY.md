@@ -38,6 +38,7 @@
        * [Infrastructure Manager](indigo2/im2.md)
        * [Infrastructure Manager Java API](indigo2/imjavaapi2.md)
        * [Liferay Plugins](indigo2/liferayplugins2.md)
+       * [OIDC-Agent](indigo2/oidc-agent2.md)
        * [ONEDATA](indigo2/onedata2.md)
        * [ONE-FaSS](indigo2/one-fass2.md)
        * [OCCI support for OpenStack and OpenNebula](indigo2/occi2.md)

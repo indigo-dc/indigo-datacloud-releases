@@ -17,6 +17,7 @@ The Fourth Update of INDIGO-2 release contains:
 * [OOI v. 1.2.0](#ooi)
 * [Synergy: Service v. 1.5.2 & Scheduler-Manager v. 2.5.0](#synergy)
 * [TOSCA-parser v. 0.8.3](#tp)
+* [TOSCA types v. 2.1.0](#tt)
 * [udocker v. 1.2.1](#watts)
 * [WaTTs v. 1.1.0](#ud)
 * [WaTTSon v. 1.2.1](#wattson)
@@ -381,8 +382,38 @@ In order to update the packages please use:
   * [tosca-parser-0.8.3-.el7.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/tosca-parser-0.8.2-1.el7.noarch.rpm)
 * Ubuntu 14.04
   * [python-tosca-parser_0.8.3-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/binary-amd64/python-tosca-parser_0.8.3-1_all.deb)
-  * Ubuntu 14.04
+  * Ubuntu 16.04
   * [python-tosca-parser_0.8.3-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/python-tosca-parser_0.8.3-1_all.deb)
+  
+## <a name="tp"></a>TOSCA types v. 2.1.0
+
+#### What's new
+* The updated version of TOSCA types contains various improvements and adds some use cases
+
+
+#### List of RfCs
+* Add configuration parameters for Chronos and Marathon nodes
+* Update template for Long-Running Services
+* Improve Galaxy configuration.
+* Fixing properties types for Spark
+* Major improvements for Dariah use-case
+* Update tosca types for cms use-case
+* Added type for spark on mesos.
+* Update Mesos types
+* Updated Marathon app definition
+
+
+#### Installation & Configuration
+* Please see the https://github.com/indigo-dc/tosca-types/blob/master/README.md
+  
+  
+#### Artefacts
+* CentOS7
+  * [tosca-types-v2.1.0.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/tosca-types-v2.1.0.tar.gz)
+* Ubuntu 14.04
+  * [tosca-types-v2.1.0.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/binary-amd64/tosca-types-v2.1.0.tar.gz)
+  * Ubuntu 16.04
+  * [tosca-types-v2.1.0.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/tosca-types-v2.1.0.tar.gz)
   
 
 

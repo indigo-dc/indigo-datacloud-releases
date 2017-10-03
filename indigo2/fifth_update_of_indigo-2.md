@@ -16,9 +16,10 @@ The Fourth Update of INDIGO-2 release contains:
 * [Orchent v. 1.2.0](#orchent)
 * [OOI v. 1.2.0](#ooi)
 * [Synergy: Service v. 1.5.2 & Scheduler-Manager v. 2.5.0](#synergy)
+* [TOSCA-parser v. 0.8.3](#tp)
 * [udocker v. 1.2.1](#watts)
 * [WaTTs v. 1.1.0](#ud)
-* [WaTTSon v. 1.2.0](#wattson)
+* [WaTTSon v. 1.2.1](#wattson)
 
 
 ## <a name="accounting"></a>Accounting (APEL) v. 1.5.0-1 
@@ -355,6 +356,35 @@ the command line.
 
 * Container
   * [indigodatacloud/orchent:indigo_2](https://hub.docker.com/r/indigodatacloud/orchent/tags)
+
+## <a name="tp"></a>TOSCA-parser v. 0.8.3
+
+#### What's new
+* The updated version of TOSCA-parser addresses some minor bugfixes
+
+
+#### List of RfCs
+* Fix error getting relationshps in case of custom_def capability: https://bugs.launchpad.net/tosca-parser/+bug/1687598
+* Fix error getting a boolean capability property with value false: https://bugs.launchpad.net/tosca-parser/+bug/1697856
+
+
+#### Installation & Configuration
+In order to update the packages please use:
+* For CentOS 7:<br>
+  ``` yum clean all && yum update tosca-parser```<br>
+* For Ubuntu 14:04/16.04:<br>
+  ```apt-get update && apt-get install python-tosca-parser```<br>
+  
+  
+#### Artefacts
+* CentOS7
+  * [tosca-parser-0.8.3-.el7.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/tosca-parser-0.8.2-1.el7.noarch.rpm)
+* Ubuntu 14.04
+  * [python-tosca-parser_0.8.3-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/binary-amd64/python-tosca-parser_0.8.3-1_all.deb)
+  * Ubuntu 14.04
+  * [python-tosca-parser_0.8.3-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/python-tosca-parser_0.8.3-1_all.deb)
+  
+
 
 ## <a name="ud"></a>udocker v. 1.1.0
 

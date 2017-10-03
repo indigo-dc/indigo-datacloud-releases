@@ -14,6 +14,7 @@ The Fourth Update of INDIGO-2 release contains:
 * [CDMI STORM plugin v. 0.1.0](#cdmi-storm)
 * [OIDC-Agent v. 1.1.1](#oidca)
 * [Orchent v. 1.2.0](#orchent)
+* [Orchestrator v. 1.5.0-FINAL](#orchestrator)
 * [OOI v. 1.2.0](#ooi)
 * [Synergy: Service v. 1.5.2 & Scheduler-Manager v. 2.5.0](#synerg
 * [SLAM v 1.3.1](#slam)
@@ -385,6 +386,27 @@ the command line.
 
 * Container
   * [indigodatacloud/orchent:indigo_2](https://hub.docker.com/r/indigodatacloud/orchent/tags)
+
+## <a name="orchestrator"></a>Orchestrator v. 1.5.0-FINAL
+
+#### What's new
+* The current update adds support for Azure, increased support for Openstack and better configuration experience
+
+#### List of RfCs
+* Enable the users to retrieve the underlining IaaS IDs ([#237](https://github.com/indigo-dc/orchestrator/issues/237))
+* Evaluation of the TOSCA Concat function ([#239](https://github.com/indigo-dc/orchestrator/issues/239))
+* Retrieval of TOSCA attributes for Marathon Deployments ([#243](https://github.com/indigo-dc/orchestrator/issues/243))
+* Deploy on Azure ([#244](https://github.com/indigo-dc/orchestrator/issues/244))
+* Support for Openstack regions different from the default ones ([#245](https://github.com/indigo-dc/orchestrator/issues/245))
+* Add support for local volumes for Mesos tasks ([#246](https://github.com/indigo-dc/orchestrator/issues/246))
+
+#### Installation & Configuration
+* Please read the "Upgrade guide": https://indigo-dc.gitbooks.io/indigo-paas-orchestrator/content/how_to_upgrade.html
+
+#### Artefacts
+* Docker Container:
+  * [indigodatacloud/orchestrator:indigo_2](https://hub.docker.com/r/indigodatacloud/orchestrator/)
+
 
 ## <a name="tp"></a>TOSCA-parser v. 0.8.3
 

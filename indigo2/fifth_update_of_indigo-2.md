@@ -21,6 +21,8 @@ The Fourth Update of INDIGO-2 release contains:
 * [udocker v. 1.2.1](#watts)
 * [WaTTs v. 1.1.0](#ud)
 * [WaTTSon v. 1.2.1](#wattson)
+* [Monitoring - Zabbix-probes v. 1.02](#zp)
+
 
 
 ## <a name="accounting"></a>Accounting (APEL) v. 1.5.0-1 
@@ -528,3 +530,32 @@ a workaroung is to disable caching by setting: oidc.cache_duration = none (versi
   * [wattson-1.2.0-amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/wattson-1.2.0-amd64.deb)
 * Docker container.
   * [indigodatacloud/wattson:indigo_2](https://hub.docker.com/r/indigodatacloud/wattson/tags/)
+
+## <a name="zp"></a>Monitoring  - Zabbix-probes v. 1.03
+
+#### What's new
+* Authentication for Onedata through IAM service and automatic process for refreshing token.
+
+#### List of RfCs
+* Some connection errors broke up the process and were catched and fixed.
+* A null lenght of oneprovider metrics broke up the process and were validated and fixed.
+* Authentication for Onedata can be done with a valid IAM token. This token and a refresh token is requested by a script (Client application credentials are required) and passed to the monitoring agent as input parameters.
+
+####  Installation and Configuration
+* For Centos 6/7 and Ubuntu 14/16 download the respective installer and execute it. For other Linux distributions, download and copy into desired directory where monitoring agent is installed.
+  * Centos:
+    * https://github.com/indigo-dc/Monitoring/blob/master/zabbix-probes/onedata-zabbix-probe/doc/centos-installer.md
+  * Ubuntu:
+    * https://github.com/indigo-dc/Monitoring/blob/master/zabbix-probes/onedata-zabbix-probe/doc/ubuntu-installer.md
+
+
+#### Artefacts
+
+* CentOS7
+  * [onedatazabbix-agent-1.0-1.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/onedatazabbix-agent-1.0-1.el7.centos.x86_64.rpm)
+* Ubuntu16.04
+  * [onedatazabbix-agent-1.0-Ubuntu16.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/monedatazabbix-agent-1.0-Ubuntu16.deb)
+
+
+#### Artefacts
+ 

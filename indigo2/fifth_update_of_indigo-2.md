@@ -36,7 +36,7 @@ The Fourth Update of INDIGO-2 release contains:
 * Patches and Bug Fixes
   * GET Test Case Refactor: https://github.com/apel/rest/pull/35
   * POST Test Case Refactor: https://github.com/apel/rest/pull/36
-  * Add branch coverage to coveralls check: https://github.com/apel/rest/pull/39
+  * Add branch coverage to coveralls check: https://github.com/apel/rest/pull/39 
   * Upgrade base Docker image to CentOS7: https://github.com/apel/rest/pull/40
   * Update documentation in docker/README.md: https://github.com/apel/rest/pull/41
   * Update Partition range for new deployments: https://github.com/apel/rest/pull/42

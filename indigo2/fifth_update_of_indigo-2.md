@@ -16,7 +16,7 @@ The Fourth Update of INDIGO-2 release contains:
 * [Orchent v. 1.2.0](#orchent)
 * [OOI v. 1.2.0](#ooi)
 * [Synergy: Service v. 1.5.2 & Scheduler-Manager v. 2.5.0](#synerg
-* SLAM v1.2.0
+* [SLAM v 1.3.1](#slam)
 * [TOSCA-parser v. 0.8.3](#tp)
 * [TOSCA types v. 2.1.0](#tt)
 * [udocker v. 1.2.1](#watts)
@@ -123,8 +123,6 @@ Upgrading an already deployed instance
   * Ubuntu 14.04
   * Ubuntu 16.04
 
-#### Installation & Configuration
-
 * To know how install the im-java-api library please read the documentation available in:
   * https://indigo-dc.gitbooks.io/im-java-api/content/
 * To update the library you only need to substitute the im-java-api-X.X.X.jar
@@ -212,6 +210,33 @@ Packages:
 * Ubuntu 14.04
   * [python-synergy-service_1.5.3_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/python-synergy-service_1.5.3_all.deb)
   * [python-synergy-scheduler-manager_2.5.0_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/python-synergy-scheduler-manager_2.6.0_all.deb)
+
+## <a name="slam"></a>SLAM v. 1.3.1
+
+#### What's new
+* introducing SLA for storage resources
+* integration with ONEDATA to obtain user space
+* enable CMDB-based recognition of service provider
+* improved performance and UX
+* fixing reported bugs
+
+#### List of RfCs
+* add onedata space metric to storage SLA - https://github.com/indigo-dc/slam/issues/19
+* fix storage class select  - https://github.com/indigo-dc/slam/issues/18
+* upgrade engine 1.3 -- authority redesing - https://github.com/indigo-dc/slam/issues/17
+* adding ONEDATA URL option to docker https://github.com/indigo-dc/slam/pull/22
+* fixing type of resource for computing SLA https://github.com/indigo-dc/slam/pull/21
+* adding Storage SLA https://github.com/indigo-dc/slam/pull/20
+* adding recognision of CMDB authorities https://github.com/indigo-dc/slam/pull/19
+* OneData integration: fetching user spaces https://github.com/indigo-dc/slam/pull/18
+
+#### Installation & Configuration
+
+* FOr upgrade please read the section "Upgrade procedure" in https://indigo-dc.gitbooks.io/slam/content/installation.html
+        
+#### Artefacts
+Container:
+  * [indigodatacloudapps/slam:indigo_2](https://hub.docker.com/r/indigodatacloudapps/slam/tags/)
 
 
 ## <a name="lp"></a>LiferayPlugIns v. 2.2.1

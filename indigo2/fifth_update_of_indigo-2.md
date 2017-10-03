@@ -133,6 +133,81 @@ Tarballs:
 * [im-java-api-0.4.10.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/im-java-api-v0.4.10.tar.gz)
 * [im-java-api-0.4.10-jar-with-dependencies.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/im-java-api-0.4.10-jar-with-dependencies.tar.gz)
 
+## <a name="iam"></a>INDIGO IAM v.1.1.0
+
+#### What's new
+This release provides fixes to some outstanding bugs and improvements:
+* New Features
+  * The login button text can now be customized for local and SAML login
+  * A privacy policy can now be linked to the IAM login page
+  * Improved error pages rendering
+  * SAML metadata can now be filtered according to certain conditions (e.g., SIRTFI compliance)
+  * The organisation name is now included in the IAM dashboard top bar
+  * IAM now implements a scope policy management API that allows to restrict the use of OAuth scopes only to selected users or group of users
+* Fixes
+  * IAM now correctly enforces SAML metadata signature checks
+  * The subject of IAM notification messages now includes the organization name
+
+
+More details:
+https://github.com/indigo-iam/iam/releases/tag/v1.1.0
+
+#### List of RfCs
+
+* Milestone v0.6.0 on github:
+  * https://github.com/indigo-iam/iam/issues?utf8=?&q=milestone%3Av0.6.0%20
+  * https://github.com/indigo-iam/iam/milestone/2
+  
+* More information about bug fixes and other developments can be found on our [HitHub IAM issue tracker](https://github.com/indigo-iam/iam/releases/tag/v0.5.0) 
+
+#### Installation & Configuration
+* IAM Login Service can be deployed in two different ways:
+  * as Docker container
+  * as systemd daemon from precompiled packages
+
+Also a Puppet module is provided to simplify the installation and setup. This module leveraging on the precompiled packages.
+https://github.com/indigo-iam/puppet-indigo-iam
+* the IAM service is provided on the following DockerHub repositories:
+
+ * indigoiam/iam-login-service
+- indigodatacloud/iam-login-service
+
+The IAM service is executed by starting the docker container with the following command:
+
+<pre>
+$ docker run --name iam-login-service \
+  --net=iam -p 8080:8080 \
+  --env-file=/path/to/iam-login-service/env \
+   -v /path/to/keystore.jks:/keystore.jks:ro \
+  indigodatacloud/iam-login-service
+</pre>
+
+See our gitbook admin guide [[https://indigo-dc.gitbooks.io/iam/content/doc/admin.html]] for all configuration variables description.
+
+h3. Deployment with precompiled packages
+
+Since IAM 1.0.0, precompiled packages are available to install IAM Login service.s:</br>
+```docker pull indigodatacloud/iam-login-service```</br>
+```docker stop iam-login-service```</br>
+```docker rm iam-login-service```</br>
+```docker run \```</br>
+```  --name iam-login-service --net=iam -p 8080:8080 \```</br>
+```  --env-file=/path/to/iam-login-service/env \```</br>
+```   -v /path/to/keystore.jks:/keystore.jks:ro \```</br>
+```  indigodatacloud/iam-login-service```</br>
+
+* *Service Reference*
+  * IAM gitbook: https://indigo-dc.gitbooks.io/iam/content/doc/admin.html
+
+
+* Please read the [Deployment and Administration guide](https://indigo-dc.gitbooks.io/iam/content/doc/admin.html)
+
+<a id="id7"></a>
+#### Artefacts
+
+* Docker Container:
+  * [indigodatacloud/iam-login-service:indigo_1](https://hub.docker.com/r/indigodatacloud/iam-login-service/)
+
 
 ## <a name="kepler"></a>Indigo-Kepler v 1.3
 

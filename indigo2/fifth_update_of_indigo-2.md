@@ -21,7 +21,7 @@ The Fourth Update of INDIGO-2 release contains:
 * [udocker v. 1.2.1](#watts)
 * [WaTTs v. 1.1.0](#ud)
 * [WaTTSon v. 1.2.1](#wattson)
-* [Monitoring - Zabbix-probes v. 1.02](#zp)
+* [Monitoring - Zabbix-probes v. 1.03](#zp)
 
 
 

@@ -170,7 +170,7 @@ https://github.com/indigo-iam/puppet-indigo-iam
 * the IAM service is provided on the following DockerHub repositories:
 
  * indigoiam/iam-login-service
-- indigodatacloud/iam-login-service
+ * indigodatacloud/iam-login-service
 
 The IAM service is executed by starting the docker container with the following command:
 

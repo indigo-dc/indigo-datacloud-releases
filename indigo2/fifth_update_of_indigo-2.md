@@ -184,7 +184,7 @@ See our gitbook admin guide [[https://indigo-dc.gitbooks.io/iam/content/doc/admi
 
 h3. Deployment with precompiled packages
 
-Since IAM 1.0.0, precompiled packages are available to install IAM Login service.s:</br>
+Since IAM 1.0.0, p recompiled packages are available to install IAM Login service.s:</br>
 ```docker pull indigodatacloud/iam-login-service```</br>
 ```docker stop iam-login-service```</br>
 ```docker rm iam-login-service```</br>

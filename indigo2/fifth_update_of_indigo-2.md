@@ -154,11 +154,9 @@ https://github.com/indigo-iam/iam/releases/tag/v1.1.0
 
 #### List of RfCs
 
-* Milestone v0.6.0 on github:
-  * https://github.com/indigo-iam/iam/issues?utf8=?&q=milestone%3Av0.6.0%20
-  * https://github.com/indigo-iam/iam/milestone/2
+2
   
-* More information about bug fixes and other developments can be found on our [HitHub IAM issue tracker](https://github.com/indigo-iam/iam/releases/tag/v0.5.0) 
+* More information about bug fixes and other developments can be found on our [HitHub IAM issue tracker](https://github.com/indigo-iam/iam/releases/tag/v1..0) 
 
 #### Installation & Configuration
 * IAM Login Service can be deployed in two different ways:

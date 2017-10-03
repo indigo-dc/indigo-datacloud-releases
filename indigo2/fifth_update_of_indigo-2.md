@@ -15,7 +15,8 @@ The Fourth Update of INDIGO-2 release contains:
 * [OIDC-Agent v. 1.1.1](#oidca)
 * [Orchent v. 1.2.0](#orchent)
 * [OOI v. 1.2.0](#ooi)
-* [Synergy: Service v. 1.5.2 & Scheduler-Manager v. 2.5.0](#synergy)
+* [Synergy: Service v. 1.5.2 & Scheduler-Manager v. 2.5.0](#synerg
+* SLAM v1.2.0
 * [TOSCA-parser v. 0.8.3](#tp)
 * [TOSCA types v. 2.1.0](#tt)
 * [udocker v. 1.2.1](#watts)
@@ -556,6 +557,4 @@ a workaroung is to disable caching by setting: oidc.cache_duration = none (versi
 * Ubuntu16.04
   * [onedatazabbix-agent-1.0-Ubuntu16.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/monedatazabbix-agent-1.0-Ubuntu16.deb)
 
-
-#### Artefacts
  

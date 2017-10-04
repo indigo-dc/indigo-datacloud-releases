@@ -154,7 +154,7 @@ https://github.com/indigo-iam/iam/releases/tag/v1.1.0
 
 #### List of RfCs
   
-* More information about bug fixes and other developments can be found on our [GitHub IAM issue tracker](https://github.com/indigo-iam/iam/releases/tag/v1.1.0) 
+* More information about bug fixes and other developments can be found on [GitHub IAM issue tracker](https://github.com/indigo-iam/iam/releases/tag/v1.1.0) 
 
 #### Installation & Configuration
 * IAM Login Service can be deployed in two different ways:
@@ -178,7 +178,7 @@ $ docker run --name iam-login-service \
   indigodatacloud/iam-login-service
 </pre>
 
-See the gitbook admin guide [[https://indigo-dc.gitbooks.io/iam/content/doc/admin.html]] for all configuration variables description.
+See the gitbook admin guide https://indigo-dc.gitbooks.io/iam/content/doc/admin.html for all configuration variables description.
 
 ##### Deployment with precompiled packages
 

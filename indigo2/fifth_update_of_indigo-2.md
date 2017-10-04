@@ -16,7 +16,7 @@ The Fourth Update of INDIGO-2 release contains:
 * [Orchent v. 1.2.0](#orchent)
 * [Orchestrator v. 1.5.0-FINAL](#orchestrator)
 * [OOI v. 1.2.0](#ooi)
-* [Synergy: Service v. 1.5.2 & Scheduler-Manager v. 2.5.0](#synerg
+* [Synergy: Service v. 1.5.2 & Scheduler-Manager v. 2.5.0](#synerg)
 * [SLAM v 1.3.1](#slam)
 * [TOSCA-parser v. 0.8.3](#tp)
 * [TOSCA types v. 2.1.0](#tt)

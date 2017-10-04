@@ -312,7 +312,7 @@ Packages:
         
 #### Artefacts
 Container:
-  * [indigodatacloudapps/slam:indigo_2](https://hub.docker.com/r/indigodatacloudapps/slam/tags/)
+  * [indigodatacloudapps/slam:indigo_2](https://hub.docker.com/r/indigodatacloud/slam/tags/)
 
 
 ## <a name="lp"></a>LiferayPlugIns v. 2.2.1

@@ -153,10 +153,8 @@ More details:
 https://github.com/indigo-iam/iam/releases/tag/v1.1.0
 
 #### List of RfCs
-
-2
   
-* More information about bug fixes and other developments can be found on our [HitHub IAM issue tracker](https://github.com/indigo-iam/iam/releases/tag/v1..0) 
+* More information about bug fixes and other developments can be found on our [GitHub IAM issue tracker](https://github.com/indigo-iam/iam/releases/tag/v1.1.0) 
 
 #### Installation & Configuration
 * IAM Login Service can be deployed in two different ways:
@@ -165,10 +163,10 @@ https://github.com/indigo-iam/iam/releases/tag/v1.1.0
 
 Also a Puppet module is provided to simplify the installation and setup. This module leveraging on the precompiled packages.
 https://github.com/indigo-iam/puppet-indigo-iam
-* the IAM service is provided on the following DockerHub repositories:
 
- * indigoiam/iam-login-service
- * indigodatacloud/iam-login-service
+* the IAM service is provided on the following DockerHub repositories:
+  * indigoiam/iam-login-service
+  * indigodatacloud/iam-login-service
 
 The IAM service is executed by starting the docker container with the following command:
 
@@ -180,19 +178,29 @@ $ docker run --name iam-login-service \
   indigodatacloud/iam-login-service
 </pre>
 
-See our gitbook admin guide [[https://indigo-dc.gitbooks.io/iam/content/doc/admin.html]] for all configuration variables description.
+See the gitbook admin guide [[https://indigo-dc.gitbooks.io/iam/content/doc/admin.html]] for all configuration variables description.
 
-h3. Deployment with precompiled packages
+##### Deployment with precompiled packages
 
-Since IAM 1.0.0, p recompiled packages are available to install IAM Login service.s:</br>
-```docker pull indigodatacloud/iam-login-service```</br>
-```docker stop iam-login-service```</br>
-```docker rm iam-login-service```</br>
-```docker run \```</br>
-```  --name iam-login-service --net=iam -p 8080:8080 \```</br>
-```  --env-file=/path/to/iam-login-service/env \```</br>
-```   -v /path/to/keystore.jks:/keystore.jks:ro \```</br>
-```  indigodatacloud/iam-login-service```</br>
+Since IAM 1.0.0, precompiled packages are available to install IAM Login services
+Supported platforms:
+* CentOS 7
+* Ubuntu 16.04
+
+Packages and repo files are hosted on https://repo.cloud.cnaf.infn.it/repository/indigo-iam public repository.
+
+* *Installation*
+  * Installed the required Indigo IAM repository, install the IAM login service package.
+    * On CentOS:</br>
+<pre>$ sudo yum install -y iam-login-service</pre></br>
+    * On Ubuntu:</br>
+<pre>$ sudo apt-get install -y iam-login-service</pre></br>
+
+* *Run the service*
+  * The service is managed by Systemd, so to run it use:</br>
+<pre>$ sudo systemctl start iam-login-service</pre></br>
+
+
 
 * *Service Reference*
   * IAM gitbook: https://indigo-dc.gitbooks.io/iam/content/doc/admin.html
@@ -203,9 +211,10 @@ Since IAM 1.0.0, p recompiled packages are available to install IAM Login servic
 <a id="id7"></a>
 #### Artefacts
 
-* Docker Container:
-  * [indigodatacloud/iam-login-service:indigo_1](https://hub.docker.com/r/indigodatacloud/iam-login-service/)
+* Stable, certified rpm/deb releases suitable for use in production can be found at: https://repo.cloud.cnaf.infn.it/repository/indigo-iam/index.html
 
+* Docker image can be found at:
+https://hub.docker.com/r/indigodatacloud/iam-login-service/tags/ tag v1.1.0-latest
 
 ## <a name="kepler"></a>Indigo-Kepler v 1.3
 

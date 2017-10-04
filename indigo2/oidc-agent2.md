@@ -1,6 +1,7 @@
 # OpenIDConnect Agent - OIDC-Agent
 
-The WaTTS (INDIGO Token Translation Service) command line client
+**oidc-agent** is a tool to manage OpenID Connect tokens and make them easily usable from the command line. We followed the ssh-agent design, so users can handle OIDC tokens in a similiar way as they do with ssh keys.
+
 <!--
 ## Summary:
 * Updates

@@ -8,7 +8,7 @@ the command line.
 * Updates
   * [TTS v. 1.2.0](https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo2/fifth_update_of_indigo-2.html#tts)
   -->
-</br>
+
 
 * [Release Notes v. v 1.1.1](#id1)
   * [What's new](#id2)

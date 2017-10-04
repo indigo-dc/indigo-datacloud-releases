@@ -130,7 +130,7 @@ Upgrading an already deployed instance
         
 #### Artefacts
 Tarballs:
-* [im-java-api-0.4.10.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/im-java-api-v0.4.10.tar.gz)
+* [im-java-api-0.4.10.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/im-java-api-0.4.10.tar.gz)
 * [im-java-api-0.4.10-jar-with-dependencies.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/im-java-api-0.4.10-jar-with-dependencies.tar.gz)
 
 ## <a name="iam"></a>INDIGO IAM v.1.1.0

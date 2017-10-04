@@ -423,7 +423,7 @@ cdmi-s3-qos-ceph-provider now is partially read from configuration file (in case
 #### Artefacts
 
 Packages
-* [cdmi-s3-qos-2.0.0-1.el7.centos.x86_64](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/cdmi-s3-qos-2.0.0-1.el7.centos.x86_64.rpm)
+* [cdmi-s3-qos-2.0.0-1.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/cdmi-s3-qos-2.0.0-1.el7.centos.x86_64.rpm)
 * [cdmi-s3-qos-2.0.0.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/cdmi-s3-qos-2.0.0.deb)
 
 

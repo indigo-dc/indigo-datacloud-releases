@@ -192,10 +192,10 @@ Packages and repo files are hosted on https://repo.cloud.cnaf.infn.it/repository
 * *Installation*
   * Installed the required Indigo IAM repository, install the IAM login service package.
     * On CentOS: <pre>$ sudo yum install -y iam-login-service</pre></br>
-    * On Ubuntu: <pre>$ sudo apt-get install -y iam-login-service</pre></br>
+    * On Ubuntu: <pre>$ sudo apt-get install -y iam-login-service</pre>
 
 * *Run the service*
-  * The service is managed by Systemd, so to run it use: <pre>$ sudo systemctl start iam-login-service</pre></br>
+  * The service is managed by Systemd, so to run it use: <pre>$ sudo systemctl start iam-login-service</pre>
 
 * *Service Reference*
   * IAM gitbook: https://indigo-dc.gitbooks.io/iam/content/doc/admin.html
@@ -204,7 +204,6 @@ Packages and repo files are hosted on https://repo.cloud.cnaf.infn.it/repository
 
 <a id="id7"></a>
 #### Artefacts
-
 * Stable, certified rpm/deb releases suitable for use in production can be found at: https://repo.cloud.cnaf.infn.it/repository/indigo-iam/index.html
 
 * Docker image can be found at:

@@ -1,6 +1,6 @@
 # Fifth Update of INDIGO-2 - 30/09/2017
 
-The Fourth Update of INDIGO-2 release contains:
+The Fifth Update of INDIGO-2 release contains:
 * [Accounting v. 1.5.0-1](#accounting)
 * [IAM v. 1.1.0](#iam)
 * [IM v. 1.6.1](#im)

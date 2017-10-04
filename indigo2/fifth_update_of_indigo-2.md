@@ -677,9 +677,9 @@ a workaroung is to disable caching by setting: oidc.cache_duration = none (versi
 #### Artefacts
 
 * CentOS7
-  * [onedatazabbix-agent-1.0-1.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/onedatazabbix-agent-1.0-1.el7.centos.x86_64.rpm)
+  * [onedatazabbix-agent-1.0-1.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/onedatazabbix-agent-1.0-1.el7.centos.x86_64.rpm)
 * Ubuntu16.04
-  * [onedatazabbix-agent-1.0-Ubuntu16.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/monedatazabbix-agent-1.0-Ubuntu16.deb)
+  * [onedatazabbix-agent-1.0-Ubuntu16.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/monedatazabbix-agent-1.0-Ubuntu16.deb)
 
  
 

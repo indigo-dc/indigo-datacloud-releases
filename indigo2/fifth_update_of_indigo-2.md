@@ -393,7 +393,7 @@ The supported platforms
 #### Artefacts
 
 * [cdmi-server-1.2-1.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/base/cdmi-server-1.2-1.x86_64.rpm)
-* [cdmi-server-1.2_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-upèdates/main/binary-amd64/cdmi-server-1.2_all.deb)
+* [cdmi-server-1.2_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/cdmi-server-1.2_all.deb)
   
 ## <a name="cdmi-s3"></a>CDMI S3 QoS v. 2.0
 
@@ -429,9 +429,11 @@ Packages
 #### Installation & Configuration
 
 * Documentation is available at: https://www.gitbook.com/book/indigo-dc/cdmi-storm
+
 #### Artefacts
-The CDMI StoRM plugin is currently released as a RHEL7 rpm.
-* [cdmi-storm-0.1.0-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/update/cdmi-storm-0.1.0-1.el7.centos.noarch.rpm)
+
+The CDMI StoRM plugin is currently released as a RHEL7 rpm:
+* [cdmi-storm-0.1.0-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/cdmi-storm-0.1.0-1.el7.centos.noarch.rpm)
 
 ## <a name="oidca"></a>OIDC-Agent v. 1.1.1
 
@@ -507,7 +509,7 @@ In order to update the packages please use:
   * [tosca-parser-0.8.3-.el7.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/tosca-parser-0.8.2-1.el7.noarch.rpm)
 * Ubuntu 14.04
   * [python-tosca-parser_0.8.3-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/binary-amd64/python-tosca-parser_0.8.3-1_all.deb)
-  * Ubuntu 16.04
+* Ubuntu 16.04
   * [python-tosca-parser_0.8.3-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/python-tosca-parser_0.8.3-1_all.deb)
   
 ## <a name="tp"></a>TOSCA types v. 2.1.0
@@ -537,7 +539,7 @@ In order to update the packages please use:
   * [tosca-types-v2.1.0.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/tosca-types-v2.1.0.tar.gz)
 * Ubuntu 14.04
   * [tosca-types-v2.1.0.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/binary-amd64/tosca-types-v2.1.0.tar.gz)
-  * Ubuntu 16.04
+* Ubuntu 16.04
   * [tosca-types-v2.1.0.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/tosca-types-v2.1.0.tar.gz)
   
 
@@ -578,37 +580,37 @@ https://indigo-dc.gitbooks.io/udocker/content/doc/installation_manual.html
   * [udocker-rceng-1.1.0-1.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/udocker-rceng-1.1.0-1.x86_64.rpm)
 
 * Ubuntu 14.04
-  * [udocker-freng_1.1.0-1.debian.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/source/udocker-freng_1.1.0-1.debian.tar.gz)
+  * [udocker-freng_1.1.0-1.debian.tar.xz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/source/udocker-freng_1.1.0-1.debian.tar.xz)
   * [udocker-freng_1.1.0-1.dsc](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/source/udocker-freng_1.1.0-1.dsc)
   * [udocker-freng_1.1.0-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/binary-amd64/udocker-freng_1.1.0-1_amd64.deb)
   * [udocker-freng_1.1.0.orig.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/source/udocker-freng_1.1.0.orig.tar.gz)
-  * [udocker-preng_1.1.0-1.debian.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/source/udocker-preng_1.1.0-1.debian.tar.gz)
+  * [udocker-preng_1.1.0-1.debian.tar.xz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/source/udocker-preng_1.1.0-1.debian.tar.xz)
   * [udocker-preng_1.1.0-1.dsc](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/source/udocker-preng_1.1.0-1.dsc)
   * [udocker-preng_1.1.0-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/binary-amd64/udocker-preng_1.1.0-1_amd64.deb)  
   * [udocker-preng_1.1.0.orig.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/source/udocker-preng_1.1.0.orig.tar.gz)
-  * [udocker-rceng_1.1.0-1.debian.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/source/udocker-rceng_1.1.0-1.debian.tar.gz)
+  * [udocker-rceng_1.1.0-1.debian.tar.xz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/source/udocker-rceng_1.1.0-1.debian.tar.xz)
   * [udocker-rceng_1.1.0-1.dsc](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/source/udocker-rceng_1.1.0-1.dsc)
   * [udocker-rceng_1.1.0-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/binary-amd64/udocker-rceng_1.1.0-1_amd64.deb)
   * [udocker-rceng_1.1.0.orig.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/source/udocker-rceng_1.1.0.orig.tar.gz)
-  * [udocker_1.1.0-1.debian.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/source/udocker_1.1.0-1.debian.tar.gz)
+  * [udocker_1.1.0-1.debian.tar.xz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/source/udocker_1.1.0-1.debian.tar.xz)
   * [udocker_1.1.0-1.dsc](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/source/udocker_1.1.0-1.dsc)
   * [udocker_1.1.0-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/binary-amd64/udocker_1.1.0-1_all.deb)
   * [udocker_1.1.0.orig.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/source/wattson-1.2.0-amd64.deb)
 
 * Ubuntu 16.04
-  * [udocker-freng_1.1.0-1.debian.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/source/udocker-freng_1.1.0-1.debian.tar.gz)
+  * [udocker-freng_1.1.0-1.debian.tar.xz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/source/udocker-freng_1.1.0-1.debian.tar.xz)
   * [udocker-freng_1.1.0-1.dsc](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/source/udocker-freng_1.1.0-1.dsc)
   * [udocker-freng_1.1.0-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/udocker-freng_1.1.0-1_amd64.deb)
   * [udocker-freng_1.1.0.orig.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/source/udocker-freng_1.1.0.orig.tar.gz)
-  * [udocker-preng_1.1.0-1.debian.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/source/udocker-preng_1.1.0-1.debian.tar.gz)
+  * [udocker-preng_1.1.0-1.debian.tar.xz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/source/udocker-preng_1.1.0-1.debian.tar.xz)
   * [udocker-preng_1.1.0-1.dsc](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/source/udocker-preng_1.1.0-1.dsc)
   * [udocker-preng_1.1.0-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/udocker-preng_1.1.0-1_amd64.deb)  
   * [udocker-preng_1.1.0.orig.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/source/udocker-preng_1.1.0.orig.tar.gz)
-  * [udocker-rceng_1.1.0-1.debian.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/source/udocker-rceng_1.1.0-1.debian.tar.gz)
+  * [udocker-rceng_1.1.0-1.debian.tar.xz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/source/udocker-rceng_1.1.0-1.debian.tar.xz)
   * [udocker-rceng_1.1.0-1.dsc](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/source/udocker-rceng_1.1.0-1.dsc)
   * [udocker-rceng_1.1.0-1_amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/binary-amd64/udocker-rceng_1.1.0-1_amd64.deb)
   * [udocker-rceng_1.1.0.orig.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/source/udocker-rceng_1.1.0.orig.tar.gz)
-  * [udocker_1.1.0-1.debian.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/source/udocker_1.1.0-1.debian.tar.gz)
+  * [udocker_1.1.0-1.debian.tar.xz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/source/udocker_1.1.0-1.debian.tar.xz)
   * [udocker_1.1.0-1.dsc](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/source/udocker_1.1.0-1.dsc)
   * [udocker_1.1.0-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/binary-amd64/udocker_1.1.0-1_all.deb)
   * [udocker_1.1.0.orig.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/source/wattson-1.2.0-amd64.deb)
@@ -680,3 +682,4 @@ a workaroung is to disable caching by setting: oidc.cache_duration = none (versi
   * [onedatazabbix-agent-1.0-Ubuntu16.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/monedatazabbix-agent-1.0-Ubuntu16.deb)
 
  
+

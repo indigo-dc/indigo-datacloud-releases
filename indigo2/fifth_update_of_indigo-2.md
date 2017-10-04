@@ -2,6 +2,7 @@
 
 The Fifth Update of INDIGO-2 release contains:
 * [Accounting v. 1.5.0-1](#accounting)
+* [Analytics Portlets v. 1.0.1](#ap)
 * [IAM v. 1.1.0](#iam)
 * [IM v. 1.6.1](#im)
 * [IM Java API v. 0.4.10](#imjavaapi)
@@ -51,6 +52,12 @@ Upgrading an already deployed instance
 
 #### Artefacts
 * [indigodatacloud/accounting:indigo_2](https://hub.docker.com/r/indigodatacloud/accounting/tags) - CentOS7 based image
+
+## <a name="ap"></a>Analytics Portlets v. 1.0.1 
+
+#### What's new
+* This is the first release of the Analytics Portlets - for more details see the [Analytics Portlets GitBook](https://indigo-dc.gitbooks.io/analytics-portlets/content/)
+
 
 ## <a name="im"></a>Infrastructure Manager v. 1.6.1
 

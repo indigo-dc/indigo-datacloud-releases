@@ -399,7 +399,7 @@ The supported platforms
 
 #### Artefacts
 
-* [cdmi-server-1.2-1.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/base/cdmi-server-1.2-1.x86_64.rpm)
+* [cdmi-server-1.2-1.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/cdmi-server-1.2-1.x86_64.rpm)
 * [cdmi-server-1.2_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/cdmi-server-1.2_all.deb)
   
 ## <a name="cdmi-s3"></a>CDMI S3 QoS v. 2.0
@@ -423,8 +423,8 @@ cdmi-s3-qos-ceph-provider now is partially read from configuration file (in case
 #### Artefacts
 
 Packages
-* [cdmi-s3-qos-2.0.0-1.el7.centos.x86_64](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/update/cdmi-s3-qos-2.0.0-1.el7.centos.x86_64.rpm)
-* [cdmi-s3-qos-2.0.0.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial/main/binary-amd64/cdmi-s3-qos-2.0.0.deb)
+* [cdmi-s3-qos-2.0.0-1.el7.centos.x86_64](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/cdmi-s3-qos-2.0.0-1.el7.centos.x86_64.rpm)
+* [cdmi-s3-qos-2.0.0.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/cdmi-s3-qos-2.0.0.deb)
 
 
 ## <a name="cdmi-storm"></a>CDMI STORM Plugin v. 0.1.0

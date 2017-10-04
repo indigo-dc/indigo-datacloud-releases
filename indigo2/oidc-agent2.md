@@ -1,6 +1,7 @@
 # OpenIDConnect Agent - OIDC-Agent
 
-**oidc-agent** is a tool to manage OpenID Connect tokens and make them easily usable from the command line. We followed the ssh-agent design, so users can handle OIDC tokens in a similiar way as they do with ssh keys.
+**oidc-agent** is a new system service ensuring that always a valid access token is available for
+the command line.
 
 <!--
 ## Summary:

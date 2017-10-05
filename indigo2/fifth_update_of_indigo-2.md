@@ -24,7 +24,7 @@ The Fifth Update of INDIGO-2 release contains:
 * [udocker v. 1.2.1](#watts)
 * [WaTTs v. 1.1.0](#ud)
 * [WaTTSon v. 1.2.1](#wattson)
-* [Monitoring - Zabbix-probes v. 1.03](#zp)
+* [Monitoring - Zabbix-probes v. 1.1](#zp)
 
 
 
@@ -663,7 +663,7 @@ a workaroung is to disable caching by setting: oidc.cache_duration = none (versi
 * Docker container.
   * [indigodatacloud/wattson:indigo_2](https://hub.docker.com/r/indigodatacloud/wattson/tags/)
 
-## <a name="zp"></a>Monitoring  - Zabbix-probes v. 1.03
+## <a name="zp"></a>Monitoring  - Zabbix-probes v. 1.1
 
 #### What's new
 * Authentication for Onedata through IAM service and automatic process for refreshing token.
@@ -684,9 +684,11 @@ a workaroung is to disable caching by setting: oidc.cache_duration = none (versi
 #### Artefacts
 
 * CentOS7
-  * [onedatazabbix-agent-1.0-1.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/onedatazabbix-agent-1.0-1.el7.centos.x86_64.rpm)
+  * [onedatazabbix-agent-1.1-1.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/onedatazabbix-agent-1.1-1.el7.centos.x86_64.rpm)
+* Ubuntu14.04
+  * [onedatazabbix-agent-1.1-Ubuntu14.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/trusty-updates/main/binary-amd64/onedatazabbix-agent-1.1-Ubuntu14.deb)
 * Ubuntu16.04
-  * [onedatazabbix-agent-1.0-Ubuntu16.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/monedatazabbix-agent-1.0-Ubuntu16.deb)
+  * [onedatazabbix-agent-1.1-Ubuntu16.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/onedatazabbix-agent-1.1-Ubuntu16.deb)
 
  
 

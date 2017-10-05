@@ -51,14 +51,14 @@ Supported Platforms:
 
 * *How to upgrade already deployed service*:
   * If you've followed the gitbook guide (https://indigo-dc.gitbooks.io/iam/content/doc/admin.html), you could do as follows:<br>
-```docker pull indigodatacloud/iam-login-service```</br>
-```docker stop iam-login-service```</br>
-```docker rm iam-login-service```</br>
-```docker run \```</br>
-```  --name iam-login-service --net=iam -p 8080:8080 \```</br>
-```  --env-file=/path/to/iam-login-service/env \```</br>
-```   -v /path/to/keystore.jks:/keystore.jks:ro \```</br>
-```  indigodatacloud/iam-login-service```</br>
+```docker pull indigodatacloud/iam-login-service```<br>
+```docker stop iam-login-service```<br>
+```docker rm iam-login-service```<br>
+```docker run \```<br>
+```  --name iam-login-service --net=iam -p 8080:8080 \```<br>
+```  --env-file=/path/to/iam-login-service/env \```<br>
+```   -v /path/to/keystore.jks:/keystore.jks:ro \```<br>
+```  indigodatacloud/iam-login-service```<br>
 
 * *Service Reference*
   * IAM gitbook: https://indigo-dc.gitbooks.io/iam/content/doc/admin.html

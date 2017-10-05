@@ -50,7 +50,7 @@ Supported Platforms:
 ### Deployment Notes
 
 * *How to upgrade already deployed service*:
-  * If you've followed the gitbook guide (https://indigo-dc.gitbooks.io/iam/content/doc/admin.html), you could do as follows:</br>
+  * If you've followed the gitbook guide (https://indigo-dc.gitbooks.io/iam/content/doc/admin.html), you could do as follows:<br>
 ```docker pull indigodatacloud/iam-login-service```</br>
 ```docker stop iam-login-service```</br>
 ```docker rm iam-login-service```</br>

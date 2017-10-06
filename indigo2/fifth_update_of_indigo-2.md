@@ -315,7 +315,7 @@ Packages:
 
 #### Installation & Configuration
 
-* FOr upgrade please read the section "Upgrade procedure" in https://indigo-dc.gitbooks.io/slam/content/installation.html
+* For upgrade please read the section "Upgrade procedure" in https://indigo-dc.gitbooks.io/slam/content/installation.html
         
 #### Artefacts
 Container:
@@ -471,7 +471,7 @@ the command line.
 * Container
   * [indigodatacloud/orchent:indigo_2](https://hub.docker.com/r/indigodatacloud/orchent/tags)
 
-## <a name="orchestrator"></a>Orchestrator v. 1.5.0-FINAL
+## <a name="orchestrator"></a>Orchestrator v. 1.5.1-FINAL
 
 #### What's new
 * The current update adds support for Azure, increased support for Openstack and better configuration experience

@@ -3,21 +3,20 @@
 The Fifth Update of INDIGO-2 release contains:
 * [Accounting v. 1.5.0-1](#accounting)
 * [Analytics Portlets v. 1.0.1](#ap)
+* [CDMI Server v. 1.2.1](#cdmi)
+* [CDMI S3 QoS v. 2.0](#cdmi-s3)
+* [CDMI STORM plugin v. 0.1.0](#cdmi-storm)
+* [CLUES v. 2.2.1](#clues)
 * [IAM v. 1.1.0](#iam)
 * [IM v. 1.6.1](#im)
 * [IM Java API v. 0.4.10](#imjavaapi)
 * [INDIGO-Kepler v. 1.3](#kepler)
-* [Synergy: Service v. 1.5.3 & Scheduler-Manager v. 2.6.0](#synergy)
 * [Liferay Plugins v. 2.2.1](#lp)
-* [CLUES v. 2.2.1](#clues)
-* [CDMI Server v. 1.2.1](#cdmi)
-* [CDMI S3 QoS v. 2.0](#cdmi-s3)
-* [CDMI STORM plugin v. 0.1.0](#cdmi-storm)
 * [OIDC-Agent v. 1.1.1](#oidca)
 * [Orchent v. 1.2.0](#orchent)
 * [Orchestrator v. 1.5.0-FINAL](#orchestrator)
 * [OOI v. 1.2.0](#ooi)
-* [Synergy: Service v. 1.5.2 & Scheduler-Manager v. 2.5.0](#synerg)
+* [Synergy: Service v. 1.5.3 & Scheduler-Manager v. 2.6.0](#synergy)
 * [SLAM v 1.3.1](#slam)
 * [TOSCA-parser v. 0.8.3](#tp)
 * [TOSCA types v. 2.1.0](#tt)
@@ -57,6 +56,100 @@ Upgrading an already deployed instance
 
 #### What's new
 * This is the first release of the Analytics Portlets - for more details see the [Analytics Portlets GitBook](https://indigo-dc.gitbooks.io/analytics-portlets/content/)
+
+## <a name="cdmi"></a>CDMI Server v. 1.2.1
+
+#### What's new
+* Improved support for storage plugins
+
+#### List of RfCs
+* SLF4J: Class path contains multiple SLF4J bindings. -> https://github.com/indigo-dc/CDMI/issues/111
+
+#### Installation & Configuration
+* Upgrade Guide: https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/updating_cdmi-qos.html
+* Documentation
+  * https://indigo-dc.gitbooks.io/cdmi-qos/content/
+  * https://github.com/indigo-dc/CDMI/wiki/Service-Reference-Card
+
+#### Artefacts
+
+* [cdmi-server-1.2-1.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/cdmi-server-1.2-1.x86_64.rpm)
+* [cdmi-server-1.2_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/cdmi-server-1.2_all.deb)
+  
+## <a name="cdmi-s3"></a>CDMI S3 QoS v. 2.0
+
+#### What's new
+* support for data namespace browsing. 
+* support for CDMI export attribute, it allows to expose to the client information about configured data access protocols, thanks to that end user is able to find the data-object with WebDav for example, but to be well understand: export attribute only informs about alternative protocols, it doesn't provide them, if by any chance the data object is available through WebDAV then export attribute will tell it
+* support for bunch of new QoS attributes including:
+  * exposing information about data lifetime
+  * exposing information about data retention policy
+* removed dependency on cdmi-s3-qos-ceph-provider module, the information which was earlier provided by 
+cdmi-s3-qos-ceph-provider now is partially read from configuration file (in case of static things) and partially is obtained directly from backed server through S3 protocol
+
+#### Installation & Configuration
+
+* Installation guide available at - https://indigo-dc.gitbooks.io/cdmi-s3-qos/content/
+* Ansible role is available here: https://github.com/indigo-dc/ansible-role-cdmi-s3-qos
+* Run with Docker
+  * [https://indigo-dc.gitbooks.io/cdmi-s3-qos/content/doc/running_from_docker_image.html](https://indigo-dc.gitbooks.io/cdmi-s3-qos/content/doc/running_from_docker_image.html)
+  
+#### Artefacts
+
+Packages
+* [cdmi-s3-qos-2.0.0-1.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/cdmi-s3-qos-2.0.0-1.el7.centos.x86_64.rpm)
+* [cdmi-s3-qos-2.0.0.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/cdmi-s3-qos-2.0.0.deb)
+
+
+## <a name="cdmi-storm"></a>CDMI STORM Plugin v. 0.1.0
+
+#### What's new
+* This is the first public release of the INDIGO CDMI StoRM plugin.
+* For more details please read https://github.com/italiangrid/cdmi-storm/blob/master/CHANGELOG.md
+
+#### Installation & Configuration
+
+* Documentation is available at: https://www.gitbook.com/book/indigo-dc/cdmi-storm
+
+#### Artefacts
+
+The CDMI StoRM plugin is currently released as a RHEL7 rpm:
+* [cdmi-storm-0.1.0-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/cdmi-storm-0.1.0-1.el7.centos.noarch.rpm)
+
+## <a name="clues"></a>CLUES v. 1.0.0
+
+#### What's new
+* Several bugfixes
+
+#### List of RfCs
+* Assure not to delete non existing resources -> https://github.com/indigo-dc/clues-indigo/pull/47
+* Show statusReason in clues log -> https://github.com/indigo-dc/clues-indigo/pull/47
+* Bugfix deleting nodes -> https://github.com/indigo-dc/clues-indigo/pull/48
+* Fix error in mesos plugin in case no data returned by _obtain_mesos_jobs -> https://github.com/indigo-dc/clues-indigo/pull/50
+
+#### Installation & Configuration
+* Ansible role available in (always install latest version):
+  * https://github.com/indigo-dc/ansible-role-clues
+* Documentation
+  * https://www.gitbook.com/book/indigo-dc/clues-indigo/details
+
+#### Artefacts
+The supported platforms
+* CentOS 7
+* Ubuntu 14.04
+* Ubuntu 16.04
+
+* CentOS 7
+  * [clues-indigo-v1.0.0.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/clues-indigo-v1.0.0.tar.gz)
+* Ubuntu 16.04
+  * [clues-indigo-v1.0.0.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/source/clues-indigo-v1.0.0.tar.gz)
+
+## <a name="oidca"></a>OIDC-Agent v. 1.1.1
+
+#### What's new
+* *oidc-agent* is a new system service ensuring that always a valid access token is available for
+the command line.
+* for more information please see: https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo2/oidc-agent2.html
 
 
 ## <a name="im"></a>Infrastructure Manager v. 1.6.1
@@ -251,6 +344,38 @@ How to update: use provided Docker images versioned equally to the main librarie
   * [indigodatacloudapps/kepler:indigo_2](https://hub.docker.com/r/indigodatacloudapps/kepler/tags/)
   * [indigodatacloudapps/kepler-batch:indigo_2](https://hub.docker.com/r/indigodatacloudapps/kepler-batch/tags/)
 
+## <a name="lp"></a>LiferayPlugIns v. 2.2.1
+
+#### What's new
+* The new version includes:
+  * the autogeneration of the UI for TOSCA based application
+  * the access to runtime data in the UI.
+  * Improved token management reducing the communication with IAM endpoints.
+  * several bug fixes.
+
+#### List of RfCs
+* [Issue-28](https://github.com/indigo-dc/LiferayPlugIns/issues/28) - Support Runtime Data of the tasks 
+* [Issue-30](https://github.com/indigo-dc/LiferayPlugIns/issues/30) - Ajax call should be async
+* [Issue-31](https://github.com/indigo-dc/LiferayPlugIns/issues/31) - Default paramter file generation
+* [Issue-32](https://github.com/indigo-dc/LiferayPlugIns/issues/32) - Javascript dependency error 
+* [Issue-34](https://github.com/indigo-dc/LiferayPlugIns/issues/34) - Remove or improve alert messages
+* [Issue-36](https://github.com/indigo-dc/LiferayPlugIns/issues/36) - Caching keys for token validation
+* [Issue-38](https://github.com/indigo-dc/LiferayPlugIns/issues/38) - Default values in TOSCA template should be selected in Customisable Application Portlet
+* [Issue-40](https://github.com/indigo-dc/LiferayPlugIns/issues/40) - Float field in the UI should accept integer
+* [Issue-42](https://github.com/indigo-dc/LiferayPlugIns/issues/42) - Admin portlet should list task for all users
+* [Issue-43](https://github.com/indigo-dc/LiferayPlugIns/issues/43) - UserInfo endpoint called with expired token
+* [Issue-49](https://github.com/indigo-dc/LiferayPlugIns/issues/49) - OneProvider dns only name
+
+#### Installation \& Configuration
+* Provided details in the documentation. In short administrator should add the new modules from the Liferay control panel and disable/remove the previous.
+
+* More information can be found in the "Upgrade to a new release" section of the [Administration Guide](https://indigo-dc.gitbooks.io/liferay-plugins/content/)
+
+#### Artefacts
+* CentOS 7
+  * [LiferayPlugins-binary-2.2.1.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/LiferayPlugins-binary-2.2.1.tgz)
+* Ubuntu14.04
+  * [LiferayPlugIns-binary-2.2.1.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/LiferayPlugins-binary-2.2.1.tgz)
 
 ## <a name="synergy"></a>Synergy Service, v. 1.5.3  and Scheduler Manager, v. 2.6.0
 
@@ -321,40 +446,6 @@ Packages:
 Container:
   * [indigodatacloudapps/slam:indigo_2](https://hub.docker.com/r/indigodatacloud/slam/tags/)
 
-
-## <a name="lp"></a>LiferayPlugIns v. 2.2.1
-
-#### What's new
-* The new version includes:
-  * the autogeneration of the UI for TOSCA based application
-  * the access to runtime data in the UI.
-  * Improved token management reducing the communication with IAM endpoints.
-  * several bug fixes.
-
-#### List of RfCs
-* [Issue-28](https://github.com/indigo-dc/LiferayPlugIns/issues/28) - Support Runtime Data of the tasks 
-* [Issue-30](https://github.com/indigo-dc/LiferayPlugIns/issues/30) - Ajax call should be async
-* [Issue-31](https://github.com/indigo-dc/LiferayPlugIns/issues/31) - Default paramter file generation
-* [Issue-32](https://github.com/indigo-dc/LiferayPlugIns/issues/32) - Javascript dependency error 
-* [Issue-34](https://github.com/indigo-dc/LiferayPlugIns/issues/34) - Remove or improve alert messages
-* [Issue-36](https://github.com/indigo-dc/LiferayPlugIns/issues/36) - Caching keys for token validation
-* [Issue-38](https://github.com/indigo-dc/LiferayPlugIns/issues/38) - Default values in TOSCA template should be selected in Customisable Application Portlet
-* [Issue-40](https://github.com/indigo-dc/LiferayPlugIns/issues/40) - Float field in the UI should accept integer
-* [Issue-42](https://github.com/indigo-dc/LiferayPlugIns/issues/42) - Admin portlet should list task for all users
-* [Issue-43](https://github.com/indigo-dc/LiferayPlugIns/issues/43) - UserInfo endpoint called with expired token
-* [Issue-49](https://github.com/indigo-dc/LiferayPlugIns/issues/49) - OneProvider dns only name
-
-#### Installation \& Configuration
-* Provided details in the documentation. In short administrator should add the new modules from the Liferay control panel and disable/remove the previous.
-
-* More information can be found in the "Upgrade to a new release" section of the [Administration Guide](https://indigo-dc.gitbooks.io/liferay-plugins/content/)
-
-#### Artefacts
-* CentOS 7
-  * [LiferayPlugins-binary-2.2.1.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/LiferayPlugins-binary-2.2.1.tgz)
-* Ubuntu14.04
-  * [LiferayPlugIns-binary-2.2.1.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/LiferayPlugins-binary-2.2.1.tgz)
-
 ## <a name="clues"></a>CLUES v. 1.0.0
 
 #### What's new
@@ -382,65 +473,6 @@ The supported platforms
   * [clues-indigo-v1.0.0.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/clues-indigo-v1.0.0.tar.gz)
 * Ubuntu 16.04
   * [clues-indigo-v1.0.0.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/source/clues-indigo-v1.0.0.tar.gz)
-
-## <a name="cdmi"></a>CDMI Server v. 1.2.1
-
-#### What's new
-* Improved support for storage plugins
-
-#### List of RfCs
-* SLF4J: Class path contains multiple SLF4J bindings. -> https://github.com/indigo-dc/CDMI/issues/111
-
-#### Installation & Configuration
-* Upgrade Guide: https://indigo-dc.gitbooks.io/cdmi-qos/content/doc/updating_cdmi-qos.html
-* Documentation
-  * https://indigo-dc.gitbooks.io/cdmi-qos/content/
-  * https://github.com/indigo-dc/CDMI/wiki/Service-Reference-Card
-
-#### Artefacts
-
-* [cdmi-server-1.2-1.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/cdmi-server-1.2-1.x86_64.rpm)
-* [cdmi-server-1.2_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/cdmi-server-1.2_all.deb)
-  
-## <a name="cdmi-s3"></a>CDMI S3 QoS v. 2.0
-
-#### What's new
-* support for data namespace browsing. 
-* support for CDMI export attribute, it allows to expose to the client information about configured data access protocols, thanks to that end user is able to find the data-object with WebDav for example, but to be well understand: export attribute only informs about alternative protocols, it doesn't provide them, if by any chance the data object is available through WebDAV then export attribute will tell it
-* support for bunch of new QoS attributes including:
-  * exposing information about data lifetime
-  * exposing information about data retention policy
-* removed dependency on cdmi-s3-qos-ceph-provider module, the information which was earlier provided by 
-cdmi-s3-qos-ceph-provider now is partially read from configuration file (in case of static things) and partially is obtained directly from backed server through S3 protocol
-
-#### Installation & Configuration
-
-* Installation guide available at - https://indigo-dc.gitbooks.io/cdmi-s3-qos/content/
-* Ansible role is available here: https://github.com/indigo-dc/ansible-role-cdmi-s3-qos
-* Run with Docker
-  * [https://indigo-dc.gitbooks.io/cdmi-s3-qos/content/doc/running_from_docker_image.html](https://indigo-dc.gitbooks.io/cdmi-s3-qos/content/doc/running_from_docker_image.html)
-  
-#### Artefacts
-
-Packages
-* [cdmi-s3-qos-2.0.0-1.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/cdmi-s3-qos-2.0.0-1.el7.centos.x86_64.rpm)
-* [cdmi-s3-qos-2.0.0.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/cdmi-s3-qos-2.0.0.deb)
-
-
-## <a name="cdmi-storm"></a>CDMI STORM Plugin v. 0.1.0
-
-#### What's new
-* This is the first public release of the INDIGO CDMI StoRM plugin.
-* For more details please read https://github.com/italiangrid/cdmi-storm/blob/master/CHANGELOG.md
-
-#### Installation & Configuration
-
-* Documentation is available at: https://www.gitbook.com/book/indigo-dc/cdmi-storm
-
-#### Artefacts
-
-The CDMI StoRM plugin is currently released as a RHEL7 rpm:
-* [cdmi-storm-0.1.0-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/cdmi-storm-0.1.0-1.el7.centos.noarch.rpm)
 
 ## <a name="oidca"></a>OIDC-Agent v. 1.1.1
 

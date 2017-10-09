@@ -14,7 +14,7 @@ The Fifth Update of INDIGO-2 release contains:
 * [Liferay Plugins v. 2.2.1](#lp)
 * [OIDC-Agent v. 1.1.1](#oidca)
 * [Orchent v. 1.2.0](#orchent)
-* [Orchestrator v. 1.5.0-FINAL](#orchestrator)
+* [Orchestrator v. 1.5.1-FINAL](#orchestrator)
 * [OOI v. 1.2.0](#ooi)
 * [Synergy: Service v. 1.5.3 & Scheduler-Manager v. 2.6.0](#synergy)
 * [SLAM v 1.3.1](#slam)

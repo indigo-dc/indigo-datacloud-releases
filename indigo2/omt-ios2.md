@@ -1,4 +1,4 @@
-# INDIGO iOS Library v. 0.1.2
+# INDIGO iOS Library v. 0.1.3
 
 
 ## About
@@ -32,7 +32,7 @@ The simple example app is available [here](https://github.com/indigo-dc/omt-ios/
 
 
 <a id="id1"></a>
-## Release Notes v. 0.1.2
+## Release Notes v. 0.1.3
 
 <a id="id2"></a>
 ### What's new
@@ -71,9 +71,8 @@ Supported Platforms:
 ### List of Artifacts
 
 * As for the artefacts, the CocoaPods that I used to create and iOS library is to manage source code, not binary code 
-  * CocoaPods recursively resolves dependencies between libraries, fetches source code for all dependencies, and creates and maintains an Xcode workspace to build your project. (https://github.com/CocoaPods/CocoaPods)
-This library was publish to a public CocoaPods repository here https://cocoapods.org/pods/IndigoOmtIosLibrary
-However, a binary is available [here](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/IndigoOmtIosLibrary-0.1.3.zip)
+  * CocoaPods recursively resolves dependencies between libraries, fetches source code for all dependencies, and creates and maintains an Xcode workspace to build your project. (https://github.com/CocoaPods/CocoaPods). This library was publish to a public CocoaPods repository here https://cocoapods.org/pods/IndigoOmtIosLibrary
+  * a binary is available [here](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/IndigoOmtIosLibrary-0.1.3.zip)
 
 
 <a id="id6"></a>

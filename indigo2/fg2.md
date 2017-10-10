@@ -27,7 +27,7 @@ to target the TOSCA orchestrator.
 
 
 * [FutureGateway API Server](fgapiserver2.md)
-* [FutureGateway API Server Daemon](fgapiserverdaemon2.md)
+* [FutureGateway API Server Daemon](fgapiserver2.md)
 
 <!--
 * [FutureGateway jSAGA Adaptors](fg_jsaga_adaptors1.md)

@@ -40,7 +40,7 @@ to target the TOSCA orchestrator.
 
 Detailed documentation on how to install and configure the different components can be found at:
 * [FutureGateway API Server](fgapiserver2.md)
-* [FutureGateway API Server Daemon](fgapiserverdaemon2.md)
+* [FutureGateway API Server Daemon](fgapiserver2.md)
 
 <!--
 * [FutureGateway jSAGA Adaptors](fg_jsaga_adaptors1.md#id4)

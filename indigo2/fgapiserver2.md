@@ -19,7 +19,7 @@ The Principal advantages of this solutions are:
 
 ## Summary:
 * Updates
-  * [fgAPIServer & APIServerDaemonv0.0.8](https://github.com/indigo-dc/indigo-datacloud-releases/blob/master/indigo2/second_update_of_indigo-2.md#fg) 
+  * [fgAPIServer & APIServerDaemon v0.0.8](https://github.com/indigo-dc/indigo-datacloud-releases/blob/master/indigo2/second_update_of_indigo-2.md#fg) 
 
 * [Release Notes](#id1)
   * [What's new](#id2)
@@ -33,7 +33,7 @@ The Principal advantages of this solutions are:
 
 
 <a id="id1"></a>
-## Release Notes
+## Release Notes v. 0.0.7
 
 <a id="id2"></a>
 ### What's new

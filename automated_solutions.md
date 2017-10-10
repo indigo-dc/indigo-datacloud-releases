@@ -15,7 +15,7 @@ The INDIGO - DataCloud project provides a rich set of high-level automated funct
 * CloudInfoProvider - [INDIGO-2](indigo2/cip2.md), [INDIGO-1](indigo1/cip1.md)
 * CloudProviderRanker - [INDIGO-2](indigo2/cpr2.md), [INDIGO-1](indigo1/cpr1.md)
 * Infrastructure Manager (IM) - [INDIGO-2](indigo2/im2.md), [INDIGO-1](indigo1/im1.md)
-* Kubernetes - [INDIGO-1](indigo1/kubernetes1.md)
+* Kubernetes - [INDIGO-1](indigo1/kubernetes1.md), [INDIGO-2](indigo2/kubernetes2.md)
 * Mesos Cluster - [INDIGO-2](indigo2/mesos2.md), [INDIGO-1](indigo1/mesos1.md)
 * Orchestrator - [INDIGO-2](indigo2/orchestrator2.md), [INDIGO-1](indigo1/orchestrator1.md)
   * Orchent - [INDIGO-2](indigo2/orchent2.md)

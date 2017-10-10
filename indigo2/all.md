@@ -18,7 +18,7 @@ Full list of INDIGO-2ElectricIndigo Services & Applications, with detailed relea
   * [Nova-Docker](nova-docker2.md)
   * [Heat-Translator](heat-translator2.md)
   * [Docker support for OpenNebula (ONEDock)](onedock2.md)
-  * [OpenStack Client](python-osclient2.md)
+  * [OpenStack Client for OPIE](opie-cli2.md)
   * [OpenStack NOVA Client](python-nova2.md)
   * [RepoSync](reposync2.md) 
 * [FutureGateway](fg2.md)

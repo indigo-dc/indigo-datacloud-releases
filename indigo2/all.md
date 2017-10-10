@@ -25,6 +25,7 @@ Full list of INDIGO-2ElectricIndigo Services & Applications, with detailed relea
 * [Identity Harmonization Service](idh2.md)
 * [INDIGO IAM](iam2.md)
 * [INDIGO OMT](omt2.md)
+* [INDIGO OMT iOS](omt-ios2.md)
 * [INDIGO Plugins](indigo_plugin2.md)
   * [INDIGO Kepler](kepler2.md)
 * [Infrastructure Manager (IM)](im2.md)

@@ -37,7 +37,7 @@
      * [INDIGO OMT](indigo2/omt2.md)
      * [INDIGO OMT iOS](indigo2/omt-ios2.md)
      * [INDIGO Plugins](indigo2/indigo_plugin2.md)
-     * [INDIGO Kepler](indigo2/kepler2.md)
+       * [INDIGO Kepler](indigo2/kepler2.md)
      * [Infrastructure Manager](indigo2/im2.md)
      * [Infrastructure Manager Java API](indigo2/imjavaapi2.md)
      * [Liferay Plugins](indigo2/liferayplugins2.md)

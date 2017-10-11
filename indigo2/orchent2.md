@@ -55,7 +55,7 @@ Docker Container:
 <a id="id6"></a>
 ## Documentation
 
-* [SLA Manager in GitBook](https://indigo-dc.gitbooks.io/slam/content/)
+* Documentation is avalable at - [Orchent GitBook](https://www.gitbook.com/book/indigo-dc/orchent/details)
 
 
 <a id="id8"></a>

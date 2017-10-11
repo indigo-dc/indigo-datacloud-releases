@@ -16,7 +16,6 @@ The Fifth Update of INDIGO-2 release contains:
 * [OIDC-Agent v. 1.1.1](#oidca)
 * [Orchent v. 1.2.0](#orchent)
 * [Orchestrator v. 1.5.1-FINAL](#orchestrator)
-* [OOI v. 1.2.0](#ooi)
 * [Synergy: Service v. 1.5.3 & Scheduler-Manager v. 2.6.0](#synergy)
 * [SLAM v 1.3.1](#slam)
 * [TOSCA-parser v. 0.8.3](#tp)

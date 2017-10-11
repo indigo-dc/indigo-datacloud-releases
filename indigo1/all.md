@@ -41,6 +41,7 @@ Full list of INDIGO-1 MidnightBlue Services & Applications, with detailed releas
   * [jOCCI](jocci1.md)
 * [Ophidia](ophidia1.md)
 * [Orchestrator](orchestrator1.md)
+  * [Orchent](orchent1.md)
 * [QoS/SLA Management Service](slam1.md)
 * [Synergy](synergy1.md) 
 * [TOSCA-Parser & Types](tosca-pt1.md)

@@ -179,14 +179,6 @@ The supported platforms
 * Ubuntu 16.04
   * [clues-indigo-v1.0.0.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/source/clues-indigo-v1.0.0.tar.gz)
 
-## <a name="oidca"></a>OIDC-Agent v. 1.1.1
-
-#### What's new
-* *oidc-agent* is a new system service ensuring that always a valid access token is available for
-the command line.
-* for more information please see: https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo2/oidc-agent2.html
-
-
 ## <a name="im"></a>Infrastructure Manager v. 1.6.1
 
 #### What's new
@@ -411,6 +403,14 @@ How to update: use provided Docker images versioned equally to the main librarie
   * [LiferayPlugins-binary-2.2.1.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/LiferayPlugins-binary-2.2.1.tgz)
 * Ubuntu14.04
   * [LiferayPlugIns-binary-2.2.1.tgz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/LiferayPlugins-binary-2.2.1.tgz)
+
+## <a name="oidca"></a>OIDC-Agent v. 1.1.1
+
+#### What's new
+* *oidc-agent* is a new system service ensuring that always a valid access token is available for
+the command line.
+* for more information please see: https://indigo-dc.gitbooks.io/indigo-datacloud-releases/content/indigo2/oidc-agent2.html
+
 
 ## <a name="synergy"></a>Synergy Service, v. 1.5.3  and Scheduler Manager, v. 2.6.0
 

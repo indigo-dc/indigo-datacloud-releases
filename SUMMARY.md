@@ -111,7 +111,6 @@
          * [jOCCI](indigo1/jocci1.md)
        * [Ophidia](indigo1/ophidia1.md)
        * [Orchestrator](indigo1/orchestrator1.md)
-       * [Nova-Docker](indigo1/nova-docker1.md)
        * [QoS/SLA Management Service](indigo1/slam1.md)
        * [Synergy](indigo1/synergy1.md)
        * [TOSCA Parser & Types](indigo1/tosca-pt1.md)

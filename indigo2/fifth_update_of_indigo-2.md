@@ -7,7 +7,7 @@ The Fifth Update of INDIGO-2 release contains:
 * [CDMI S3 QoS v. 2.0](#cdmi-s3)
 * [CDMI STORM plugin v. 0.1.0](#cdmi-storm)
 * [CloudInfoProvider: cloud-info-provider-indigo, v 0.11.1 & cloud-info-provider: 0.9.1](#cip)
-* [CLUES v. 2.2.1](#clues)
+* [CLUES v. 1.0.0](#clues)
 * [IAM v. 1.1.0](#iam)
 * [IM v. 1.6.1](#im)
 * [IM Java API v. 0.4.10](#imjavaapi)

@@ -1,14 +1,19 @@
 # INDIGO-2  Services & Applications
 
 Full list of INDIGO-2ElectricIndigo Services & Applications, with detailed release notes and instructions for their installation/configuration.
-
+* [Analytics Portlets](analytics-portlets2.md)
 * [CDMI Server](cdmi2.md)
+* [CDMI S3 QoS Interface](cdmi-s3-qos2.md)
+* [CDMI STORM Plugin](	cdmi-storm-plugin2.md)
 * [CloudInfoProvider](cip2.md)
 * [CloudProviderRanker](cpr2.md)
 * [CLUES (CLUster Energy Saving)](clues2.md)
+* [CMDB](indigo2/cmdb2.md)
 * [Core PaaS](core_paas2.md)
   * [Accounting](accounting2.md)
-  * [Zabbix Probes](zabbix-probes2.md)
+  * [Kubernetes](kubernetes2.md)
+  * [Mesos Cluster](mesos2.md)
+  * [Monitoring - Zabbix Probes](monitoring2.md)
 * [dCache](dcache2.md)
 * [Partition Director (dynpart)](dynpart2.md)
 * [Extended OpenStack and OpenNebula Functionalities](eoof2.md)
@@ -29,7 +34,7 @@ Full list of INDIGO-2ElectricIndigo Services & Applications, with detailed relea
   * [INDIGO Kepler](kepler2.md)
 * [Infrastructure Manager (IM)](im2.md)
 * [Infrastructure Manager Java API (IM-Java-API)](imjavaapi2.md)
-* [Liferay IAM](liferayiam2.md)
+* [LiferayPlugIns](liferayplugins2.md)
 * [OIDC-Agent](indigo2/oidc-agent2.md)
 * [ONEDATA](onedata2.md)
 * [ONE-FaSS](one-fass2.md)
@@ -38,14 +43,14 @@ Full list of INDIGO-2ElectricIndigo Services & Applications, with detailed relea
   * [pOCCI](pocci2.md)
   * [jOCCI](jocci2.md)
 * [Ophidia](ophidia2.md)
-* [Orchent](orchent2.md)
 * [Orchestrator](orchestrator2.md)
+  * [Orchent](orchent2.md)
 * [QoS/SLA Management Service](slam2.md)
 * [Network Orchestrator Wrapper (NOW)](now2.md)
 * [Synergy](synergy2.md) 
 * [TOSCA-Parser & Types](tosca-pt2.md)
-* [Token Translation Service (TTS)](watts1.md)
-* [Token Translation Service Client (WaTTSon)](wattson2.md)
+* [Token Translation Service (WaTTS)](watts1.md)
+  * [Token Translation Service Client (WaTTSon)](wattson2.md)
 * [udocker](udocker2.md)
 
 <!--  * [Kubernetes](kubernetes1.md)-->

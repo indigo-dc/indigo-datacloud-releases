@@ -6,6 +6,7 @@ The Fifth Update of INDIGO-2 release contains:
 * [CDMI Server v. 1.2.1](#cdmi)
 * [CDMI S3 QoS v. 2.0](#cdmi-s3)
 * [CDMI STORM plugin v. 0.1.0](#cdmi-storm)
+* [CloudInfoProvider: cloud-info-provider-indigo, v 0.11.1 & cloud-info-provider: 0.9.1](#cip)
 * [CLUES v. 2.2.1](#clues)
 * [IAM v. 1.1.0](#iam)
 * [IM v. 1.6.1](#im)
@@ -115,6 +116,40 @@ Packages
 
 The CDMI StoRM plugin is currently released as a RHEL7 rpm:
 * [cdmi-storm-0.1.0-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/updates/cdmi-storm-0.1.0-1.el7.centos.noarch.rpm)
+
+
+## <a name="cip"></a>CloudInfoProvider: cloud-info-provider-indigo, v 0.11.1 & cloud-info-provider: 0.9.1
+
+#### What's new
+* This update provides 
+  * cloud-info-provider with GLUE 2.1 and Keystone V3 support 
+  * cloud-info-provider-indigo package containing JSON rendering templates and a script to interact with the CMDB using OpenID Connect 
+  
+
+#### List of RfCs
+* [#35](https://github.com/indigo-dc/cloud-info-provider/issues/35) - cloud-info-provider: Add GLUE 2.1 support
+* [#36](https://github.com/indigo-dc/cloud-info-provider/issues/36) - cloud-info-provider: Add Keystone v3 auth support Splitting repositories/packages
+* [#4](https://github.com/indigo-dc/cloud-info-provider-indigo/issues/4) - cloud-info-provider-indigo: Integrate CMDB calls with IAM-based authentication
+
+#### Installation & Configuration
+
+* No manual intervention should be needed, but in case there are existing cron tasks they will have to take into account the following changes:
+
+* RHEL</br>
+  ``` yum clean all && yum update cloud-info-provider-indigo```
+* Ubuntu</br>
+  ``` apt-get update && apt-get install -V python-cloud-info-prov```
+
+#### Artefacts
+* RedHat
+  * [cloud-info-provider-indigo-0.11.1-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/cloud-info-provider-indigo-0.11.1-1.el7.centos.noarch.rpm) - All INDIGO-specific content (JSON templates, send-to-cmdb script and documentation). Dependent on cloud-info-provider.
+  * [cloud-info-provider-0.9.1-1.el7.centos.noarch.rpm](http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/x86_64/updates/cloud-info-provider-0.7.0-1.el7.centos.noarch.rpm) - Upstream version of the cloud-info-provider including changes made in the context of INDIGO.
+* Ubuntu
+  * [python-cloud-info-provider-indigo_0.11.1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-cloud-info-provider-indigo_0.11.1_all.deb)
+  * [python-cloud-info-provider_0.9.1-1_all.deb](http://repo.indigo-datacloud.eu/repository/indigo/1/ubuntu/dists/trusty-updates/main/binary-amd64/python-cloud-info-provider_0.9.1-1_all.deb)
+* ansible-role-cloud-info-provider: 0.1.0. Ansible role has been updated to work with the splitted packages.
+
+
 
 ## <a name="clues"></a>CLUES v. 1.0.0
 

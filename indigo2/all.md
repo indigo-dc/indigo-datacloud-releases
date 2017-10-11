@@ -1,6 +1,6 @@
 # INDIGO-2  Services & Applications
 
-Full list of INDIGO-2ElectricIndigo Services & Applications, with detailed release notes and instructions for their installation/configuration.
+Full list of INDIGO-2 (ElectricIndigo) Services & Applications, with detailed release notes and instructions for their installation/configuration.
 * [Analytics Portlets](analytics-portlets2.md)
 * [CDMI Server](cdmi2.md)
 * [CDMI S3 QoS Interface](cdmi-s3-qos2.md)

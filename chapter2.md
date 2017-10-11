@@ -43,7 +43,7 @@ All the ElectricIndigo components support the CentOS 7 and Ubuntu 16.04 operatin
  
 # Release Notes
 
-The INDIGO-2 release consists in 40 Products divided in, mainly, Core Services, and Applications:
+The INDIGO-2 release consists in 43 Products divided in, mainly, Core Services, and Applications:
 * 170 OS packages
   * 53 RPMS & SRPMS
   * 97 binary & source DEBS 

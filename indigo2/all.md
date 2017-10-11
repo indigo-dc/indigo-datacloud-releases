@@ -20,7 +20,7 @@ Full list of INDIGO-2 (ElectricIndigo) Services & Applications, with detailed re
   * [OpenStack Preemptible Instances Extensions](opie2.md)
     * [OpenStack Client for OPIE](opie-cli2.md)
   * [OpenStack Identity Authentication Library](keystone_library2.md)
-  * [Keystone AAI support](keystone_aai_support2.md)
+  * [Keystone AAI support](../indigo1/keystone_aai_support1.md)
   * [Nova-Docker](nova-docker2.md)
   * [Heat-Translator](heat-translator2.md)
   * [Docker support for OpenNebula (ONEDock)](onedock2.md)

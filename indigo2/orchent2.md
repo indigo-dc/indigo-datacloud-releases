@@ -50,7 +50,8 @@ Summary:
 Docker Container:
 * [indigodatacloud/orchent:indigo_2](https://hub.docker.com/r/indigodatacloud/orchent/tags)
 * CentOS7: [orchent-1.0.3.el7.centos.x86_64.rpm](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/base/orchent-1.0.3.el7.centos.x86_64.rpm)
-* [Ubuntu 16.04*:[indigodatacloudapps/slam-webapp:indigo_1](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial/main/binary-amd64/orchent-1.0.3-amd64.deb)
+* [Ubuntu 16.04:
+  *[orchent-1.0.3-amd64.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial/main/binary-amd64/orchent-1.0.3-amd64.deb)
 
 <a id="id6"></a>
 ## Documentation

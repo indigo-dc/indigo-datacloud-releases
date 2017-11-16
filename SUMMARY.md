@@ -12,7 +12,7 @@
      * [Analytics Portlets](indigo2/analytics-portlets2.md)
      * [CDMI Server](indigo2/cdmi2.md)
      * [CDMI S3 QoS Interface](indigo2/cdmi-s3-qos2.md)
-     * [CDMI STORM Plugin](	cdmi-storm-plugin2.md)
+     * [CDMI STORM Plugin](indigo2/cdmi-storm-plugin2.md)
      * [CloudInfoProvider](indigo2/cip2.md)
      * [CloudProviderRanker](indigo2/cpr2.md)
      * [CLUES](indigo2/clues2.md)

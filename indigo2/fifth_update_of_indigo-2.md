@@ -1,14 +1,29 @@
 # Fifth Update of INDIGO-2 - 30/09/2017
 
 The Fifth Update of INDIGO-2 release contains:
-* [Analytics Portlets v. 1.0.2](#ap)
-* [CloudProviderRanker v X.Y.Z](#cpr)
+* [Accounting v. 1.5.0-1](#accounting)
+* [Analytics Portlets v. 1.0.1](#ap)
+* [CDMI Server v. 1.2.1](#cdmi)
+* [CDMI S3 QoS v. 2.0](#cdmi-s3)
+* [CDMI STORM plugin v. 0.1.0](#cdmi-storm)
+* [CloudInfoProvider: cloud-info-provider-indigo, v 0.11.1 & cloud-info-provider: 0.9.1](#cip)
+* [CLUES v. 1.0.0](#clues)
+* [IAM v. 1.1.0](#iam)
 * [IM v. 1.6.1](#im)
-* [Orchestrator v. 1.6.X-FINAL](#orchestrator)
+* [IM Java API v. 0.4.10](#imjavaapi)
+* [INDIGO-Kepler v. 1.3](#kepler)
+* [Liferay Plugins v. 2.2.1](#lp)
+* [OIDC-Agent v. 1.1.1](#oidca)
+* [Orchent v. 1.2.0](#orchent)
+* [Orchestrator v. 1.5.1-FINAL](#orchestrator)
+* [Synergy: Service v. 1.5.3 & Scheduler-Manager v. 2.6.0](#synergy)
+* [SLAM v 1.3.1](#slam)
+* [TOSCA-parser v. 0.8.3](#tp)
+* [TOSCA types v. 2.1.0](#tt)
 * [udocker v. 1.2.1](#ud)
 * [WaTTs v. 1.1.0](#watts)
-
-<!--
+* [WaTTSon v. 1.2.1](#wattson)
+* [Monitoring - Zabbix-probes v. 1.1](#zp)
 
 ## <a name="accounting"></a>Accounting (APEL) v. 1.5.0-1 
 
@@ -740,4 +755,3 @@ a workaroung is to disable caching by setting: oidc.cache_duration = none (versi
   * [onedatazabbix-agent-1.1-Ubuntu16.deb](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/binary-amd64/onedatazabbix-agent-1.1-Ubuntu16.deb)
 
  
--->

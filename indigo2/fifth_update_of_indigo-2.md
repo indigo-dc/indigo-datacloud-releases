@@ -20,7 +20,7 @@ The Fifth Update of INDIGO-2 release contains:
 * [SLAM v 1.3.1](#slam)
 * [TOSCA-parser v. 0.8.3](#tp)
 * [TOSCA types v. 2.1.0](#tt)
-* [udocker v. 1.2.1](#ud)
+* [udocker v. 1.1.0](#ud)
 * [WaTTs v. 1.1.0](#watts)
 * [WaTTSon v. 1.2.1](#wattson)
 * [Monitoring - Zabbix-probes v. 1.1](#zp)

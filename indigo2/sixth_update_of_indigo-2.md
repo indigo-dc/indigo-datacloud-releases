@@ -5,7 +5,7 @@ The Fifth Update of INDIGO-2 release contains:
 * [CloudProviderRanker v X.Y.Z](#cpr)
 * [IM v. 1.6.1](#im)
 * [Orchestrator v. 1.6.X-FINAL](#orchestrator)
-* [udocker v. 1.2.1](#ud)
+* [udocker v. 1.1.1](#ud)
 * [WaTTs v. 1.1.0](#watts)
 
 
@@ -35,3 +35,43 @@ The Fifth Update of INDIGO-2 release contains:
   * [analytics-portlets-1.0.2.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/analytics-portlets-1.0.2.tar.gz)
 * Ubuntu 16.04
   * [analytics-portlets-1.0.2.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/ubuntu/dists/xenial-updates/main/source/analytics-portlets-1.0.2.tar.gz)
+
+
+## <a name="ud"></a>udocker v. 1.1.1
+
+#### What's new
+* udocker 1.1.1 
+
+
+#### List of RfCs
+
+* Bug fixes and new features:
+  * New execution engine using singularity
+  * Updated documentation with OpenMPI information and examples
+  * Additional unit tests
+  * Redirect messages to stderr
+  * Improved parsing of quotes in the command line
+    * closes: #87
+  * Allow override of the HOME environment variable
+  * Allow override of libfakechroot.so at the container level
+  * Automatic selection of libfakechroot.so from container info
+  * Improve automatic install
+  * Enable resetting prefix paths in Fn modes in remote hosts
+  * Do not set AF_UNIX_PATH in Fn modes when the host /tmp is a volume
+  * Export containers in both docker and udocker format
+  * Import containers docker and udocker format
+  * Load, import and export to/from stdin/stdout
+  * Clone existing containers
+  * Support for TCP/IP port remap in execution modes Pn
+  * Fix run with basenames failing
+    * closes: #89
+  * Allow run as root flag
+    * closes: #91
+
+#### Installation & Configuration
+* Information for installation and upgrade is available in the GitBook documentation at
+https://indigo-dc.gitbooks.io/udocker/content/doc/installation_manual.html
+
+#### Artefacts
+* Binary Tarball
+  * [udocker-1.1.1.tar.gz](http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/x86_64/tgz/udocker-1.1.1.tar.gz)
